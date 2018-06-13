@@ -18,6 +18,8 @@ class LocaleSubscriber implements EventSubscriberInterface
 
         if ($session !== null) {
             $request->setSession(new Session());
+
+            $session->set('locale', 'en'); //TODO: Change to config value
         }
 
         if ($locale !== null) {
