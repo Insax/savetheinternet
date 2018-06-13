@@ -1,5 +1,5 @@
-@import "~bootstrap/scss/bootstrap";
-@import "raleway";
+@import "variables";
+@import "shared";
 
 body {
     padding-top: 50px;
@@ -20,6 +20,33 @@ b, strong {
         font-weight: bold;
 }
 
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*:focus {outline: none!important;}
+
+html, body {
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    height: 100%;
+
+    color: $text;
+    background-color: $background;
+}
+
+a {
+    outline: none!important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+
 .backdrop {
     min-height: 100%;
     width: 100%;
@@ -34,33 +61,6 @@ b, strong {
     padding-top: 150px;
 }
 
-.page {
-    display: flex;
-    color: white;
-    background-color: white;
-}
-
-.page__title {
-    font-size: 6em;
-    max-width: 90%;
-    background-color: black;
-    padding: 4px 12px;
-    transform: skew(-3deg, .5deg);
-}
-
-.page__subtitle {
-    font-size: 2em;
-    max-width: 90%;
-    color: black;
-}
-
-
-.page--1 {
-    background: url('img/world.svg') top center/auto 60vh no-repeat white;
-    min-height: 60vh;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
+// PAGES
+@import "/pages/header";
 
