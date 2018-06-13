@@ -3,7 +3,7 @@
 {% block title %}Save the Internet{% endblock %}
 
 {% block body %}
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <!--<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="{{ path('index') }}">{% trans %}Save the Internet!{% endtrans %}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,9 +24,10 @@
                 </li>
             </ul>
         </div>
-    </nav>
+    </nav>-->
 
-    <div class="container-fluid">
+    <!-- Header -->
+    <div class="container-fluid header-wrapper">
         <div class="row">
             <div class="col-12 header">
                 <div class="title-wrapper">
@@ -34,6 +35,55 @@
 
                 </div>
                 <p class="tagline">The Internet is in danger. Learn more about how you can save it.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Article 13 section -->
+    <div class="container article-thirteen">
+        <div class="row">
+            <div class="col-lg-7 col-12">
+                <div class="header">
+                    <h2 class="title"><span>Article</span>&nbsp;<span class="highlight">13</span></h2>
+                    <p class="tagline">This will happen on June 20th</p>
+                    <p class="explainer">
+                        On 20 June, the European Parliament will vote on the Copyright Directive. Members of the parliament are the
+                        only ones that can stand in the way of bad copyright legislation.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row content-pair d-flex">
+            <div class="col-lg-4 col-12 box-wrapper d-flex">
+                <div class="box box-reddit d-flex">
+                    <img src="{{ asset('build/images/reddit.png') }}">
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 text">
+                <h3 class="title">No more platforms for <span class="highlight">discussion</span></h3>
+                <p class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.<br><br>Magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo duo dolores.</p>
+            </div>
+        </div>
+        <div class="row content-pair d-flex">
+            <div class="col-lg-4 col-12 box-wrapper d-flex">
+                <div class="box box-link d-flex">
+                    <img src="../../assets/link.png">
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 text">
+                <h3 class="title">No more <span class="highlight">links</span></h3>
+                <p class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.</p>
+            </div>
+        </div>
+        <div class="row content-pair d-flex">
+            <div class="col-lg-4 col-12 box-wrapper d-flex">
+                <div class="box box-pepe d-flex">
+                    <img src="../../assets/pepe.png">
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 text">
+                <h3 class="title">No more <span class="highlight">memes</span></h3>
+                <p class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.<br><br>Aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.</p>
             </div>
         </div>
     </div>
