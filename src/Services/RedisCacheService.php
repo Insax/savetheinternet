@@ -4,9 +4,8 @@ namespace App\Services;
 
 use Predis\Client;
 
-class RedisCacheService
+class RedisCacheService implements CacheServiceInterface
 {
-
     /**
      * @var Client
      */
@@ -18,7 +17,6 @@ class RedisCacheService
     public function __construct()
     {
         if (!isset($_SERVER['REDIS_HOST']) || $_SERVER['REDIS_HOST'] === null) {
-            $this->redis = null;
             return;
         }
 
@@ -31,15 +29,7 @@ class RedisCacheService
         $this->redis = $redis;
     }
 
-    /**
-     * @return Client
-     */
-    public function getRedis()
-    {
-        return $this->redis;
-    }
-
-    public function set(string $key, string $value)
+    public function set(string $key, string $value): void
     {
         $this->redis->set($key, $value);
     }

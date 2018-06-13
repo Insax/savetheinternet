@@ -16,6 +16,7 @@ class LoadLatestTweetsSubscriber implements EventSubscriberInterface
 
     /**
      * IndexController constructor.
+     * @param TweetService $tweetService
      */
     public function __construct(TweetService $tweetService)
     {
