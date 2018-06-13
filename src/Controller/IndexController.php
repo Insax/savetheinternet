@@ -30,7 +30,6 @@ class IndexController extends Controller
      */
     public function index()
     {
-        $this->tweetService->loadLatestTweets();
         return $this->render('index/index.html.twig');
     }
 
@@ -53,9 +52,9 @@ class IndexController extends Controller
         $webhook = new Webhook($dispatcher);
         $event = $webhook->parseRequest($request, $_SERVER['WEBHOOK_SECRET']);
 
-        exec('git pull');
-        exec('composer install');
-        exec('yarn install');
-        exec('yarn run build');
+        exec('cd ' . __DIR__ . '/../../; git pull');
+        exec('cd ' . __DIR__ . '/../../; composer install');
+        exec('cd ' . __DIR__ . '/../../; yarn install');
+        exec('cd ' . __DIR__ . '/../../; yarn run build');
     }
 }
