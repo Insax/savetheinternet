@@ -21,7 +21,7 @@
                        aria-expanded="false">{% trans %}Language{% endtrans %}</a>
                     <div class="dropdown-menu" aria-labelledby="language">
                         {% for locale in locales %}
-                            <a class="dropdown-item" href="{{ path(app.request.attributes.get('_route'),  app.request.attributes.get('_route_params')|merge({'locale': locale})) }}">{{ locale|trans }}</a>
+                            <a class="dropdown-item" href="{{ path(app.request.attributes.get('_route'),  app.request.attributes.get('_route_params')|merge({'_locale': locale})) }}">{{ locale|trans }}</a>
                         {% endfor %}
                     </div>
                 </li>
@@ -30,7 +30,6 @@
     </nav>
 
     <main role="main" class="container">
-
         <div class="starter-template">
             <h1>{% trans %}Save the Internet!{% endtrans %}</h1>
         </div>

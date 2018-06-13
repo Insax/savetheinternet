@@ -26,9 +26,11 @@ class IndexController extends Controller
 
 
     /**
-     * @Route("/", name="index")
+     * @Route("/{_locale}", name="index")
+     * @param string $_locale
+     * @return \Symfony\Component\HttpFoundation\Response
      */
-    public function index()
+    public function index($_locale = 'en')
     {
         return $this->render('index/index.html.twig');
     }
