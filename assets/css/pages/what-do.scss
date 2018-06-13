@@ -1,13 +1,7 @@
 @import "../variables";
 
 .what-do {
-  @if $showborders=='true' {
-    border-left: 3px solid white;
-    border-right: 3px solid white;
-    padding-top: $vertical-space;
-  } @else {
-    margin-top: $vertical-space;
-  }
+  margin-top: $vertical-space;
   padding-bottom: 5rem;
 }
 
