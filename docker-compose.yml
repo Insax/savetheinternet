@@ -19,7 +19,7 @@ services:
     networks:
      - savetheinternet
   node:
-    image: node:6
+    image: node:latest
     volumes:
      - .:/var/www/html
     working_dir: /var/www/html
