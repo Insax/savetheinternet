@@ -1,12 +1,7 @@
 @import "variables";
-
 body {
   padding-top: 50px;
   font-family: 'Raleway', sans-serif;
-}
-
-html, body, main {
-  height: 100%;
 }
 
 .starter-template {
@@ -14,7 +9,8 @@ html, body, main {
   text-align: center;
 }
 
-b, strong {
+b,
+strong {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
 }
@@ -24,23 +20,35 @@ b, strong {
   -webkit-tap-highlight-color: transparent;
 }
 
-*:focus {outline: none!important;}
+*:focus {
+  outline: none !important;
+}
 
-html, body {
+html,
+body {
   box-sizing: border-box;
-  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif;
   font-weight: 400;
   margin: 0;
-  height: 100%;
-
+  height: auto;
+  min-height: 100vh;
   color: $text;
   background-color: $background;
 }
 
-a {
-  outline: none!important;
+body {
+  padding-bottom: 5rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+a {
+  outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 500;
 }
