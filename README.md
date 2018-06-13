@@ -35,6 +35,7 @@ Members of the parliament are the only ones that can stand in the way of bad cop
 - run `docker-compose up -d app` to start the development server
     - It will take some time at the first start, subsequent starts are much faster
 - run `docker-compose run --rm app composer install` to install dependencies
+- run `yarn && yarn build`
 - open [http://localhost:8080](http://localhost:8080) to view the site
 
 <hr>
