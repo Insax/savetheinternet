@@ -3,14 +3,12 @@
 namespace App\Services;
 
 use Predis\Client;
-use Redis;
-use Symfony\Component\VarDumper\VarDumper;
 
 class RedisCacheService
 {
 
     /**
-     * @var Redis
+     * @var Client
      */
     private $redis;
 
@@ -21,8 +19,8 @@ class RedisCacheService
     {
         $redis = new Client([
             'scheme' => 'tcp',
-            'host'   => $_SERVER['REDIS_HOST'],
-            'port'   => $_SERVER['REDIS_PORT'],
+            'host' => $_SERVER['REDIS_HOST'],
+            'port' => $_SERVER['REDIS_PORT'],
         ]);
 
         $this->redis = $redis;
@@ -48,9 +46,9 @@ class RedisCacheService
         $iterator = 0;
         $found = [];
         do {
-            $result = $this->redis->scan($iterator, ['MATCH '. $key]);
+            $result = $this->redis->scan($iterator, ['MATCH ' . $key]);
 
-            $iterator = (int) $result[0];
+            $iterator = (int)$result[0];
             unset($result[0]);
 
             $found[] = $result[1];
