@@ -21,8 +21,8 @@ class RedisCacheService
     {
         $redis = new Client([
             'scheme' => 'tcp',
-            'host'   => '127.0.0.1',
-            'port'   => 6379,
+            'host'   => $_SERVER['REDIS_HOST'],
+            'port'   => $_SERVER['REDIS_PORT'],
         ]);
 
         $this->redis = $redis;
