@@ -36,6 +36,7 @@ Members of the parliament are the only ones that can stand in the way of bad cop
     - It will take some time at the first start, subsequent starts are much faster
 - run `docker-compose run --rm app composer install` to install dependencies
 - run `yarn && yarn build`
+- comment REDIS Settings in Local Development
 - open [http://localhost:8080](http://localhost:8080) to view the site
 
 <hr>
