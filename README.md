@@ -37,6 +37,12 @@ Members of the parliament are the only ones that can stand in the way of bad cop
 - run `docker-compose run --rm app composer install` to install dependencies
 - open [http://localhost:8080](http://localhost:8080) to view the site
 
+**Compiling assets**
+
+To automatically recompile assets while developing, run `docker-compose run --rm node yarn run watch`
+
+To compile the assets for production use, run `docker-compose run --rm node yarn run build`
+
 <hr>
 
 ## :wrench: Used technologies / Libraries / Frameworks

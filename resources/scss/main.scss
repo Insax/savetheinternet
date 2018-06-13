@@ -1,5 +1,12 @@
 @import "settings";
 
-html, body {
-  font-size: $font-base;
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  padding-top: 5rem;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
 }
