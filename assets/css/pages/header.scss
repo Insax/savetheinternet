@@ -10,13 +10,13 @@
   background-size: auto 60vh;
   //background-position: center;
   .title-wrapper {
-    background-color: $text;
+    background-color: $background;
     padding: 4px 12px;
     transform: skew(-3deg, 0.5deg);
     .title {
       font-weight: 500;
       font-size: 5em;
-      color: $background;
+      color: $text;
       margin: 0;
       transform: skew(3deg, 0.5deg);
       i {
