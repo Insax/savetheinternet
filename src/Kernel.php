@@ -44,6 +44,16 @@ class Kernel extends BaseKernel
         $container->setParameter('container.dumper.inline_class_loader', true);
         $confDir = $this->getProjectDir().'/config';
 
+        if (!isset($_SERVER['REDIS_HOST']) || $_SERVER['REDIS_HOST'] === null) {
+            $container->addAliases([
+                'App\Services\CacheServiceInterface' => 'App\Services\NullCacheService'
+            ]);
+        } else {
+            $container->addAliases([
+                'App\Services\CacheServiceInterface' => 'App\Services\RedisCacheService'
+            ]);
+        }
+
         $loader->load($confDir.'/{packages}/*'.self::CONFIG_EXTS, 'glob');
         $loader->load($confDir.'/{packages}/'.$this->environment.'/**/*'.self::CONFIG_EXTS, 'glob');
         $loader->load($confDir.'/{services}'.self::CONFIG_EXTS, 'glob');
