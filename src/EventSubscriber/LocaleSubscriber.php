@@ -2,13 +2,29 @@
 
 namespace App\EventSubscriber;
 
+use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpFoundation\Session\Session;
 use Symfony\Component\HttpKernel\Event\GetResponseEvent;
 use Symfony\Component\HttpKernel\KernelEvents;
+use Symfony\Component\Translation\TranslatorInterface;
 
 class LocaleSubscriber implements EventSubscriberInterface
 {
+    /**
+     * @var TranslatorInterface
+     */
+    private $translator;
+
+    /**
+     * LocaleSubscriber constructor.
+     * @param TranslatorInterface $translator
+     */
+    public function __construct(TranslatorInterface $translator)
+    {
+        $this->translator = $translator;
+    }
+
     public function onKernelRequest(GetResponseEvent $event)
     {
         $request = $event->getRequest();
@@ -16,14 +32,15 @@ class LocaleSubscriber implements EventSubscriberInterface
         $locale = $request->get('locale');
         $session = $request->getSession();
 
-        if ($session !== null) {
-            $request->setSession(new Session());
-
-            $session->set('locale', 'en'); //TODO: Change to config value
+        if ($session === null) {
+            $session = new Session();
+            $request->setSession($session);
         }
 
         if ($locale !== null) {
             $session->set('locale', $locale);
+        } else if (!$session->has('locale')) {
+            $session->set('locale', $this->translator->getLocale());
         }
 
         $request->setLocale($session->get('locale'));
