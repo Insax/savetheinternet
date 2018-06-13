@@ -35,12 +35,12 @@ class LocaleSubscriber implements EventSubscriberInterface
         if ($session === null) {
             $session = new Session();
             $request->setSession($session);
-
-            $session->set('locale', $this->translator->getLocale());
         }
 
         if ($locale !== null) {
             $session->set('locale', $locale);
+        } else if (!$session->has('locale')) {
+            $session->set('locale', $this->translator->getLocale());
         }
 
         $request->setLocale($session->get('locale'));
