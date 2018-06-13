@@ -8,15 +8,15 @@ class TweetService
 {
     private $twitterOAuth;
     /**
-     * @var RedisCacheService
+     * @var CacheServiceInterface
      */
     private $cache;
 
     /**
      * TweetService constructor.
-     * @param RedisCacheService $cache
+     * @param CacheServiceInterface $cache
      */
-    public function __construct(RedisCacheService $cache)
+    public function __construct(CacheServiceInterface $cache)
     {
         if (!isset($_SERVER['OAUTH_KEY'], $_SERVER['OAUTH_SECRET']) || $_SERVER['OAUTH_KEY'] === null || $_SERVER['OAUTH_SECRET'] === null) {
             return;
@@ -28,10 +28,6 @@ class TweetService
 
     public function loadLatestTweets(): void
     {
-        if ($this->cache->getRedis() === null) {
-            return;
-        }
-
         $lastTweetLoad = new \DateTime('1970');
         $fiveMinAgo = new \DateTime('5min ago');
 
@@ -62,10 +58,6 @@ class TweetService
 
     public function getTweets($limit = 15): array
     {
-        if ($this->cache->getRedis() === null) {
-            return [];
-        }
-
         $found = $this->cache->search('tweet_*', $limit);
 
         $tweets = [];
