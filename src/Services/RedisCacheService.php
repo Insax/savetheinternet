@@ -17,6 +17,11 @@ class RedisCacheService
      */
     public function __construct()
     {
+        if ($_SERVER['REDIS_HOST'] === null) {
+            $this->redis = null;
+            return;
+        }
+
         $redis = new Client([
             'scheme' => 'tcp',
             'host' => $_SERVER['REDIS_HOST'],

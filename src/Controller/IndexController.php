@@ -24,7 +24,6 @@ class IndexController extends Controller
         $this->tweetService = $tweetService;
     }
 
-
     /**
      * @Route("/{_locale}", name="index")
      * @param string $_locale
