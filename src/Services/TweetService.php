@@ -58,6 +58,10 @@ class TweetService
 
     public function getTweets($limit = 15): array
     {
+        if ($this->cache instanceof NullCacheService) {
+
+        }
+
         $found = $this->cache->search('tweet_*', $limit);
 
         $tweets = [];
