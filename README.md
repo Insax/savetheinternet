@@ -22,7 +22,7 @@ Members of the parliament are the only ones that can stand in the way of bad cop
 
 ## :wrench: Used technologies / Libraries / Frameworks
 
-- [PHP](http://www.php.net/)
+- [PHP 7.1.12-1](http://www.php.net/)
 - [Twig](https://twig.symfony.com/)
 - [Bootstrap 4.1.1 (JS & CSS)](https://getbootstrap.com/)
 - [JQuery 3.3.1](https://jquery.com/)
