@@ -1,0 +1,46 @@
+@import "variables";
+
+body {
+  padding-top: 50px;
+  font-family: 'Raleway', sans-serif;
+}
+
+html, body, main {
+  height: 100%;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+b, strong {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*:focus {outline: none!important;}
+
+html, body {
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  height: 100%;
+
+  color: $text;
+  background-color: $background;
+}
+
+a {
+  outline: none!important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
