@@ -1,4 +1,7 @@
 {
+    "abraham/twitteroauth": {
+        "version": "0.7.4"
+    },
     "doctrine/annotations": {
         "version": "1.0",
         "recipe": {
@@ -26,6 +29,9 @@
     "nikic/php-parser": {
         "version": "v4.0.2"
     },
+    "predis/predis": {
+        "version": "v1.1.1"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
@@ -46,6 +52,9 @@
             "version": "4.0",
             "ref": "aaddfdf43cdecd4cf91f992052d76c2cadc04543"
         }
+    },
+    "smalot/github-webhook": {
+        "version": "dev-master"
     },
     "symfony/asset": {
         "version": "v4.1.0"
