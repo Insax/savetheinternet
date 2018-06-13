@@ -7,6 +7,7 @@ use Smalot\Github\Webhook\Webhook;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 class IndexController extends Controller
@@ -18,6 +19,7 @@ class IndexController extends Controller
 
     /**
      * IndexController constructor.
+     * @param TweetService $tweetService
      */
     public function __construct(TweetService $tweetService)
     {
@@ -25,11 +27,10 @@ class IndexController extends Controller
     }
 
     /**
-     * @Route("/{_locale}", name="index")
      * @param string $_locale
-     * @return \Symfony\Component\HttpFoundation\Response
+     * @return Response
      */
-    public function index($_locale = 'en')
+    public function index(string $_locale): Response
     {
         return $this->render('index/index.html.twig');
     }
@@ -39,13 +40,15 @@ class IndexController extends Controller
      * @param int $amount
      * @return JsonResponse
      */
-    public function getTweets(int $amount = 10)
+    public function getTweets(int $amount = 10): JsonResponse
     {
         return new JsonResponse($this->tweetService->getTweets($amount));
     }
 
     /**
      * @Route("/update", name="update", methods={"POST"})
+     * @param Request $request
+     * @return Response
      */
     public function update(Request $request)
     {
@@ -57,5 +60,7 @@ class IndexController extends Controller
         exec('cd ' . __DIR__ . '/../../; composer install');
         exec('cd ' . __DIR__ . '/../../; yarn install');
         exec('cd ' . __DIR__ . '/../../; yarn run build');
+
+        return new Response();
     }
 }
