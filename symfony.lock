@@ -1,4 +1,7 @@
 {
+    "abraham/twitteroauth": {
+        "version": "0.7.4"
+    },
     "doctrine/annotations": {
         "version": "1.0",
         "recipe": {
@@ -25,6 +28,9 @@
     },
     "nikic/php-parser": {
         "version": "v4.0.2"
+    },
+    "predis/predis": {
+        "version": "v1.1.1"
     },
     "psr/cache": {
         "version": "1.0.1"
