@@ -18,7 +18,7 @@ class TweetService
      */
     public function __construct(RedisCacheService $cache)
     {
-        if ($_SERVER['OAUTH_KEY'] === null || $_SERVER['OAUTH_SECRET'] === null) {
+        if (!isset($_SERVER['OAUTH_KEY'], $_SERVER['OAUTH_SECRET']) || $_SERVER['OAUTH_KEY'] === null || $_SERVER['OAUTH_SECRET'] === null) {
             return;
         }
 
@@ -28,7 +28,7 @@ class TweetService
 
     public function loadLatestTweets(): void
     {
-        if ($this->cache === null) {
+        if ($this->cache->getRedis() === null) {
             return;
         }
 
@@ -62,7 +62,7 @@ class TweetService
 
     public function getTweets($limit = 15): array
     {
-        if ($this->cache === null) {
+        if ($this->cache->getRedis() === null) {
             return [];
         }
 
