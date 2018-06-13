@@ -11,7 +11,10 @@ class TweetService
      * @var CacheServiceInterface
      */
     private $cache;
-
+    /**
+     * @var bool
+     */
+    private $enabled = false;
     /**
      * TweetService constructor.
      * @param CacheServiceInterface $cache
@@ -22,12 +25,17 @@ class TweetService
             return;
         }
 
+        $this->enabled = true;
         $this->cache = $cache;
         $this->twitterOAuth = new TwitterOAuth($_SERVER['OAUTH_KEY'], $_SERVER['OAUTH_SECRET']);
     }
 
     public function loadLatestTweets(): void
     {
+        if (!$this->enabled) {
+            return;
+        }
+
         $lastTweetLoad = new \DateTime('1970');
         $fiveMinAgo = new \DateTime('5min ago');
 
@@ -58,8 +66,12 @@ class TweetService
 
     public function getTweets($limit = 15): array
     {
-        if ($this->cache instanceof NullCacheService) {
+        if ($this->enabled === false) {
+            return [];
+        }
 
+        if ($this->cache instanceof NullCacheService) {
+            $this->loadLatestTweets();
         }
 
         $found = $this->cache->search('tweet_*', $limit);
