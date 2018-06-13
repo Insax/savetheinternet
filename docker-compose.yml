@@ -12,8 +12,14 @@ services:
       - 8080:80
     networks:
      - savetheinternet
+  redis:
+    image: redis:alpine
+    volumes:
+     - redisdata:/data
+    networks:
+     - savetheinternet
   node:
-    image: node:6
+    image: node:latest
     volumes:
      - .:/var/www/html
     working_dir: /var/www/html
@@ -22,3 +28,6 @@ services:
 networks:
   savetheinternet:
     driver: "bridge"
+volumes:
+  redisdata:
+    driver: "local"
