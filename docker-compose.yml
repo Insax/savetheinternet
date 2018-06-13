@@ -1,0 +1,24 @@
+version: '2'
+services:
+  app:
+    build:
+      context: ./docker/app
+      dockerfile: Dockerfile
+    image: pr0/savetheinternet
+    volumes:
+     - .:/var/www/html
+    working_dir: /var/www/html
+    ports:
+      - 8080:80
+    networks:
+     - savetheinternet
+  node:
+    image: node:6
+    volumes:
+     - .:/var/www/html
+    working_dir: /var/www/html
+    networks:
+     - savetheinternet
+networks:
+  savetheinternet:
+    driver: "bridge"

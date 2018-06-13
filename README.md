@@ -19,3 +19,19 @@ Members of the parliament are the only ones that can stand in the way of bad cop
 [https://savetheinternet.info](https://savetheinternet.info)
 
 <hr>
+
+## Development
+
+**Requirements**
+- Docker [https://docs.docker.com/install/](https://docs.docker.com/install/)
+- Docker-Compose [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
+
+**Getting started**
+
+- Install the requrirements listed above
+- Start the docker daemon (follow the instructions provided for your OS)
+- Navigate to the project root within your shell (PowerShell/Bash)
+- run `docker-compose up -d app` to start the development server
+    - It will take some time at the first start, subsequent starts are much faster
+- run `docker-compose run --rm app composer install` to install dependencies
+- open [http://localhost:8080](http://localhost:8080) to view the site
