@@ -53,6 +53,9 @@
             "ref": "aaddfdf43cdecd4cf91f992052d76c2cadc04543"
         }
     },
+    "smalot/github-webhook": {
+        "version": "dev-master"
+    },
     "symfony/asset": {
         "version": "v4.1.0"
     },

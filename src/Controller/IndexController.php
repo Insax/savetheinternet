@@ -3,8 +3,10 @@
 namespace App\Controller;
 
 use App\Services\TweetService;
+use Smalot\Github\Webhook\Webhook;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 
 class IndexController extends Controller
@@ -40,5 +42,20 @@ class IndexController extends Controller
     public function getTweets(int $amount = 10)
     {
         return new JsonResponse($this->tweetService->getTweets($amount));
+    }
+
+    /**
+     * @Route("/update", name="update", methods={"POST"})
+     */
+    public function update(Request $request)
+    {
+        $dispatcher = $this->get('event_dispatcher');
+        $webhook = new Webhook($dispatcher);
+        $event = $webhook->parseRequest($request, $_SERVER['WEBHOOK_SECRET']);
+
+        exec('git pull');
+        exec('composer install');
+        exec('yarn install');
+        exec('yarn run build');
     }
 }
