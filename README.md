@@ -19,3 +19,13 @@ Members of the parliament are the only ones that can stand in the way of bad cop
 [https://savetheinternet.info](https://savetheinternet.info)
 
 <hr>
+
+## :wrench: Used technologies / Libraries / Frameworks
+
+- [PHP 7.1.12-1](http://www.php.net/)
+- [Twig](https://twig.symfony.com/)
+- [Bootstrap 4.1.1 (JS & CSS)](https://getbootstrap.com/)
+- [JQuery 3.3.1](https://jquery.com/)
+- [PopperJS 1.14.3](https://popper.js.org/)
+
+<hr>
