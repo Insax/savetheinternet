@@ -1,10 +1,66 @@
 @import "~bootstrap/scss/bootstrap";
+@import "raleway";
 
 body {
-    padding-top: 5rem;
+    padding-top: 50px;
+        font-family: 'Raleway', sans-serif;
+}
+
+html, body, main {
+    height: 100%;
 }
 
 .starter-template {
     padding: 3rem 1.5rem;
     text-align: center;
 }
+
+b, strong {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+}
+
+.backdrop {
+    min-height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.content {
+    min-height: 100%;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.page {
+    display: flex;
+    color: white;
+    background-color: white;
+}
+
+.page__title {
+    font-size: 6em;
+    max-width: 90%;
+    background-color: black;
+    padding: 4px 12px;
+    transform: skew(-3deg, .5deg);
+}
+
+.page__subtitle {
+    font-size: 2em;
+    max-width: 90%;
+    color: black;
+}
+
+
+.page--1 {
+    background: url('img/world.svg') top center/auto 60vh no-repeat white;
+    min-height: 60vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+

@@ -5,8 +5,7 @@
 {% block body %}
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="{{ path('index') }}">{% trans %}Save the Internet!{% endtrans %}</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -16,9 +15,7 @@
                     <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="my-2 my-lg-0 dropdown">
-                    <a class="nav-link dropdown-toggle" id="language"
-                       data-toggle="dropdown" aria-haspopup="true"
-                       aria-expanded="false">{% trans %}Language{% endtrans %}</a>
+                    <a class="nav-link dropdown-toggle" id="language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{% trans %}Language{% endtrans %}</a>
                     <div class="dropdown-menu" aria-labelledby="language">
                         {% for locale in locales %}
                             <a class="dropdown-item" href="{{ path(app.request.attributes.get('_route'),  app.request.attributes.get('_route_params')|merge({'locale': locale})) }}">{{ locale|trans }}</a>
@@ -29,10 +26,17 @@
         </div>
     </nav>
 
-    <main role="main" class="container">
-
-        <div class="starter-template">
-            <h1>{% trans %}Save the Internet!{% endtrans %}</h1>
+    <div class="backdrop">
+        <div class="content">
+            <section class="page page--1">
+                <div class="page__title">
+                    <b>Save</b>the<b>Internet</b>
+                </div>
+                <div class="page__subtitle">
+                    <p>The Internet is in danger. Learn more about <wbr> how you can save it.</p>
+                </div>
+            </section>
         </div>
-    </main>
+    </div>
+
 {% endblock %}
