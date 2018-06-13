@@ -2,8 +2,6 @@
 
 .article-thirteen {
   margin-top: $vertical-space;
-  border-left: 3px solid white;
-  border-right: 3px solid white;
   // padding-bottom: 5rem;
   .header {
     .title {
@@ -27,6 +25,7 @@
     .box-wrapper {
       justify-content: center;
       .box {
+        background-color: #b4b4b4;
         justify-content: center;
         align-items: center;
         border-radius: 25px;
@@ -46,6 +45,8 @@
       }
       .title {
         margin: 0 0 5px 0;
+        font-size: 1.5em;
+        font-weight: bold;
         .highlight {
           color: $accent1;
         }
@@ -57,12 +58,12 @@
   }
 
   .box-reddit {
-    background-color: #57fbbc;
+    //background-color: #57fbbc;
   }
   .box-link {
-    background-color: #62d1fd;
+    //background-color: #62d1fd;
   }
   .box-pepe {
-    background-color: #ff817c;
+    //background-color: #ff817c;
   }
 }
