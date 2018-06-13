@@ -43,7 +43,7 @@ function getAvailableLanguages() {
     foreach ($translationFiles as $file) {
         $parts = explode('.', $file);
 
-        if (count($parts) !== 3) {
+        if (\count($parts) !== 3) {
             continue;
         }
 
