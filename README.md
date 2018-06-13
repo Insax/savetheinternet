@@ -20,6 +20,7 @@ Members of the parliament are the only ones that can stand in the way of bad cop
 
 <hr>
 
+
 ## Development
 
 **Requirements**
@@ -35,3 +36,16 @@ Members of the parliament are the only ones that can stand in the way of bad cop
     - It will take some time at the first start, subsequent starts are much faster
 - run `docker-compose run --rm app composer install` to install dependencies
 - open [http://localhost:8080](http://localhost:8080) to view the site
+
+<hr>
+
+## :wrench: Used technologies / Libraries / Frameworks
+
+- [PHP 7.1.12-1](http://www.php.net/)
+- [Twig](https://twig.symfony.com/)
+- [Bootstrap 4.1.1 (JS & CSS)](https://getbootstrap.com/)
+- [JQuery 3.3.1](https://jquery.com/)
+- [PopperJS 1.14.3](https://popper.js.org/)
+
+<hr>
+
