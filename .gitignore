@@ -2,6 +2,7 @@
 var/
 .env
 vendor/
+.vagrant/
 
 ###> symfony/web-server-bundle ###
 /.web-server-pid

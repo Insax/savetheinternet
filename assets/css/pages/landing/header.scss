@@ -13,6 +13,7 @@
             background-color: $text;
             padding: 4px 12px;
             transform: skew(-3deg, 0.5deg) translate3d(0,0,0);
+            text-align: center;
             a {
                 text-decoration: none;
                 user-select: none;
@@ -38,5 +39,11 @@
             max-width: 590px;
             margin: 13px 0;
         }
+    }
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    .header-wrapper .header .title-wrapper .title {
+        font-size: 3.5em !important;
     }
 }
