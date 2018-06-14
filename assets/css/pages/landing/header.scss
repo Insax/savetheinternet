@@ -20,6 +20,9 @@
             }
 
             .title {
+                display: flex;
+                flex-direction: row;
+
                 font-weight: bold;
                 letter-spacing: 0;
                 font-size: 5em;
@@ -31,6 +34,17 @@
                     font-style: normal;
                     font-weight: 300;
                 }
+
+                #typed {
+                    font-weight: 300;
+                }
+                .typed-cursor {
+                    font-weight: 200;
+                }
+                .internet {
+                    margin-left: -5px;
+                }
+
             }
         }
         .tagline {
