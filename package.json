@@ -4,6 +4,7 @@
         "bootstrap": "^4.1.1",
         "copy-webpack-plugin": "^4.5.1",
         "flag-icon-css": "^3.0.0",
+        "font-awesome": "^4.7.0",
         "jquery": "^3.3.1",
         "moment": "^2.22.2",
         "node-sass": "^4.9.0",
