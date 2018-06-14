@@ -1,13 +1,17 @@
 <!-- Language Switcher -->
 <div class="container" id=lang">
-  <label for="check">Language</label>
-  <input id="check" type="checkbox">
-  <div id="langcontainer">
-    <ul>
-      <li><span class="flag-icon flag-icon-gb"></span></li>
-      <li><span class="flag-icon flag-icon-de"></span></li>
-      <li><span class="flag-icon flag-icon-fr"></span></li>
-      <li><span class="flag-icon flag-icon-cn"></span></li>
-    </ul>
-  </div>
+    <label for="check">Language</label>
+    <input id="check" type="checkbox">
+    <div id="langcontainer">
+        <ul>
+            {% for locale in locales %}
+                <li>
+                    <a href="{{ path(app.request.attributes.get('_route'),  app.request.attributes.get('_route_params')|merge({'_locale': locale})) }}"
+                       hreflang="{{ locale }}">
+                        <span class="flag-icon flag-icon-{{ localeCodes[locale][1]|lower }}"></span>
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
 </div>
