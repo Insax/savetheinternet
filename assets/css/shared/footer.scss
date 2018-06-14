@@ -1,11 +1,11 @@
+@import "../variables";
 
 .section-footer {
   width: 100%;
-  margin-top: 40px;
   display: inline-block;
-  margin: 0;
+  margin-top: 40px;
   height: 70px;
-  background-color: #000;
+  background-color: darken($background, 3);
   max-width: 100%;
   width: 100%;
   position: absolute;
@@ -13,7 +13,7 @@
 }
 
 .section-footer a {
-  color: #ffbf00;
+  color: $accent1;
   text-decoration: none;
 }
 
@@ -81,20 +81,8 @@
   transition: all, 0.3s;
 }
 
-.footer-imprint {
-  background-color: #0c0c0c;
-  font-size: 1.2em;
-  width: 20%;
-}
-
-.footer-privacy {
-  background-color: #0c0c0c;
-  font-size: 1.2em;
-  width: 20%;
-}
-
-.footer-github {
-  background-color: #0c0c0c;
+.footer-imprint, .footer-privacy, .footer-github {
+  background-color: darken($background, 5);
   font-size: 1.2em;
   width: 20%;
 }
