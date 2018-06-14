@@ -1,145 +1,178 @@
-@keyframes blackening {
-    0% {
-        width: 0;
-        color: transparent;
-    }
-    15% {
-        width: 0;
-        color: transparent;
-    }
-    60% {
-        width: 100%;
-        color: transparent;
-    }
-    100% {
-        width: 100%;
-        color: black;
-    }
-}
-
-
-@keyframes opacity {
-    0% {
-        max-height: 0;
-        opacity: 0;
-    }
-    50%{
-        max-height: 500px;
-        opacity: 0;
-    }
-    100% {
-        max-height:100%;
-        height: 100%;
-        opacity: 1;
-    }
-}
-
-p {
-    margin: 2px;
-}
-
-.blacked {
-    position: relative;
-}
-
-.blacked:after {
-    content: attr(data-line);
-    position: absolute;
-    text-align: center;
-    color: black;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: white;
-    animation-name: blackening;
-    animation-duration: 1.2s;
-    animation-timing-function: linear;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-.post-left>.profile-pic {
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    display: inline-block;
-    float: left;
-}
-
-.post-left {
-    float: left;
-    display: inline-block;
-    width: 70px;
-}
-
-.post-right {
-    margin-left: 10px;
-    max-width: calc(100% - 80px);
-    display: inline-block;
-    position: relative;
-    top: 0px;
-}
-
-.post-right>.post-content>.post-image-content>img {
-    border-radius: 7px;
-    max-height: 200px;
-}
-
-.post-right>.post-header>.profile-name {
-    line-height: 20px;
-    margin-bottom: 0px;
-}
-
-.post-right>.post-header>.profile-name>.profile-displayname {
-    color: white;
-    font-weight: bold;
-}
-
-.post-right>.post-header>.profile-name>.profile-username {
-    color: #666666;
-    font-weight: bold;
-}
-
-.post-right>.post-header>.profile-name>.post-time {
-    color: #666666;
-    font-weight: bold;
-}
-
-.post-right>.post-header>.profile-name>.post-time:before {
-    content: ' \00b7'
-}
-
-
-.post-right>.post-header {
-    line-height: 20px;
-    height: 20px;
-    margin-bottom: 5px;
-}
-
-.post-container {
-    border-radius: 5px;
-    padding: 15px 25px;
-    text-decoration: none;
-    margin: 20px;
-    font-family: Monospace;
-    color: #eeeeee;
-    margin-top: 25px;
-    font-size: 13px;
-    text-align: left;
-    overflow: hidden;
-    animation-name: opacity;
-    animation-duration: 0.7s;
-    animation-timing-function: linear;
-    animation-iteration-count: 1;
-  box-shadow: 0px 5px 3px 0px #0c182c;
-  background-color: #293852;
-}
-
-.post-container a {
-    color: #ffffff;
-}
+@import "../../variables";
 
 .section-twitter {
+    ::-webkit-scrollbar {
+        width: 3px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background: lighten($background, 20);
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
     margin-bottom: $vertical-space;
+
+    #tweets {
+        @include media-breakpoint-down(sm) {
+            margin-top: 35px;
+        }
+
+        max-height: 350px;
+        overflow-y: auto;
+
+        .post-container:first-child {
+            margin-top: 0;
+        }
+    }
+
+    @keyframes blackening {
+        0% {
+            width: 0;
+            color: transparent;
+        }
+        15% {
+            width: 0;
+            color: transparent;
+        }
+        60% {
+            width: 100%;
+            color: transparent;
+        }
+        100% {
+            width: 100%;
+            color: black;
+        }
+    }
+
+    @keyframes opacity {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    p {
+        margin: 2px;
+    }
+
+    .blacked {
+        position: relative;
+    }
+
+    .blacked:after {
+        content: attr(data-line);
+        position: absolute;
+        text-align: center;
+        color: black;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        animation-name: blackening;
+        animation-duration: 1.2s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+
+    .post-left > .profile-pic {
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        float: left;
+    }
+
+    .post-left {
+        float: left;
+        display: inline-block;
+        width: 70px;
+    }
+
+    .post-right {
+        margin-left: 10px;
+        max-width: calc(100% - 80px);
+        display: inline-block;
+        position: relative;
+        top: 0px;
+    }
+
+    .post-right > .post-content > .post-image-content > img {
+        border-radius: 7px;
+        max-height: 200px;
+    }
+
+    .post-right > .post-header > .profile-name {
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+
+    .post-right > .post-header > .profile-name > .profile-displayname {
+        color: white;
+        font-weight: bold;
+    }
+
+    .post-right > .post-header > .profile-name > .profile-username {
+        color: #666666;
+        font-weight: bold;
+    }
+
+    .post-right > .post-header > .profile-name > .post-time {
+        color: #666666;
+        font-weight: bold;
+    }
+
+    .post-right > .post-header > .profile-name > .post-time:before {
+        content: ' \00b7'
+    }
+
+    .post-right > .post-header {
+        line-height: 20px;
+        height: 20px;
+        margin-bottom: 5px;
+    }
+
+    .post-container {
+        border-radius: 5px;
+        padding: 15px 25px;
+        text-decoration: none;
+        margin: 0;
+        margin-top: 25px;
+        font-family: Monospace;
+        color: #eeeeee;
+        font-size: 13px;
+        text-align: left;
+        overflow: hidden;
+        animation-name: opacity;
+        animation-duration: 0.7s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+        box-shadow: 0px 5px 3px 0px #0c182c;
+        background-color: #293852;
+    }
+
+    .post-container a {
+        color: #ffffff;
+    }
+
+    .section-twitter {
+        margin-bottom: $vertical-space;
+    }
 }
