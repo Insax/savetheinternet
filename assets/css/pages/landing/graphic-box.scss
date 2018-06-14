@@ -1,6 +1,7 @@
 @import "../../variables";
 
 .graphic-box {
+  margin-top: $vertical-space;
   .voxel-wrapper {
     justify-content: center;
     text-align: center;
@@ -10,6 +11,15 @@
       @include media-breakpoint-down(sm) {
         max-width: 90%;
       }
+    }
+  }
+
+  .text {
+    .title {
+      margin-bottom: 0;
+    }
+    .container {
+      padding: 0;
     }
   }
 }
