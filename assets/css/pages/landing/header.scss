@@ -20,9 +20,11 @@
             }
 
             .title {
-                display: flex;
-                flex-direction: row;
-
+                @include media-breakpoint-up(md) {
+                    display: flex;
+                    flex-direction: row;
+                }
+                
                 font-weight: bold;
                 letter-spacing: 0;
                 font-size: 5em;
