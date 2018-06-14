@@ -1,29 +1,13 @@
 @import "~bootstrap/scss/bootstrap-grid";
 @import "raleway";
 
-//$background: #212121;
-//$background_invert: #fbfbfb;
-//$text: #fbfbfb;
-//$text_invert: #212121;
-//$accent1: #b9d6f2;
-//$accent2: #ffbf00;
-//$accent1: #1CD0CA;
-//$accent2: #E2002B;
+$background: #12233f;
+$text: #fafafa;
+$accent1: #ffbf00;
+$accent2: #142E4D;
+$accent3: #b9d6f2;
 
-$blue_primary: #142e4d;
-$blue_secondary: #142E4D;
-$gold_primary: #ffbf00;
-$gold_secondary: #FFBF00;
-$lightgray_primary: #b9d6f2;
-$lightgray_secondary: #B9D6F2;
-$gray_primary: #121111;
-$gray_secondary: #121111;
-
-$background: $blue_primary;
-$background_invert: $lightgray_primary;
-$text: $gold_primary;
-$text_invert: $gray_primary;
-$accent1: $gold_secondary;
-$accent2: $gray_primary;
+$text_invert: $background;
+$background_invert: $text;
 
 $vertical-space: 75px;
