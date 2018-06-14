@@ -1,36 +1,37 @@
 @import "../../variables";
 
 .section-petition {
-  padding-top: 25px;
-  margin-top: $vertical-space;
-  background-size: cover;
+    padding-top: 25px;
+    margin-top: $vertical-space;
+    background-size: cover;
 
-  .header {
-    font-size: 2.25em;
-    margin-bottom: 15px;
-    width: 100%;
-  }
-
-  .body {
-    .btn-petition {
-      padding: 15px 30px;
-      background: $accent2;
-      color: $text_invert;
-      text-decoration: none;
-      border-radius: 25px;
+    .header {
+        font-size: 2.25em;
+        margin-bottom: 15px;
+        width: 100%;
     }
 
-    .btn-petition:hover {
-      background: lighten($accent2, 10);
-    }
+    .body {
+        .btn-petition {
+            padding: 15px 30px;
+            background: $accent2;
+            color: $text_invert;
+            text-decoration: none;
+            border-radius: 25px;
+        }
 
-    .description {
-      font-size: 1.2em;
-    }
+        .btn-petition:hover {
+            background: lighten($accent2, 10);
+        }
 
-    .action {
-      text-align: center;
-      margin-top: 65px;
+        .description {
+            font-size: 1.2em;
+        }
+
+        .action {
+            text-align: center;
+            font-size: 1.1em;
+            margin-top: 65px;
+        }
     }
-  }
 }
