@@ -12,7 +12,7 @@
         .title-wrapper {
             background-color: $text;
             padding: 4px 12px;
-            transform: skew(-3deg, 0.5deg);
+            transform: skew(-3deg, 0.5deg) translate3d(0,0,0);
             a {
                 text-decoration: none;
                 user-select: none;
