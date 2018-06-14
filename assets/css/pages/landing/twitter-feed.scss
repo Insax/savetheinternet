@@ -118,14 +118,12 @@ p {
 }
 
 .post-container {
-    box-shadow: 0px 5px 3px 0px #333333;
     border-radius: 5px;
     padding: 15px 25px;
     text-decoration: none;
     margin: 20px;
     font-family: Monospace;
     color: #eeeeee;
-    background-color: #444444;
     margin-top: 25px;
     font-size: 13px;
     text-align: left;
@@ -134,6 +132,8 @@ p {
     animation-duration: 0.7s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
+  box-shadow: 0px 5px 3px 0px #0c182c;
+  background-color: #293852;
 }
 
 .post-container a {
