@@ -1,72 +1,70 @@
 @import "../../variables";
 
 .section-article-thirteen {
-  margin-top: $vertical-space;
-  padding-bottom: 5rem;
+    margin-top: $vertical-space;
+    padding-bottom: 5rem;
 
-  .header {
-    .title {
-      margin: 0;
-      font-size: 3.4em;
-      font-weight: 500;
+    .header {
+        .title {
+            margin: 0;
+            font-size: 3.4em;
+            font-weight: 500;
 
-      .highlight {
-        color: $accent1;
-      }
-    }
+            .highlight {
+                color: $accent1;
+            }
+        }
 
-    .tagline {
-      font-size: 1.1em;
-      margin: 0;
-      font-weight: 500;
-    }
-  }
-
-  .content-pair {
-    margin-top: 30px;
-    align-items: center;
-
-    .box-wrapper {
-      justify-content: center;
-      justify-content: center;
-      align-items: center;
-      padding: 15px 55px;
-
-        img {
-          width: 12rem;
-          height: auto;
+        .tagline {
+            font-size: 1.1em;
+            margin: 0;
+            font-weight: 500;
         }
     }
 
-    .text {
-        @include media-breakpoint-down(md) {
-            margin-top: 20px;
-            margin-bottom: 30px;
+    .content-pair {
+        margin-top: 30px;
+        align-items: center;
+
+        .box-wrapper {
+            justify-content: center;
+            align-items: center;
+            padding: 15px 55px;
+            img {
+                width: 12rem;
+                height: auto;
+            }
         }
 
-      .title {
-        margin: 0 0 5px 0;
-        font-size: 1.5em;
-        font-weight: bold;
+        .text {
+            @include media-breakpoint-down(md) {
+                margin-top: 20px;
+                margin-bottom: 30px;
+            }
 
-        .highlight {
-          color: $accent1;
+            .title {
+                margin: 0 0 5px 0;
+                font-size: 1.5em;
+                font-weight: bold;
+
+                .highlight {
+                    color: $accent3;
+                }
+            }
+
+            .content {
+                margin: 0;
+            }
         }
-      }
 
-      .content {
-        margin: 0;
-      }
+        .box-reddit {
+            //background-color: #57fbbc;
+        }
+        .box-link {
+            //background-color: #62d1fd;
+        }
+        .box-pepe {
+            //background-color: #ff817c;
+        }
     }
-
-    .box-reddit {
-        //background-color: #57fbbc;
-    }
-    .box-link {
-        //background-color: #62d1fd;
-    }
-    .box-pepe {
-        //background-color: #ff817c;
-    }
-}
 }
