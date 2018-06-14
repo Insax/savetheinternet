@@ -51,7 +51,12 @@ class IndexController extends Controller
      */
     public function getTweets(int $amount = 10): JsonResponse
     {
-        return new JsonResponse($this->tweetService->getTweets($amount));
+        $response = new JsonResponse($this->tweetService->getTweets($amount));
+
+        $response->headers->set('Content-Type', 'application/json');
+        $response->headers->set('Access-Control-Allow-Origin', '*');
+
+        return $response;
     }
 
     /**
