@@ -36,6 +36,15 @@ class IndexController extends Controller
     }
 
     /**
+     * @Route("/imprint", name="imprint")
+     * @return Response
+     */
+    public function imprint(): Response
+    {
+        return $this->render('imprint/index.html.twig');
+    }
+
+    /**
      * @Route("/tweets/{amount}", name="tweets")
      * @param int $amount
      * @return JsonResponse
