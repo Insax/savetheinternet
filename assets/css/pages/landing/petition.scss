@@ -1,23 +1,17 @@
 @import "../../variables";
 
 .section-petition {
-
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-top: 25px;
   margin-top: $vertical-space;
-  margin-bottom: 0;
-  background: url('../../../img/petition-banner.png') no-repeat center center;
   background-size: cover;
 
   .header {
-    font-size: 60px;
+    font-size: 2.25em;
     margin-bottom: 15px;
     width: 100%;
   }
 
   .body {
-    margin-top: 30px;
-
     .btn-petition {
       padding: 15px 30px;
       background: $accent2;
@@ -31,7 +25,7 @@
     }
 
     .description {
-      text-align: right;
+      font-size: 1.2em;
     }
 
     .action {
@@ -39,5 +33,4 @@
       margin-top: 65px;
     }
   }
-
 }
