@@ -21,14 +21,14 @@ function countdown() {
     containerRoot.getElementsByClassName("chours")[0].innerHTML = hours;
     containerRoot.getElementsByClassName("cminutes")[0].innerHTML = minutes;
     containerRoot.getElementsByClassName("cseconds")[0].innerHTML = seconds;
-    containerRoot.getElementsByClassName("cexpired")[0].style.visibility = "hidden";
-    containerRoot.getElementsByClassName("ccount")[0].style.visibility = "visible";
+    containerRoot.getElementsByClassName("cexpired")[0].style.display = "none";
+    containerRoot.getElementsByClassName("ccount")[0].style.display = "inline-block";
 
     // If the count down is finished, write some text
     if (distance < 0) {
         clearInterval(javascriptCountdown);
-        containerRoot.getElementsByClassName("cexpired")[0].style.visibility = "hidden";
-        containerRoot.getElementsByClassName("ccount")[0].style.visibility = "visible";
+        containerRoot.getElementsByClassName("cexpired")[0].style.display = "inline-block";
+        containerRoot.getElementsByClassName("ccount")[0].style.display = "none";
     }
 }
 
