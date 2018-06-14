@@ -1,7 +1,10 @@
 #langcontainer ul {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 20px;
   cursor: pointer;
   list-style: none;
-  padding-left: 0px;
 }
 
 #langcontainer li {
@@ -12,14 +15,10 @@
 #langcontainer li span {
   width: 26px;
   height: 26px;
-  -webkit-filter: grayscale(70%);
-  -moz-filter: grayscale(70%);
   filter: grayscale(70%);
   transition: all 0.5s ease;
 }
 
 #langcontainer li span:hover {
-  -webkit-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
   filter: grayscale(0%);
 }

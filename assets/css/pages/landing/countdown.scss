@@ -1,134 +1,38 @@
 @import "../../variables";
 
-.section-countdown {
-
-  padding-top: 80px;
-  padding-bottom: 80px;
-  margin-top: $vertical-space;
+.countdown {
   margin-bottom: $vertical-space;
-  background: url('../../../img/eu-flag.jpg') no-repeat center center;
-  background-size: cover;
 
-  .header {
-    font-size: 18px;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto 40px;
-    @include media-breakpoint-up(md) {
-      width: 80%;
-    }
-    @include media-breakpoint-up(lg) {
-      width: 50%;
+  .d-flex {
+    align-items: center;
+    @include media-breakpoint-down(md) {
+      //flex-direction: column-reverse;
     }
   }
 
-  .devider {
-    width: 34%;
-    height: 4px;
-    background: $text;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .body {
+  .timer {
+    justify-content: center;
+    @include media-breakpoint-down(md) {
+      margin: 30px 0;
+    }
     .countdown-output {
-      margin-top: 30px;
-      font-size: 60px;
-      text-align: center;
-      padding-top: 30px;
-      padding-bottom: 20px;
+      transform: skew(-3deg, 0.5deg);
+      .ccount {
+        font-size: 4em;
+        padding: 15px 25px;
+        flex-direction: column;
 
-      .cdays {
-        display: none;
+        background-color: $text;
+        color: $background;
       }
-
-      .chours {
-        display: none;
-      }
-
-      .cminutes {
-        display: none;
-      }
-
-      .cseconds {
-        display: none;
-      }
-
-      .ndays {
-        display: none;
-      }
-
-      .nhours {
-        display: none;
-      }
-
-      .nminutes {
-        display: none;
-      }
-
-      .nseconds {
-        display: none;
-      }
-
-      @include media-breakpoint-up(xs) {
-        .cdays {
-          display: inline-block;
+      .days, .hours {
+        transform: skew(3deg, 0.5deg);
+        margin: 5px 0;
+        font-weight: bold;
+        .cdays, .chours {
         }
-        .ndays {
-          display: inline-block;
-        }
-      }
-
-      @include media-breakpoint-up(sm) {
-        .cdays {
-          display: inline-block;
-        }
-        .ndays {
-          display: inline-block;
-        }
-        .chours {
-          display: inline-block;
-        }
-        .nhours {
-          display: inline-block;
-        }
-      }
-
-      @include media-breakpoint-up(md) {
-        .cdays {
-          display: inline-block;
-        }
-        .chours {
-          display: inline-block;
-        }
-        .cminutes {
-          display: inline-block;
-        }
-        .nminutes {
-          display: inline-block;
-        }
-      }
-
-      @include media-breakpoint-up(lg) {
-        .ndays {
-          display: inline-block;
-        }
-        .nhours {
-          display: inline-block;
-        }
-        .nminutes {
-          display: inline-block;
-        }
-        .cseconds {
-          display: none;
-        }
-      }
-      @include media-breakpoint-up(xl) {
-        .cseconds {
-          display: inline-block;
-        }
-        .nseconds {
-          display: inline-block;
+        .ndays, .nhours {
+          font-weight: 500;
         }
       }
     }
