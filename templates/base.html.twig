@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ app.request.locale }}">
+<html lang="{{ localeCodes[app.request.locale][0]|lower }}">
     <head>
         <meta charset="UTF-8">
         <meta name="robots" content="noindex, nofollow">
@@ -15,7 +15,7 @@
         <!-- /Favicons -->
 
         {% for locale in locales %}
-            <link rel="alternate" href="{{ path(app.request.attributes.get('_route'),  app.request.attributes.get('_route_params')|merge({'_locale': locale})) }}" hreflang="{{ locale }}" />
+            <link rel="alternate" href="{{ path(app.request.attributes.get('_route'),  app.request.attributes.get('_route_params')|merge({'_locale': locale})) }}" hreflang="{{ localeCodes[locale][0]|lower }}" />
         {% endfor %}
         <link rel="canonical" href="{{ path(app.request.attributes.get('_route'),  app.request.attributes.get('_route_params')) }}">
 
