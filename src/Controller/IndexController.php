@@ -8,6 +8,8 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpKernel\Event\KernelEvent;
+use Symfony\Component\HttpKernel\KernelEvents;
 use Symfony\Component\Routing\Annotation\Route;
 
 class IndexController extends Controller
@@ -64,6 +66,10 @@ class IndexController extends Controller
 
         $response->headers->set('Content-Type', 'application/json');
         $response->headers->set('Access-Control-Allow-Origin', '*');
+
+        $this->container->get('event_dispatcher')->addListener(KernelEvents::TERMINATE, function () {
+            $this->tweetService->loadLatestTweets();
+        });
 
         return $response;
     }

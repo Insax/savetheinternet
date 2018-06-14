@@ -7,10 +7,10 @@
         </div>
         <div class="row">
             <div class="col-12 text">
-                <h2 class="title">Lorem Ipsum dolor</h2>
+                <h2 class="title">{% trans %}graphic_box_title{% endtrans %}</h2>
                     <div class="row">
-                        <p class="content col-12 col-md-6">{% trans %}graphic_box_content1{% endtrans %}</p>
-                        <p class="content col-12 col-md-5">{% trans %}graphic_box_content2{% endtrans %}</p>
+                        <p class="content col-12 col-md-6">{{ 'graphic_box_content1'|trans|nl2br }}</p>
+                        <p class="content col-12 col-md-5">{{ 'graphic_box_content2'|trans|nl2br }}</p>
                     </div>
             </div>
         </div>
