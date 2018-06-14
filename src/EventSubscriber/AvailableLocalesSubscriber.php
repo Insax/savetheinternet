@@ -32,7 +32,9 @@ class AvailableLocalesSubscriber implements EventSubscriberInterface
             $parts = explode('_', $language);
             $codes[$language] = $parts;
         }
-        $this->twig_Environment->addGlobal('localeCodes', $languages);
+
+
+        $this->twig_Environment->addGlobal('localeCodes', $codes);
     }
 
     public static function getSubscribedEvents()
