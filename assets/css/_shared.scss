@@ -4,10 +4,17 @@
 @import "shared/typewriter";
 @import "shared/video-player";
 
+html {
+    height: 100vh;
+}
+
 body {
     padding-top: 50px;
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 b,
@@ -66,4 +73,8 @@ h6 {
 
 * {
     letter-spacing: 0.04em;
+}
+
+.flex-grow {
+    flex-grow: 1;
 }

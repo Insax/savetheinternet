@@ -2,40 +2,33 @@
 
 .section-footer {
     width: 100%;
-    display: inline-block;
-    background-color: darken($background, 3);
-    max-width: 100%;
-    position: absolute;
-    left: 0;
-}
-
-.section-footer a {
-    color: $accent1;
-    text-decoration: none;
-}
-
-.section-footer a:hover {
-    color: #fff;
-    text-decoration: none;
-}
-
-.section-footer .copyright {
-    width: 50%;
-    float: left;
-}
-
-@media (max-width: 600px) {
-    .section-footer .copyright {
-        width: 100%;
-    }
-}
-
-.section-footer .copyright p {
-    padding-left: 15px;
-    color: white;
     font-size: 0.7em;
-    text-transform: capitalize;
-    letter-spacing: 1px;
+    padding: 0 1rem;
+    background-color: darken($background, 3);
+    display: flex;
+
+    a {
+        color: $accent1;
+        text-decoration: none;
+
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+
+    .copyright {
+        padding: 1rem 2rem;
+    }
+
+    .social {
+        margin: 0 1rem;
+
+        a {
+            display: inline-block;
+            margin: 1rem;
+        }
+    }
 }
 
 @media (max-width: 600px) {
@@ -45,45 +38,8 @@
     }
 }
 
-.section-footer .social {
-    width: 50%;
-    float: right;
-}
-
 @media (max-width: 600px) {
-    .section-footer .social {
-        width: 100%;
+    .section-footer {
+        flex-direction: column;
     }
-}
-
-.section-footer .social a {
-    float: left;
-    padding: 8px 5px;
-    line-height: 1.2em;
-    text-decoration: none;
-    color: transparentize($text, 0.4);
-    text-align: center;
-    font-size: 1em;
-    -moz-transition: all, 0.3s;
-    -o-transition: all, 0.3s;
-    -webkit-transition: all, 0.3s;
-    transition: all, 0.3s;
-}
-
-.section-footer .social a:hover {
-    background-color: #222;
-    -moz-transition: all, 0.3s;
-    -o-transition: all, 0.3s;
-    -webkit-transition: all, 0.3s;
-    transition: all, 0.3s;
-}
-
-.footer-imprint, .footer-privacy, .footer-github {
-    font-size: 1.2em;
-    min-width: 20%;
-}
-
-.social {
-    display: flex;
-    justify-content: center;
 }
