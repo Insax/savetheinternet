@@ -12,8 +12,8 @@
             justify-content: center;
             opacity: 0.9;
             img {
-                width: 120px;
-                height: 120px;
+                width: 90px;
+                height: 90px;
 
                 @include media-breakpoint-only(sm) {
                     width: 80px;
