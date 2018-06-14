@@ -52,23 +52,23 @@ what_do_share_content: 'Nur wenn möglichst viele Leute Bescheid wissen, können
 what_do_mail: 'Schreib deinem Abgeordneten!'
 what_do_mail_content: 'Du kannst deinem EU-Abgeordneten eine E-Mail schreiben, um ihn darauf aufmerksam zu machen, dass du mit dem Gesetzesvorhaben nicht einverstanden bist. Alle nötigen Mailadressen und eine vorgefertigte Nachricht findest du Hier: ### Link einfügen'
 
-what_do_call: 'DE Call your MEP test'
+what_do_call: 'Ruf deinen Abgeordneten an!'
 what_do_call_content: 'Wenn dir eine Mail zu unpersönlich ist, kannst du deinen Abgeordneten auch einfach anrufen und so ganz direkt versuchen ihn umzustimmen. Die Telefonnummer findest du hier: ### Link einfügen'
 # What-do row section end
 
 # Graphic box section
-graphic_box_title: 'Artikel 11 im Detail:'
+graphic_box_title1: 'Artikel 13 im Detail:'
 graphic_box_content1: |
+    Artikel 13 verlangt in der Praxis, dass fast alle Internetplattformen einen "Filterroboter" installieren, welcher automatisch alle hochgeladenen Inhalte überprüft. Dadurch wird die freie Meinungsäußerung übermäßig eingeschränkt, bevor überhaupt davon Gebrauch gemacht werden kann. Entscheidung über die Zensur von Inhalten wird fehleranfälligen und überempfindlichen Algorithmen (die so programmiert sind, dass sie "auf Nummer sicher gehen" und alles löschen, was im Zweifel ein Risiko für die Plattform darstellt) überlassen.
+graphic_box_title2: 'Artikel 11 im Detail'
+graphic_box_content2: |
     Im Leistungsschutzrecht (Artikel 11) wird festgelegt, dass zukünftig Inhalte bestimmter Informationsanbieter einem konkretisierten Presserecht unterliegen. Dies bedeutet, dass schon zitierte Texte als Urheberrechtsverstoß deklariert werden könnten. Ein großer Teil der Anbieter von Nachrichten im Netz wird davon betroffen sein, da so die Verwendung von externen Links und Verweisen eingeschränkt bzw. kostenpflichtig wird.
     Hiervon sind auch Seiten wie Wikipedia, Stackoverflow und freie Blogger betroffen.
-graphic_box_content2: |
-    Artikel 11 hat nicht nur Auswirkungen auf das Internet:
-
-    Auch die Forschung und der Fortschritt leiden unter Artikel 11. Künftig soll es Nutzern, wie unabhängigen Forschern, Journalisten, Privatpersonen und diversen Firmen vorenthalten werden, Text und Data-Mining zu betreiben. Dies hat einen verlangsamenden Effekt auf diverse Entdeckungen des öffentlichen Interesses zur Folge.
 
 # Image-split section
-image_split_title: 'Artikel 13 im Detail'
-image_split_content: 'Artikel 13 verlangt in der Praxis, dass fast alle Internetplattformen einen "Filterroboter" installieren, welcher automatisch alle hochgeladenen Inhalte überprüft. Dadurch wird die freie Meinungsäußerung übermäßig eingeschränkt, bevor überhaupt davon Gebrauch gemacht werden kann. Entscheidung über die Zensur von Inhalten wird fehleranfälligen und überempfindlichen Algorithmen (die so programmiert sind, dass sie "auf Nummer sicher gehen" und alles löschen, was im Zweifel ein Risiko für die Plattform darstellt) überlassen.'
+image_split_title: 'Artikel 11 hat nicht nur Auswirkungen auf das Internet'
+image_split_content: |
+    Auch die Forschung und der Fortschritt leiden unter Artikel 11. Künftig soll es Nutzern, wie unabhängigen Forschern, Journalisten, Privatpersonen und diversen Firmen vorenthalten werden, Text und Data-Mining zu betreiben. Dies hat einen verlangsamenden Effekt auf diverse Entdeckungen des öffentlichen Interesses zur Folge.
 
 # Petition section
 petition_title: 'Zensur? Nicht mit mir!'
