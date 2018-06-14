@@ -4,10 +4,10 @@
         <div class="consent hidden">
             <div class="item">
                 {% block consent %}
-                    <h3>Please consent</h3>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</p>
+                    <h3>{% trans %}consent_title{% endtrans %}</h3>
+                    <p>{% trans %}consent_content{% endtrans %}</p>
                 {% endblock %}
-                <button class="btn btn-light consent-btn">{% block btn_consent %}I consent{% endblock %}</button>
+                <button class="btn btn-light consent-btn">{% block btn_consent %}{% trans %}consent_confirm{% endtrans %}{% endblock %}</button>
             </div>
         </div>
     </div>
