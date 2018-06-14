@@ -40,4 +40,9 @@ class NullCacheService implements CacheServiceInterface
 
         return $found;
     }
+
+    public function flush(): void
+    {
+        $this->content = [];
+    }
 }

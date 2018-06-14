@@ -11,4 +11,6 @@ interface CacheServiceInterface
     public function has(string $key): bool;
 
     public function search(string $key, $limit = 0): array;
+
+    public function flush(): void;
 }

@@ -83,4 +83,9 @@ class TweetService
 
         return $tweets;
     }
+
+    public function deleteAllTweets(): void
+    {
+        $this->cache->flush();
+    }
 }

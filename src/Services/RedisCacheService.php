@@ -66,4 +66,9 @@ class RedisCacheService implements CacheServiceInterface
 
         return $found;
     }
+
+    public function flush(): void
+    {
+        $this->redis->flushdb();
+    }
 }
