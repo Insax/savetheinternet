@@ -17,9 +17,9 @@ article_title: 'Was passiert am 20. Juni?'
 article_content: 'Am 20. Juni stimmt der Rechtsausschuss des EU-Parlaments über die geplante Urheberrechts-Richtlinie ab. Die Einzigen, die jetzt noch dieses fatale Gesetz stoppen können, sind die EU-Abgeordneten!'
 
 # Article row section start
-article_reddit_title: 'Kein Raum mehr für'
-article_reddit_title_highlight: Diskussionen
-article_reddit_content: 'Die freie Meinungsbildung auf Plattformen wie Facebook, twitter oder reddit wird zensiert, indem Uploadfilter darüber bestimmen, was gezeigt wird, und was nicht. Nein zur Zensur!'
+article_reddit_title: 'Diktatur fehleranfälliger'
+article_reddit_title_highlight: 'Algorithmen'
+article_reddit_content: 'Upload-Filter auf Seiten wie YouTube, Facebook und Co. haben alle eines gemein: Sie agieren niemals so genau, wie es ein Mensch könnte. Dies hat zur Folge, dass häufig ebenfalls Inhalte entfernt werden, die zwar gegen das Urheberrecht verstoßen – jedoch unter dem Schutz des Zitatrechts stehen. Diese „Anfälligkeit“ kann als Vorwand genutzt werden, um Inhalte herauszufiltern, die nicht den eigenen Werten und Vorstellungen entsprechen.'
 
 article_link_title: 'Keine'
 article_link_title_highlight: Links
@@ -30,10 +30,14 @@ article_pepe_title_highlight: Memes
 article_pepe_content: 'Die Uploadfilter bedeuten auch den Tod der Meme-Kultur. Urheberrechtlich geschütztes Material kann nicht mehr ohne kostenpflichtige Lizenzen verbreitet werden. Rettet unsere Meme-Kultur!'
 # Article row section end
 
-# Typewriter section
-typewriter_1: '^200 our'
-typewriter_2: '^200 your'
-typewriter_3: '^200 the'
+# Twitter section
+twitter_title: 'Höre die Stimmen anderer'
+twitter_description: 'Die Zensur könnte schon sehr bald die kulturellen Normen des Webs, wie wir es kennen, auf den Kopf stellen. Upload-Sperren sorgen in Kombination mit fehleranfälligen Algorithmen dafür, dass selbst das Posten von Links künftig ein massives Problem darstellen wird. Derartiges wird sich vor allem auf Plattformen wie Twitter, Facebook, 9GAG und Co. zeigen. Um genau zu sein – höchstwahrscheinlich alle deiner Lieblingswebsites. Denn hier würden die Artikel 11 und 13 dafür sorgen, dass Verlinkungen und direkte Zitate geschwärzt oder sogar gänzlich am Hochladen gehindert werden.'
+
+#Typewriter section
+#typewriter_1: '^200 our'
+#typewriter_2: '^200 your'
+#typewriter_3: '^200 the'
 
 # Countdown section
 countdown_title: 'Die Zeit wird knapp'
