@@ -4,3 +4,5 @@ import ResponsiveVideo from './components/responsive-video';
 (function($) {
 	new ResponsiveVideo('.responsive-video').activate();
 })(jQuery);
+
+import './pages/landing.js';

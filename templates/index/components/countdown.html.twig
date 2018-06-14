@@ -1,10 +1,19 @@
-<div class="container section-countdown">
+<div class="container-fluid section-countdown">
     <div class="header">
-
+        {% trans %}Countdown until the Legal Committee of the European Parliament discusses Article 13{% endtrans %}
     </div>
+    <div class="devider"></div>
     <div class="body">
-        <div id="countdown-output">
-
+        <div class="countdown-output">
+            <div class="ccount">
+                <span class="cdays">0</span> <span class="ndays">{% trans %}Days{% endtrans %}</span>
+                <span class="chours">0</span> <span class="nhours">{% trans %}Hours{% endtrans %}</span>
+                <span class="cminutes">0</span> <span class="nminutes">{% trans %}Minutes{% endtrans %}</span>
+                <span class="cseconds">0</span> <span class="nseconds">{% trans %}Seconds{% endtrans %}</span>
+            </div>
+            <div class="cexpired">
+                {% trans %}The EU is currently debating{% endtrans %}.
+            </div>
         </div>
     </div>
 </div>
