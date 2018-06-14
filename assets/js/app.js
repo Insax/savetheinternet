@@ -1,3 +1,4 @@
+"use strict";
 import 'bootstrap';
 import ResponsiveVideo from './components/responsive-video';
 import Typed from 'typed.js';
