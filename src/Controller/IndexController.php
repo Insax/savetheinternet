@@ -45,6 +45,15 @@ class IndexController extends Controller
     }
 
     /**
+     * @Route("/privacy", name="privacy")
+     * @return Response
+     */
+    public function privacy(): Response
+    {
+        return $this->render('privacy/index.html.twig');
+    }
+
+    /**
      * @Route("/tweets/{amount}", name="tweets")
      * @param int $amount
      * @return JsonResponse
