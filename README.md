@@ -21,7 +21,7 @@ Members of the parliament are the only ones that can stand in the way of bad cop
 <hr>
 
 
-## Development
+## :wrench: Development
 
 **Requirements**
 - Docker [https://docs.docker.com/install/](https://docs.docker.com/install/)
@@ -41,7 +41,7 @@ Members of the parliament are the only ones that can stand in the way of bad cop
 
 <hr>
 
-## :wrench: Used technologies / Libraries / Frameworks
+## :nut_and_bolt: Used technologies / Libraries / Frameworks
 
 - [PHP 7.1.12-1](http://www.php.net/)
 - [Twig](https://twig.symfony.com/)
