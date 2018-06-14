@@ -24,13 +24,13 @@
                     display: flex;
                     flex-direction: row;
                 }
-                
+
                 font-weight: bold;
                 letter-spacing: 0;
                 font-size: 5em;
                 color: $background;
                 margin: 0;
-                transform: skew(3deg, 0.5deg);
+                transform: skew(3deg, 0.5deg) translateZ(0);
                 i {
                     letter-spacing: 0;
                     font-style: normal;
