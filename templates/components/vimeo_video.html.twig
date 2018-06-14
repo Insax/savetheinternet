@@ -1,0 +1,14 @@
+<div class="vimeo-video">
+    <div class="responsive-video" data-video-src="https://player.vimeo.com/video/{{ id }}?color=e6430a">
+        <iframe class="hidden" src="" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <div class="consent hidden">
+            <div class="item">
+                {% block consent %}
+                    <h3>{% trans %}consent_title{% endtrans %}</h3>
+                    <p>{% trans %}consent_content{% endtrans %}</p>
+                {% endblock %}
+                <button class="btn btn-light consent-btn">{% block btn_consent %}{% trans %}consent_confirm{% endtrans %}{% endblock %}</button>
+            </div>
+        </div>
+    </div>
+</div>

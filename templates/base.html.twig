@@ -4,6 +4,15 @@
         <meta charset="UTF-8">
         <meta name="robots" content="noindex, nofollow">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('build/static/favicons/apple-touch-icon.png') }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('build/static/favicons/favicon-32x32.png') }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('build/static/favicons/favicon-16x16.png') }}">
+        <link rel="manifest" href="{{ asset('build/static/favicons/site.webmanifest') }}">
+        <link rel="mask-icon" href="{{ asset('build/static/favicons/safari-pinned-tab.svg') }}" color="#212121">
+        <meta name="msapplication-TileColor" content="#212121">
+        <meta name="theme-color" content="#212121">
+        <!-- /Favicons -->
 
         {% for locale in locales %}
             <link rel="alternate" href="{{ path(app.request.attributes.get('_route'),  app.request.attributes.get('_route_params')|merge({'_locale': locale})) }}" hreflang="{{ locale }}" />

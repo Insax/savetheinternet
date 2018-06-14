@@ -1,14 +1,11 @@
 @import "variables";
 @import "shared/langpicker";
+@import "shared/footer";
+@import "shared/typewriter";
 
 body {
   padding-top: 50px;
   font-family: 'Raleway', sans-serif;
-}
-
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
 }
 
 b,
@@ -38,10 +35,6 @@ body {
   background-color: $background;
 }
 
-body {
-  padding-bottom: 5rem;
-}
-
 a {
   outline: none !important;
 }
@@ -53,4 +46,17 @@ h4,
 h5,
 h6 {
   font-weight: 500;
+}
+
+.btn {
+  padding: 10px;
+  border: 1px solid $text;
+  color: $text_invert;
+  cursor: pointer;
+
+  &.btn-light {
+    color: $text_invert;
+    background: $background_invert;
+    border-color: $text_invert;
+  }
 }
