@@ -6,17 +6,33 @@
   padding-bottom: 100px;
   margin-top: $vertical-space;
   margin-bottom: 0;
-  background: url('../../../img/petition-banner.png') no-repeat center center;
-  background-size: cover;
+
+  .image {
+    width: 20em;
+    height: 20em;
+    background: url("../../../img/TextBlattIcon.svg") no-repeat top center;
+    background-size: cover;
+    margin-top: -40px;
+    padding: 0 !important;
+  }
+
+  @include media-breakpoint-down(lg) {
+    .image {
+      display: none;
+    }
+  }
 
   .header {
-    font-size: 60px;
-    margin-bottom: 15px;
+    font-size: 3em;
     width: 100%;
+    color: $accent2;
+    text-align: center;
+    margin: 0 auto;
   }
 
   .body {
     margin-top: 30px;
+    color: $accent2;
 
     .btn-petition {
       padding: 15px 30px;
@@ -31,12 +47,22 @@
     }
 
     .description {
-      text-align: right;
+      margin-top: 3em;
+      text-align: center;
+    }
+
+    @include media-breakpoint-up(md) {
+      .description {
+        text-align: right;
+      }
+      .header {
+        text-align: right;
+      }
     }
 
     .action {
       text-align: center;
-      margin-top: 65px;
+      margin-top: 6em;
     }
   }
 
