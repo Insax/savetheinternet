@@ -38,20 +38,19 @@
     <meta property="og:image" content="https://savetheinternet.info/build/static/android-chrome-512x512.png"/>
     <meta name="og:image:secure_url" content="https://savetheinternet.info/build/static/android-chrome-512x512.png"/>
     <meta property="og:site_name" content="Save the Internet"/>
-</head>
 
-{% for locale in locales %}
-    <link rel="alternate"
-          href="{{ path(app.request.attributes.get('_route'),  app.request.attributes.get('_route_params')|merge({'_locale': locale})) }}"
-          hreflang="{{ localeCodes[locale][0]|lower }}"/>
-{% endfor %}
-<link rel="canonical"
-      href="{{ path(app.request.attributes.get('_route'),  app.request.attributes.get('_route_params')) }}">
+    {% for locale in locales %}
+        <link rel="alternate"
+              href="{{ path(app.request.attributes.get('_route'),  app.request.attributes.get('_route_params')|merge({'_locale': locale})) }}"
+              hreflang="{{ localeCodes[locale][0]|lower }}"/>
+    {% endfor %}
+    <link rel="canonical"
+          href="{{ path(app.request.attributes.get('_route'),  app.request.attributes.get('_route_params')) }}">
 
-<title>{% block title %}Welcome!{% endblock %}</title>
-{% block stylesheets %}
-    <link rel="stylesheet" href="{{ asset('build/css/app.css') }}">
-{% endblock %}
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    {% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('build/css/app.css') }}">
+    {% endblock %}
 </head>
 <body>
 {% block body %}{% endblock %}
