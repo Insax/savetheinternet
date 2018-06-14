@@ -1,7 +1,10 @@
 #langcontainer ul {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 20px;
   cursor: pointer;
   list-style: none;
-  padding-left: 0px;
 }
 
 #langcontainer li {
