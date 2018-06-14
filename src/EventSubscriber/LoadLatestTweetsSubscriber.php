@@ -25,8 +25,6 @@ class LoadLatestTweetsSubscriber implements EventSubscriberInterface
 
     public function onKernelTerminate(PostResponseEvent $event)
     {
-        $this->tweetService->deleteAllTweets();
-
         $this->tweetService->loadLatestTweets();
     }
 

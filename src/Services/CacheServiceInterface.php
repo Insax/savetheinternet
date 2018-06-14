@@ -13,4 +13,6 @@ interface CacheServiceInterface
     public function search(string $key, $limit = 0): array;
 
     public function flush(): void;
+
+    public function deleteWildcard(string $key): void;
 }

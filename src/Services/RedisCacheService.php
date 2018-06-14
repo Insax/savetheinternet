@@ -71,4 +71,9 @@ class RedisCacheService implements CacheServiceInterface
     {
         $this->redis->flushdb();
     }
+
+    public function deleteWildcard(string $key): void
+    {
+        $this->redis->eval('return redis.call(\'del\', \'defaultKey\', unpack(redis.call(\'keys\', ARGV[1])))', 0, $key);
+    }
 }
