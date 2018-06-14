@@ -3,15 +3,18 @@
 .section-article-thirteen {
   margin-top: $vertical-space;
   padding-bottom: 5rem;
+
   .header {
     .title {
       margin: 0;
       font-size: 3.4em;
       font-weight: 500;
+
       .highlight {
         color: $accent1;
       }
     }
+
     .tagline {
       font-size: 1.1em;
       margin: 0;
@@ -22,35 +25,43 @@
   .content-pair {
     margin-top: 30px;
     align-items: center;
+
     .box-wrapper {
       justify-content: center;
+
       .box {
-        background-color: #b4b4b4;
+        background-color: darken($background, 3);
         justify-content: center;
         align-items: center;
-        border-radius: 25px;
         padding: 15px 55px;
         width: 250px;
         height: 150px;
+        transform: skew(-3deg, 0.5deg);
+
         img {
           width: 140px;
           height: auto;
+          transform: skew(3deg, 0.5deg);
         }
       }
     }
+
     .text {
       @include media-breakpoint-down(md) {
         margin-top: 15px;
         margin-bottom: 50px;
       }
+
       .title {
         margin: 0 0 5px 0;
         font-size: 1.5em;
         font-weight: bold;
+
         .highlight {
           color: $accent3;
         }
       }
+
       .content {
         margin: 0;
       }
