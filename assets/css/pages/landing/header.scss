@@ -40,3 +40,9 @@
         }
     }
 }
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    .header-wrapper .header .title-wrapper .title {
+        font-size: 3.5em !important;
+    }
+}
