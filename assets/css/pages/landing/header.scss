@@ -1,0 +1,35 @@
+@import "../../variables";
+
+.header-wrapper {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    background: url('../../../img/world.svg') no-repeat top center;
+    background-size: auto 60vh;
+    .title-wrapper {
+      background-color: $text;
+      padding: 4px 12px;
+      transform: skew(-3deg, 0.5deg);
+      .title {
+        font-weight: bold;
+        font-size: 5em;
+        color: $background;
+        margin: 0;
+        transform: skew(3deg, 0.5deg);
+        i {
+          font-style: normal;
+          font-weight: 300;
+        }
+      }
+    }
+    .tagline {
+      font-weight: 500;
+      font-size: 1.5em;
+      max-width: 590px;
+      margin: 13px 0;
+    }
+  }
+}

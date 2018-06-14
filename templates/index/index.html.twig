@@ -3,35 +3,42 @@
 {% block title %}Save the Internet{% endblock %}
 
 {% block body %}
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="{{ path('index') }}">{% trans %}Save the Internet!{% endtrans %}</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <!--<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"> <a class="navbar-brand" href="{{ path('index') }}">{% trans %}Save the Internet!{% endtrans %}</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="navbarsExampleDefault"> <ul class="navbar-nav mr-auto"> <li class="nav-item active"> <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a> </li> <li class="my-2 my-lg-0 dropdown"> <a class="nav-link dropdown-toggle" id="language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{% trans %}Language{% endtrans %}</a> <div class="dropdown-menu" aria-labelledby="language"> {% for locale in locales %} <a class="dropdown-item" href="{{ path(app.request.attributes.get('_route'), app.request.attributes.get('_route_params')|merge({'_locale': locale})) }}">{{ locale|trans }}</a> {% endfor %} </div> </li> </ul> </div> </nav>-->
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="my-2 my-lg-0 dropdown">
-                    <a class="nav-link dropdown-toggle" id="language"
-                       data-toggle="dropdown" aria-haspopup="true"
-                       aria-expanded="false">{% trans %}Language{% endtrans %}</a>
-                    <div class="dropdown-menu" aria-labelledby="language">
-                        {% for locale in locales %}
-                            <a class="dropdown-item" href="{{ path(app.request.attributes.get('_route'),  app.request.attributes.get('_route_params')|merge({'_locale': locale})) }}">{{ locale|trans }}</a>
-                        {% endfor %}
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <!-- Langpicker -->
+    {% include 'shared/langpicker.html.twig' %}
 
-    <main role="main" class="container">
-        <div class="starter-template">
-            <h1>{% trans %}Save the Internet!{% endtrans %}</h1>
-        </div>
-    </main>
+    <!-- Header -->
+    {% include 'index/components/header.html.twig' %}
+
+    <!-- Article 13 section -->
+    {% include 'index/components/article-thirteen.html.twig' %}
+
+    <!-- Countdown section -->
+    {% include 'index/components/countdown.html.twig' %}
+
+    <!-- What you can do section -->
+    {% include 'index/components/what-do.html.twig' %}
+
+    <!-- Graphic box -->
+    {% include 'index/components/graphic-box.html.twig' %}
+
+    <!-- Petition section -->
+    {% include 'index/components/petition.html.twig' %}
+
+    <!-- Video section -->
+    {% include 'index/components/video.html.twig' %}
+
+    <!-- Twitter section -->
+    {% include 'index/components/twitter.html.twig' %}
+
+    <!-- More section -->
+    {% include 'index/components/more.html.twig' %}
+
+    <!-- List of Videos section -->
+    {% include 'index/components/video-list.html.twig' %}
+
+    <!-- Footer -->
+    {% include 'index/components/footer.html.twig' %}
+
 {% endblock %}
