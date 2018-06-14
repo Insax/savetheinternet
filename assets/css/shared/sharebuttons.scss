@@ -2,7 +2,6 @@
     position: absolute;
     top: 0;
     margin-right: 20px;
-    cursor: pointer;
     list-style: none;
 }
 
@@ -11,7 +10,7 @@
     padding-right: 10px;
     font-size: 1.2em;
     animation-name: fade-in;
-    animation-duration: .3s;
+    animation-duration: .5s;
     animation-fill-mode: forwards;
 }
 
@@ -19,8 +18,9 @@
     color: white;
     text-decoration: none;
     animation-name: fade-in;
-    animation-duration: .3s;
+    animation-duration: .5s;
     animation-fill-mode: forwards;
+    transition: color 0.5s ease;
 }
 
 @keyframes fade-in {

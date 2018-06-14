@@ -16,8 +16,16 @@
 #langcontainer li span {
   width: 25px;
   height: 25px;
+  animation-name: fade-in;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
   filter: grayscale(70%);
   transition: all 0.5s ease;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
 }
 
 #langcontainer li span:hover {
