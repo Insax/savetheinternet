@@ -13,6 +13,10 @@
             background-color: $text;
             padding: 4px 12px;
             transform: skew(-3deg, 0.5deg);
+            a {
+                text-decoration: none;
+                user-select: none;
+            }
             .title {
                 font-weight: bold;
                 letter-spacing: 0;
