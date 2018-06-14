@@ -3,27 +3,27 @@
 .section-what-do {
   margin-top: $vertical-space;
   padding-bottom: 5rem;
-}
 
-.icon-pair {
-  margin-bottom: 25px;
-  align-items: center;
+  .icon-pair {
+    margin-bottom: 25px;
+    align-items: center;
 
-  .icon {
-    justify-content: center;
-    opacity: 0.9;
-    img {
-      width: 120px;
-      height: 120px;
+    .icon {
+      justify-content: center;
+      opacity: 0.9;
+      img {
+        width: 120px;
+        height: 120px;
+      }
     }
-  }
 
-  .text {
-    .title {
-      margin: 0 0 5px 0;
-    }
-    .content {
-      margin: 0;
+    .text {
+      .title {
+        margin: 0 0 5px 0;
+      }
+      .content {
+        margin: 0;
+      }
     }
   }
 }
