@@ -1,0 +1,38 @@
+@import "../../variables";
+
+.section-countdown {
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-top: $vertical-space;
+  margin-bottom: $vertical-space;
+  background: url('../../../img/world.svg') no-repeat top center;
+  
+  .header {
+    font-size: 18px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto 40px;
+  }
+
+  .devider {
+    width: 34%;
+    height: 4px;
+    background: $text;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .body {
+    .countdown-output {
+      margin-top: 30px;
+      font-size: 60px;
+      text-align: center;
+      padding: 50px 0px;
+    }
+    .cexpired {
+      visibility: hidden;
+    }
+  }
+  
+}
