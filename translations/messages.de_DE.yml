@@ -31,8 +31,9 @@ article_pepe_content: 'DE Lorem ipsum dolor sit amet, consetetur sadipscing elit
 # Article row section end
 
 # Typewriter section
-typewriter_1: 'DE Typewritertext 1 test'
-typewriter_2: 'DE Typewritertext 2 test'
+typewriter_1: 'our'
+typewriter_2: 'your'
+typewriter_3: 'the'
 
 # Countdown section
 countdown_title: 'DE Time is running out'
