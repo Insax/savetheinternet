@@ -1,0 +1,19 @@
+@import "../../variables";
+
+.image-split {
+  margin-top: $vertical-space;
+
+  .d-flex {
+    align-items: center;
+    .image-wrapper {
+      max-width: 100%;
+      text-align: center;
+      .watcheye {
+        border-radius: 25px;
+        max-width: 50%;
+        height: auto;
+      }
+    }
+  }
+
+}
