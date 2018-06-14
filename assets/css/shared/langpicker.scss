@@ -1,51 +1,25 @@
-input {
-  display: none;
-}
-
-label {
-  cursor: pointer;
-  background: none;
-  width: 100px;
-  border: 1px solid white;
-  border-radius: 3px;
-  padding: 8px 10px;
-  color: #fff;
-  line-height: 20px;
-  font-size: 12px;
-  text-align: center;
-  -webkit-font-smoothing: antialiased;
-  -webkit-transition: background-color 0.3s, color 0.3s;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -ms-user-select: none;
-  &:hover {
-    color: black;
-    background-color: white;
-  }
-}
-
-#lang {
-  position: fixed;
-  margin-bottom: 20px;
-}
-
-#langcontainer {
-  -webkit-transition: height .3s ease;
-  height: 0;
-  overflow: hidden;
-  width: 100px;
-}
-
 #langcontainer ul {
   cursor: pointer;
   list-style: none;
   padding-left: 0px;
 }
+
 #langcontainer li {
   display: inline-block;
+  padding-right: 10px;
 }
 
-input:checked + #langcontainer {
-  height: 50px;
+#langcontainer li span {
+  width: 26px;
+  height: 26px;
+  -webkit-filter: grayscale(70%);
+  -moz-filter: grayscale(70%);
+  filter: grayscale(70%);
+  transition: all 0.5s ease;
+}
+
+#langcontainer li span:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
