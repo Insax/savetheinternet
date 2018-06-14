@@ -1,0 +1,100 @@
+
+.section-footer {
+  width: 100%;
+  margin-top: 40px;
+  display: inline-block;
+  margin: 0;
+  height: 70px;
+  background-color: #000;
+  max-width: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.section-footer a {
+  color: #ffbf00;
+  text-decoration: none;
+}
+
+.section-footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.section-footer .copyright {
+  width: 50%;
+  float: left;
+}
+
+@media (max-width: 600px) {
+  .section-footer .copyright {
+    width: 100%;
+  }
+}
+
+.section-footer .copyright p {
+  padding-left: 10%;
+  color: white;
+  font-size: 0.7em;
+  line-height: 70px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 600px) {
+  .section-footer .copyright p {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+.section-footer .social {
+  width: 50%;
+  float: right;
+}
+
+@media (max-width: 600px) {
+  .section-footer .social {
+    width: 100%;
+  }
+}
+
+.section-footer .social a {
+  float: left;
+  line-height: 70px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+
+.section-footer .social a:hover {
+  background-color: #222;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+
+.footer-imprint {
+  background-color: #0c0c0c;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+.footer-privacy {
+  background-color: #0c0c0c;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+.footer-github {
+  background-color: #0c0c0c;
+  font-size: 1.2em;
+  width: 20%;
+}
