@@ -5,6 +5,9 @@ hours: 'Stunden'
 minutes: 'Minuten'
 seconds: 'Sekunden'
 
+# Share
+share_on: 'Share on:'
+
 # Header
 header_tagline: 'The Internet is in danger. Learn more about how you can save it.'
 
