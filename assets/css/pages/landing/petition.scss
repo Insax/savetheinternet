@@ -1,0 +1,39 @@
+@import "../../variables";
+
+.section-petition {
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: $vertical-space;
+  margin-bottom: $vertical-space;
+
+  .header {
+    text-align: center;
+    font-size: 60px;
+  }
+
+  .body {
+    margin-top: 30px;
+
+    .btn-petition {
+      padding:15px;
+      background: $accent2;
+      color: $text_invert;
+      text-decoration: none;
+      border-radius: 15px;
+    }
+
+    .btn-petition:hover {
+      background: lighten($accent2,10);
+    }
+
+    .description {
+      text-align: right;
+    }
+
+    .action {
+      text-align: center;
+    }
+  }
+
+}
