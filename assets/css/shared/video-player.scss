@@ -1,0 +1,10 @@
+@import "~video.js/src/css/vjs";
+@import "../variables";
+
+.video-player {
+    margin-top: $vertical-space;
+    .video-js {
+        max-width: 100%;
+        height: 550px;
+    }
+}
