@@ -8,22 +8,34 @@ class TweetService
 {
     private $twitterOAuth;
     /**
-     * @var RedisCacheService
+     * @var CacheServiceInterface
      */
     private $cache;
-
+    /**
+     * @var bool
+     */
+    private $enabled = false;
     /**
      * TweetService constructor.
-     * @param RedisCacheService $cache
+     * @param CacheServiceInterface $cache
      */
-    public function __construct(RedisCacheService $cache)
+    public function __construct(CacheServiceInterface $cache)
     {
+        if (!isset($_SERVER['OAUTH_KEY'], $_SERVER['OAUTH_SECRET']) || $_SERVER['OAUTH_KEY'] === null || $_SERVER['OAUTH_SECRET'] === null) {
+            return;
+        }
+
+        $this->enabled = true;
         $this->cache = $cache;
         $this->twitterOAuth = new TwitterOAuth($_SERVER['OAUTH_KEY'], $_SERVER['OAUTH_SECRET']);
     }
 
-    public function loadLatestTweets()
+    public function loadLatestTweets(): void
     {
+        if (!$this->enabled) {
+            return;
+        }
+
         $lastTweetLoad = new \DateTime('1970');
         $fiveMinAgo = new \DateTime('5min ago');
 
@@ -34,6 +46,8 @@ class TweetService
         if ($lastTweetLoad->getTimestamp() > $fiveMinAgo->getTimestamp()) {
             return;
         }
+
+        $this->deleteAllTweets();
 
         $result = $this->twitterOAuth->get('search/tweets', ['q' => '%23savetheinternet', 'count' => 100]);
 
@@ -54,6 +68,14 @@ class TweetService
 
     public function getTweets($limit = 15): array
     {
+        if ($this->enabled === false) {
+            return [];
+        }
+
+        if ($this->cache instanceof NullCacheService) {
+            $this->loadLatestTweets();
+        }
+
         $found = $this->cache->search('tweet_*', $limit);
 
         $tweets = [];
@@ -62,5 +84,10 @@ class TweetService
         }
 
         return $tweets;
+    }
+
+    public function deleteAllTweets(): void
+    {
+        $this->cache->deleteWildcard('tweet_*');
     }
 }

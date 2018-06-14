@@ -4,9 +4,8 @@ namespace App\Services;
 
 use Predis\Client;
 
-class RedisCacheService
+class RedisCacheService implements CacheServiceInterface
 {
-
     /**
      * @var Client
      */
@@ -17,6 +16,10 @@ class RedisCacheService
      */
     public function __construct()
     {
+        if (!isset($_SERVER['REDIS_HOST']) || $_SERVER['REDIS_HOST'] === null) {
+            return;
+        }
+
         $redis = new Client([
             'scheme' => 'tcp',
             'host' => $_SERVER['REDIS_HOST'],
@@ -26,7 +29,7 @@ class RedisCacheService
         $this->redis = $redis;
     }
 
-    public function set(string $key, string $value)
+    public function set(string $key, string $value): void
     {
         $this->redis->set($key, $value);
     }
@@ -62,5 +65,15 @@ class RedisCacheService
         $found = array_merge(...$found);
 
         return $found;
+    }
+
+    public function flush(): void
+    {
+        $this->redis->flushdb();
+    }
+
+    public function deleteWildcard(string $key): void
+    {
+        $this->redis->eval('return redis.call(\'del\', \'defaultKey\', unpack(redis.call(\'keys\', ARGV[1])))', 0, $key);
     }
 }

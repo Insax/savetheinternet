@@ -1,0 +1,24 @@
+<div class="countdown">
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-12 col-lg-6 description">
+                <h1>{% trans %}countdown_title{% endtrans %}</h1>
+                <p>{% trans %}countdown_description1{% endtrans %}</p>
+                <p>{% trans %}countdown_description2{% endtrans %}</p>
+            </div>
+            <div class="col-12 col-lg-6 timer d-flex">
+                <div class="countdown-output">
+                    <div class="ccount d-flex">
+                        <p class="days"><span class="cdays">0</span> <span class="ndays">{% trans %}days{% endtrans %}</span></p>
+                        <p class="hours"><span class="chours">0</span> <span class="nhours">{% trans %}hours{% endtrans %}</span></p>
+                    </div>
+                    <!--<div class="cexpired">
+                        {% trans %}countdown_expired{% endtrans %}.
+                    </div>-->
+                </div>
+            </div>
+        </div>
+        <div class="body">
+        </div>
+    </div>
+</div>

@@ -21,7 +21,7 @@ Members of the parliament are the only ones that can stand in the way of bad cop
 <hr>
 
 
-## Development
+## :wrench: Development
 
 **Requirements**
 - Docker [https://docs.docker.com/install/](https://docs.docker.com/install/)
@@ -36,11 +36,12 @@ Members of the parliament are the only ones that can stand in the way of bad cop
     - It will take some time at the first start, subsequent starts are much faster
 - run `docker-compose run --rm app composer install` to install dependencies
 - run `yarn && yarn build`
+- comment REDIS Settings in Local Development
 - open [http://localhost:8080](http://localhost:8080) to view the site
 
 <hr>
 
-## :wrench: Used technologies / Libraries / Frameworks
+## :nut_and_bolt: Used technologies / Libraries / Frameworks
 
 - [PHP 7.1.12-1](http://www.php.net/)
 - [Twig](https://twig.symfony.com/)

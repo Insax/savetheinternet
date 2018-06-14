@@ -24,25 +24,17 @@ class AvailableLocalesSubscriber implements EventSubscriberInterface
 
     public function onKernelRequest(GetResponseEvent $event)
     {
-        $translationFiles = scandir(__DIR__ . '/../../translations', SCANDIR_SORT_NONE);
-
-        $languages = [];
-        foreach ($translationFiles as $file) {
-            $parts = explode('.', $file);
-
-            if (count($parts) !== 3) {
-                continue;
-            }
-
-            if (empty($parts[1])) {
-                continue;
-            }
-
-            $languages[] = $parts[1];
-        }
-
+        $languages = getAvailableLanguages();
         $this->twig_Environment->addGlobal('locales', $languages);
 
+        $codes = [];
+        foreach ($languages as $language) {
+            $parts = explode('_', $language);
+            $codes[$language] = $parts;
+        }
+
+
+        $this->twig_Environment->addGlobal('localeCodes', $codes);
     }
 
     public static function getSubscribedEvents()
@@ -51,4 +43,25 @@ class AvailableLocalesSubscriber implements EventSubscriberInterface
            'kernel.request' => 'onKernelRequest',
         ];
     }
+}
+
+function getAvailableLanguages() {
+    $translationFiles = scandir(__DIR__ . '/../../translations', SCANDIR_SORT_NONE);
+
+    $languages = [];
+    foreach ($translationFiles as $file) {
+        $parts = explode('.', $file);
+
+        if (\count($parts) !== 3) {
+            continue;
+        }
+
+        if (empty($parts[1])) {
+            continue;
+        }
+
+        $languages[] = $parts[1];
+    }
+
+    return $languages;
 }

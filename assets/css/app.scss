@@ -1,10 +1,10 @@
-@import "~bootstrap/scss/bootstrap";
+@import "_variables";
+@import "_shared";
+@import "~flag-icon-css/sass/flag-icon";
+@import "~font-awesome/scss/font-awesome";
 
-body {
-    padding-top: 5rem;
-}
+// PAGES
+@import "/pages/landing";
+@import "pages/responsive-video";
+@import "pages/imprint";
 
-.starter-template {
-    padding: 3rem 1.5rem;
-    text-align: center;
-}

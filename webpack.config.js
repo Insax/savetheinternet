@@ -1,4 +1,5 @@
-var Encore = require('@symfony/webpack-encore');
+const Encore = require('@symfony/webpack-encore');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 Encore
     // the project directory where compiled assets will be stored
@@ -18,8 +19,23 @@ Encore
     // uncomment if you use Sass/SCSS files
     .enableSassLoader()
 
+    .addPlugin(new CopyWebpackPlugin([
+	    {
+	    	from: './assets/static', to: 'static'
+	    }
+    ]))
+
     // uncomment for legacy applications that require $/jQuery as a global variable
     .autoProvidejQuery()
 ;
 
-module.exports = Encore.getWebpackConfig();
+let config = Encore.getWebpackConfig();
+
+if(process.env.DOCKER) {
+	config.watchOptions = {
+		aggregateTimeout: 300,
+		poll: 1000
+	};
+}
+
+module.exports = config;
