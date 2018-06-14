@@ -1,33 +1,33 @@
 # Global
-day: 'DE Tag'
-days: 'DE Tage'
-hours: 'DE Stunden'
-minutes: 'DE Minuten'
-seconds: 'DE Sekunden'
+day: 'Tag'
+days: 'Tage'
+hours: 'Stunden'
+minutes: 'Minuten'
+seconds: 'Sekunden'
 
 # Share
-share_on: 'Teilen auf:'
+share_on: 'Diese Seite teilen:'
 
 # Header
-header_tagline: 'DE The Internet is in danger. Learn more about how you can save it.'
+header_tagline: 'Das Internet ist in Gefahr, hier lernst du wie du es retten kannst.'
 
 # Article explainer section
-article: 'DE Article'
-article_title: 'DE This will happen on June 20th test'
-article_content: 'DE On 20 June, the European Parliament will vote on the Copyright Directive. Members of the parliament are the only ones that can stand in the way of bad copyright legislation. test'
+article: 'Artikel'
+article_title: 'Was passiert am 20. Juni?'
+article_content: 'Am 20. Juni stimmt der Rechtsausschuss des EU-Parlaments über die geplante Urheberrechts-Richtlinie ab. Die Einzigen, die jetzt noch dieses fatale Gesetz stoppen können, sind die EU-Abgeordneten!'
 
 # Article row section start
-article_reddit_title: 'DE No more platforms for'
-article_reddit_title_highlight: discussion
-article_reddit_content: 'DE Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.<br><br>Magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo duo dolores.'
+article_reddit_title: 'Kein Raum mehr für'
+article_reddit_title_highlight: Diskussionen
+article_reddit_content: 'Die freie Meinungsbildung auf Plattformen wie Facebook, twitter oder reddit wird zensiert, indem Uploadfilter darüber bestimmen, was gezeigt wird, und was nicht. Nein zur Zensur!'
 
-article_link_title: 'DE No more'
-article_link_title_highlight: links
-article_link_content: 'DE Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.<br><br>Magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo duo dolores.'
+article_link_title: 'Keine'
+article_link_title_highlight: Links
+article_link_content: 'Presseverlage werden künftig verpflichtet alle Links, die jemand auf ihre Inhalte setzt, in Rechnung zu stellen. Wikipedia und Nachrichtenportale werden so zunichte gemacht. Nein zur Link-Steuer!'
 
-article_pepe_title: 'DE No more'
-article_pepe_title_highlight: memes
-article_pepe_content: 'DE Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.<br><br>Magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo duo dolores.'
+article_pepe_title: 'Keine'
+article_pepe_title_highlight: Memes
+article_pepe_content: 'Die Uploadfilter bedeuten auch den Tod der Meme-Kultur. Urheberrechtlich geschütztes Material kann nicht mehr ohne kostenpflichtige Lizenzen verbreitet werden. Rettet unsere Meme-Kultur!'
 # Article row section end
 
 # Typewriter section
@@ -36,46 +36,46 @@ typewriter_2: 'your'
 typewriter_3: 'the'
 
 # Countdown section
-countdown_title: 'DE Time is running out'
-countdown_description1: 'DE Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
-countdown_description2: 'DE 2 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+countdown_title: 'Die Zeit wird knapp'
+countdown_description1: 'Die Abstimmung im EU-Parlament findet schon in wenigen Tagen statt! Daher müssen wir SOFORT handeln um die Abgeordneten umzustimmen. Im zuständigen Ausschuss besteht grade nur eine knappe Mehrheit von einer Stimme für den Vorschlag.'
+countdown_description2: ''
 countdown_until: 'DE Countdown until the Legal Committee of the European Parliament discusses Article 13'
 countdown_expired: 'DE The EU is currently debating'
 
 # What-do row
-what_do_title: 'DE This is what you can do test'
+what_do_title: 'Was kannst du tun?'
 
 # What-do row section start
-what_do_share: 'DE Share this page test'
-what_do_share_content: 'DE Lorem ipsum dolor sit amet, conse magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.'
+what_do_share: 'Rede mit anderen darüber! Teile diese Seite!'
+what_do_share_content: 'Nur wenn möglichst viele Leute Bescheid wissen, können wir Druck auf das Parlament ausüben. Unterzeichne unsere Petition! ### Link zur Petition ###'
 
-what_do_mail: 'DE Mail your MEP test'
-what_do_mail_content: 'DE Lorem ipsum dolor sit amet, conse magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.'
+what_do_mail: 'Schreib deinem Abgeordneten!'
+what_do_mail_content: 'Du kannst deinem EU-Abgeordneten eine E-Mail schreiben, um ihn darauf aufmerksam zu machen, dass du mit dem Gesetzesvorhaben nicht einverstanden bist. Alle nötigen Mailadressen und eine vorgefertigte Nachricht findest du Hier: ### Link einfügen'
 
 what_do_call: 'DE Call your MEP test'
-what_do_call_content: 'DE Lorem ipsum dolor sit amet, conse magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.'
+what_do_call_content: 'Wenn dir eine Mail zu unpersönlich ist, kannst du deinen Abgeordneten auch einfach anrufen und so ganz direkt versuchen ihn umzustimmen. Die Telefonnummer findest du hier: ### Link einfügen'
 # What-do row section end
 
 # Graphic box section
-graphic_box_title: 'DE Lorem Ipsum test'
-graphic_box_content1: 'DE 1 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
-graphic_box_content2: 'DE 2 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+graphic_box_title: 'Artikel 11 im Detail:'
+graphic_box_content1: |
+    Im Leistungsschutzrecht (Artikel 11) wird festgelegt, dass zukünftig Inhalte bestimmter Informationsanbieter einem konkretisierten Presserecht unterliegen. Dies bedeutet, dass schon zitierte Texte als Urheberrechtsverstoß deklariert werden könnten. Ein großer Teil der Anbieter von Nachrichten im Netz wird davon betroffen sein, da so die Verwendung von externen Links und Verweisen eingeschränkt bzw. kostenpflichtig wird.
+    Hiervon sind auch Seiten wie Wikipedia, Stackoverflow und freie Blogger betroffen.
+graphic_box_content2: |
+    Artikel 11 hat nicht nur Auswirkungen auf das Internet:
+
+    Auch die Forschung und der Fortschritt leiden unter Artikel 11. Künftig soll es Nutzern, wie unabhängigen Forschern, Journalisten, Privatpersonen und diversen Firmen vorenthalten werden, Text und Data-Mining zu betreiben. Dies hat einen verlangsamenden Effekt auf diverse Entdeckungen des öffentlichen Interesses zur Folge.
 
 # Image-split section
-image_split_title: 'DE Lorem Ipsum dolor test'
-image_split_content: 'DE Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+image_split_title: 'Artikel 13 im Detail'
+image_split_content: 'Artikel 13 verlangt in der Praxis, dass fast alle Internetplattformen einen "Filterroboter" installieren, welcher automatisch alle hochgeladenen Inhalte überprüft. Dadurch wird die freie Meinungsäußerung übermäßig eingeschränkt, bevor überhaupt davon Gebrauch gemacht werden kann. Entscheidung über die Zensur von Inhalten wird fehleranfälligen und überempfindlichen Algorithmen (die so programmiert sind, dass sie "auf Nummer sicher gehen" und alles löschen, was im Zweifel ein Risiko für die Plattform darstellt) überlassen.'
 
 # Petition section
-petition_title: 'DE Censorship? I''m out! test'
-petition_content1: 'DE Give us your voice! Together we are strong!'
-petition_content2: 'DE We have created a petition to hand in and stop article 13.'
-petition_button: 'DE Visit Petition test'
-
-# Video section
-consent_title: 'DE Please consent test'
-consent_content: 'DE Please consent test'
-consent_confirm: 'DE I consent'
+petition_title: 'Zensur? Nicht mit mir!'
+petition_content1: 'Unterstütze uns mit deiner Stimme! Nur zusammen sind wir stark! '
+petition_content2: 'Aus diesem Grund haben wir eine Petition erstellt, um gegen Artikel 11 und 13 vorzugehen!'
+petition_button: 'Besuche die Petition'
 
 # Footer section
-imprint_link: 'DE Imprint'
-privacy_link: 'DE Privacy Policies'
+imprint_link: 'Impressum'
+privacy_link: 'Datenschutzerklärung'
