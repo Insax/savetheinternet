@@ -6,102 +6,33 @@
     <!--<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"> <a class="navbar-brand" href="{{ path('index') }}">{% trans %}Save the Internet!{% endtrans %}</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="navbarsExampleDefault"> <ul class="navbar-nav mr-auto"> <li class="nav-item active"> <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a> </li> <li class="my-2 my-lg-0 dropdown"> <a class="nav-link dropdown-toggle" id="language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{% trans %}Language{% endtrans %}</a> <div class="dropdown-menu" aria-labelledby="language"> {% for locale in locales %} <a class="dropdown-item" href="{{ path(app.request.attributes.get('_route'), app.request.attributes.get('_route_params')|merge({'_locale': locale})) }}">{{ locale|trans }}</a> {% endfor %} </div> </li> </ul> </div> </nav>-->
 
     <!-- Header -->
-    {% include 'index/header.html.twig' %}
-    <!-- Article 13 section -->
-    <div class="container article-thirteen">
-        <div class="row">
-            <div class="col-lg-7 col-12">
-                <div class="header">
-                    <h2 class="title">
-                        <span>Article</span>&nbsp;<span class="highlight">13</span></h2>
-                    <p class="tagline">This will happen on June 20th</p>
-                    <p class="explainer">
-                        On 20 June, the European Parliament will vote on the Copyright Directive. Members of the parliament are the only ones that can stand in the way of bad copyright legislation.</p>
-                </div>
-            </div>
-        </div>
+    {% include 'index/components/header.html.twig' %}
 
-        <div class="row content-pair d-flex">
-            <div class="col-lg-4 col-12 box-wrapper d-flex">
-                <div class="box box-reddit d-flex">
-                    <img src="{{ asset('build/static/reddit.png') }}">
-                </div>
-            </div>
-            <div class="col-lg-6 col-12 text">
-                <h3 class="title">No more platforms for
-                    <span class="highlight">discussion</span></h3>
-                <p class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.<br><br>Magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo duo dolores.</p>
-            </div>
-        </div>
-        <div class="row content-pair d-flex">
-            <div class="col-lg-4 col-12 box-wrapper d-flex">
-                <div class="box box-link d-flex">
-                    <img src="{{ asset('build/static/link.png') }}">
-                </div>
-            </div>
-            <div class="col-lg-6 col-12 text">
-                <h3 class="title">No more
-                    <span class="highlight">links</span></h3>
-                <p class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.</p>
-            </div>
-        </div>
-        <div class="row content-pair d-flex">
-            <div class="col-lg-4 col-12 box-wrapper d-flex">
-                <div class="box box-pepe d-flex">
-                    <img src="{{ asset('build/static/pepe.png') }}">
-                </div>
-            </div>
-            <div class="col-lg-6 col-12 text">
-                <h3 class="title">No more
-                    <span class="highlight">memes</span></h3>
-                <p class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.<br><br>Aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.</p>
-            </div>
-        </div>
-    </div>
+    <!-- Article 13 section -->
+    {% include 'index/components/article-thirteen.html.twig' %}
+
+    <!-- Countdown section -->
+    {% include 'index/components/countdown.html.twig' %}
 
     <!-- What you can do section -->
-    <div class="container what-do">
-        <div class="row">
-            <div class="col-12">
-                <h1>This is what you can do</h1>
-            </div>
-        </div>
+    {% include 'index/components/what-do.html.twig' %}
 
-        <div class="row icon-pair d-flex">
-            <div class="col-3 col-lg-2 icon d-flex">
-                <img src="{{ asset('build/static/share.png') }}">
-            </div>
-            <div class="col-9 col-sm-7 text">
-                <h2 class="title">Share this page</h2>
-                <p class="content">Lorem ipsum dolor sit amet, conse magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.</p>
-            </div>
-            <div class="col-3 icon d-none d-sm-block"></div>
-        </div>
+    <!-- Petition section -->
+    {% include 'index/components/petition.html.twig' %}
 
-        <div class="row icon-pair d-flex">
-            <div class="col-3 col-lg-2 icon d-flex">
-                <img class="d-sm-none" src="{{ asset('build/static/mail.png') }}">
-            </div>
-            <div class="col-9 col-sm-7 text">
-                <h2 class="title">Mail your MEP</h2>
-                <p class="content">Lorem ipsum dolor sit amet, consetetur saded diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.</p>
-            </div>
-            <div class="col-sm-3 d-none d-sm-block icon">
-                <img src="{{ asset('build/static/mail.png') }}">
-            </div>
-        </div>
+    <!-- Video section -->
+    {% include 'index/components/video.html.twig' %}
 
-        <div class="row icon-pair d-flex">
-            <div class="col-3 col-lg-2 icon d-flex">
-                <img src="{{ asset('build/static/phone.png') }}">
-            </div>
-            <div class="col-9 col-sm-7 text">
-                <h2 class="title">Call your MEP</h2>
-                <p class="content">Ipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.</p>
-            </div>
-            <div class="col-3 icon d-none d-sm-block"></div>
-        </div>
+    <!-- Twitter section -->
+    {% include 'index/components/twitter.html.twig' %}
 
-    </div>
+    <!-- More section -->
+    {% include 'index/components/more.html.twig' %}
+
+    <!-- List of Videos section -->
+    {% include 'index/components/video-list.html.twig' %}
+
+    <!-- Footer -->
+    {% include 'index/components/footer.html.twig' %}
 
 {% endblock %}
