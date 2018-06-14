@@ -2,6 +2,7 @@
   position: absolute;
   top: 0;
   right: 0;
+  margin-top: 13px;
   margin-right: 20px;
   cursor: pointer;
   list-style: none;
@@ -13,8 +14,8 @@
 }
 
 #langcontainer li span {
-  width: 26px;
-  height: 26px;
+  width: 25px;
+  height: 25px;
   filter: grayscale(70%);
   transition: all 0.5s ease;
 }
