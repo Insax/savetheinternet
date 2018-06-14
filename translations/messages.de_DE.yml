@@ -1,19 +1,77 @@
-'Save the Internet!': 'Rette das Internet!'
-'Language': 'Sprache'
+# Global
+day: 'DE Tag'
+days: 'DE Tage'
+hours: 'DE Stunden'
+minutes: 'DE Minuten'
+seconds: 'DE Sekunden'
 
-'Days': 'Tage'
-'Hours': 'Stunden'
-'Minutes': 'Minuten'
-'Seconds': 'Sekunden'
-'Countdown until the Legal Committee of the European Parliament discusses Article 13': 'Countdown bis der Rechtsausschuss des EU Parlaments über das Leistungsschutzgesetz abstimmt'
-'The EU is currently debating': 'Es wird gerade abgestimmt'
+# Header
+header_tagline: 'DE The Internet is in danger. Learn more about how you can save it.'
 
-'Censorship? I''m out!': 'Zensur? Nicht mit mir!'
-'Give us your voice! Together we are strong!': 'Unterstütze uns mit deiner Unterschrift! Denn zusammen sind wir stark!'
-'We have created a petition to hand in and stop article 13.': 'Wir haben eine Petition erstellt um Artikel 13 zu stoppen.'
-'Visit Petition': 'Zur Petition'
+# Article explainer section
+article: 'DE Article'
+article_title: 'DE This will happen on June 20th test'
+article_content: 'DE On 20 June, the European Parliament will vote on the Copyright Directive. Members of the parliament are the only ones that can stand in the way of bad copyright legislation. test'
 
-'TypewriterFirst': 'Deutscher Typewritertext 1'
-'TypewriterSecond': 'Deutscher Typewritertext 2'
-'de_DE': 'Deutsch'
-'en_US': 'Englisch'
+# Article row section start
+article_reddit_title: 'DE No more platforms for'
+article_reddit_title_highlight: discussion
+article_reddit_content: 'DE Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.<br><br>Magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo duo dolores.'
+
+article_link_title: 'DE No more'
+article_link_title_highlight: links
+article_link_content: 'DE Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.<br><br>Magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo duo dolores.'
+
+article_pepe_title: 'DE No more'
+article_pepe_title_highlight: memes
+article_pepe_content: 'DE Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.<br><br>Magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo duo dolores.'
+# Article row section end
+
+# Typewriter section
+typewriter_1: 'DE Typewritertext 1 test'
+typewriter_2: 'DE Typewritertext 2 test'
+
+# Countdown section
+countdown_title: 'DE Time is running out'
+countdown_description1: 'DE Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+countdown_description2: 'DE 2 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+countdown_until: 'DE Countdown until the Legal Committee of the European Parliament discusses Article 13'
+countdown_expired: 'DE The EU is currently debating'
+
+# What-do row
+what_do_title: 'DE This is what you can do test'
+
+# What-do row section start
+what_do_share: 'DE Share this page test'
+what_do_share_content: 'DE Lorem ipsum dolor sit amet, conse magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.'
+
+what_do_mail: 'DE Mail your MEP test'
+what_do_mail_content: 'DE Lorem ipsum dolor sit amet, conse magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.'
+
+what_do_call: 'DE Call your MEP test'
+what_do_call_content: 'DE Lorem ipsum dolor sit amet, conse magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.'
+# What-do row section end
+
+# Graphic box section
+graphic_box_title: 'DE Lorem Ipsum test'
+graphic_box_content1: 'DE 1 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+graphic_box_content2: 'DE 2 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+
+# Image-split section
+image_split_title: 'DE Lorem Ipsum dolor test'
+image_split_content: 'DE Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+
+# Petition section
+petition_title: 'DE Censorship? I''m out! test'
+petition_content1: 'DE Give us your voice! Together we are strong!'
+petition_content2: 'DE We have created a petition to hand in and stop article 13.'
+petition_button: 'DE Visit Petition test'
+
+# Video section
+consent_title: 'DE Please consent test'
+consent_content: 'DE Please consent test'
+consent_confirm: 'DE I consent'
+
+# Footer section
+imprint_link: 'DE Imprint'
+privacy_link: 'DE Privacy Policies'
