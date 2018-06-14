@@ -1,51 +1,33 @@
-input {
-  display: none;
-}
-
-label {
-  cursor: pointer;
-  background: none;
-  width: 100px;
-  border: 1px solid white;
-  border-radius: 3px;
-  padding: 8px 10px;
-  color: #fff;
-  line-height: 20px;
-  font-size: 12px;
-  text-align: center;
-  -webkit-font-smoothing: antialiased;
-  -webkit-transition: background-color 0.3s, color 0.3s;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -ms-user-select: none;
-  &:hover {
-    color: black;
-    background-color: white;
-  }
-}
-
-#lang {
-  position: fixed;
-  margin-bottom: 20px;
-}
-
-#langcontainer {
-  -webkit-transition: height .3s ease;
-  height: 0;
-  overflow: hidden;
-  width: 100px;
-}
-
 #langcontainer ul {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 13px;
+  margin-right: 20px;
   cursor: pointer;
   list-style: none;
-  padding-left: 0px;
-}
-#langcontainer li {
-  display: inline-block;
 }
 
-input:checked + #langcontainer {
-  height: 50px;
+#langcontainer li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+#langcontainer li span {
+  width: 25px;
+  height: 25px;
+  animation-name: fade-in;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+  filter: grayscale(70%);
+  transition: all 0.5s ease;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
+#langcontainer li span:hover {
+  filter: grayscale(0%);
 }

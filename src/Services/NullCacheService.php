@@ -40,4 +40,23 @@ class NullCacheService implements CacheServiceInterface
 
         return $found;
     }
+
+    public function flush(): void
+    {
+        $this->content = [];
+    }
+
+    public function deleteWildcard(string $key): void
+    {
+        $hasWildCard = strpos($key, '*');
+        foreach ($this->content as $iKey => $iValue) {
+            if ($key === $iKey) {
+                unset($this->content[$iKey]);
+            }
+
+            if ($hasWildCard !== false && strpos($iKey, substr($key, 0, -1)) !== false) {
+                unset($this->content[$iKey]);
+            }
+        }
+    }
 }

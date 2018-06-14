@@ -1,29 +1,41 @@
 @import "../../variables";
 
 .section-what-do {
-  margin-top: $vertical-space;
-  padding-bottom: 5rem;
+    margin-bottom: $vertical-space;
 
-  .icon-pair {
-    margin-bottom: 25px;
-    align-items: center;
-
-    .icon {
-      justify-content: center;
-      opacity: 0.9;
-      img {
-        width: 120px;
-        height: 120px;
-      }
+    .heading {
+        margin-bottom: 15px;
     }
 
-    .text {
-      .title {
-        margin: 0 0 5px 0;
-      }
-      .content {
-        margin: 0;
-      }
+    .icon-pair {
+        margin-bottom: 25px;
+        align-items: center;
+
+        .icon {
+            justify-content: center;
+            opacity: 0.9;
+            img {
+                width: 90px;
+                height: 90px;
+
+                @include media-breakpoint-only(sm) {
+                    width: 80px;
+                    height: 80px;
+                }
+                @include media-breakpoint-down(xs) {
+                    width: 70px;
+                    height: 70px;
+                }
+            }
+        }
+
+        .text {
+            .title {
+                margin: 0 0 5px 0;
+            }
+            .content {
+                margin: 0;
+            }
+        }
     }
-  }
 }

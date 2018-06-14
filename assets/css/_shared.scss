@@ -1,49 +1,52 @@
 @import "variables";
 @import "shared/langpicker";
+@import "shared/sharebuttons";
+@import "shared/footer";
+@import "shared/typewriter";
+@import "shared/video-player";
 
-body {
-  padding-top: 50px;
-  font-family: 'Raleway', sans-serif;
+html {
+    height: 100vh;
 }
 
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
+body {
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 b,
 strong {
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 
 * {
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
 }
 
 *:focus {
-  outline: none !important;
+    outline: none !important;
 }
 
 html,
 body {
-  box-sizing: border-box;
-  font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif;
-  font-weight: 400;
-  margin: 0;
-  height: auto;
-  min-height: 100vh;
-  color: $text;
-  background-color: $background;
-}
-
-body {
-  padding-bottom: 5rem;
+    box-sizing: border-box;
+    font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    height: auto;
+    min-height: 100vh;
+    color: $text;
+    background-color: $background;
 }
 
 a {
-  outline: none !important;
+    outline: none !important;
 }
 
 h1,
@@ -52,5 +55,28 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 500;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+
+.btn {
+    padding: 10px;
+    border: 1px solid $text;
+    color: $text_invert;
+    cursor: pointer;
+
+    &.btn-light {
+        color: $text_invert;
+        background: $background_invert;
+        border-color: $text_invert;
+    }
+}
+
+* {
+    letter-spacing: 0.04em;
+}
+
+.flex-grow {
+    flex-grow: 1;
 }

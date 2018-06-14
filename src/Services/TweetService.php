@@ -47,6 +47,8 @@ class TweetService
             return;
         }
 
+        $this->deleteAllTweets();
+
         $result = $this->twitterOAuth->get('search/tweets', ['q' => '%23savetheinternet', 'count' => 100]);
 
         foreach ($result->statuses as $tweet) {
@@ -82,5 +84,10 @@ class TweetService
         }
 
         return $tweets;
+    }
+
+    public function deleteAllTweets(): void
+    {
+        $this->cache->deleteWildcard('tweet_*');
     }
 }

@@ -1,13 +1,13 @@
 @import "~bootstrap/scss/bootstrap-grid";
 @import "raleway";
 
-$background: #212121;
-$background_invert: #fbfbfb;
-$text: #fbfbfb;
-$text_invert: #212121;
-$accent1: #b9d6f2;
-$accent2: #ffbf00;
-//$accent1: #1CD0CA;
-//$accent2: #E2002B;
+$background: #12233f;
+$text: #fafafa;
+$accent1: #ffbf00;
+$accent2: #142E4D;
+$accent3: #b9d6f2;
 
-$vertical-space: 50px;
+$text_invert: $background;
+$background_invert: $text;
+
+$vertical-space: 100px;

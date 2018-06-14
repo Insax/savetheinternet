@@ -1,0 +1,46 @@
+@import "../variables";
+
+.section-footer {
+    width: 100%;
+    font-size: 0.7em;
+    padding: 0 1rem;
+    background-color: darken($background, 3);
+    display: flex;
+    margin-top: 3rem;
+
+    a {
+        color: $accent1;
+        text-decoration: none;
+
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+
+    .copyright {
+        padding: 1rem 2rem;
+    }
+
+    .social {
+        margin: 0 1rem;
+
+        a {
+            display: inline-block;
+            margin: 1rem;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .section-footer .copyright p {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .section-footer {
+        flex-direction: column;
+    }
+}
