@@ -1,88 +1,89 @@
 @import "../variables";
 
 .section-footer {
-  width: 100%;
-  display: inline-block;
-  margin-top: 40px;
-  height: 70px;
-  background-color: darken($background, 3);
-  max-width: 100%;
-  width: 100%;
-  position: absolute;
-  left: 0;
+    width: 100%;
+    display: inline-block;
+    background-color: darken($background, 3);
+    max-width: 100%;
+    position: absolute;
+    left: 0;
 }
 
 .section-footer a {
-  color: $accent1;
-  text-decoration: none;
+    color: $accent1;
+    text-decoration: none;
 }
 
 .section-footer a:hover {
-  color: #fff;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 .section-footer .copyright {
-  width: 50%;
-  float: left;
+    width: 50%;
+    float: left;
 }
 
 @media (max-width: 600px) {
-  .section-footer .copyright {
-    width: 100%;
-  }
+    .section-footer .copyright {
+        width: 100%;
+    }
 }
 
 .section-footer .copyright p {
-  padding-left: 10%;
-  color: white;
-  font-size: 0.7em;
-  line-height: 70px;
-  text-transform: capitalize;
-  letter-spacing: 1px;
+    padding-left: 15px;
+    color: white;
+    font-size: 0.7em;
+    text-transform: capitalize;
+    letter-spacing: 1px;
 }
 
 @media (max-width: 600px) {
-  .section-footer .copyright p {
-    text-align: center;
-    padding: 0;
-  }
+    .section-footer .copyright p {
+        text-align: center;
+        padding: 0;
+    }
 }
 
 .section-footer .social {
-  width: 50%;
-  float: right;
+    width: 50%;
+    float: right;
 }
 
 @media (max-width: 600px) {
-  .section-footer .social {
-    width: 100%;
-  }
+    .section-footer .social {
+        width: 100%;
+    }
 }
 
 .section-footer .social a {
-  float: left;
-  line-height: 70px;
-  text-decoration: none;
-  color: white;
-  text-align: center;
-  font-weight: bold;
-  -moz-transition: all, 0.3s;
-  -o-transition: all, 0.3s;
-  -webkit-transition: all, 0.3s;
-  transition: all, 0.3s;
+    float: left;
+    padding: 8px 5px;
+    line-height: 1.2em;
+    text-decoration: none;
+    color: transparentize($text, 0.4);
+    text-align: center;
+    font-size: 1em;
+    -moz-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    -webkit-transition: all, 0.3s;
+    transition: all, 0.3s;
 }
 
 .section-footer .social a:hover {
-  background-color: #222;
-  -moz-transition: all, 0.3s;
-  -o-transition: all, 0.3s;
-  -webkit-transition: all, 0.3s;
-  transition: all, 0.3s;
+    background-color: #222;
+    -moz-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    -webkit-transition: all, 0.3s;
+    transition: all, 0.3s;
 }
 
 .footer-imprint, .footer-privacy, .footer-github {
-  background-color: darken($background, 5);
-  font-size: 1.2em;
-  width: 20%;
+    font-size: 1.2em;
+    min-width: 20%;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
 }

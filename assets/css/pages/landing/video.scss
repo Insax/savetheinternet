@@ -1,15 +1,16 @@
 @import "../../variables";
 
 .section-video {
-  margin-top: $vertical-space;
-  margin-bottom: $vertical-space;
+    padding-top: 20px;
+    margin-top: $vertical-space;
+    margin-bottom: $vertical-space;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  .vimeo-video {
-    max-width: 800px;
-    width: 100%;
-    height: auto;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .vimeo-video {
+        max-width: 800px;
+        width: 100%;
+        height: auto;
+    }
 }
