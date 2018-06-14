@@ -47,10 +47,10 @@
     }
 
     .text {
-      @include media-breakpoint-down(md) {
-        margin-top: 15px;
-        margin-bottom: 50px;
-      }
+        @include media-breakpoint-down(md) {
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
 
       .title {
         margin: 0 0 5px 0;
@@ -66,15 +66,15 @@
         margin: 0;
       }
     }
-  }
 
-  .box-reddit {
-    //background-color: #57fbbc;
-  }
-  .box-link {
-    //background-color: #62d1fd;
-  }
-  .box-pepe {
-    //background-color: #ff817c;
-  }
+    .box-reddit {
+        //background-color: #57fbbc;
+    }
+    .box-link {
+        //background-color: #62d1fd;
+    }
+    .box-pepe {
+        //background-color: #ff817c;
+    }
+}
 }

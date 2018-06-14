@@ -1,8 +1,11 @@
 @import "../../variables";
 
 .section-what-do {
-    margin-top: $vertical-space;
-    padding-bottom: 5rem;
+    margin-bottom: $vertical-space;
+
+    .heading {
+        margin-bottom: 15px;
+    }
 
     .icon-pair {
         margin-bottom: 25px;
