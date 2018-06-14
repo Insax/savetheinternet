@@ -24,8 +24,15 @@ class AvailableLocalesSubscriber implements EventSubscriberInterface
 
     public function onKernelRequest(GetResponseEvent $event)
     {
-        $this->twig_Environment->addGlobal('locales', getAvailableLanguages());
+        $languages = getAvailableLanguages();
+        $this->twig_Environment->addGlobal('locales', $languages);
 
+        $codes = [];
+        foreach ($languages as $language) {
+            $parts = explode('_', $language);
+            $codes[$language] = $parts;
+        }
+        $this->twig_Environment->addGlobal('localeCodes', $languages);
     }
 
     public static function getSubscribedEvents()
