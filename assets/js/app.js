@@ -1,6 +1,8 @@
+"use strict";
 import 'bootstrap';
 import ResponsiveVideo from './components/responsive-video';
 import Typed from 'typed.js';
+import moment from 'moment';
 
 //Comment für @Inf4m0u5
 // (function () {
@@ -8,6 +10,8 @@ import Typed from 'typed.js';
 // 	var t = Typed;
 // 	debugger;
 // })();
+
+window.moment = moment;
 
 (function($) {
 	new ResponsiveVideo('.responsive-video').activate();
