@@ -14,14 +14,14 @@
     .body {
         .btn-petition {
             padding: 15px 30px;
-            background: $gold_primary;
-            color: $gray_primary;
+            background: $accent1;
+            color: $background;
             text-decoration: none;
             border-radius: 25px;
         }
 
         .btn-petition:hover {
-            background: lighten($gold_primary, 10);
+            background: lighten($accent1, 10);
         }
 
         .description {

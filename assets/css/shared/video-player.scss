@@ -1,0 +1,28 @@
+@import "~video.js/src/css/vjs";
+@import "../variables";
+
+.video-player {
+    margin-top: $vertical-space;
+    margin-bottom: $vertical-space;
+    //display: flex;
+    .video-js {
+        max-width: 100%;
+        width: auto !important;
+
+        @include media-breakpoint-up(xl) {
+            height: 625px;
+        }
+        @include media-breakpoint-only(lg) {
+            height: 525px;
+        }
+        @include media-breakpoint-only(md) {
+            height: 390px;
+        }
+        @include media-breakpoint-only(sm) {
+            height: 285px;
+        }
+        @include media-breakpoint-only(xs) {
+            height: 280px;
+        }
+    }
+}
