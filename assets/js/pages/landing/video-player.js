@@ -1,2 +1,2 @@
 import videojs from 'video.js';
-videojs('video');
+if (document.getElementById('video')) videojs('video');
