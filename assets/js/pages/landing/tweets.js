@@ -87,6 +87,7 @@ function updateTweets() {
         });
 
         let inserted = 0;
+		data = data.slice(0, 6);
         data.forEach(function(element) {
             if(!contains(element.id) && inserted < 1)
             {
@@ -94,6 +95,8 @@ function updateTweets() {
                 $('#tweets').prepend(makeTemplate(element));
             }
         });
+		if($('#tweets').children().length > 6)
+        	$('#tweets').children().last().remove();
         checkBlacks();
     });
 }
