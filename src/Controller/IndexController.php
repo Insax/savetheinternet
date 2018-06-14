@@ -36,12 +36,21 @@ class IndexController extends Controller
     }
 
     /**
-     * @Route("/imprint", name="imprint")
+     * @param string $_locale
      * @return Response
      */
-    public function imprint(): Response
+    public function imprint(string $_locale): Response
     {
         return $this->render('imprint/index.html.twig');
+    }
+
+    /**
+     * @param string $_locale
+     * @return Response
+     */
+    public function privacy(string $_locale): Response
+    {
+        return $this->render('privacy/index.html.twig');
     }
 
     /**

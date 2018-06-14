@@ -1,14 +1,7 @@
-.typewriter-wrapper {
-    margin-bottom: 70px;
-    .typewriter {
-        font-weight: 500;
-        font-size: 1.5em;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    span#typed {
-
-    }
+#typed {
+    margin-left: -10px;
+    font-weight: 300;
+}
+.typed-cursor {
+    font-weight: 200;
 }

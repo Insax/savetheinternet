@@ -2,7 +2,9 @@ function countdown() {
 
     const countDownDate = new Date("Jun 20, 2018 00:00:00").getTime();
 
-    const containerRoot = document.getElementsByClassName("countdown")[0];
+    const countdownElements = document.getElementsByClassName("countdown");
+    if (countdownElements.length == 0) return;
+    const containerRoot = countdownElements[0];
 
     // Get todays date and time
     const now = new Date().getTime();
