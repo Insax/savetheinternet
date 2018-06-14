@@ -29,4 +29,13 @@ Encore
     .autoProvidejQuery()
 ;
 
-module.exports = Encore.getWebpackConfig();
+let config = Encore.getWebpackConfig();
+
+if(process.env.DOCKER) {
+	config.watchOptions = {
+		aggregateTimeout: 300,
+		poll: 1000
+	};
+}
+
+module.exports = config;
