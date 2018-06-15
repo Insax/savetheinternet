@@ -94,6 +94,7 @@ class IndexController extends Controller
         exec('cd ' . __DIR__ . '/../../; composer install');
         exec('cd ' . __DIR__ . '/../../; yarn install');
         exec('cd ' . __DIR__ . '/../../; yarn run build');
+        exec('cd ' . __DIR__ . '/../../; php bin/console cache:clear');
 
         return new Response();
     }
