@@ -24,7 +24,7 @@ article_reddit_content: 'Upload-Filter auf Seiten wie YouTube, Facebook und Co. 
 
 article_link_title: 'Keine'
 article_link_title_highlight: Links
-article_link_content: 'Presseverlage werden künftig verpflichtet alle Links, die jemand auf ihre Inhalte setzt, in Rechnung zu stellen. Wikipedia und Nachrichtenportale werden so zunichte gemacht. Nein zur Link-Steuer!'
+article_link_content: 'Presseverlage werden künftig verpflichtet alle Links, die jemand auf ihre Inhalte setzt, in Rechnung zu stellen. Nachrichtenportale werden so zunichte gemacht. Nein zur Link-Steuer!'
 
 article_pepe_title: 'Keine'
 article_pepe_title_highlight: Memes
@@ -68,7 +68,6 @@ graphic_box_content1: |
 graphic_box_title2: 'Artikel 11 im Detail'
 graphic_box_content2: |
     Im Leistungsschutzrecht (Artikel 11) wird festgelegt, dass zukünftig Inhalte bestimmter Informationsanbieter einem konkretisierten Presserecht unterliegen. Dies bedeutet, dass schon zitierte Texte als Urheberrechtsverstoß deklariert werden könnten. Ein großer Teil der Anbieter von Nachrichten im Netz wird davon betroffen sein, da so die Verwendung von externen Links und Verweisen eingeschränkt bzw. kostenpflichtig wird.
-    Hiervon sind auch Seiten wie Wikipedia, Stackoverflow und freie Blogger betroffen.
 
 # Image-split section
 image_split_title: 'Artikel 11 hat nicht nur Auswirkungen auf das Internet'
