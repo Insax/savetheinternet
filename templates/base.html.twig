@@ -49,13 +49,13 @@
 
     <title>{% block title %}Welcome!{% endblock %}</title>
     {% block stylesheets %}
-        <link rel="stylesheet" href="{{ asset('build/css/app.css') }}">
+        <link rel="stylesheet" href="{{ preload(asset('build/css/app.css'), { as: 'style' }) }}">
     {% endblock %}
 </head>
 <body>
 {% block body %}{% endblock %}
 {% block javascripts %}
-    <script src="{{ asset('build/js/app.js') }}"></script>
+    <script src="{{ preload(asset('build/js/app.js')) }}"></script>
 {% endblock %}
 </body>
 </html>
