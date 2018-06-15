@@ -29,30 +29,35 @@ class IndexController extends Controller
     }
 
     /**
-     * @param string $_locale
      * @return Response
      */
-    public function index(string $_locale): Response
+    public function index(): Response
     {
         return $this->render('index/index.html.twig');
     }
 
     /**
-     * @param string $_locale
      * @return Response
      */
-    public function imprint(string $_locale): Response
+    public function imprint(): Response
     {
         return $this->render('imprint/index.html.twig');
     }
 
     /**
-     * @param string $_locale
      * @return Response
      */
-    public function privacy(string $_locale): Response
+    public function privacy(): Response
     {
         return $this->render('privacy/index.html.twig');
+    }
+
+    /**
+     * @return Response
+     */
+    public function about(): Response
+    {
+        return $this->render('about/index.html.twig');
     }
 
     /**

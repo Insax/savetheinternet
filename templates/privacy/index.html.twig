@@ -3,9 +3,14 @@
 {% block title %}Privacy Policies | Save the Internet{% endblock %}
 
 {% block body %}
+    {% include 'shared/langpicker.html.twig' %}
+
+    <!-- Share buttons -->
+    {% include 'shared/sharebuttons.html.twig' %}
+
     <!-- Header -->
     {% include 'shared/header.html.twig' %}
-    
+
     <!-- content -->
     {% include 'privacy/components/content.html.twig' %}
 

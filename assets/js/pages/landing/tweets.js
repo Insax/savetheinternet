@@ -1,4 +1,5 @@
 function makeTemplate(element){
+    moment.locale(window.location.pathname === '/' ? 'en' : window.location.pathname.substring(1,3));
     return '<div class="post-container" id="' + element.id + '">'+
            '<div class="post-left">'+
            '<img class="profile-pic" src="' + element.user.profile_image_url_https + '" />'+
