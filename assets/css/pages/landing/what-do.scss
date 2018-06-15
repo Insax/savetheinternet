@@ -35,6 +35,10 @@
             }
             .content {
                 margin: 0;
+                .highlight {
+                    text-decoration: none;
+                    color: $accent1;
+                }
             }
         }
     }
