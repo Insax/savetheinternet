@@ -1,9 +1,9 @@
 # Global
-day: 'day'
-days: 'days'
-hours: 'hours'
-minutes: 'minutes'
-seconds: 'seconds'
+day: 'giornata'
+days: 'giorni'
+hours: 'orari'
+minutes: 'verbale'
+seconds: 'secondi'
 
 # Share
 share_on: 'Share:'
