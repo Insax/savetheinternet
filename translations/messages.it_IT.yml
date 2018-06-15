@@ -5,9 +5,6 @@ hours: 'orari'
 minutes: 'verbale'
 seconds: 'secondi'
 
-# Share
-share_on: 'Share:'
-
 # Header
 header_tagline: "la liberta' su internet e' in pericolo tu puoi salvarla"
 

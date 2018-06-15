@@ -5,9 +5,6 @@ hours: 'Stunden'
 minutes: 'Minuten'
 seconds: 'Sekunden'
 
-# Share
-share_on: 'Teilen:'
-
 # Header
 header_tagline: 'Das Internet ist in Gefahr, und du kannst es retten!'
 
