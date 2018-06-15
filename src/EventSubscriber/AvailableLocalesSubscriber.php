@@ -2,6 +2,7 @@
 
 namespace App\EventSubscriber;
 
+use Abraham\TwitterOAuth\Request;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpKernel\Event\GetResponseEvent;
 
@@ -27,6 +28,9 @@ class AvailableLocalesSubscriber implements EventSubscriberInterface
         $languages = getAvailableLanguages();
         $this->twig_Environment->addGlobal('locales', $languages);
 
+        // detect users language form browser
+        $this->setVisitorLanguage($event, $languages);
+
         $codes = [];
         foreach ($languages as $language) {
             $parts = explode('_', $language);
@@ -40,12 +44,30 @@ class AvailableLocalesSubscriber implements EventSubscriberInterface
     public static function getSubscribedEvents()
     {
         return [
-           'kernel.request' => 'onKernelRequest',
+            'kernel.request' => 'onKernelRequest',
         ];
+    }
+
+    private function setVisitorLanguage(GetResponseEvent $event, array $languages)
+    {
+        // some logic to determine the $locale
+        $request = $event->getRequest();
+        $locale = $request->getLocale(); // browser locale
+
+        if (!is_null($request->query->get('_locale')))
+        {
+            $request->setLocale($request->query->get('_locale'));
+        }
+        elseif (in_array($locale, $languages)) {
+            $request->setLocale($locale);
+        } else {
+            $request->setLocale('en_GB');
+        }
     }
 }
 
-function getAvailableLanguages() {
+function getAvailableLanguages()
+{
     $translationFiles = scandir(__DIR__ . '/../../translations', SCANDIR_SORT_NONE);
 
     $languages = [];
