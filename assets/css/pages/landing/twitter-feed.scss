@@ -21,8 +21,6 @@
         background: #555;
     }
 
-    margin-bottom: $vertical-space;
-
     #tweets {
         @include media-breakpoint-down(sm) {
             margin-top: 35px;
@@ -170,9 +168,5 @@
 
     .post-container a {
         color: #ffffff;
-    }
-
-    .section-twitter {
-        margin-bottom: $vertical-space;
     }
 }

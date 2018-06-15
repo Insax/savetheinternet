@@ -20,20 +20,40 @@
             }
 
             .title {
+                @include media-breakpoint-up(md) {
+                    display: flex;
+                    flex-direction: row;
+                }
+
                 font-weight: bold;
                 letter-spacing: 0;
                 font-size: 5em;
                 color: $background;
                 margin: 0;
-                transform: skew(3deg, 0.5deg);
+                transform: skew(3deg, 0.5deg) translateZ(0);
                 i {
                     letter-spacing: 0;
                     font-style: normal;
                     font-weight: 300;
                 }
+
+                #typed {
+                    font-weight: 300;
+                }
+                .typed-cursor {
+                    font-weight: 200;
+                }
+                .save {
+                    margin-right: 4px;
+                }
+                .internet {
+                    margin-left: -6px;
+                }
+
             }
         }
         .tagline {
+            text-align: center;
             font-weight: 500;
             font-size: 1.5em;
             max-width: 590px;
