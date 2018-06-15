@@ -81,6 +81,9 @@ petition_content2: 'Aus diesem Grund haben wir eine Petition erstellt, um gegen 
 petition_button: 'Besuche die Petition'
 sign_petition: 'Zur Petition'
 
+# gallery section
+gallery_title: 'Gallerie'
+
 # Footer section
 imprint_link: 'Impressum'
 privacy_link: 'Datenschutzerklärung'

@@ -4,6 +4,9 @@ var/
 vendor/
 .vagrant/
 
+.htaccess
+composer.phar
+
 ###> symfony/web-server-bundle ###
 /.web-server-pid
 ###< symfony/web-server-bundle ###

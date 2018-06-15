@@ -25,4 +25,11 @@ $routes->add('privacy', new Route('/privacy', array(
     '_locale' => implode('|', \App\EventSubscriber\getAvailableLanguages()),
 )));
 
+$routes->add('gallery', new Route('/gallery', array(
+    '_controller' => 'App\\Controller\\IndexController::gallery',
+    '_locale' => 'en_GB',
+), array(
+    '_locale' => implode('|', \App\EventSubscriber\getAvailableLanguages()),
+)));
+
 return $routes;
