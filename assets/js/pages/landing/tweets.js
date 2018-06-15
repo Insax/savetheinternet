@@ -83,13 +83,15 @@ function contains(id){
 function updateTweets() {
     $.get("/tweets", function(data) {
         data = data.sort(function(a,b){
-            return a.id - b.id;
+            if(a != null && b != null) {
+              return b.id - a.id;
+            }
         });
 
         let inserted = 0;
 		data = data.slice(0, 6);
         data.forEach(function(element) {
-            if(!contains(element.id) && inserted < 1)
+            if(element !== null && !contains(element.id) && inserted < 1)
             {
                 inserted ++;
                 $('#tweets').prepend(makeTemplate(element));

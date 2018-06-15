@@ -1,0 +1,100 @@
+# Global
+day: 'day'
+days: 'days'
+hours: 'hours'
+minutes: 'minutes'
+seconds: 'seconds'
+
+# Share
+share_on: 'Share:'
+
+# Header
+header_tagline: "la liberta' su internet e' in pericolo tu puoi salvarla"
+
+# Article explainer section
+article: 'Articolo'
+article_title: 'Cosa accadrà il 20 giugno?'
+article_content: "Do 20 giugno, il Comitato Giuridico dei Voti del Parlamento Ue sulla Direttiva sul diritto d'autore. Gli unici che ora possono fermare questa legge fatale sono i membri del Parlamento europeo (MEP)!"
+
+# Article row section start
+article_reddit_title: 'Dittatura di <span class="highlight">algoritmi</span> incline agli errori'
+article_reddit_title_highlight: ''
+article_reddit_content: >
+    Caricare filtri su siti come Youtube, Facebook, ecc Hanno Una cosa in comune: non Saranno mai cosi' accurati come un essere umano. Di conseguenza, i contenuti protetti da diritti d'autore in base a tutti leggi sull'uso legittimo vengono eliminati. Questa "tendenza" può essere sfruttata per filtrare contenuti non in linea con valori e interessi aziendali.
+
+article_link_title: 'Nessun nuovo'
+article_link_title_highlight: 'link'
+article_link_content: 'In futuro, gli editori della stampa saranno tenuti a fatturare i link che qualcuno fa al loro contenuto. I portali come Wikipedia o portali di notizie saranno quindi messi a tacere. No alla tassa di collegamento!'
+
+article_pepe_title: 'Niente più'
+article_pepe_title_highlight: 'meme'
+article_pepe_content: "I filtri di upload significano quindi  la morte della cultura dei meme. Il Materiale Protetto da copyright Secondo i termini del ''liberamente fruibile'' non puo' piu' essere distribuito senza pagare la tassa per la licenza d'uso. Salva la nostra cultura meme!"
+# Article row section end
+
+# Twitter section
+twitter_title: "Ascolta ciò che gli altri dicono"
+twitter_description: >
+    Questa censura potrebbe sconvolgere le norme culturali di Internet, così come le conosciamo.
+    Caricare blocchi in combinazione con algoritmi soggetti a errore potrebbe significare che perfino un'azione semplice come postare link puo'portare a problemi
+    Questo sarà maggiormente evidente su siti come Twitter, Facebook, 9GAG ecc.
+    Per essere precisi - tutti i tuoi siti web preferiti.
+    Perché l'articolo 11 e 13 sarebbe stato redatto, o avrebbe smesso di essere caricato in primo luogo.
+
+
+#Typewriter section
+#typewriter_1: '^200 our'
+#typewriter_2: '^200 your'
+#typewriter_3: '^200 the'
+
+# Countdown section
+countdown_title: 'Il tempo sta per scadere'
+countdown_description1: "Il voto al Parlamento europeo si svolgerà tra pochi giorni! IMMEDIATAMENTE per risintonizzare i membri del Parlamento europeo. La commissione competente ha solo un voto a favore della proposta."
+countdown_description2: ''
+countdown_until: 'Countdown until the Legal Committee of the European Parliament discusses Article 13'
+countdown_expired: 'The EU is currently debating'
+
+# What-do row
+what_do_title: 'Cosa puoi fare?'
+
+# What-do row section start
+what_do_share: 'Parla con gli altri! Condividi questa pagina!'
+what_do_share_content: 'Solo se il maggior numero possibile di persone sa che possiamo esercitare pressioni sul Parlamento. Firma la nostra petizione!'
+
+what_do_mail: 'Scrivi al tuo eurodeputato!'
+what_do_mail_content: "Puoi inviare un'e-mail al tuo eurodeputato per avvertirlo che non sei d'accordo con la legge. Tutti gli indirizzi di posta necessari sono gia' pronti e possono essere trovati qui:"
+
+what_do_call: 'Contatta il tuo deputato europeo!'
+what_do_call_content: "Se un'e-mail è troppo impersonale per te, puoi semplicemente chiamare il tuo eurodeputato e provare a  fargli cambiare idea."
+# What-do row section end
+
+# Graphic box section
+graphic_box_title1: 'Articolo 13 in dettaglio'
+graphic_box_content1: |
+    Installa un "filtro robot" che controlla automaticamente tutto il contenuto caricato. Ciò indebitamente limita la libertà di espressione prima che possa essere utilizzata. La decisione sulla censura dei contenuti è lasciata a algoritmi suscettibili di errori e ipersensibili (programmati per "giocare sul sicuro" e cancellare tutto ciò che crea un rischio per la piattaforma in caso di dubbio).
+graphic_box_title2: 'Articolo 11 in dettaglio'
+graphic_box_content2: |
+    Nella legge sui diritti d'autore (articolo 11), è previsto che il contenuto di determinati fornitori di informazioni sarà in futuro soggetto a specifiche leggi sui media. Ciò significa che i testi già citati potrebbero essere dichiarati una violazione del copyright.
+    Vuole essere influenzato da questo, dal momento che l'uso di link e link esterni vuole essere limitato o pagato.
+    Questi sono siti come Wikipedia, Stackoverflow e blogger gratuiti.
+
+# Image-split section
+image_split_title: "L'articolo 11 non riguarda solo Internet"
+image_split_content: |
+    11. Anche la ricerca e il progresso sono soggetti all'articolo 11. In futuro, agli utenti, ricercatori indipendenti, giornalisti, singoli individui e varie società, verrà negato il testo e il data mining. Ciò ha un effetto di rallentamento su varie scoperte di interesse pubblico.
+
+# Petition section
+petition_title: 'Censura? Senza di me!'
+petition_content1: 'Sostienici con la tua voce! Solo insieme siamo forti! Ecco perché abbiamo fatto una petizione per affrontare gli articoli 11 e 13!'
+petition_content2: >
+    That's why we've made a petition to tackle Articles 11 and 13!
+petition_button: 'Visita la petizione'
+sign_petition: 'Firmare la petitzione'
+
+# Video section
+#consent_title: 'Please consent'
+#consent_content: 'Please consent'
+#consent_confirm: 'I consent'
+
+# Footer section
+imprint_link: 'Informativa sulla'
+privacy_link: 'Privacy Linee guida'
