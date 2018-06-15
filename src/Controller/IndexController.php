@@ -56,6 +56,15 @@ class IndexController extends Controller
     }
 
     /**
+     * @param string $_locale
+     * @return Response
+     */
+    public function about(string $_locale): Response
+    {
+        return $this->render('about/index.html.twig');
+    }
+
+    /**
      * @Route("/tweets/{amount}", name="tweets")
      * @param int $amount
      * @return JsonResponse

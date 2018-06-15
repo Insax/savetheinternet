@@ -25,4 +25,11 @@ $routes->add('privacy', new Route('/privacy', array(
     '_locale' => implode('|', \App\EventSubscriber\getAvailableLanguages()),
 )));
 
+$routes->add('about', new Route('/about', array(
+    '_controller' => 'App\\Controller\\IndexController::about',
+    '_locale' => 'en_GB',
+), array(
+    '_locale' => implode('|', \App\EventSubscriber\getAvailableLanguages()),
+)));
+
 return $routes;

@@ -81,6 +81,30 @@ petition_content2: 'Aus diesem Grund haben wir eine Petition erstellt, um gegen 
 petition_button: 'Besuche die Petition'
 sign_petition: 'Zur Petition'
 
+# About page
+about_title: 'Über'
+about_sub_title1: 'Stoppt die Zensurmaschine - rettet das Internet!'
+about_sub_text1: 'Das Internet, wie du es kennst, ist in Gefahr! Das EU-Parlament plant derzeit eine extreme Verschärfung des Copyrights, welches unsere Freiheit im Internet massiv einschränken würde.'
+
+about_sub_title2: 'Was euch erwartet:'
+about_sub_text2_1: 'Am 20. Juni wird der Rechtsausschuss des Europaparlaments über eine neue Urheberrechtsreform entscheiden. Diese würde das Copyright EU-weit radikal verändern. Statt die Urheber wie geplant zu stärken, könnte sie diese sogar stärker denn je belasten.'
+about_sub_text2_2: 'Insbesondere die Artikel 11 und 13 des Entwurfes bedeuten massive Einschränkungen, und das nicht nur für die Verbraucher. Denn auch große Plattformen wie Wikipedia und GitHub sowie die Urheber selbst würden erheblich unter diesen Regulierungen zu leiden haben:'
+
+about_sub_title3: 'Leistungsschutzrecht'
+about_sub_text3_1: 'Artikel 11 des Reformvorschlags der EU-Kommission konzentriert sich vor allem auf das Leistungsschutzrecht der Informationsanbieter. Konkretisierte Presserechte sollen die Inhalte ebendieser Anbieter schützen und erfordern für deren Verwendung den Erwerb einer Lizenz. Das wird vor allem Seiten wie Wikipedia massiv in Mitleidenschaft ziehen, da zitierte Texte als Urheberrechtsverstoß deklariert werden könnten.'
+about_sub_text3_2: 'Die Problematik hierbei ist vergleichsweise simpel: Ein großer Teil der Anbieter von Nachrichten im Netz leben von Seitenaufrufen und den daraus resultierenden Werbeeinnahmen, die generiert werden, wenn Nutzer über externe Links auf sie zugreifen. Ist ein Portal nicht willens oder in der Lage für die notwendigen Lizenzen zu zahlen, bleiben auch ebendiese Aufrufe aus. Der Gesetzesentwurf, welcher ursprünglich die Anbieter unterstützen sollte, wird ihnen auf diesem Wege die Existenzgrundlage nehmen.'
+
+about_sub_title4: 'Upload-Filter'
+about_sub_text4_1: 'Die Umsetzung des 13. Artikels hat eine komplette Echtzeitfilterung der Inhalte, die künftig im Netz hochgeladen werden, zur Folge. Letztlich bedeutet das: Jedes Datenpaket wird in Zukunft von einem potentiell fehleranfälligen Algorithmus automatisiert geprüft werden. Dies ist vergleichbar mit dem fehlerhaften Algorithmus von YouTube, bei dem häufig auch fälschlicherweise Inhalte gelöscht werden, welche nicht urheberrechtlich geschützt sind.'
+about_sub_text4_2: >
+    Lässt man sich den Gedanken eines alles analysierenden Algorithmus' erst mal auf der Zunge zergehen, so ist ein Orwell'sches Szenario à la "1984" nicht länger allzu weit entfernt. Wir stehen derzeit einem Umbruch gegenüber, der die uns bekannte Netzkultur nachhaltig verändern wird.
+
+about_sub_title5: 'Unsere Forderung an die EU:'
+about_sub_text5_1: 'Wir fordern, dass der Rechtsausschuss nicht denselben Fehler begeht wie das EU-Parlament vor zwei Jahren. Stimmen Sie am 20. Juni 2018 gegen die Urheberrechtsreform im digitalen Binnenmarkt und damit insbesondere gegen die Artikel 11 und 13.'
+about_sub_text5_2: 'Durch ihre Position im Parlament haben Sie die Verpflichtung, die Meinung und Werte der Bürger Ihres Landes zu vertreten und ihre Freiheit zu bewahren.'
+about_sub_text5_strong: 'Unterstütze uns, damit wir zusammen für ein freies Internet einstehen können!'
+
+
 # Footer section
 imprint_link: 'Impressum'
 privacy_link: 'Datenschutzerklärung'
