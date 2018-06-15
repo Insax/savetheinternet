@@ -91,7 +91,7 @@ function updateTweets() {
         let inserted = 0;
 		data = data.slice(0, 6);
         data.forEach(function(element) {
-            if(!contains(element.id) && inserted < 1)
+            if(element !== null && !contains(element.id) && inserted < 1)
             {
                 inserted ++;
                 $('#tweets').prepend(makeTemplate(element));
