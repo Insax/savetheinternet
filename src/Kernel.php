@@ -44,7 +44,7 @@ class Kernel extends BaseKernel
         $container->setParameter('container.dumper.inline_class_loader', true);
         $confDir = $this->getProjectDir().'/config';
 
-        if (!isset($_SERVER['REDIS_HOST']) || $_SERVER['REDIS_HOST'] === null) {
+        if (!isset($_SERVER['REDIS_HOST']) || $_SERVER['REDIS_HOST'] === null || !isset($_SERVER['REDIS_PORT']) || $_SERVER['REDIS_PORT'] === null) {
             $container->addAliases([
                 'App\Services\CacheServiceInterface' => 'App\Services\NullCacheService'
             ]);

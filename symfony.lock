@@ -26,6 +26,9 @@
     "doctrine/lexer": {
         "version": "v1.0.1"
     },
+    "fig/link-util": {
+        "version": "1.0.x-dev"
+    },
     "nikic/php-parser": {
         "version": "v4.0.2"
     },
@@ -37,6 +40,9 @@
     },
     "psr/container": {
         "version": "1.0.0"
+    },
+    "psr/link": {
+        "version": "1.0.x-dev"
     },
     "psr/log": {
         "version": "1.0.2"
@@ -175,6 +181,9 @@
     },
     "symfony/var-dumper": {
         "version": "v4.1.0"
+    },
+    "symfony/web-link": {
+        "version": "4.1.x-dev"
     },
     "symfony/web-profiler-bundle": {
         "version": "3.3",
