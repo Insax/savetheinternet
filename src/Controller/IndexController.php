@@ -61,6 +61,14 @@ class IndexController extends Controller
     }
 
     /**
+     * @return Response
+     */
+    public function resources(): Response
+    {
+        return $this->render('resources/index.html.twig');
+    }
+
+    /**
      * @Route("/tweets/{amount}", name="tweets")
      * @param int $amount
      * @return JsonResponse
