@@ -82,7 +82,7 @@ petition_button: 'Besuche die Petition'
 sign_petition: 'Zur Petition'
 
 # About page
-about_title: 'Über'
+about_title: 'Informationen'
 about_sub_title1: 'Stoppt die Zensurmaschine - rettet das Internet!'
 about_sub_text1: 'Das Internet, wie du es kennst, ist in Gefahr! Das EU-Parlament plant derzeit eine extreme Verschärfung des Copyrights, welches unsere Freiheit im Internet massiv einschränken würde.'
 
@@ -106,6 +106,6 @@ about_sub_text5_strong: 'Unterstütze uns, damit wir zusammen für ein freies In
 
 
 # Footer section
-about_link: 'Über'
+about_link: 'Infos'
 imprint_link: 'Impressum'
 privacy_link: 'Datenschutzerklärung'
