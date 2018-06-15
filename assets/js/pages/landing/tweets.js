@@ -83,7 +83,7 @@ function contains(id){
 function updateTweets() {
     $.get("/tweets", function(data) {
         data = data.sort(function(a,b){
-            if(a && b != null) {
+            if(a != null && b != null) {
               return b.id - a.id;
             }
         });
