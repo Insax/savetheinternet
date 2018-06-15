@@ -17,8 +17,8 @@ article_title: 'Cosa accadrà il 20 giugno?'
 article_content: "Do 20 giugno, il Comitato Giuridico dei Voti del Parlamento Ue sulla Direttiva sul diritto d'autore. Gli unici che ora possono fermare questa legge fatale sono i membri del Parlamento europeo (MEP)!"
 
 # Article row section start
-article_reddit_title: 'Dittatura di algoritmi incline agli errori'
-article_reddit_title_highlight: 'algoritmi'
+article_reddit_title: 'Dittatura di <span class="highlight">algoritmi</span> incline agli errori'
+article_reddit_title_highlight: ''
 article_reddit_content: >
     Caricare filtri su siti come Youtube, Facebook, ecc Hanno Una cosa in comune: non Saranno mai cosi' accurati come un essere umano. Di conseguenza, i contenuti protetti da diritti d'autore in base a tutti leggi sull'uso legittimo vengono eliminati. Questa "tendenza" può essere sfruttata per filtrare contenuti non in linea con valori e interessi aziendali.
 
@@ -88,6 +88,7 @@ petition_content1: 'Sostienici con la tua voce! Solo insieme siamo forti! Ecco p
 petition_content2: >
     That's why we've made a petition to tackle Articles 11 and 13!
 petition_button: 'Visita la petizione'
+sign_petition: 'Firmare la petitzione'
 
 # Video section
 #consent_title: 'Please consent'
