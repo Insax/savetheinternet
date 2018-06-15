@@ -6,7 +6,7 @@ minutes: 'Minuten'
 seconds: 'Sekunden'
 
 # Share
-share_on: 'Diese Seite teilen:'
+share_on: 'Teilen:'
 
 # Header
 header_tagline: 'Das Internet ist in Gefahr, hier lernst du wie du es retten kannst.'
@@ -51,7 +51,7 @@ what_do_title: 'Was kannst du tun?'
 
 # What-do row section start
 what_do_share: 'Rede mit anderen darüber! Teile diese Seite!'
-what_do_share_content: 'Nur wenn möglichst viele Leute Bescheid wissen, können wir Druck auf das Parlament ausüben. Unterzeichne unsere Petition! ### Link zur Petition ###'
+what_do_share_content: 'Nur wenn möglichst viele Leute Bescheid wissen, können wir Druck auf das Parlament ausüben. Unterzeichne unsere Petition! ### Link zur Petition'
 
 what_do_mail: 'Schreib deinem Abgeordneten!'
 what_do_mail_content: 'Du kannst deinem EU-Abgeordneten eine E-Mail schreiben, um ihn darauf aufmerksam zu machen, dass du mit dem Gesetzesvorhaben nicht einverstanden bist. Alle nötigen Mailadressen und eine vorgefertigte Nachricht findest du Hier: ### Link einfügen'

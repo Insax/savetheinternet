@@ -1,38 +1,39 @@
 # Global
-day: 'Tag'
-days: 'Tage'
-hours: 'Stunden'
-minutes: 'Minuten'
-seconds: 'Sekunden'
+day: 'day'
+days: 'days'
+hours: 'hours'
+minutes: 'minutes'
+seconds: 'seconds'
 
 # Share
-share_on: 'Share on:'
+share_on: 'Share:'
 
 # Header
-header_tagline: 'The Internet is in danger. Learn more about how you can save it.'
+header_tagline: 'The Internet is in danger, here you learn how to protect it.'
 
 # Article explainer section
 article: 'Article'
-article_title: 'This will happen on June 20th test'
-article_content: 'On 20 June, the European Parliament will vote on the Copyright Directive. Members of the parliament are the only ones that can stand in the way of bad copyright legislation. test'
+article_title: 'What happens on June 20th?'
+article_content: 'OOn 20 June the Legal Committee of the European Parliament will vote on the planned Copyright Directive. The only people who can now prevent this fatal law are MEPs!'
 
 # Article row section start
-article_reddit_title: 'No more platforms for'
-article_reddit_title_highlight: discussion
-article_reddit_content: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.<br><br>Magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo duo dolores.'
+article_reddit_title: 'Dictatorship of error-prone'
+article_reddit_title_highlight: 'algorithms'
+article_reddit_content: >
+    Upload filters on sites like YouTube, Facebook and the like all have one thing in common: They never act as precisely as a human could. As a result, content is often also removed that violates copyright but is protected by citation law. This "vulnerability" can be used as an excuse to remove content that does not correspond to one's own values and ideas.
 
 article_link_title: 'No more'
-article_link_title_highlight: links
-article_link_content: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.<br><br>Magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo duo dolores.'
+article_link_title_highlight: 'links'
+article_link_content: 'In future, press publishers will be required to charge for all links that someone places on their content. Wikipedia and news sites will be destroyed. No to the link tax!'
 
 article_pepe_title: 'No more'
-article_pepe_title_highlight: memes
-article_pepe_content: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.<br><br>Magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo duo dolores.'
+article_pepe_title_highlight: 'memes'
+article_pepe_content: 'The upload filters also mean the death of the meme culture. Copyrighted material under the terms of free use can no longer be distributed without paid licenses. Save our meme culture!'
 # Article row section end
 
 # Twitter section
-twitter_title: 'Höre die Stimmen anderer'
-twitter_description: 'Die Zensur könnte schon sehr bald die kulturellen Normen des Webs, wie wir es kennen, auf den Kopf stellen. Upload-Sperren sorgen in Kombination mit fehleranfälligen Algorithmen dafür, dass selbst das Posten von Links künftig ein massives Problem darstellen wird. Derartiges wird sich vor allem auf Plattformen wie Twitter, Facebook, 9GAG und Co. zeigen. Um genau zu sein – höchstwahrscheinlich alle deiner Lieblingswebsites. Denn hier würden die Artikel 11 und 13 dafür sorgen, dass Verlinkungen und direkte Zitate geschwärzt oder sogar gänzlich am Hochladen gehindert werden.'
+twitter_title: "Hear the other people's voices"
+twitter_description: 'Censorship could very soon turn the cultural norms of the web as we know them upside down. Upload blocking in combination with error-prone algorithms ensure that even the posting of links will pose a massive problem in the future. This will be particularly evident on platforms such as Twitter, Facebook, 9GAG and Co. In fact, most likely all of your favorite websites. Articles 11 and 13 would ensure that links and direct quotes are blacked out or even prevented entirely from uploading.'
 
 #Typewriter section
 #typewriter_1: '^200 our'
@@ -41,44 +42,50 @@ twitter_description: 'Die Zensur könnte schon sehr bald die kulturellen Normen 
 
 # Countdown section
 countdown_title: 'Time is running out'
-countdown_description1: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
-countdown_description2: '2 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+countdown_description1: "The vote in the EU Parliament will take place in a few days! Therefore, we must act IMMEDIATELY to change Members' minds. There is just a narrow majority of one vote in favour of the proposal in the relevant committee."
+countdown_description2: ''
 countdown_until: 'Countdown until the Legal Committee of the European Parliament discusses Article 13'
 countdown_expired: 'The EU is currently debating'
 
 # What-do row
-what_do_title: 'This is what you can do test'
+what_do_title: 'What can you do?'
 
 # What-do row section start
-what_do_share: 'Share this page test'
-what_do_share_content: 'Lorem ipsum dolor sit amet, conse magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.'
+what_do_share: 'Talk to others about it! Share this page!'
+what_do_share_content: 'Only if as many people as possible know about it can we put pressure on Parliament. Sign our petition! ### Link to the petition'
 
-what_do_mail: 'Mail your MEP test'
-what_do_mail_content: 'Lorem ipsum dolor sit amet, conse magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.'
+what_do_mail: 'Write to your congressman!'
+what_do_mail_content: 'You can write an e-mail to your MEP to draw his attention to the fact that you do not agree with the proposed law. All required mail addresses and a pre-made message can be found here: ### Insert link'
 
-what_do_call: 'Call your MEP test'
-what_do_call_content: 'Lorem ipsum dolor sit amet, conse magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.'
+what_do_call: 'Call your congressman!'
+what_do_call_content: 'If an email is too impersonal for you, you can simply call your deputy and try to change his mind. You can find the phone number here: ### Insert link'
 # What-do row section end
 
 # Graphic box section
-graphic_box_title: Lorem Ipsum test
-graphic_box_content1: '1 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
-graphic_box_content2: '2 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+graphic_box_title1: 'Article 13 in detail:'
+graphic_box_content1: |
+    In practice, Article 13 requires that almost all Internet platforms install a "filter robot" that automatically checks all uploaded content. This excessively restricts freedom of expression before it can even be exercised. Decisions on content censorship are left to error-prone and hypersensitive algorithms (programmed to "play it safe" and delete anything that could pose a risk to the platform).
+graphic_box_title2: 'Article 11 in detail:'
+graphic_box_content2: |
+    The ancillary copyright law (Article 11) states that the future content of certain information providers will be subject to a more specific press law. This means that already quoted texts could be declared as copyright infringement. 
+    A large part of the providers of news on the net will be affected, as the use of external links and references will be restricted or liable to costs.
+    This also affects sites like Wikipedia, Stackoverflow and free bloggers.
 
 # Image-split section
-image_split_title: 'Lorem Ipsum dolor test'
-image_split_content: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+image_split_title: 'Article 11 not only has an impact on the Internet:'
+image_split_content: |
+    In future, users such as independent researchers, journalists, private individuals and various companies will be denied access to text and data mining. This has a slowing effect on various discoveries of public interest.
 
 # Petition section
-petition_title: 'Censorship? I''m out! test'
-petition_content1: 'Give us your voice! Together we are strong!'
-petition_content2: 'We have created a petition to hand in and stop article 13.'
-petition_button: 'Visit Petition test'
+petition_title: 'Censorship? Without me!'
+petition_content1: 'Support us with your voice! Only by working together are we strong!'
+petition_content2: 'That is why we have drawn up a petition to take action against Articles 11 and 13!'
+petition_button: 'Visit the petition'
 
 # Video section
-consent_title: 'Please consent test'
-consent_content: 'Please consent test'
-consent_confirm: 'I consent'
+#consent_title: 'Please consent'
+#consent_content: 'Please consent'
+#consent_confirm: 'I consent'
 
 # Footer section
 imprint_link: 'Imprint'
