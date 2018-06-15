@@ -6,7 +6,7 @@ function makeTemplate(element){
            '<div class="post-right">'+
            '<div class="post-header">'+
            '<div class="profile-name">'+
-           '<span class="profile-displayname">' + element.user.name + '</span>'+
+           //'<span class="profile-displayname">' + element.user.name + '</span>'+
            '<span class="profile-username"><a href="https://twitter.com/' + element.user.screen_name + '">@' + element.user.screen_name + '</a></span>'+
            '<span class="post-time"> ' + moment(new Date(element.created_at)).fromNow() + '</span>'+
            '</div>'+
