@@ -13,14 +13,14 @@ header_tagline: 'The internet is in danger, here you will learn how to save it.'
 
 # Article explainer section
 article: 'Article'
-article_title: 'What happens on June 20?'
-article_content: 'On 20 June the Legal Committee of the European Parliament will vote on the planned Copyright Directive. The only people who can now prevent this fatal law are MEPs!'
+article_title: 'What will happen on June 20th?'
+article_content: 'On June 20th, the Legal Committee of the EU Parliament votes on the proposed Copyright Directive. The only ones who can stop this fatal law now are the Members of the European Parliament(MEP)!'
 
 # Article row section start
 article_reddit_title: 'Dictatorship of error-prone'
 article_reddit_title_highlight: 'algorithms'
 article_reddit_content: >
-    Upload filters on sites like YouTube, Facebook and the like all have one thing in common: They never act as precisely as a human could. As a result, content is often also removed that violates copyright but is protected by citation law. This "vulnerability" can be used as an excuse to remove content that does not correspond to one's own values and ideas.
+    Upload filter on sites like Youtube, Facebook etc. have one thing in common: They will never work as accurate as a real human. As a consequence, copyrighted content that is used under fair use laws, gets deleted. This "tendancy" could be abused to filter content that's not in line with the companies values and interests.
 
 article_link_title: 'No more'
 article_link_title_highlight: 'links'
@@ -32,8 +32,14 @@ article_pepe_content: 'The upload filters also mean the death of the meme cultur
 # Article row section end
 
 # Twitter section
-twitter_title: "Hear the other people's voices"
-twitter_description: 'Censorship could very soon turn the cultural norms of the web as we know them upside down. Upload blocking in combination with error-prone algorithms ensure that even the posting of links will pose a massive problem in the future. This will be particularly evident on platforms such as Twitter, Facebook, 9GAG and Co. In fact, most likely all of your favorite websites. Articles 11 and 13 would ensure that links and direct quotes are blacked out or even prevented entirely from uploading.'
+twitter_title: "Hear what others are saying"
+twitter_description: >
+    This censoring could flip the cultural norms of the internet, as we know them, upside-down.
+    Upload-blocks in combination with error-prone algorithms potentially means that even something as simple as posting links, could soon become a problem.
+    This will be patently obvious on sites like Twitter, Facebook, 9GAG etc.
+    To be precise - all your favorite websites.
+    Because Article 11 and 13 would mean that links or citations could be redacted, or stopped from being uploaded in the first place.
+
 
 #Typewriter section
 #typewriter_1: '^200 our'
@@ -62,17 +68,17 @@ what_do_call_content: 'If an email is too impersonal for you, you can just call 
 # What-do row section end
 
 # Graphic box section
-graphic_box_title1: 'Article 13 in detail:'
+graphic_box_title1: 'Article 13 in detail'
 graphic_box_content1: |
     Article 13 requires in practice that almost all internet platforms install a "filter robot" which automatically checks all uploaded content. This unduly restricts freedom of expression before it can be used. Content censorship decision is left to error-prone and oversensitive algorithms (programmed to "play it safe" and erase anything that creates a risk for the platform in case of doubt).
-graphic_box_title2: 'Article 11 in detail:'
+graphic_box_title2: 'Article 11 in detail'
 graphic_box_content2: |
     In ancillary copyright law (Article 11), it is stipulated that the content of certain information providers will in future be subject to specific media law. This means that already quoted texts could be declared a copyright infringement.
     A large part of the providers of news on the net will be affected by this, since the use of external links and links will be restricted or paid.
     This also affects sites like Wikipedia, Stackoverflow and free bloggers.
 
 # Image-split section
-image_split_title: 'Article 11 not only affects the internet:'
+image_split_title: 'Article 11 not only affects the internet'
 image_split_content: |
     Research and progress are also suffering from Article 11. In the future, users, such as independent researchers, journalists, individuals and various companies, will be denied text and data mining. This has a slowing effect on various discoveries of public interest.
 
