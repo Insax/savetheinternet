@@ -9,22 +9,22 @@ seconds: 'seconds'
 share_on: 'Share:'
 
 # Header
-header_tagline: 'The Internet is in danger, here you learn how to protect it.'
+header_tagline: 'The internet is in danger, here you will learn how to save it.'
 
 # Article explainer section
 article: 'Article'
-article_title: 'What happens on June 20th?'
-article_content: 'OOn 20 June the Legal Committee of the European Parliament will vote on the planned Copyright Directive. The only people who can now prevent this fatal law are MEPs!'
+article_title: 'What will happen on June 20th?'
+article_content: 'On June 20th, the Legal Committee of the EU Parliament votes on the proposed Copyright Directive. The only ones who can stop this fatal law now are the Members of the European Parliament(MEP)!'
 
 # Article row section start
 article_reddit_title: 'Dictatorship of error-prone'
 article_reddit_title_highlight: 'algorithms'
 article_reddit_content: >
-    Upload filters on sites like YouTube, Facebook and the like all have one thing in common: They never act as precisely as a human could. As a result, content is often also removed that violates copyright but is protected by citation law. This "vulnerability" can be used as an excuse to remove content that does not correspond to one's own values and ideas.
+    Upload filters on sites like Youtube, Facebook etc. have one thing in common: They will never work as accurate as a real human. As a consequence, copyrighted content that is used under fair use laws, gets deleted. This "tendancy" could be abused to filter content that's not in line with the companies values and interests.
 
 article_link_title: 'No more'
 article_link_title_highlight: 'links'
-article_link_content: 'In future, press publishers will be required to charge for all links that someone places on their content. Wikipedia and news sites will be destroyed. No to the link tax!'
+article_link_content: 'In the future, press publishers will be required to bill for any links someone makes to their content. Wikipedia and news portals are thus nullified. No to the link tax!'
 
 article_pepe_title: 'No more'
 article_pepe_title_highlight: 'memes'
@@ -32,8 +32,14 @@ article_pepe_content: 'The upload filters also mean the death of the meme cultur
 # Article row section end
 
 # Twitter section
-twitter_title: "Hear the other people's voices"
-twitter_description: 'Censorship could very soon turn the cultural norms of the web as we know them upside down. Upload blocking in combination with error-prone algorithms ensure that even the posting of links will pose a massive problem in the future. This will be particularly evident on platforms such as Twitter, Facebook, 9GAG and Co. In fact, most likely all of your favorite websites. Articles 11 and 13 would ensure that links and direct quotes are blacked out or even prevented entirely from uploading.'
+twitter_title: "Hear what others are saying"
+twitter_description: >
+    This censoring could flip the cultural norms of the internet, as we know them, upside-down.
+    Upload-blocks in combination with error-prone algorithms potentially means that even something as simple as posting links, could soon become a problem.
+    This will be patently obvious on sites like Twitter, Facebook, 9GAG etc.
+    To be precise - all your favorite websites.
+    Because Article 11 and 13 would mean that links or citations could be redacted, or stopped from being uploaded in the first place.
+
 
 #Typewriter section
 #typewriter_1: '^200 our'
@@ -42,7 +48,7 @@ twitter_description: 'Censorship could very soon turn the cultural norms of the 
 
 # Countdown section
 countdown_title: 'Time is running out'
-countdown_description1: "The vote in the EU Parliament will take place in a few days! Therefore, we must act IMMEDIATELY to change Members' minds. There is just a narrow majority of one vote in favour of the proposal in the relevant committee."
+countdown_description1: "The vote in the EU Parliament will take place in a few days! Therefore we have to act IMMEDIATELY to retune the Members of the European Parliament. The committee responsible has just a narrow majority of one vote in favor of the proposal."
 countdown_description2: ''
 countdown_until: 'Countdown until the Legal Committee of the European Parliament discusses Article 13'
 countdown_expired: 'The EU is currently debating'
@@ -52,34 +58,35 @@ what_do_title: 'What can you do?'
 
 # What-do row section start
 what_do_share: 'Talk to others about it! Share this page!'
-what_do_share_content: 'Only if as many people as possible know about it can we put pressure on Parliament. Sign our petition! ### Link to the petition'
+what_do_share_content: 'Only if as many people as possible know we can put pressure on Parliament. Sign our petition!'
 
-what_do_mail: 'Write to your congressman!'
-what_do_mail_content: 'You can write an e-mail to your MEP to draw his attention to the fact that you do not agree with the proposed law. All required mail addresses and a pre-made message can be found here: ### Insert link'
+what_do_mail: 'Write to your deputy!'
+what_do_mail_content: 'You can send an e-mail to your MEP to alert him that you do not agree with the bill. All necessary mail addresses and a ready-made message can be found here:'
 
-what_do_call: 'Call your congressman!'
-what_do_call_content: 'If an email is too impersonal for you, you can simply call your deputy and try to change his mind. You can find the phone number here: ### Insert link'
+what_do_call: 'Call your deputy!'
+what_do_call_content: 'If an email is too impersonal for you, you can just call your deputy and try to change his mind. The phone number can be found here:'
 # What-do row section end
 
 # Graphic box section
-graphic_box_title1: 'Article 13 in detail:'
+graphic_box_title1: 'Article 13 in detail'
 graphic_box_content1: |
-    In practice, Article 13 requires that almost all Internet platforms install a "filter robot" that automatically checks all uploaded content. This excessively restricts freedom of expression before it can even be exercised. Decisions on content censorship are left to error-prone and hypersensitive algorithms (programmed to "play it safe" and delete anything that could pose a risk to the platform).
-graphic_box_title2: 'Article 11 in detail:'
+    Article 13 requires in practice that almost all internet platforms install a "filter robot" which automatically checks all uploaded content. This unduly restricts freedom of expression before it can be used. Content censorship decision is left to error-prone and oversensitive algorithms (programmed to "play it safe" and erase anything that creates a risk for the platform in case of doubt).
+graphic_box_title2: 'Article 11 in detail'
 graphic_box_content2: |
-    The ancillary copyright law (Article 11) states that the future content of certain information providers will be subject to a more specific press law. This means that already quoted texts could be declared as copyright infringement. 
-    A large part of the providers of news on the net will be affected, as the use of external links and references will be restricted or liable to costs.
+    In ancillary copyright law (Article 11), it is stipulated that the content of certain information providers will in future be subject to specific media law. This means that already quoted texts could be declared a copyright infringement.
+    A large part of the providers of news on the net will be affected by this, since the use of external links will be restricted or paid.
     This also affects sites like Wikipedia, Stackoverflow and free bloggers.
 
 # Image-split section
-image_split_title: 'Article 11 not only has an impact on the Internet:'
+image_split_title: 'Article 11 not only affects the internet'
 image_split_content: |
-    In future, users such as independent researchers, journalists, private individuals and various companies will be denied access to text and data mining. This has a slowing effect on various discoveries of public interest.
+    Research and progress are also suffering from Article 11. In the future, users, such as independent researchers, journalists, individuals and various companies, will be denied text and data mining. This has a slowing effect on various discoveries of public interest.
 
 # Petition section
 petition_title: 'Censorship? Without me!'
-petition_content1: 'Support us with your voice! Only by working together are we strong!'
-petition_content2: 'That is why we have drawn up a petition to take action against Articles 11 and 13!'
+petition_content1: 'Support us with your voice! Only together we are strong!'
+petition_content2: >
+    That's why we've made a petition to tackle Articles 11 and 13!
 petition_button: 'Visit the petition'
 
 # Video section
