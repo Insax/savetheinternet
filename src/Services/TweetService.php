@@ -49,6 +49,10 @@ class TweetService
 
         $this->deleteAllTweets();
 
+        if (!isset($_SERVER['TWITTER_SEARCH']) || $_SERVER['TWITTER_SEARCH'] === null) {
+            return;
+        }
+
         $result = $this->twitterOAuth->get('search/tweets', ['q' => $_SERVER['TWITTER_SEARCH'], 'count' => 100]);
 
         if ($result->errors !== null) {
