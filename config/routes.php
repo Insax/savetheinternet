@@ -32,4 +32,12 @@ $routes->add('about', new Route('/{_locale}/about', array(
     '_locale' => implode('|', \App\EventSubscriber\getAvailableLanguages()),
 )));
 
+$routes->add('resources', new Route('/{_locale}/resources', array(
+    '_controller' => 'App\\Controller\\IndexController::resources',
+    '_locale' => 'en_GB',
+), array(
+    '_locale' => implode('|', \App\EventSubscriber\getAvailableLanguages()),
+)));
+
+
 return $routes;
