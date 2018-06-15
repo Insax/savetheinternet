@@ -14,7 +14,7 @@ header_tagline: 'The internet is in danger, and you can save it!'
 # Article explainer section
 article: 'Article'
 article_title: 'What will happen on June 20th?'
-article_content: 'On June 20th, the Legal Committee of the EU Parliament votes on the proposed Copyright Directive. The only ones who can stop this fatal law now are the Members of the European Parliament(MEP)!'
+article_content: 'On June 20th, the Legal Committee of the EU Parliament votes on the proposed <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52016PC0593&from=EN" class="highlight">Copyright Directive</a>. The only ones who can stop this fatal law now are the Members of the European Parliament(MEP)!'
 
 # Article row section start
 article_reddit_title: 'Dictatorship of error-prone'

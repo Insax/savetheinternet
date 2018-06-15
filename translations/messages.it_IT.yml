@@ -14,7 +14,8 @@ header_tagline: 'Internet è in pericolo, qui puoi imparare come salvarlo.'
 # Article explainer section
 article: 'Articolo'
 article_title: 'Cosa accadrà il 20 giugno?'
-article_content: "Do 20 giugno, il Comitato Giuridico dei Voti del Parlamento Ue sulla Direttiva sul diritto d'autore. Gli unici che ora possono fermare questa legge fatale sono i membri del Parlamento europeo (MEP)!"
+article_content: |
+    "Do 20 giugno, il Comitato Giuridico dei Voti del Parlamento Ue sulla <a href="https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:52016PC0593&from=EN" class="highlight">Direttiva sul diritto d'autore</a>. Gli unici che ora possono fermare questa legge fatale sono i membri del Parlamento europeo (MEP)!"
 
 # Article row section start
 article_reddit_title: 'Dittatura di <span class="highlight">algoritmi</span> incline agli errori'
