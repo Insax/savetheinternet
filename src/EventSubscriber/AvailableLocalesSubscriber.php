@@ -29,7 +29,7 @@ class AvailableLocalesSubscriber implements EventSubscriberInterface
         $this->twig_Environment->addGlobal('locales', $languages);
 
         // detect users language form browser
-        $this->setVisitosLanguage($event, $languages);
+        $this->setVisitorLanguage($event, $languages);
 
         $codes = [];
         foreach ($languages as $language) {
@@ -48,7 +48,7 @@ class AvailableLocalesSubscriber implements EventSubscriberInterface
         ];
     }
 
-    private function setVisitosLanguage(GetResponseEvent $event, array $languages)
+    private function setVisitorLanguage(GetResponseEvent $event, array $languages)
     {
         // some logic to determine the $locale
         $request = $event->getRequest();
