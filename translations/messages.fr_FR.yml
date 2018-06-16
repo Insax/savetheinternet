@@ -11,11 +11,11 @@ header_tagline: 'Internet est en danger, et vous pouvez le sauver!'
 article: 'Article'
 article_title: 'Que va t-il arriver le 20 juin?'
 article_content: |
-  'Le 20 juin, le conseil européen va voter la <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:52016PC0593&from=EN" class="highlight">directive suivante</a>. Les seuls qui peuvent arrêter cette loi fatale à internet sont maintenant les membres du parlement européen!'
+  Le 20 juin, le conseil européen va voter la <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:52016PC0593&from=EN" class="highlight">directive suivante</a>. Les seuls qui peuvent arrêter cette loi fatale à internet sont maintenant les membres du parlement européen!
 
 # Article row section start
 article_reddit_title: |
-  'La dictature <span class="highlight">d'algorithmes</span> faillibles'
+  La dictature <span class="highlight">d'algorithmes</span> faillibles'
 article_reddit_title_highlight: ''
 article_reddit_content: >
     Les filtres de téléchargement des sites comme YouTube, Facebook etc. ont une chose en commun : Ils ne fonctionneront jamais aussi précisément que des humains. En conséquence, les contenus sous copyrights utilisés sous le sigle «fair use» seront supprimés. Cette «tendance» pourrait faire supprimé tout contenu qui ne va pas avec les valeurs ou les intérêts de l'entreprise.
