@@ -108,7 +108,7 @@ $(window).scroll(function(event) {
     checkBlacks();
 });
 
-setInterval(function(){updateTweets();}, 2000);
+setInterval(function(){updateTweets();}, 2000000000000000);
 
 $(document).ready(function() {
     checkBlacks();
