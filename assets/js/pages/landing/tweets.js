@@ -1,4 +1,5 @@
 function makeTemplate(element){
+    moment.locale(window.location.pathname === '/' ? 'en' : window.location.pathname.substring(1,3));
     return '<div class="post-container" id="' + element.id + '">'+
            '<div class="post-left">'+
            '<img class="profile-pic" src="' + element.user.profile_image_url_https + '" />'+
@@ -83,13 +84,15 @@ function contains(id){
 function updateTweets() {
     $.get("/tweets", function(data) {
         data = data.sort(function(a,b){
-            return a.id - b.id;
+            if(a != null && b != null) {
+              return b.id - a.id;
+            }
         });
 
         let inserted = 0;
 		data = data.slice(0, 6);
         data.forEach(function(element) {
-            if(!contains(element.id) && inserted < 1)
+            if(element !== null && !contains(element.id) && inserted < 1)
             {
                 inserted ++;
                 $('#tweets').prepend(makeTemplate(element));

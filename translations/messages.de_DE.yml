@@ -5,16 +5,14 @@ hours: 'Stunden'
 minutes: 'Minuten'
 seconds: 'Sekunden'
 
-# Share
-share_on: 'Teilen:'
-
 # Header
 header_tagline: 'Das Internet ist in Gefahr, und du kannst es retten!'
 
 # Article explainer section
 article: 'Artikel'
 article_title: 'Was passiert am 20. Juni?'
-article_content: 'Am 20. Juni stimmt der Rechtsausschuss des EU-Parlaments über die geplante Urheberrechts-Richtlinie ab. Die Einzigen, die jetzt noch dieses fatale Gesetz stoppen können, sind die EU-Abgeordneten!'
+article_content: |
+    'Am 20. Juni stimmt der Rechtsausschuss des EU-Parlaments über die geplante <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:52016PC0593&from=EN" class="highlight">Urheberrechts-Richtlinie</a> ab. Die Einzigen, die jetzt noch dieses fatale Gesetz stoppen können, sind die EU-Abgeordneten!'
 
 # Article row section start
 article_reddit_title: 'Diktatur fehleranfälliger'
@@ -23,7 +21,7 @@ article_reddit_content: 'Upload-Filter auf Seiten wie YouTube, Facebook und Co. 
 
 article_link_title: 'Keine'
 article_link_title_highlight: Links
-article_link_content: 'Presseverlage werden künftig verpflichtet alle Links, die jemand auf ihre Inhalte setzt, in Rechnung zu stellen. Wikipedia und Nachrichtenportale werden so zunichte gemacht. Nein zur Link-Steuer!'
+article_link_content: 'Presseverlage werden künftig verpflichtet alle Links, die jemand auf ihre Inhalte setzt, in Rechnung zu stellen. Nachrichtenportale werden so zunichte gemacht. Nein zur Link-Steuer!'
 
 article_pepe_title: 'Keine'
 article_pepe_title_highlight: Memes
@@ -67,7 +65,6 @@ graphic_box_content1: |
 graphic_box_title2: 'Artikel 11 im Detail'
 graphic_box_content2: |
     Im Leistungsschutzrecht (Artikel 11) wird festgelegt, dass zukünftig Inhalte bestimmter Informationsanbieter einem konkretisierten Presserecht unterliegen. Dies bedeutet, dass schon zitierte Texte als Urheberrechtsverstoß deklariert werden könnten. Ein großer Teil der Anbieter von Nachrichten im Netz wird davon betroffen sein, da so die Verwendung von externen Links und Verweisen eingeschränkt bzw. kostenpflichtig wird.
-    Hiervon sind auch Seiten wie Wikipedia, Stackoverflow und freie Blogger betroffen.
 
 # Image-split section
 image_split_title: 'Artikel 11 hat nicht nur Auswirkungen auf das Internet'
@@ -85,6 +82,30 @@ sign_petition: 'Zur Petition'
 gallery_title: 'Gallerie'
 gallery_download_pdf: 'PDF herunterladen'
 
+# About page
+about_title: 'Informationen'
+about_sub_title1: 'Stoppt die Zensurmaschine - rettet das Internet!'
+about_sub_text1: 'Das Internet, wie du es kennst, ist in Gefahr! Das EU-Parlament plant derzeit eine extreme Verschärfung des Copyrights, welches unsere Freiheit im Internet massiv einschränken würde.'
+
+about_sub_title2: 'Was euch erwartet:'
+about_sub_text2_1: 'Am 20. Juni wird der Rechtsausschuss des Europaparlaments über eine neue Urheberrechtsreform entscheiden. Diese würde das Copyright EU-weit radikal verändern: Statt die Urheber wie geplant zu stärken, könnte sie diese sogar stärker denn je belasten.'
+about_sub_text2_2: 'Insbesondere die Artikel 11 und 13 des Entwurfes bedeuten massive Einschränkungen, und das nicht nur für die Verbraucher: Auch große Plattformen sowie die Urheber selbst würden erheblich unter diesen Regulierungen zu leiden haben:'
+
+about_sub_title3: 'Leistungsschutzrecht'
+about_sub_text3_1: 'Artikel 11 des Reformvorschlags der EU-Kommission konzentriert sich vor allem auf das Leistungsschutzrecht der Informationsanbieter. Konkretisierte Presserechte sollen die Inhalte ebendieser Anbieter schützen und erfordern für deren Verwendung den Erwerb einer Lizenz. Das wird vor allem Seiten wie Bundlenews oder andere Nachrichtenportale massiv in Mitleidenschaft ziehen, da zitierte Texte als Urheberrechtsverstoß deklariert werden könnten.'
+about_sub_text3_2: 'Die Problematik hierbei ist vergleichsweise simpel: Ein großer Teil der Anbieter von Nachrichten im Netz lebt von Seitenaufrufen und den daraus resultierenden Werbeeinnahmen, die generiert werden, wenn Nutzer über externe Links auf sie zugreifen. Ist ein Portal nicht willens oder in der Lage für die notwendigen Lizenzen zu zahlen, bleiben auch ebendiese Aufrufe aus. Der Gesetzesentwurf, welcher ursprünglich die Anbieter unterstützen sollte, wird ihnen auf diesem Wege die Existenzgrundlage nehmen.'
+
+about_sub_title4: 'Upload-Filter'
+about_sub_text4_1: 'Die Umsetzung des 13. Artikels hat eine komplette Echtzeitfilterung der Inhalte, die künftig im Netz hochgeladen werden, zur Folge. Letztlich bedeutet das: Jedes Datenpaket wird in Zukunft von einem potentiell fehleranfälligen Algorithmus automatisiert geprüft werden. Dies ist vergleichbar mit dem fehlerhaften Algorithmus von YouTube, bei dem häufig auch fälschlicherweise Inhalte gelöscht werden, welche nicht urheberrechtlich geschützt sind.'
+about_sub_text4_2: >
+    Lässt man sich den Gedanken eines alles analysierenden Algorithmus' erst mal auf der Zunge zergehen, so ist ein Orwell'sches Szenario à la "1984" nicht mehr weit entfernt. Wir stehen derzeit einem Umbruch gegenüber, der die uns bekannte Netzkultur nachhaltig verändern kann.
+
+about_sub_title5: 'Unsere Forderung an die EU:'
+about_sub_text5_1: 'Wir fordern, dass der Rechtsausschuss nicht denselben Fehler begeht wie das EU-Parlament vor zwei Jahren. Stimmen Sie am 20. Juni 2018 gegen die Urheberrechtsreform im digitalen Binnenmarkt und damit insbesondere gegen die Artikel 11 und 13.'
+about_sub_text5_2: 'Durch ihre Position im Parlament haben Sie die Verpflichtung, die Meinung und Werte der Bürger Ihres Landes zu vertreten und ihre Freiheit zu bewahren.'
+about_sub_text5_strong: 'Unterstütze uns, damit wir zusammen für ein freies Internet einstehen können!'
+
 # Footer section
+about_link: 'Infos'
 imprint_link: 'Impressum'
 privacy_link: 'Datenschutzerklärung'

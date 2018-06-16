@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-12 header">
             <div class="title-wrapper">
-                <a href="/">
+                <a href="{{ path('index') }}">
                     <!-- Typewriter -->
                     <div class="title"><span class="save">Save</span><br class="d-block d-md-none">{% include 'shared/typewriter.html.twig' %}<br class="d-block d-md-none"><span class="internet">Internet</span></div>
                     <!--<h1 class="title">Save<i>the</i><br class="d-block d-md-none">Internet</h1>-->
@@ -10,7 +10,7 @@
             </div>
             <p class="tagline">{% trans %}header_tagline{% endtrans %}</p>
             <p style="text-align: center">
-                <a href="https://www.change.org/p/european-parliament-stop-the-censorship-machinery-save-the-internet?recruiter=613694333&amp;utm_source=share_petition&amp;utm_medium=copylink&amp;utm_campaign=share_petition" class="btn-petition">{% trans %}sign_petition{% endtrans %}</a>
+                <a target="_blank" href="https://www.change.org/p/european-parliament-stop-the-censorship-machinery-save-the-internet?utm_source=share_petition&amp;utm_medium=copylink&amp;utm_campaign=share_petition" class="btn-petition">{% trans %}sign_petition{% endtrans %}</a>
             </p>
         </div>
     </div>

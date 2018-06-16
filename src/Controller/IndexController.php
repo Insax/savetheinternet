@@ -29,28 +29,25 @@ class IndexController extends Controller
     }
 
     /**
-     * @param string $_locale
      * @return Response
      */
-    public function index(string $_locale): Response
+    public function index(): Response
     {
         return $this->render('index/index.html.twig');
     }
 
     /**
-     * @param string $_locale
      * @return Response
      */
-    public function imprint(string $_locale): Response
+    public function imprint(): Response
     {
         return $this->render('imprint/index.html.twig');
     }
 
     /**
-     * @param string $_locale
      * @return Response
      */
-    public function privacy(string $_locale): Response
+    public function privacy(): Response
     {
         return $this->render('privacy/index.html.twig');
     }
@@ -62,6 +59,22 @@ class IndexController extends Controller
     public function gallery(string $_locale): Response
     {
         return $this->render('gallery/index.html.twig');
+
+     /**
+     * @param string $_locale
+     * @return Response
+     */
+    public function about(): Response
+    {
+        return $this->render('about/index.html.twig');
+    }
+
+    /**
+     * @return Response
+     */
+    public function resources(): Response
+    {
+        return $this->render('resources/index.html.twig');
     }
 
     /**
@@ -98,6 +111,7 @@ class IndexController extends Controller
         exec('cd ' . __DIR__ . '/../../; composer install');
         exec('cd ' . __DIR__ . '/../../; yarn install');
         exec('cd ' . __DIR__ . '/../../; yarn run build');
+        exec('cd ' . __DIR__ . '/../../; php bin/console cache:clear');
 
         return new Response();
     }

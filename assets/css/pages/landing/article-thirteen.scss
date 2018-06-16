@@ -20,6 +20,13 @@
             margin: 0;
             font-weight: 500;
         }
+
+        .explainer {
+            a.highlight {
+                text-decoration: none;
+                color: $accent1;
+            }
+        }
     }
 
     .content-pair {
