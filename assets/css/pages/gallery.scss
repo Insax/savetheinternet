@@ -16,7 +16,12 @@ div.gallery img {
     margin-top: -20px;
 }
 
-div.gallery a span.flag-icon{
+div.gallery img:hover {
+    background: #0f1c33;
+    opacity: 0.35;
+}
+
+div.gallery span.flag-icon{
     float: right;
     margin-top: 5px;
     margin-right: 5px;

@@ -6,27 +6,36 @@
                     <span>{% trans %}gallery_title{% endtrans %}</span>
                 </h2>
                 <br>
-                <div class="gallery">
-                    <a target="_blank" href="{{ absolute_url(asset('build/static/gallery/files/ILLEGAL-4x.pdf')) }}">
+                <a target="_blank" href="{{ absolute_url(asset('build/static/gallery/files/ILLEGAL-4x.pdf')) }}">
+                    <div class="gallery">
+                            <span class="flag-icon flag-icon-de"></span>
+                            <img src="{{ absolute_url(asset('build/static/gallery/preview/ILLEGAL-4x.png')) }}"
+                                 alt="ILLEGAL-4x.pdf" width="300" height="200">
+                        <div class="desc">
+                            <span class="label danger">{% trans %}gallery_download_pdf{% endtrans %}</span>
+                        </div>
+                    </div>
+                </a>
+                <a target="_blank" href="{{ absolute_url(asset('build/static/gallery/files/flyer_illegal_4x.pdf')) }}">
+                    <div class="gallery">
+                            <span class="flag-icon flag-icon-de"></span>
+                            <img src="{{ absolute_url(asset('build/static/gallery/preview/flyer_illegal_4x.png')) }}"
+                                 alt="flyer_illegal_4x.pdf" width="300" height="200">
+                        <div class="desc">
+                            <span class="label danger">{% trans %}gallery_download_pdf{% endtrans %}</span>
+                        </div>
+                    </div>
+                </a>
+                <a target="_blank" href="{{ absolute_url(asset('build/static/gallery/files/4x4_illegal_klein.pdf')) }}">
+                    <div class="gallery">
                         <span class="flag-icon flag-icon-de"></span>
-                        <img src="{{ absolute_url(asset('build/static/gallery/preview/ILLEGAL-4x.png')) }}" alt="ILLEGAL-4x.pdf" width="300" height="200">
-                    </a>
-                    <div class="desc"><span class="label danger">{% trans %}gallery_download_pdf{% endtrans %}</span></div>
-                </div>
-                <div class="gallery">
-                    <a target="_blank" href="{{ absolute_url(asset('build/static/gallery/files/flyer_illegal_4x.pdf')) }}">
-                        <span class="flag-icon flag-icon-de"></span>
-                        <img src="{{ absolute_url(asset('build/static/gallery/preview/flyer_illegal_4x.png')) }}" alt="flyer_illegal_4x.pdf" width="300" height="200">
-                    </a>
-                    <div class="desc"><span class="label danger">{% trans %}gallery_download_pdf{% endtrans %}</span></div>
-                </div>
-                <div class="gallery">
-                    <a target="_blank" href="{{ absolute_url(asset('build/static/gallery/files/4x4_illegal_klein.pdf')) }}">
-                        <span class="flag-icon flag-icon-de"></span>
-                        <img src="{{ absolute_url(asset('build/static/gallery/preview/4x4_illegal_klein.png')) }}" alt="4x4_illegal_klein.pdf" width="300" height="200">
-                    </a>
-                    <div class="desc"><span class="label danger">{% trans %}gallery_download_pdf{% endtrans %}</span></div>
-                </div>
+                        <img src="{{ absolute_url(asset('build/static/gallery/preview/4x4_illegal_klein.png')) }}"
+                             alt="4x4_illegal_klein.pdf" width="300" height="200">
+                        <div class="desc">
+                            <span class="label danger">{% trans %}gallery_download_pdf{% endtrans %}</span>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
