@@ -1,0 +1,35 @@
+@import "../../variables";
+$maxHeight: 400px;
+
+.map-container {
+  margin-top: 3rem;
+
+  .map {
+    height: $maxHeight;
+  }
+
+  .map-list {
+    max-height: $maxHeight;
+    overflow: hidden;
+
+    .demo-entry {
+      border-bottom: 1px solid $accent3;
+      margin-bottom: .8em;
+      padding-bottom: .8em;
+
+      .location,
+      .date {
+        color: $accent3;
+      }
+
+      .title {
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .date {
+        margin-right: 1em;
+      }
+    }
+  }
+}
