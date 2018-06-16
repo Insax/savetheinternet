@@ -22,6 +22,10 @@ function debounce(func, wait, immediate) {
 
 jQuery(document)
     .ready(function () {
+        if($('.gallery-grid').length < 1) {
+            return;
+        }
+
         const gallery = new Masonry('.gallery-grid', {
             itemSelector: '.gallery',
             columnWidth:  '.grid-sizer',
