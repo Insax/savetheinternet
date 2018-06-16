@@ -1,8 +1,11 @@
 export default class Map {
     constructor() {
         this.map = null;
-        this.container = document.getElementById('map-list');
-        this.apiKey = 'AIzaSyB2-bnT7GwECse_lvi-_DbeT3P8neYM4EI'; // Dev-Keys, working with localhost. Replace before build!
+        this.mapContainer = document.getElementById('map');
+        this.container = document.querySelector('#map-list .list');
+        this.spinner = document.getElementsByClassName('map-loader')[0];
+        this.infoContainer = null;
+        this.apiKey = 'AIzaSyB2-bnT7GwECse_lvi-_DbeT3P8neYM4EI'; // Dev-Key!
         this.list = [];
         this.urls = {
             get: 'http://localhost:8080/build/static/locations.json',
@@ -18,7 +21,17 @@ export default class Map {
                 this.list = list;
 
                 list.forEach(entry => {
-                    this.container.appendChild(this.buildEntry(entry));
+                    let oCity = null;
+                    entry.time = moment.unix(entry.timestamp).format('DD.MM.YYYY - HH:mm');
+                    entry.descr = 'To Do!';
+
+                    this.getCityName(entry)
+                    .then(city => oCity = city)
+                    .catch(() => oCity = 'unknown')
+                    .finally(() => {
+                        entry.city = oCity;
+                        this.container.insertBefore(this.buildEntry(entry), this.container.firstChild);
+                    });
                 });
 
                 resolve(list);
@@ -27,22 +40,21 @@ export default class Map {
     }
 
     buildEntry(data) {
-        let elem = document.createElement('div');
-        elem.innerHTML = `
+        let elem = $(`
             <div class="demo-entry">
                 <div class="title">${data.title}</div>
                 <div class="footer">
                      <span class="date">
-                        <i class="fa fa-clock-o"></i> ${moment.unix(data.timestamp).format('DD.MM.YYYY - HH:mm')}
+                        <i class="fa fa-clock-o"></i> ${data.time}
                     </span>
                     <span class="location">
-                        <i class="fa fa-map-marker"></i> Dummy
+                        <i class="fa fa-map-marker"></i> ${data.city}
                     </span>
                 </div>
             </div>
-        `;
+        `)[0];
 
-        elem.querySelector('.title').onclick = () => this.scrollToMarker(data);
+        elem.onclick = () => this.scrollToMarker(data);
 
         return elem;
     }
@@ -72,8 +84,10 @@ export default class Map {
                         position: new google.maps.LatLng(data.lat, data.lng),
                         map: this.map,
                         title: data.title,
-                    })
-                })
+                    });
+                });
+
+                this.spinner.classList.remove('map-loader');
             });
     }
 
@@ -92,6 +106,58 @@ export default class Map {
 
     scrollToMarker(data) {
         this.map.panTo(new google.maps.LatLng(data.lat, data.lng));
+        this.addInfo(data);
+    }
+
+    addInfo(data) {
+        if (!this.infoContainer) {
+            this.infoContainer = document.createElement('div');
+            this.infoContainer.className = 'map-info';
+            this.infoContainer.innerHTML = `
+                <div class="head">
+                    <span class="fa fa-angle-left"></span> 
+                    <span class="title">${data.title}</span>
+                </div>
+                <div class="content">
+                    <div class="location">
+                        <i class="fa fa-map-marker"></i> 
+                        <span class="val">${data.city}</span>
+                    </div>
+                    <div class="time">
+                        <i class="fa fa-clock-o"></i> 
+                        <span class="val">${data.time}</span>
+                    </div>
+                    <div class="description"><span class="val">${data.descr}</span></div>
+                </div>
+            `;
+
+            this.mapContainer.insertBefore(this.infoContainer, this.mapContainer.firstChild);
+            window.getComputedStyle(this.infoContainer).marginLeft; // Animation-hack
+            this.infoContainer.classList.add('visible');
+            this.infoContainer.querySelector('.head').onclick = () => this.removeInfo(this.infoContainer);
+        } else {
+            this.infoContainer.classList.add('visible');
+            this.infoContainer.querySelector('.title').innerText = data.title;
+            this.infoContainer.querySelector('.content .location .val').innerText = data.city;
+            this.infoContainer.querySelector('.content .time .val').innerText = data.time;
+            this.infoContainer.querySelector('.content .description .val').innerText = data.descr;
+        }
+    }
+
+    removeInfo() {
+        console.log('remove');
+        this.infoContainer.classList.remove('visible');
+    }
+
+    getCityName(data) {
+        return new Promise((resolve, reject) => {
+            fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${data.lat},${data.lng}&sensor=true`)
+            .then(r => r.json()).then(res => {
+                res = res.results[res.results.length - 2];
+                res ? resolve(res.formatted_address.split(',')[0]) : reject(false);
+            })
+            .catch(e => reject(e));
+        });
     }
 }
 
