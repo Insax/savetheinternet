@@ -1,13 +1,8 @@
-<!-- Language Switcher -->
-<div id="langcontainer">
-    <ul>
-        {% for locale in locales %}
-            <li>
-                <a href="{{ path(app.request.attributes.get('_route'),  app.request.attributes.get('_route_params')|merge({'_locale': locale})) }}"
-                    hreflang="{{ locale }}">
-                    <span class="flag-icon flag-icon-{{ localeCodes[locale][1]|lower }}"></span>
-                </a>
-            </li>
-        {% endfor %}
-    </ul>
-</div>
+{% for locale in locales %}
+    <li class="nav-item">
+        <a class="nav-link" href="{{ path(app.request.attributes.get('_route'),  app.request.attributes.get('_route_params')|merge({'_locale': locale})) }}"
+           hreflang="{{ locale }}">
+            <span class="flag-icon flag-icon-{{ localeCodes[locale][1]|lower }}"></span>
+        </a>
+    </li>
+{% endfor %}

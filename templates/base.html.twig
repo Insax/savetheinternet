@@ -53,6 +53,9 @@
     {% endblock %}
 </head>
 <body>
+{% block nav %}
+    {% include 'shared/navigation.html.twig' %}
+{% endblock %}
 {% block body %}{% endblock %}
 {% block javascripts %}
     <script src="{{ preload(asset('build/js/app.js')) }}"></script>

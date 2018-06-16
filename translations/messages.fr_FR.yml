@@ -81,7 +81,7 @@ graphic_box_content2: |
 
 # Image-split section
 image_split_title: |
-  'L'article 11 n'affecte pas seulement internet'
+    L'article 11 n'affecte pas seulement internet
 image_split_content: |
     Le progrès et la recherche souffriront aussi de cet article. A l'avenir les utilisateurs, comme les chercheurs indépendants, des journalistes, des particuliers et des entreprises diverses, ne pourront plus avoir accès aux informations librement. Cela aura un effet sur l'intérêt du publique pour les diverses découvertes, scientifiques ou non.
 
@@ -105,8 +105,8 @@ gallery_download_pdf: 'Télécharger le PDF'
 # About page
 about_title: |
   'À propos'
-about_sub_title1: ' Arrêtez la machine à censure – sauvez internet!'
-about_sub_text1: ' Internet comme vous le connaissez est en danger! Le parlement européen est actuellement en train de faire des restrictions sur les copyrights, ce qui restreindrait massivement votre liberté sur internet .'
+about_sub_title1: 'Arrêtez la machine à censure – sauvez internet!'
+about_sub_text1: 'Internet comme vous le connaissez est en danger! Le parlement européen est actuellement en train de faire des restrictions sur les copyrights, ce qui restreindrait massivement votre liberté sur internet .'
 
 about_sub_title2: 'Ce à quoi vous devez vous attendre'
 about_sub_text2_1: |
