@@ -1,13 +1,12 @@
 <div class="container">
     <div class="row">
-        <div class="video-player vjs-big-play-centered col-12">
+        <div class="video-player vjs-big-play-centered col-12" style="padding: 0; margin-top: 10px; margin-bottom: 10px;">
             <video id="video"
                    class="video-js"
                    controls
                    preload="auto"
-                   poster="//vjs.zencdn.net/v/oceans.png"
                    data-setup='{}'>
-                <source src="http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_60fps_normal.mp4"
+                <source src="{{ absolute_url(asset('build/static/video/de_save_the_internt_1080p.mp4')) }}"
                         type="video/mp4">
             </video>
         </div>
