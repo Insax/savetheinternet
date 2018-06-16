@@ -97,6 +97,7 @@ sign_petition: 'Sign the petition'
 
 # gallery section
 gallery_title: 'Gallery'
+gallery_download_pdf: 'Download PDF'
 
 # Footer section
 imprint_link: 'Imprint'

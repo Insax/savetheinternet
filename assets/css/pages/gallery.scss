@@ -1,8 +1,9 @@
 div.gallery {
-    margin: 5px;
+    margin: 0 auto;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    min-width: 180px;
+    max-width: 320px;
 }
 
 div.gallery:hover {
@@ -12,6 +13,13 @@ div.gallery:hover {
 div.gallery img {
     width: 100%;
     height: auto;
+    margin-top: -20px;
+}
+
+div.gallery a span.flag-icon{
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 
 div.desc {

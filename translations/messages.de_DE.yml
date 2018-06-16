@@ -83,6 +83,7 @@ sign_petition: 'Zur Petition'
 
 # gallery section
 gallery_title: 'Gallerie'
+gallery_download_pdf: 'PDF herunterladen'
 
 # Footer section
 imprint_link: 'Impressum'
