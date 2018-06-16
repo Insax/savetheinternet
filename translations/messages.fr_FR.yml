@@ -60,9 +60,9 @@ what_do_title: 'Que pouvez vous faire?'
 # What-do row section start
 what_do_share: 'Parlez de ça autour de vous! Partagez ce site!'
 what_do_share_content: 'Avec le maximum de personnes possible, ainsi nous pourrons faire pression sur le parlement! Signez la pétition!'
-what_do_need_content: 'Need something to share?'
+what_do_need_content: 'Besoin de partager quelque chose ?'
 what_do_gallery: |
-    <a class="highlight" href="/fr_FR/gallery">In our gallery</a> you can find the content you're looking for!
+    <a class="highlight" href="/fr_FR/gallery">Dans notre galerie</a> vous pourrez trouver le contenu que vous cherchez!
 
 what_do_mail: 'Écrivez à votre député!'
 what_do_mail_content: |
