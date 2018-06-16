@@ -1,8 +1,10 @@
 .gallery-grid {
+    .gallery, .grid-sizer {
+        width: 20%;
+    }
     .gallery {
         margin-bottom: 25px;
         border: 1px solid #ccc;
-        width: 250px;
 
         &:hover {
             border: 1px solid #777;
@@ -33,5 +35,29 @@
     .desc {
         padding: 15px;
         text-align: center;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .gallery-grid {
+        .grid-sizer, .gallery {
+            width: 30%;
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    .gallery-grid {
+        .grid-sizer, .gallery {
+            width: 47%;
+        }
+    }
+}
+
+@media all and (max-width: 462px) {
+    .gallery-grid {
+        .grid-sizer, .gallery {
+            width: 100%;
+        }
     }
 }

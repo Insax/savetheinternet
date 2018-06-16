@@ -24,7 +24,8 @@ jQuery(document)
     .ready(function () {
         const gallery = new Masonry('.gallery-grid', {
             itemSelector: '.gallery',
-            columnWidth:  250,
+            columnWidth:  '.grid-sizer',
+            percentPosition: true,
             gutter:       25,
         });
 
