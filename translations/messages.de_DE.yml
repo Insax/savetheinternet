@@ -78,6 +78,10 @@ petition_content2: 'Aus diesem Grund haben wir eine Petition erstellt, um gegen 
 petition_button: 'Besuche die Petition'
 sign_petition: 'Zur Petition'
 
+# gallery section
+gallery_title: 'Gallerie'
+gallery_download_pdf: 'PDF herunterladen'
+
 # About page
 about_title: 'Informationen'
 about_sub_title1: 'Stoppt die Zensurmaschine - rettet das Internet!'
@@ -100,7 +104,6 @@ about_sub_title5: 'Unsere Forderung an die EU:'
 about_sub_text5_1: 'Wir fordern, dass der Rechtsausschuss nicht denselben Fehler begeht wie das EU-Parlament vor zwei Jahren. Stimmen Sie am 20. Juni 2018 gegen die Urheberrechtsreform im digitalen Binnenmarkt und damit insbesondere gegen die Artikel 11 und 13.'
 about_sub_text5_2: 'Durch ihre Position im Parlament haben Sie die Verpflichtung, die Meinung und Werte der Bürger Ihres Landes zu vertreten und ihre Freiheit zu bewahren.'
 about_sub_text5_strong: 'Unterstütze uns, damit wir zusammen für ein freies Internet einstehen können!'
-
 
 # Footer section
 about_link: 'Infos'

@@ -91,6 +91,10 @@ sign_petition: 'Sign the petition'
 #consent_content: 'Please consent'
 #consent_confirm: 'I consent'
 
+# gallery section
+gallery_title: 'Gallery'
+gallery_download_pdf: 'Download PDF'
+
 # About page
 about_title: 'About'
 about_sub_title1: 'Stop the censorship machine - save the internet!'
