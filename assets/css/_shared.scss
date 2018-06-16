@@ -4,6 +4,7 @@
 @import "shared/footer";
 @import "shared/typewriter";
 @import "shared/video-player";
+@import "shared/navigation";
 
 html {
     height: 100vh;
@@ -48,6 +49,10 @@ body {
 
 a {
     outline: none !important;
+    &.highlight {
+        text-decoration: none;
+        color: #ffbf00;
+    }
 }
 
 h1,
@@ -81,3 +86,16 @@ h6 {
 .flex-grow {
     flex-grow: 1;
 }
+
+
+.label {
+    color: white;
+    padding: 6px;
+    border-radius: 13px;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.info {background-color: #2196F3;} /* Blue */
+.warning {background-color: #ff9800;} /* Orange */
+.danger {background-color: #f44336;} /* Red */
+.other {background-color: #e7e7e7; color: black;} /* Gray */

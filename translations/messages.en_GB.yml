@@ -56,6 +56,9 @@ what_do_title: 'What can you do?'
 # What-do row section start
 what_do_share: 'Talk to others about it! Share this page!'
 what_do_share_content: 'Only if as many people as possible know we can put pressure on Parliament. Sign our petition!'
+what_do_need_content: 'Need something to share?'
+what_do_gallery: |
+    <a class="highlight" href="/en_GB/gallery">In our gallery</a> you can find the content you're looking for!
 
 what_do_mail: 'Write to your deputy!'
 what_do_mail_content: 'You can send an e-mail to your MEP to alert him that you do not agree with the bill. All necessary mail addresses and a ready-made message can be found here:'
@@ -90,6 +93,10 @@ sign_petition: 'Sign the petition'
 #consent_title: 'Please consent'
 #consent_content: 'Please consent'
 #consent_confirm: 'I consent'
+
+# gallery section
+gallery_title: 'Gallery'
+gallery_download_pdf: 'Download PDF'
 
 # About page
 about_title: 'About'

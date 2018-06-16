@@ -1,33 +1,41 @@
 #langcontainer ul {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin-top: 12px;
-  margin-right: 20px;
-  cursor: pointer;
-  list-style: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+    list-style: none;
 }
 
 #langcontainer li {
-  display: inline-block;
-  padding-right: 10px;
+    display: inline-block;
+    //padding-right: 10px;
 }
 
 #langcontainer li span {
-  width: 25px;
-  height: 25px;
-  animation-name: fade-in;
-  animation-duration: .5s;
-  animation-fill-mode: forwards;
-  filter: grayscale(32%);
-  transition: all 0.5s ease;
+    width: 25px;
+    height: 25px;
+    animation-name: fade-in;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    filter: grayscale(32%);
+    transition: all 0.5s ease;
 }
 
 @keyframes fade-in {
-  0% { opacity: 0 }
-  100% { opacity: 1 }
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
 }
 
 #langcontainer li span:hover {
-  filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+#langcontainer .nav-item .nav-link{
+    padding: 0;
 }

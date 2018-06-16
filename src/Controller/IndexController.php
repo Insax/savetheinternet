@@ -3,13 +3,16 @@
 namespace App\Controller;
 
 use App\Services\TweetService;
+use Psr\Log\LoggerInterface;
 use Smalot\Github\Webhook\Webhook;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\Finder\Finder;
+use Symfony\Component\Finder\SplFileInfo;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\HttpKernel\Event\KernelEvent;
 use Symfony\Component\HttpKernel\KernelEvents;
+use Symfony\Component\HttpKernel\KernelInterface;
 use Symfony\Component\Routing\Annotation\Route;
 
 class IndexController extends Controller
@@ -20,12 +23,18 @@ class IndexController extends Controller
     private $tweetService;
 
     /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger;
+
+    /**
      * IndexController constructor.
      * @param TweetService $tweetService
      */
-    public function __construct(TweetService $tweetService)
+    public function __construct(TweetService $tweetService, LoggerInterface $logger)
     {
         $this->tweetService = $tweetService;
+        $this->logger = $logger;
     }
 
     /**
@@ -50,6 +59,40 @@ class IndexController extends Controller
     public function privacy(): Response
     {
         return $this->render('privacy/index.html.twig');
+    }
+
+    /**
+     * @return Response
+     */
+    public function gallery(KernelInterface $kernel): Response
+    {
+        $base = realpath($kernel->getRootDir() . '/../public/build/static/gallery');
+        $files = $base . '/files/';
+        $preview = $base . '/preview/';
+
+        $finder = new Finder();
+
+        $finder->files()->depth('< 3')->name('/\.(png|jpg)$/i')->in($files);
+
+        $galleryImages = [];
+
+        foreach ($finder as $file) {
+            $name = $file->getFilename();
+            $langcode = basename(dirname($file->getRealPath()));
+            $thumb = sprintf('%s/thumb_%s', $langcode, $name);
+
+            if(!file_exists($preview . $thumb)) {
+                $this->resizeImage($file, $preview . $thumb);
+            }
+
+            $galleryImages[] = [
+                'name' => sprintf('%s/%s', $langcode, $name),
+                'thumb' => $thumb,
+                'langcode' => $langcode
+            ];
+        }
+
+        return $this->render('gallery/index.html.twig', ['images' => $galleryImages]);
     }
 
     /**
@@ -105,5 +148,27 @@ class IndexController extends Controller
         exec('cd ' . __DIR__ . '/../../; php bin/console cache:clear');
 
         return new Response();
+    }
+
+    private function resizeImage(SplFileInfo $file, $destinationName)
+    {
+        try {
+            $imagick = new \Imagick($file->getRealPath());
+
+            $imagick->resizeImage(453,640, 0, 1, true);
+
+            /*$imageWidth = $imagick->getImageWidth();
+            if($imagick->getImageHeight() > $imageWidth * 1.5) {
+                $imagick->cropImage($imageWidth,$imageWidth * 1.5,0,0);
+            }*/
+
+            if(is_writable(dirname($destinationName))) {
+                return $imagick->writeImage($destinationName);
+            }
+        } catch (\ImagickException $e) {
+            $this->logger->error($e->getMessage(), [$file, $destinationName]);
+        }
+
+        return false;
     }
 }

@@ -1,4 +1,11 @@
 @import "~bootstrap/scss/bootstrap-grid";
+
+// nav implementation
+@import "~bootstrap/scss/mixins/_hover";
+@import "~bootstrap/scss/mixins/_border-radius";
+@import "~bootstrap/scss/_nav";
+@import "~bootstrap/scss/utilities/_position";
+
 @import "raleway";
 
 $background: #12233f;

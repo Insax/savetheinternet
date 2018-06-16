@@ -1,0 +1,22 @@
+<div class="container section-gallery">
+    <div class="row">
+        <div class="col-12">
+            <div class="header">
+                <h2 class="title">
+                    <span>{% trans %}gallery_title{% endtrans %}</span>
+                </h2>
+                <br>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="gallery-grid">
+                            <div class="grid-sizer"></div>
+                            {% for image in images %}
+                                {% include 'gallery/components/image.html.twig' %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

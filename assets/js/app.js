@@ -18,3 +18,4 @@ window.moment = moment;
 })(jQuery);
 
 import './pages/landing.js';
+import './pages/gallery';

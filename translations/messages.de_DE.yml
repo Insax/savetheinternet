@@ -12,7 +12,7 @@ header_tagline: 'Das Internet ist in Gefahr, und du kannst es retten!'
 article: 'Artikel'
 article_title: 'Was passiert am 20. Juni?'
 article_content: |
-    'Am 20. Juni stimmt der Rechtsausschuss des EU-Parlaments über die geplante <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:52016PC0593&from=EN" class="highlight">Urheberrechts-Richtlinie</a> ab. Die Einzigen, die jetzt noch dieses fatale Gesetz stoppen können, sind die EU-Abgeordneten!'
+    Am 20. Juni stimmt der Rechtsausschuss des EU-Parlaments über die geplante <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:52016PC0593&from=EN" class="highlight">Urheberrechts-Richtlinie</a> ab. Die Einzigen, die jetzt noch dieses fatale Gesetz stoppen können, sind die EU-Abgeordneten!
 
 # Article row section start
 article_reddit_title: 'Diktatur fehleranfälliger'
@@ -50,6 +50,9 @@ what_do_title: 'Was kannst du tun?'
 # What-do row section start
 what_do_share: 'Rede mit anderen darüber! Teile diese Seite!'
 what_do_share_content: 'Nur wenn möglichst viele Leute Bescheid wissen, können wir Druck auf das Parlament ausüben. Unterzeichne unsere Petition!'
+what_do_need_content: 'Brauchst du was zum teilen?'
+what_do_gallery: |
+    <a class="highlight" href="/de_DE/gallery">In unserer Galerie </a> findest du den Content den du suchst!
 
 what_do_mail: 'Schreib deinem Abgeordneten!'
 what_do_mail_content: 'Du kannst deinem EU-Abgeordneten eine E-Mail schreiben, um ihn darauf aufmerksam zu machen, dass du mit dem Gesetzesvorhaben nicht einverstanden bist. Alle nötigen Mailadressen und eine vorgefertigte Nachricht findest du hier:'
@@ -78,6 +81,10 @@ petition_content2: 'Aus diesem Grund haben wir eine Petition erstellt, um gegen 
 petition_button: 'Besuche die Petition'
 sign_petition: 'Zur Petition'
 
+# gallery section
+gallery_title: 'Galerie'
+gallery_download_pdf: 'PDF herunterladen'
+
 # About page
 about_title: 'Informationen'
 about_sub_title1: 'Stoppt die Zensurmaschine - rettet das Internet!'
@@ -100,7 +107,6 @@ about_sub_title5: 'Unsere Forderung an die EU:'
 about_sub_text5_1: 'Wir fordern, dass der Rechtsausschuss nicht denselben Fehler begeht wie das EU-Parlament vor zwei Jahren. Stimmen Sie am 20. Juni 2018 gegen die Urheberrechtsreform im digitalen Binnenmarkt und damit insbesondere gegen die Artikel 11 und 13.'
 about_sub_text5_2: 'Durch ihre Position im Parlament haben Sie die Verpflichtung, die Meinung und Werte der Bürger Ihres Landes zu vertreten und ihre Freiheit zu bewahren.'
 about_sub_text5_strong: 'Unterstütze uns, damit wir zusammen für ein freies Internet einstehen können!'
-
 
 # Footer section
 about_link: 'Infos'

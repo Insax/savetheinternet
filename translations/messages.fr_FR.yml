@@ -11,11 +11,11 @@ header_tagline: 'Internet est en danger, et vous pouvez le sauver!'
 article: 'Article'
 article_title: 'Que va t-il arriver le 20 juin?'
 article_content: |
-  'Le 20 juin, le conseil européen va voter la <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:52016PC0593&from=EN" class="highlight">directive suivante</a>. Les seuls qui peuvent arrêter cette loi fatale à internet sont maintenant les membres du parlement européen!'
+  Le 20 juin, le conseil européen va voter la <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:52016PC0593&from=EN" class="highlight">directive suivante</a>. Les seuls qui peuvent arrêter cette loi fatale à internet sont maintenant les membres du parlement européen!
 
 # Article row section start
 article_reddit_title: |
-  'La dictature <span class="highlight">d'algorithmes</span> faillibles'
+  La dictature <span class="highlight">d'algorithmes</span> faillibles'
 article_reddit_title_highlight: ''
 article_reddit_content: >
     Les filtres de téléchargement des sites comme YouTube, Facebook etc. ont une chose en commun : Ils ne fonctionneront jamais aussi précisément que des humains. En conséquence, les contenus sous copyrights utilisés sous le sigle «fair use» seront supprimés. Cette «tendance» pourrait faire supprimé tout contenu qui ne va pas avec les valeurs ou les intérêts de l'entreprise.
@@ -60,6 +60,9 @@ what_do_title: 'Que pouvez vous faire?'
 # What-do row section start
 what_do_share: 'Parlez de ça autour de vous! Partagez ce site!'
 what_do_share_content: 'Avec le maximum de personnes possible, ainsi nous pourrons faire pression sur le parlement! Signez la pétition!'
+what_do_need_content: 'Besoin de partager quelque chose ?'
+what_do_gallery: |
+    <a class="highlight" href="/fr_FR/gallery">Dans notre galerie</a> vous pourrez trouver le contenu que vous cherchez!
 
 what_do_mail: 'Écrivez à votre député!'
 what_do_mail_content: |
@@ -81,7 +84,7 @@ graphic_box_content2: |
 
 # Image-split section
 image_split_title: |
-  'L'article 11 n'affecte pas seulement internet'
+    L'article 11 n'affecte pas seulement internet
 image_split_content: |
     Le progrès et la recherche souffriront aussi de cet article. A l'avenir les utilisateurs, comme les chercheurs indépendants, des journalistes, des particuliers et des entreprises diverses, ne pourront plus avoir accès aux informations librement. Cela aura un effet sur l'intérêt du publique pour les diverses découvertes, scientifiques ou non.
 
@@ -98,11 +101,15 @@ sign_petition: 'Signez la pétition'
 #consent_content: 'Please consent'
 #consent_confirm: 'I consent'
 
+# gallery section
+gallery_title: 'Galerie'
+gallery_download_pdf: 'Télécharger le PDF'
+
 # About page
 about_title: |
   'À propos'
-about_sub_title1: ' Arrêtez la machine à censure – sauvez internet!'
-about_sub_text1: ' Internet comme vous le connaissez est en danger! Le parlement européen est actuellement en train de faire des restrictions sur les copyrights, ce qui restreindrait massivement votre liberté sur internet .'
+about_sub_title1: 'Arrêtez la machine à censure – sauvez internet!'
+about_sub_text1: 'Internet comme vous le connaissez est en danger! Le parlement européen est actuellement en train de faire des restrictions sur les copyrights, ce qui restreindrait massivement votre liberté sur internet .'
 
 about_sub_title2: 'Ce à quoi vous devez vous attendre'
 about_sub_text2_1: |

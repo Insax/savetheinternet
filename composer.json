@@ -11,6 +11,7 @@
         "symfony/asset": "^4.1",
         "symfony/cache": "^4.1",
         "symfony/console": "^4.1",
+        "symfony/finder": "^4.1",
         "symfony/flex": "^1.0",
         "symfony/framework-bundle": "^4.1",
         "symfony/lts": "^4@dev",

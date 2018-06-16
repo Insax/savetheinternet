@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "11d0edfb0d2a71bccd4d6b9111c61a6f",
+    "content-hash": "b577cbfbd512f998957df02f761e7283",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -1363,7 +1363,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v4.1.0",
+            "version": "4.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
