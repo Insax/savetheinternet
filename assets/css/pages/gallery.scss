@@ -1,32 +1,37 @@
-div.gallery {
-    margin-bottom: 25px;
-    border: 1px solid #ccc;
-    min-width: 230px;
-    max-width: 320px;
-}
+.gallery-grid {
+    .gallery {
+        margin-bottom: 25px;
+        border: 1px solid #ccc;
+        width: 250px;
 
-div.gallery:hover {
-    border: 1px solid #777;
-}
+        &:hover {
+            border: 1px solid #777;
+        }
 
-div.gallery img {
-    width: 100%;
-    height: auto;
-    margin-top: -20px;
-}
+        a {
+            position: relative;
+            display: block;
 
-div.gallery img:hover {
-    background: #0f1c33;
-    opacity: 0.35;
-}
+            img {
+                width: 100%;
+                height: auto;
 
-div.gallery span.flag-icon{
-    float: right;
-    margin-top: 5px;
-    margin-right: 5px;
-}
+                &:hover {
+                    background: #0f1c33;
+                    opacity: 0.35;
+                }
+            }
 
-div.desc {
-    padding: 15px;
-    text-align: center;
+            .flag-icon{
+                position: absolute;
+                top: 5px;
+                right: 5px;
+            }
+        }
+    }
+
+    .desc {
+        padding: 15px;
+        text-align: center;
+    }
 }

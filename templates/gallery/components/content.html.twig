@@ -6,7 +6,7 @@
                     <span>{% trans %}gallery_title{% endtrans %}</span>
                 </h2>
                 <br>
-                <div class="row">
+                <div class="row gallery-grid">
                     {% for image in images %}
                         {% include 'gallery/components/image.html.twig' %}
                     {% endfor %}
