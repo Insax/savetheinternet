@@ -52,6 +52,9 @@ what_do_title: 'Hvad kan du gøre??'
 # What-do row section start
 what_do_share: 'Fortæl det du ved til andre, del denne hjemmeside!'
 what_do_share_content: 'Fortæl det du ved til andre, del denne hjemmeside! Vi har brug for enhver og jo flere vi er, jo større et pres kan vi lægge på EU-Parlamentet og politikerne, som VI har valgt og som rent faktisk er forpligtet til at handle i vores interesser! Underskriv vores petition!'
+what_do_need_content: 'Need something to share?'
+what_do_gallery: |
+    <a class="highlight" href="/da_DK/gallery">In our gallery</a> you can find the content you're lookig for!
 
 what_do_mail: 'Skriv til din delegeret!'
 what_do_mail_content: 'Du kan sende en mail til din MEP for at advare ham eller hende og for at fremhæve, at de ikke bør stemme for denne lov. Husk at påminde dem, at der er Europavalg næste år! Mailadresserne og en mailskablon kan du finde her:'

@@ -49,6 +49,10 @@ body {
 
 a {
     outline: none !important;
+    &.highlight {
+        text-decoration: none;
+        color: #ffbf00;
+    }
 }
 
 h1,

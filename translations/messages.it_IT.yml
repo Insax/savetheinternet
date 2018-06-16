@@ -57,6 +57,9 @@ what_do_title: 'Cosa puoi fare?'
 # What-do row section start
 what_do_share: 'Parla con gli altri! Condividi questa pagina!'
 what_do_share_content: 'Solo se il maggior numero possibile di persone sa che possiamo esercitare pressioni sul Parlamento. Firma la nostra petizione!'
+what_do_need_content: 'Need something to share?'
+what_do_gallery: |
+    <a class="highlight" href="/it_IT/gallery">In our gallery</a> you can find the content you're lookig for!
 
 what_do_mail: 'Scrivi al tuo eurodeputato!'
 what_do_mail_content: "Puoi inviare un'e-mail al tuo eurodeputato per avvertirlo che non sei d'accordo con la legge. Tutti gli indirizzi di posta necessari sono gia' pronti e possono essere trovati qui:"

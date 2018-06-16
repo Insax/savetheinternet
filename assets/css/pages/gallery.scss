@@ -1,63 +1,81 @@
-.gallery-grid {
-    .gallery, .grid-sizer {
-        width: 20%;
-    }
-    .gallery {
-        margin-bottom: 25px;
-        border: 1px solid #ccc;
+.section-gallery{
+    .title {
+        margin: 0;
+        font-size: 3.4em;
+        font-weight: 500;
 
-        &:hover {
-            border: 1px solid #777;
+        .highlight {
+            color: $accent1;
         }
+    }
+    .gallery-grid {
+        .gallery, .grid-sizer {
+            width: 20%;
+        }
+        .gallery {
+            margin-bottom: 25px;
+            border: 1px solid #ccc;
 
-        a {
-            position: relative;
-            display: block;
+            &:hover {
+                border: 1px solid #777;
+            }
 
-            img {
-                width: 100%;
-                height: auto;
+            a {
+                position: relative;
+                display: block;
 
-                &:hover {
-                    background: #0f1c33;
-                    opacity: 0.35;
+                img {
+                    width: 100%;
+                    height: auto;
+
+                    &:hover {
+                        background: #0f1c33;
+                        opacity: 0.35;
+                    }
+                }
+
+                .flag-icon{
+                    position: absolute;
+                    top: 5px;
+                    right: 5px;
                 }
             }
-
-            .flag-icon{
-                position: absolute;
-                top: 5px;
-                right: 5px;
-            }
         }
-    }
 
-    .desc {
-        padding: 15px;
-        text-align: center;
+        .desc {
+            padding: 15px;
+            text-align: center;
+        }
     }
 }
 
+
 @media all and (max-width: 1200px) {
-    .gallery-grid {
-        .grid-sizer, .gallery {
-            width: 30%;
+    .section-gallery{
+        .gallery-grid {
+            .grid-sizer, .gallery {
+                width: 30%;
+            }
         }
     }
 }
 
 @media all and (max-width: 768px) {
-    .gallery-grid {
-        .grid-sizer, .gallery {
-            width: 47%;
+    .section-gallery {
+        .gallery-grid {
+            .grid-sizer, .gallery {
+                width: 47%;
+            }
         }
     }
 }
 
 @media all and (max-width: 462px) {
-    .gallery-grid {
-        .grid-sizer, .gallery {
-            width: 100%;
+    .section-gallery {
+        .gallery-grid {
+            .grid-sizer, .gallery {
+                width: 100%;
+            }
         }
     }
 }
