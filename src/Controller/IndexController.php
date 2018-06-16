@@ -157,10 +157,10 @@ class IndexController extends Controller
 
             $imagick->resizeImage(453,640, 0, 1, true);
 
-            $imageWidth = $imagick->getImageWidth();
+            /*$imageWidth = $imagick->getImageWidth();
             if($imagick->getImageHeight() > $imageWidth * 1.5) {
                 $imagick->cropImage($imageWidth,$imageWidth * 1.5,0,0);
-            }
+            }*/
 
             if(is_writable(dirname($destinationName))) {
                 return $imagick->writeImage($destinationName);
