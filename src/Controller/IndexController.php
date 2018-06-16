@@ -2,8 +2,8 @@
 
 namespace App\Controller;
 
-use App\Kernel;
 use App\Services\TweetService;
+use Psr\Log\LoggerInterface;
 use Smalot\Github\Webhook\Webhook;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Finder\Finder;
@@ -11,7 +11,6 @@ use Symfony\Component\Finder\SplFileInfo;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\HttpKernel\Event\KernelEvent;
 use Symfony\Component\HttpKernel\KernelEvents;
 use Symfony\Component\HttpKernel\KernelInterface;
 use Symfony\Component\Routing\Annotation\Route;
@@ -24,12 +23,18 @@ class IndexController extends Controller
     private $tweetService;
 
     /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    private $logger;
+
+    /**
      * IndexController constructor.
      * @param TweetService $tweetService
      */
-    public function __construct(TweetService $tweetService)
+    public function __construct(TweetService $tweetService, LoggerInterface $logger)
     {
         $this->tweetService = $tweetService;
+        $this->logger = $logger;
     }
 
     /**
@@ -147,15 +152,23 @@ class IndexController extends Controller
 
     private function resizeImage(SplFileInfo $file, $destinationName)
     {
-        $imagick = new \Imagick($file->getRealPath());
+        try {
+            $imagick = new \Imagick($file->getRealPath());
 
-        $imagick->resizeImage(453,640, 0, 1, true);
+            $imagick->resizeImage(453,640, 0, 1, true);
 
-        $imageWidth = $imagick->getImageWidth();
-        if($imagick->getImageHeight() > $imageWidth * 1.5) {
-            $imagick->cropImage($imageWidth,$imageWidth * 1.5,0,0);
+            $imageWidth = $imagick->getImageWidth();
+            if($imagick->getImageHeight() > $imageWidth * 1.5) {
+                $imagick->cropImage($imageWidth,$imageWidth * 1.5,0,0);
+            }
+
+            if(is_writable(dirname($destinationName))) {
+                return $imagick->writeImage($destinationName);
+            }
+        } catch (\ImagickException $e) {
+            $this->logger->error($e->getMessage(), [$file, $destinationName]);
         }
 
-        return $imagick->writeImage($destinationName);
+        return false;
     }
 }
