@@ -40,12 +40,18 @@ class AvailableLocalesSubscriber implements EventSubscriberInterface
     public static function getSubscribedEvents()
     {
         return [
-           'kernel.request' => 'onKernelRequest',
+            'kernel.request' => 'onKernelRequest',
         ];
     }
 }
 
-function getAvailableLanguages() {
+function getAvailableLanguages()
+{
+    $languageOrder = [];
+    if (isset($_SERVER['LANG_ORDER'])) {
+        $languageOrder = explode(',', $_SERVER['LANG_ORDER']);
+    }
+
     $translationFiles = scandir(__DIR__ . '/../../translations', SCANDIR_SORT_NONE);
 
     $languages = [];
@@ -60,8 +66,17 @@ function getAvailableLanguages() {
             continue;
         }
 
-        $languages[] = $parts[1];
+        if (\in_array($parts[1], $languageOrder, true)) {
+            $position = \array_flip($languageOrder)[$parts[1]];
+
+            $languages[$position] = $parts[1];
+        } else {
+            $languages[] = $parts[1];
+        }
+
     }
+
+    ksort($languages);
 
     return $languages;
 }
