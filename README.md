@@ -43,7 +43,8 @@ Members of the parliament are the only ones that can stand in the way of bad cop
 
 ## :nut_and_bolt: Used technologies / Libraries / Frameworks
 
-- [PHP 7.1.12-1](http://www.php.net/)
+- [PHP 7.1.12-1](https://www.php.net/)
+- [Imagick 3.4.3](https://php.net/manual/en/book.imagick.php)
 - [Symfony 4.1](https://symfony.com/)
 - [Twig](https://twig.symfony.com/)
 - [Bootstrap 4.1.1 (JS & CSS)](https://getbootstrap.com/)
