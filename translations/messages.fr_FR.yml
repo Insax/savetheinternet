@@ -1,0 +1,136 @@
+day: 'jour'
+days: 'jours'
+hours: 'heures'
+minutes: 'minutes'
+seconds: 'secondes'
+
+# Header
+header_tagline: 'Internet est en danger, et vous pouvez le sauver!'
+
+# Article explainer section
+article: 'Article'
+article_title: 'Que va t-il arriver le 20 juin?'
+article_content: |
+  'Le 20 juin, le conseil européen va voter la <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:52016PC0593&from=EN" class="highlight">directive suivante</a>. Les seuls qui peuvent arrêter cette loi fatale à internet sont maintenant les membres du parlement européen!'
+
+# Article row section start
+article_reddit_title: |
+  'La dictature <span class="highlight">d'algorithmes</span> faillibles'
+article_reddit_title_highlight: ''
+article_reddit_content: >
+    Les filtres de téléchargement des sites comme YouTube, Facebook etc. ont une chose en commun : Ils ne fonctionneront jamais aussi précisément que des humains. En conséquence, les contenus sous copyrights utilisés sous le sigle «fair use» seront supprimés. Cette «tendance» pourrait faire supprimé tout contenu qui ne va pas avec les valeurs ou les intérêts de l'entreprise.
+
+article_link_title: 'Plus de'
+article_link_title_highlight: 'liens'
+article_link_content: |
+  'A l'avenir les éditeurs de presse seront obligés de facturer pour tout lien leur appartenant étant utilisé par autrui. Non aux taxes sur les liens!'
+
+article_pepe_title: 'Plus de'
+article_pepe_title_highlight: 'memes'
+article_pepe_content: 'Filtre de téléchargement veut aussi dire la mort de la culture des memes. Tout lien sous licence de «fair use» ou «free use» (utilisation libre) ne pourra plus être distribué sans une licence payante. Sauvez la culture des memes!'
+# Article row section end
+
+# Twitter section
+twitter_title: "Regardez ce que les autres disent"
+twitter_description: >
+    Cette censure pourrait détruire la culture internet comme nous la connaissons.
+    Les bloqueurs de téléchargement en addition avec ces algorithmes fallacieux pourraient vouloir dire que même une chose comme poster un lien pourrait devenir un problème. Surtout sur des sites comme Twitter, Facebook, 9GAG etc.
+    Pour être plus précis, tous vos sites préférés .
+    Puisque l'article 11 et 13 impliqueraient que les liens ou les citations pourraient être arrêtés avant d'avoir pu être téléchargés.
+
+
+#Typewriter section
+#typewriter_1: '^200 our'
+#typewriter_2: '^200 your'
+#typewriter_3: '^200 the'
+
+# Countdown section
+
+countdown_title: 'Le temps est compté '
+countdown_description1: "Le vote du parlement européen arrive dans quelques jours! Nous devons donc agir immédiatement pour convaincre les membres du parlement européen. Le comité responsable n'ont qu'une faible majorité d'un vote en faveur de la loi."
+countdown_description2: ''
+countdown_until: |
+    'compte à rebours jusqu'à ce que le conseil européen débate sur l'article 13'
+countdown_expired: |
+    'L'UE est en train de débattre'
+
+# What-do row
+what_do_title: 'Que pouvez vous faire?'
+
+# What-do row section start
+what_do_share: 'Parlez de ça autour de vous! Partagez ce site!'
+what_do_share_content: 'Avec le maximum de personnes possible, ainsi nous pourrons faire pression sur le parlement! Signez la pétition!'
+
+what_do_mail: 'Écrivez à votre député!'
+what_do_mail_content: |
+  'Vous pouvez envoyer un e-mail au député de votre circonscription pour l'informer que vous n'êtes pas en accord avec ce projet de loi. Toutes adresses mail ou message pré-écrit peut être trouvé ici:'
+
+what_do_call: 'Appelez le député de votre circonscription'
+what_do_call_content: |
+  'Si un mail est trop impersonnel pour vous, appelez votre député et essayez de le faire changer d'avis le numéro de téléphone peut être trouvé ici:'
+# What-do row section end
+
+# Graphic box section
+graphic_box_title1: 'Article 13 en détail'
+graphic_box_content1: |
+    L'article 13 requiert que presque toutes les plateformes internet installent un «robot filtre» qui peu automatiquement vérifier le contenu téléchargé sur le site. Ce qui restreint excessivement la liberté d'expression avant même qu'elle ne soit utilisé. La décision de la censure du contenu est donné à un faillible et trop sensible algorithme (programmé pour la jouer «safe» et, en cas de doute supprimer, ce qui pourrait représenter un risque).
+graphic_box_title2: 'Article 11 en détail'
+graphic_box_content2: |
+    Dans un texte auxiliaire concernant les copyright, il est stipulé que le contenu de certains fournisseurs d'informations sera le sujet de prochaines lois spécifiques aux médias. Ce qui veut dire que de simple citations pourraient être considérés comme des infractions aux copyrights.
+    Une grande parti des médias et de fournisseurs d'informations sur internet sera affecté à cause de la restriction d'utilisations des liens ou le fait de devoir payer pour les utiliser.
+
+# Image-split section
+image_split_title: |
+  'L'article 11 n'affecte pas seulement internet'
+image_split_content: |
+    Le progrès et la recherche souffriront aussi de cet article. A l'avenir les utilisateurs, comme les chercheurs indépendants, des journalistes, des particuliers et des entreprises diverses, ne pourront plus avoir accès aux informations librement. Cela aura un effet sur l'intérêt du publique pour les diverses découvertes, scientifiques ou non.
+
+# Petition section
+petition_title: 'Censure? Sans moi!'
+petition_content1: 'Supportez le mouvement! Nous sommes fort tous ensemble!'
+petition_content2: >
+    C'est pour cela que nous avons fait cette pétition contre l'article 11 et 13.
+petition_button: 'Voir la pétition'
+sign_petition: 'Signez la pétition'
+
+# Video section
+#consent_title: 'Please consent'
+#consent_content: 'Please consent'
+#consent_confirm: 'I consent'
+
+# About page
+about_title: |
+  'À propos'
+about_sub_title1: ' Arrêtez la machine à censure – sauvez internet!'
+about_sub_text1: ' Internet comme vous le connaissez est en danger! Le parlement européen est actuellement en train de faire des restrictions sur les copyrights, ce qui restreindrait massivement votre liberté sur internet .'
+
+about_sub_title2: 'Ce à quoi vous devez vous attendre'
+about_sub_text2_1: |
+  'le 20 juin, le conseil européen décidera le sort de la nouvelle loi sur les copyrights. Cela pourrait changer radicalement les lois sur le copyright dans l'UE. Au lieu de soutenir les créateurs comme voulu à la base, cette réforme pourrait même leur nuire.'
+about_sub_text2_2: |
+  'En particulier les articles 11 et 13 de la réforme pourraient entraîner d'énormes restrictions, pas seulement pour les consommateurs . Mêmes les grandes plateformes alimentés par les utilisateurs comme Reddit, GitHub ou 9GAG ou comme les créateurs eux-mêmes pourraient souffrir de ces nouvelles régulations :'
+
+about_sub_title3: 'Copyright auxiliaire'
+about_sub_text3_1: |
+  'L'article 11 de la loi se concentre principalement sur les copyright auxiliaire des fournisseurs d'informations. Des droits plus spécifiques de la presse protégeront les contenus de leur fournisseurs et auront besoin d'une licence achetée pour pouvoir être utilisé par d'autres. '
+about_sub_text3_2: |
+  'Le problème est simple : Une grande proportion de fournisseurs d'informations sont payés à la page  et au résultat fait avec les publicités, généré par la visite d'utilisateurs sur leur site par des liens extérieurs <br> Si une plateforme ne veut ou ne peut pas payer ces frais de licence, ils perdront ces visites de leur page. La loi proposée qui à la base devait soutenir ces fournisseurs, enlèvera en faite leur moyen d'exister.'
+
+about_sub_title4: 'Filtre de téléchargement'
+about_sub_text4_1: |
+  'L'implémentation de l'article 13 résultera en total filtrage en temps réel de chaque contenu qui sera téléchargé sur internet. Ce que cela veut dire : chaque paquet de donné sera automatiquement scanné par un algorithme potentiellement faillible. C'est comparable à l'algorithme erroné déployé par YouTube, qui souvent par erreur supprime du contenu qui n'est pas protégé par un copyright.'
+about_sub_text4_2: |
+  'Si vous pensez à la perspective qu'un algorithme pré-analyse tout le contenu qui est téléchargé sur internet, nous faisons le premier pas vers la dystopie de George Orwell «  1984 » . Nous sommes sur le point de voir une réforme qui pourrait changer la culture d'internet pour toujours.'
+
+about_sub_title5: |
+  'Notre demande à l'Union Européenne'
+about_sub_text5_1: |
+  'Nous demandons à la commission des affaires juridiques de ne pas faire la même erreur que le parlement européen à fait il y a deux ans. Le 20 juin 2018, votez contre la réforme sur la loi du copyright sur le marché digital, en particulier l'article 11 et 13.'
+about_sub_text5_2: >
+    À travers votre position au parlement européen, vous devez représenter l'opinion et les valeurs des citoyens de vos pays respectifs et défendre leur droits.
+about_sub_text5_strong: 'Rejoignez nous , et nous pourrons lutter ensemble pour un internet libre!'
+
+# Footer section
+about_link: 'À propos'
+imprint_link: 'imprimer'
+privacy_link: 'confidentialité'
