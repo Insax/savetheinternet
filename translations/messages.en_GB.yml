@@ -58,7 +58,7 @@ what_do_share: 'Talk to others about it! Share this page!'
 what_do_share_content: 'Only if as many people as possible know we can put pressure on Parliament. Sign our petition!'
 what_do_need_content: 'Need something to share?'
 what_do_gallery: |
-    <a class="highlight" href="/en_GB/gallery">In our gallery</a> you can find the content you're lookimg for!
+    <a class="highlight" href="/en_GB/gallery">In our gallery</a> you can find the content you're looking for!
 
 what_do_mail: 'Write to your deputy!'
 what_do_mail_content: 'You can send an e-mail to your MEP to alert him that you do not agree with the bill. All necessary mail addresses and a ready-made message can be found here:'
