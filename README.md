@@ -44,10 +44,13 @@ Members of the parliament are the only ones that can stand in the way of bad cop
 ## :nut_and_bolt: Used technologies / Libraries / Frameworks
 
 - [PHP 7.1.12-1](http://www.php.net/)
+- [Symfony 4.1](https://symfony.com/)
 - [Twig](https://twig.symfony.com/)
 - [Bootstrap 4.1.1 (JS & CSS)](https://getbootstrap.com/)
+- [Fontawesome 4.7.0](https://fontawesome.com/v4.7.0/)
 - [JQuery 3.3.1](https://jquery.com/)
 - [PopperJS 1.14.3](https://popper.js.org/)
+- [MomentJS 2.22.3](https://momentjs.com/)
 
 <hr>
 
