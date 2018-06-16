@@ -59,9 +59,9 @@ class IndexController extends Controller
     public function gallery(string $_locale): Response
     {
         return $this->render('gallery/index.html.twig');
+    }
 
-     /**
-     * @param string $_locale
+    /**
      * @return Response
      */
     public function about(): Response

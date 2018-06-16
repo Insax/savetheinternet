@@ -66,12 +66,12 @@ graphic_box_content1: |
     Artikel 13 indskrænker os langt mere end artikel 11 allerede gør. Der skal oprettes en såkaldt ”uploadfilter”, som skal screene alt før det uploades til internettet. Hvis der bare er det mindste sammenhæng til andre filer, vil din egen fil ikke kunne stilles til rådighed på internettet. Det hele skal ikke foregå gennem menneskelig kontrol, men en algoritme skal sige om der er tale om et eget værk eller ej. Vi har ingen indflydelse på dette maskineri og ingen vil få at vide, hvordan det hele vil fungere.
 graphic_box_title2: 'Artikel 11 i detaljer'
 graphic_box_content2: |
-    Artikel 11 indeholder en et forslag for en lovgivning, at alle links til hjemmesider skal være licenspligtige, dvs. at man skal betale for at linke til en bestemt hjemmeside. Det betyder så, at vi ikke bare kan dele nogle links på f.eks. Facebook for at henviser til en meget god og interessant nyhedsartikel uden at vi skal betale for det. 
+    Artikel 11 indeholder en et forslag for en lovgivning, at alle links til hjemmesider skal være licenspligtige, dvs. at man skal betale for at linke til en bestemt hjemmeside. Det betyder så, at vi ikke bare kan dele nogle links på f.eks. Facebook for at henviser til en meget god og interessant nyhedsartikel uden at vi skal betale for det.
 
 # Image-split section
 image_split_title: 'Artikel 11 har ikke kun en indflydelse på internettet'
 image_split_content: |
-   Den største indflydelse har det for forskningen, hvor vi er afhængige af informationsfriheden og at vi kan læse artikler online og selv kan linke til dem uden at skulle betale for det, men også journalister, kunstner og mange andre er afhængig af, at artikel 11 IKKE bliver vedtaget.  
+   Den største indflydelse har det for forskningen, hvor vi er afhængige af informationsfriheden og at vi kan læse artikler online og selv kan linke til dem uden at skulle betale for det, men også journalister, kunstner og mange andre er afhængig af, at artikel 11 IKKE bliver vedtaget.
 
 # Petition section
 petition_title: 'Censur? Uden mig!'
@@ -79,6 +79,10 @@ petition_content1: 'Unterstøt os med din stemme! Kun tilsammen kan vi løfte by
 petition_content2: 'På grund af det har vi oprettet en petition, for at forhindre artikel 11 og 13!'
 petition_button: 'Besøg petition'
 sign_petition: 'Til petition'
+
+# gallery section
+gallery_title: 'Galleri'
+gallery_download_pdf: 'Download PDF'
 
 # About page
 about_title: 'Informationer'
@@ -90,7 +94,7 @@ about_sub_text2_1: ' Den 20. juni vil EU-Parlamentets retsudvalg stille skærpel
 about_sub_text2_2: 'Specielt artikel 11 og 13 i lovforslaget vil medføre store indskrænkninger og dette ikke kun for os som forbruger. Store hjemmesider som reddit, 9GAG, Facebook og Twitter lever af „User generated content“ og det kan medføre nedlukning af dele disser hjemmeside i EU:'
 
 about_sub_title3: 'Supplerende ophavsret'
-about_sub_text3_1: 'Artikel 11 af lovforslaget beskæftiger sig mest med at supplere ophavsretten for informationsudbydere. Helt præcis skal disse udbydere beskyttes og der skal betales afgifter til disse for at linke til deres hjemmesider. Dette vil være en stor fare for mange informationsudbydere, da citater fra deres hjemmesider vil være ulovlig jf. ophavsretten.' 
+about_sub_text3_1: 'Artikel 11 af lovforslaget beskæftiger sig mest med at supplere ophavsretten for informationsudbydere. Helt præcis skal disse udbydere beskyttes og der skal betales afgifter til disse for at linke til deres hjemmesider. Dette vil være en stor fare for mange informationsudbydere, da citater fra deres hjemmesider vil være ulovlig jf. ophavsretten.'
 about_sub_text3_2: 'Problematiken er simpel: De fleste nyhedssider på internettet er afhængige af at man besøger deres hjemmesider for at tjene penge med reklame. Er det for en nyhedsside ikke muligt at betale for disse tilladelser eller vil de ikke betale for dem, så vil indtægterne mangle og de skal lukke ned. Lovforslaget som egentlig skulle støtte dem, bliver dermed faktisk en fare for dem.'
 
 about_sub_title4: 'Uploadfilter'

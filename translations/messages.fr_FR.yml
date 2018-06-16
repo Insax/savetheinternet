@@ -98,6 +98,10 @@ sign_petition: 'Signez la pétition'
 #consent_content: 'Please consent'
 #consent_confirm: 'I consent'
 
+# gallery section
+gallery_title: 'Galerie'
+gallery_download_pdf: 'Télécharger le PDF'
+
 # About page
 about_title: |
   'À propos'
