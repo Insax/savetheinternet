@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Services\GalleryService;
 use App\Services\TweetService;
 use Psr\Log\LoggerInterface;
 use Smalot\Github\Webhook\Webhook;
@@ -23,18 +24,18 @@ class IndexController extends Controller
     private $tweetService;
 
     /**
-     * @var \Psr\Log\LoggerInterface
+     * @var GalleryService
      */
-    private $logger;
+    private $galleryService;
 
     /**
      * IndexController constructor.
      * @param TweetService $tweetService
      */
-    public function __construct(TweetService $tweetService, LoggerInterface $logger)
+    public function __construct(TweetService $tweetService, GalleryService $galleryService)
     {
         $this->tweetService = $tweetService;
-        $this->logger = $logger;
+        $this->galleryService = $galleryService;
     }
 
     /**
@@ -64,35 +65,10 @@ class IndexController extends Controller
     /**
      * @return Response
      */
-    public function gallery(KernelInterface $kernel): Response
+    public function gallery(): Response
     {
-        $base = realpath($kernel->getRootDir() . '/../public/build/static/gallery');
-        $files = $base . '/files/';
-        $preview = $base . '/preview/';
 
-        $finder = new Finder();
-
-        $finder->files()->depth('< 3')->name('/\.(png|jpg)$/i')->in($files);
-
-        $galleryImages = [];
-
-        foreach ($finder as $file) {
-            $name = $file->getFilename();
-            $langcode = basename(dirname($file->getRealPath()));
-            $thumb = sprintf('%s/thumb_%s', $langcode, $name);
-
-            if(!file_exists($preview . $thumb)) {
-                $this->resizeImage($file, $preview . $thumb);
-            }
-
-            $galleryImages[] = [
-                'name' => sprintf('%s/%s', $langcode, $name),
-                'thumb' => $thumb,
-                'langcode' => $langcode
-            ];
-        }
-
-        return $this->render('gallery/index.html.twig', ['images' => $galleryImages]);
+        return $this->render('gallery/index.html.twig', ['images' => $this->galleryService->getGallery()]);
     }
 
     /**
@@ -148,27 +124,5 @@ class IndexController extends Controller
         exec('cd ' . __DIR__ . '/../../; php bin/console cache:clear');
 
         return new Response();
-    }
-
-    private function resizeImage(SplFileInfo $file, $destinationName)
-    {
-        try {
-            $imagick = new \Imagick($file->getRealPath());
-
-            $imagick->resizeImage(453,640, 0, 1, true);
-
-            /*$imageWidth = $imagick->getImageWidth();
-            if($imagick->getImageHeight() > $imageWidth * 1.5) {
-                $imagick->cropImage($imageWidth,$imageWidth * 1.5,0,0);
-            }*/
-
-            if(is_writable(dirname($destinationName))) {
-                return $imagick->writeImage($destinationName);
-            }
-        } catch (\ImagickException $e) {
-            $this->logger->error($e->getMessage(), [$file, $destinationName]);
-        }
-
-        return false;
     }
 }
