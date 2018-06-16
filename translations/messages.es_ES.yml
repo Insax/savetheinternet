@@ -11,11 +11,11 @@ header_tagline: 'Internet corre peligro, aprende aquí qué puedes hacer para sa
 # Article explainer section
 article: 'Artículo'
 article_title: '¿Qué pasará el 20 de junio?'
-article_content: 'El 20 de junio, la Comisión Jurídica del Parlamento de la UE votará sobre la ley de Derechos de Autor. ¡Los únicos que aún pueden detener esa nefasta ley son los diputados de la UE!'
+article_content: 'El 20 de junio, la Comisión Jurídica del Parlamento de la UE votará sobre la ley de <a href="https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:52016PC0593&from=EN" class="highlight">Derechos de Autor</a>. ¡Los únicos que aún pueden detener esa nefasta ley son los diputados de la UE!'
 
 # Article row section start
-article_reddit_title: 'Dictadura de los algoritmos'
-article_reddit_title_highlight: 'propensos a errores'
+article_reddit_title: 'Dictadura de los <span class="highlight">algoritmos</span> propensos a errores'
+article_reddit_title_highlight: ''
 article_reddit_content: 'Los filtros de subidas en páginas como Facebook tienen una cosa en común: nunca actúan exactamente como lo haría un humano. La consecuencia es que muchas veces eliminan contenido que viola el derecho de la Propiedad Intelectual, pero que están bajo la protección del derecho de citación. Esa “predisposición” puede ser usada como pretexto para filtrar contenido que no encaje con los valores e ideas del censurador.'
 
 article_link_title: 'Ya no más'
