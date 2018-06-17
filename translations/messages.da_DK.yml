@@ -63,6 +63,17 @@ what_do_call: 'Ring til din delegeret!'
 what_do_call_content: 'Hvis en mail er for omstændelig i dine øjne, så kan du også ringe til ham eller hende for at overbevise dem, at denne lov er en meget dårlig ide. Telefonnumrene, kan du finde her:'
 # What-do row section end
 
+# map section
+near_demos: 'What can you do?'
+near_demos_content1: |
+    Are you close to one of the protests on the map and want to support us? Now you got the opportunity to join our force, and together we'll spread the message about Article 13!
+near_demos_content2: |
+    Just click the marker on the map that is nearest to you in order to get information about the exact time and location!
+near_demos_content3: |
+    Together we are strong! We need you to save the internet as we know it.
+near_demos_content4: |
+    Only a dictatorship needs censorship!
+
 # Graphic box section
 graphic_box_title1: 'Artikel 13 i detaljer'
 graphic_box_content1: |
