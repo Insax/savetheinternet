@@ -60,6 +60,17 @@ what_do_call: '¡Llama a tu diputado!'
 what_do_call_content: 'Si un correo no es lo suficientemente personal para ti, también puedes llamar a tu diputado e intentar cambiar su opinión. Puedes encontrar los números de teléfono aquí.'
 # What-do row section end
 
+# map section
+near_demos: 'What can you do?'
+near_demos_content1: |
+    Are you close to one of the protests on the map and want to support us? Now you got the opportunity to join our force, and together we'll spread the message about Article 13!
+near_demos_content2: |
+    Just click the marker on the map that is nearest to you in order to get information about the exact time and location!
+near_demos_content3: |
+    Together we are strong! We need you to save the internet as we know it.
+near_demos_content4: |
+    Only a dictatorship needs censorship!
+
 # Graphic box section
 graphic_box_title1: 'El artículo 13 en detalle:'
 graphic_box_content1: 'El artículo 13 en la práctica exige que casi todas las plataformas de internet instalen un robot que filtre automáticamente todos los contenidos que estén subidos. Esto restringe la libertad de opinión en demasía antes incluso de que sea expresada. Las decisiones sobre la censura de contenido serán relegadas a algoritmos propensos a errores y hipersensibles, que están programados para ir a lo seguro y borrar todo lo que tal vez podría ser un riesgo para la plataforma.'
