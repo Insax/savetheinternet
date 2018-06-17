@@ -39,6 +39,13 @@ $routes->add('gallery', new Route('/{_locale}/gallery', array(
     '_locale' => implode('|', \App\EventSubscriber\getAvailableLanguages()),
 )));
 
+$routes->add('mep', new Route('/{_locale}/contact-your-mep', array(
+    '_controller' => 'App\\Controller\\IndexController::mep',
+    '_locale' => 'en_GB',
+), array(
+    '_locale' => implode('|', \App\EventSubscriber\getAvailableLanguages()),
+)));
+
 $routes->add('resources', new Route('/{_locale}/resources', array(
     '_controller' => 'App\\Controller\\IndexController::resources',
     '_locale' => 'en_GB',

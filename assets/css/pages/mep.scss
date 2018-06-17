@@ -1,0 +1,58 @@
+.mep-main-text {
+    text-align: center;
+    background: #142541;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: $text !important;
+    margin: 0 auto;
+}
+
+.white-text {
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.anim {
+    position: relative;
+    transition-duration: 500ms;
+    animation-duration: 500ms;
+    transition-timing-function: ease;
+    transition-delay: 750ms;
+}
+
+.small-h{
+    color: $accent1;
+    width: 45px;
+}
+
+.text-highlighted{
+    color: $accent1;
+    font-weight: bold;
+}
+
+.smaller-icon{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-box {
+    padding: 5px 5px;
+    text-align: center;
+
+    h2 {
+        font-size: 15px;
+        color: $accent3 !important;
+        font-weight: bold;
+    }
+    h4 {
+        color: $text;
+    }
+}
+
+.img-box{
+    &:hover{
+        opacity: 0.95;
+    }
+}
