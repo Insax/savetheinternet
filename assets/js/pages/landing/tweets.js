@@ -1,3 +1,5 @@
+import moment from 'moment';
+
 function makeTemplate(element){
     moment.locale(window.location.pathname === '/' ? 'en' : window.location.pathname.substring(1,3));
     return '<div class="post-container" id="' + element.id + '">'+
