@@ -1,3 +1,10 @@
 nav, .navbar{
     background-color: darken($background, 3);
 }
+
+@media (max-width: 768px){
+nav, .navbar{
+    height: 55px;
+    background-color: darken($background, 0.85);
+    }
+}
