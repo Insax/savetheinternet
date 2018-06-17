@@ -90,6 +90,10 @@
         text-decoration: none;
         border-radius: 25px;
     }
+
+    .btn-petition:hover {
+        background: lighten($accent1, 10);
+    }
 }
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
