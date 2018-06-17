@@ -12,6 +12,10 @@
     line-height: 60px;
 }
 
+.ct-content{
+  margin: 0 auto;
+}
+
 .anim {
     position: relative;
     transition-duration: 500ms;
@@ -21,8 +25,10 @@
 }
 
 .small-h{
-    color: $accent1;
+    background: $accent1;
     width: 45px;
+    height: 2px;
+    border: none;
 }
 
 .text-highlighted{
