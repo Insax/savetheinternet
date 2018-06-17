@@ -11,7 +11,7 @@ header_tagline: 'Internet on vaarassa, ja sinä voit pelastaa sen!'
 # Article explainer section
 article: 'Artikla'
 article_title: 'Mitä tapahtuu 20. kesäkuuta?'
-article_content: |
+article_content: >
     20. kesäkuuta Euroopan parlamentin lakivaliokunta äänestää <a href="https://eur-lex.europa.eu/legal-content/FI/TXT/PDF/?uri=CELEX:52016PC0593&from=EN" class="highlight">tekijänoikeusdirektiiviä</a> koskevasta esityksestä. Ainoat jotka voivat pysäyttää tämän tuhoisan lain ovat Euroopan parlamentin jäsenet!
 
 # Article row section start
@@ -20,11 +20,11 @@ article_reddit_title_highlight: ''
 article_reddit_content: 'Ladattavien tiedostojen suodattimissa sivustoilla, kuten YouTubessa, Facebookissa jne., on yksi yhteinen piirre: ne eivät koskaan tule toimimaan yhtä virheettömästi kuin oikea ihminen. Sen seurauksena tekijänoikeuksilla suojattu sisältö, jota on käytetty rehellisesti lain mukaan, tulee poistetuksi. Tätä ominaisuutta voitaisiin väärinkäyttää suodattamaan pois sellaista sisältöä, joka ei ole linjassa yritysten arvojen ja intressien kanssa.'
 
 article_link_title: 'Ei enää'
-article_link_title_highlight: linkkejä
+article_link_title_highlight: 'linkkejä'
 article_link_content: 'Tulevaisuudessa lehdistön julkaisijoita edellytetään laskuttamaan linkeistä, joita joku tekee niiden sisältöön. Uutisportaalit ovat täten mitätöityjä. Sano ei linkkiverolle!'
 
 article_pepe_title: 'Ei enää'
-article_pepe_title_highlight: meemejä
+article_pepe_title_highlight: 'meemejä'
 article_pepe_content: 'Tiedostojen lataussuodattimet tarkoittavat myös meemikulttuurin loppua. Tekijänoikeuksilla suojatun materiaalin jakaminen ei enää ole mahdollista vapaan käytön ehtojen puitteissa ilman maksullisia lisenssejä. Pelasta meemikulttuurimme!'
 # Article row section end
 
@@ -51,7 +51,7 @@ what_do_title: 'Mitä sinä voit tehdä?'
 what_do_share: 'Puhu muille! Jaa tätä sivustoa!'
 what_do_share_content: 'Voimme vaikuttaa parlamenttiin vain, jos mahdollisimman monet tietävät tästä. Allekirjoita vetoomuksemme!'
 what_do_need_content: 'Brauchst du was zum teilen?'
-what_do_gallery: |
+what_do_gallery: >
     <a class="highlight" href="/de_DE/gallery">In unserer Galerie </a> findest du den Content den du suchst!
 
 what_do_mail: 'Schreib deinem Abgeordneten!'
@@ -63,10 +63,10 @@ what_do_call_content: 'Wenn dir eine Mail zu unpersönlich ist, kannst du deinen
 
 # Graphic box section
 graphic_box_title1: 'Artikla 13 yksityiskohtaisesti'
-graphic_box_content1: |
+graphic_box_content1: >
     Artikla 13 vaatii käytännössä, että lähes kaikki internetin sovellusalustat asentavat ”suodatusrobotin”, joka automaattisesti tarkistaa kaiken ladatun sisällön. Tämä rajoittaa liiallisesti ilmaisun vapautta ennen kuin sitä voidaan käyttää. Sisällön ennakkotarkistusta koskevat päätökset on jätetty virheisiin taipuvaisille ja yliherkille algoritmeille (jotka on ohjelmoitu toimimaan varmanpäälle ja pyyhkimään pois varmuudenvuoksi kaikki, joka saattaa aiheuttaa riskin sovellusalustalle).
 graphic_box_title2: Artikla 11 yksityiskohtaisesti
-graphic_box_content2: |
+graphic_box_content2: >
     Tekijänoikeuslaissa (artikla 11) edellytetään, että tietyntyyppisen informaation tarjoajat ovat tulevaisuudessa erityisen medialain alaisia. Tämä tarkoittaa, että jo lainatut tekstit voidaan julistaa tekijänoikeuslain rikkomuksiksi.
     Tämä tulee vaikuttamaan suureen osaan uutisten tarjoajista, sillä ulkopuolisten linkkien käyttämistä rajoitetaan tai se muuttuu maksulliseksi.
 # Image-split section
@@ -107,6 +107,13 @@ about_sub_title5: 'Unsere Forderung an die EU:'
 about_sub_text5_1: 'Wir fordern, dass der Rechtsausschuss nicht denselben Fehler begeht wie das EU-Parlament vor zwei Jahren. Stimmen Sie am 20. Juni 2018 gegen die Urheberrechtsreform im digitalen Binnenmarkt und damit insbesondere gegen die Artikel 11 und 13.'
 about_sub_text5_2: 'Durch ihre Position im Parlament haben Sie die Verpflichtung, die Meinung und Werte der Bürger Ihres Landes zu vertreten und ihre Freiheit zu bewahren.'
 about_sub_text5_strong: 'Unterstütze uns, damit wir zusammen für ein freies Internet einstehen können!'
+
+# mep page
+mep_title: 'Contact your MEP'
+mep_heading: >
+    Die <span style="color: #6bbbff !important;">Magischen 10</span>: #savetheinternet <br> Heroes or Zeroes?
+mep_text_1: 'On 20 June, the European Parliament will vote on the Copyright Directive. The votes of 10 Members of the parliament will determine if the Internet remains open and free from censorship in the EU. Tell them you need them to protect your Internet against surveillance and censorship machines, as the defenders of EU citizens! Give them the power to be Heroes!'
+
 
 # Footer section
 about_link: 'Infos'

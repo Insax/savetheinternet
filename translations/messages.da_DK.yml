@@ -22,11 +22,11 @@ article_reddit_title_highlight: 'algoritmer'
 article_reddit_content: 'Uploadfilter på hjemmesider som YouTube, Facebook osv. har et tilfælles: De er meget upræcise og vil aldrig være så godt som et menneske til dette arbejde. Det har til følge, at der er meget indhold der bliver fjernet, fordi det står i modstrid med ophavsretten, men er dækket gennem citationsretten og kunstfriheden. Denne mekanisme kan benyttes for at blokere indhold, som kan indeholde kritik overfor bestemme grupper, selvom det er i overensstemmelse med ytringsfriheden.'
 
 article_link_title: 'Ingen'
-article_link_title_highlight: links
+article_link_title_highlight: 'links'
 article_link_content: 'Presseforlag skal blive forpligtet til at forlange penge for alle links som folk deler. Nyhedssider vil dermed være nød til at indstille driften. Nej til afgifter på links!'
 
 article_pepe_title: 'Ingen'
-article_pepe_title_highlight: memes
+article_pepe_title_highlight: 'memes'
 article_pepe_content: 'Uploadfilteret er dødsstødet for vores meme kultur. Kun personen der ejer ophavsretten til et bestemt meme må dele det - Ingen andre, hvilket er det modsatte af, hvad formålet med memes er. Red vores meme kultur!'
 # Article row section end
 
@@ -108,6 +108,12 @@ about_sub_title5: Vores opfordring til EU:'
 about_sub_text5_1: 'Vi forventer, at retsudvalget ikke begår den samme fejl som EU-Parlamentet for to år siden og afviser dette lovforslag. Hjælp os med at forhindre indskrænkningen af vores friheder den 20. juni og dermed især artikel 11 og artikel 13.'
 about_sub_text5_2: 'Gennem deres position som medlem af EU-Parlamentet er de forpligtet til vare ytringsfriheden og værdierne af os borger og dermed bevare vores borgerlige friheder.'
 about_sub_text5_strong: 'Understøt os, så vi kan kæmpe for et frit internet!'
+
+# mep page
+mep_title: 'Kontaktiere deinen MEP'
+mep_heading: >
+    The <span style="color: #6bbbff !important;">Magic 10</span>: #savetheinternet <br> Heroes or Zeroes?
+mep_text_1: 'On 20 June, the European Parliament will vote on the Copyright Directive. The votes of 10 Members of the parliament will determine if the Internet remains open and free from censorship in the EU. Tell them you need them to protect your Internet against surveillance and censorship machines, as the defenders of EU citizens! Give them the power to be Heroes!'
 
 
 # Footer section

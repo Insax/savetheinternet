@@ -4,17 +4,12 @@ namespace App\Controller;
 
 use App\Services\GalleryService;
 use App\Services\TweetService;
-use Psr\Log\LoggerInterface;
 use Smalot\Github\Webhook\Webhook;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Symfony\Component\Finder\Finder;
-use Symfony\Component\Finder\SplFileInfo;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\KernelEvents;
-use Symfony\Component\HttpKernel\KernelInterface;
-use Symfony\Component\Routing\Annotation\Route;
 
 class IndexController extends Controller
 {
@@ -77,6 +72,14 @@ class IndexController extends Controller
     public function about(): Response
     {
         return $this->render('about/index.html.twig');
+    }
+
+    /**
+     * @return Response
+     */
+    public function mep(): Response // Contact your MEP page
+    {
+        return $this->render('mep/index.html.twig');
     }
 
     /**

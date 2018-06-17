@@ -105,10 +105,16 @@ about_sub_text4_1: 'La implementación del Artículo 13 da como resultado un fil
 about_sub_text4_2: 'Al pensar en la posibilidad de un algoritmo capaz de preanalizar todo el contenido que se sube a Internet, damos un paso más hacia la distopia orwelliana de "1984". Estamos al borde de una reforma drástica que podría cambiar la cultura de Internet para siempre.'
 
 about_sub_title5: 'Nuestra demanda a la Unión Europea'
-about_sub_text5_1: >
-    Through your position in Parliament, you have a duty to represent the opinions and values of your country's citizens and to uphold their freedom.
-about_sub_text5_2: 'A través de tu posición en el Parlamento, tienes el deber de representar las opiniones y valores de los ciudadanos de tu país y defender su libertad.'
+about_sub_text5_1: 'A través de tu posición en el Parlamento, tienes el deber de representar las opiniones y valores de los ciudadanos de tu país y defender su libertad.'
+about_sub_text5_2: ''
 about_sub_text5_strong: 'Únete a nosotros, para que podamos unirnos por un Internet libre'
+
+# mep page
+mep_title: 'Contact your MEP'
+mep_heading: >
+    The <span style="color: #6bbbff !important;">Magic 10</span>: #savetheinternet <br> Heroes or Zeroes?
+mep_text_1: 'On 20 June, the European Parliament will vote on the Copyright Directive. The votes of 10 Members of the parliament will determine if the Internet remains open and free from censorship in the EU. Tell them you need them to protect your Internet against surveillance and censorship machines, as the defenders of EU citizens! Give them the power to be Heroes!'
+
 
 # Footer section
 about_link: 'Sobre nuestro objetivo'
