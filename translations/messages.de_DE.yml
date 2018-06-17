@@ -61,6 +61,17 @@ what_do_call: 'Ruf deinen Abgeordneten an!'
 what_do_call_content: 'Wenn dir eine Mail zu unpersönlich ist, kannst du deinen Abgeordneten auch einfach anrufen und so ganz direkt versuchen ihn umzustimmen. Die Telefonnummer findest du hier:'
 # What-do row section end
 
+# map section
+near_demos: 'Wo wirst du gebraucht?'
+near_demos_content1: |
+    Bist du aus der Nähe einer der Demonstrationen auf der Karte und willst uns unterstützen? Dann hast du die Gelegenheit dich uns anzuschliessen und gemeinsam mit uns auf Artikel 13 aufmerksam zu machen.
+near_demos_content2: |
+    Klick dafür einfach auf den Marker in deiner Nähe, um den genauen Ort und die Uhrzeit zu erfahren!
+near_demos_content3: |
+    Zusammen sind wir stark! Jeder zählt um das Internet so wie wir es kennen zu retten.
+near_demos_content4: |
+    Nur eine Diktatur braucht Zensur!
+
 # Graphic box section
 graphic_box_title1: 'Artikel 13 im Detail'
 graphic_box_content1: |

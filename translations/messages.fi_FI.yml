@@ -1,9 +1,9 @@
 # Global
-day: 'Tag'
-days: 'Tage'
-hours: 'Stunden'
-minutes: 'Minuten'
-seconds: 'Sekunden'
+day: 'day'
+days: 'days'
+hours: 'hours'
+minutes: 'minutes'
+seconds: 'seconds'
 
 # Header
 header_tagline: 'Internet on vaarassa, ja sinä voit pelastaa sen!'
@@ -50,16 +50,27 @@ what_do_title: 'Mitä sinä voit tehdä?'
 # What-do row section start
 what_do_share: 'Puhu muille! Jaa tätä sivustoa!'
 what_do_share_content: 'Voimme vaikuttaa parlamenttiin vain, jos mahdollisimman monet tietävät tästä. Allekirjoita vetoomuksemme!'
-what_do_need_content: 'Brauchst du was zum teilen?'
-what_do_gallery: >
-    <a class="highlight" href="/de_DE/gallery">In unserer Galerie </a> findest du den Content den du suchst!
+what_do_need_content: 'Need something to share?'
+what_do_gallery: |
+    <a class="highlight" href="/en_GB/gallery">In our gallery</a> you can find the content you're looking for!
 
-what_do_mail: 'Schreib deinem Abgeordneten!'
-what_do_mail_content: 'Du kannst deinem EU-Abgeordneten eine E-Mail schreiben, um ihn darauf aufmerksam zu machen, dass du mit dem Gesetzesvorhaben nicht einverstanden bist. Alle nötigen Mailadressen und eine vorgefertigte Nachricht findest du hier:'
+what_do_mail: 'Write to your deputy!'
+what_do_mail_content: 'You can send an e-mail to your MEP to alert him that you do not agree with the bill. All necessary mail addresses and a ready-made message can be found here:'
 
-what_do_call: 'Ruf deinen Abgeordneten an!'
-what_do_call_content: 'Wenn dir eine Mail zu unpersönlich ist, kannst du deinen Abgeordneten auch einfach anrufen und so ganz direkt versuchen ihn umzustimmen. Die Telefonnummer findest du hier:'
+what_do_call: 'Call your deputy!'
+what_do_call_content: 'If an email is too impersonal for you, you can just call your deputy and try to change his mind. The phone number can be found here:'
 # What-do row section end
+
+# map section
+near_demos: 'What can you do?'
+near_demos_content1: |
+    Are you close to one of the protests on the map and want to support us? Now you got the opportunity to join our force, and together we'll spread the message about Article 13!
+near_demos_content2: |
+    Just click the marker on the map that is nearest to you in order to get information about the exact time and location!
+near_demos_content3: |
+    Together we are strong! We need you to save the internet as we know it.
+near_demos_content4: |
+    Only a dictatorship needs censorship!
 
 # Graphic box section
 graphic_box_title1: 'Artikla 13 yksityiskohtaisesti'
@@ -82,31 +93,31 @@ petition_button: 'Visit the petition'
 sign_petition: 'Allekirjoita vetoomus!'
 
 # gallery section
-gallery_title: 'Galerie'
-gallery_download_pdf: 'PDF herunterladen'
+gallery_title: 'Gallery'
+gallery_download_pdf: 'Download PDF'
 
 # About page
-about_title: 'Informationen'
-about_sub_title1: 'Stoppt die Zensurmaschine - rettet das Internet!'
-about_sub_text1: 'Das Internet, wie du es kennst, ist in Gefahr! Das EU-Parlament plant derzeit eine extreme Verschärfung des Copyrights, welches unsere Freiheit im Internet massiv einschränken würde.'
+about_title: 'About'
+about_sub_title1: 'Stop the censorship machine - save the internet!'
+about_sub_text1: 'The internet as you know it is in danger! The European Parliament is currently planning to tighten the copyright law, which would massively restrict your freedom on the internet.'
 
-about_sub_title2: 'Was euch erwartet:'
-about_sub_text2_1: 'Am 20. Juni wird der Rechtsausschuss des Europaparlaments über eine neue Urheberrechtsreform entscheiden. Diese würde das Copyright EU-weit radikal verändern: Statt die Urheber wie geplant zu stärken, könnte sie diese sogar stärker denn je belasten.'
-about_sub_text2_2: 'Insbesondere die Artikel 11 und 13 des Entwurfes bedeuten massive Einschränkungen, und das nicht nur für die Verbraucher: Auch große Plattformen sowie die Urheber selbst würden erheblich unter diesen Regulierungen zu leiden haben:'
+about_sub_title2: 'What you can expect'
+about_sub_text2_1: 'On the 20th of June, the Legal Committee of the European Parliament will decide on a new copyright-reform. This could radically change copyright laws throughout the EU. Instead of supporting creators as originally intended, said reform could eventually backfire and impose a burden on them.'
+about_sub_text2_2: 'Especially Article 11 and Article 13 of the reform would entail tremendous restrictions, not only for the consumers. Even the creators themselves would suffer under these new regulations:'
 
-about_sub_title3: 'Leistungsschutzrecht'
-about_sub_text3_1: 'Artikel 11 des Reformvorschlags der EU-Kommission konzentriert sich vor allem auf das Leistungsschutzrecht der Informationsanbieter. Konkretisierte Presserechte sollen die Inhalte ebendieser Anbieter schützen und erfordern für deren Verwendung den Erwerb einer Lizenz. Das wird vor allem Seiten wie Bundlenews oder andere Nachrichtenportale massiv in Mitleidenschaft ziehen, da zitierte Texte als Urheberrechtsverstoß deklariert werden könnten.'
-about_sub_text3_2: 'Die Problematik hierbei ist vergleichsweise simpel: Ein großer Teil der Anbieter von Nachrichten im Netz lebt von Seitenaufrufen und den daraus resultierenden Werbeeinnahmen, die generiert werden, wenn Nutzer über externe Links auf sie zugreifen. Ist ein Portal nicht willens oder in der Lage für die notwendigen Lizenzen zu zahlen, bleiben auch ebendiese Aufrufe aus. Der Gesetzesentwurf, welcher ursprünglich die Anbieter unterstützen sollte, wird ihnen auf diesem Wege die Existenzgrundlage nehmen.'
+about_sub_title3: 'Ancillary Copyright'
+about_sub_text3_1: 'Article 11 of the proposal of the European Commission is mainly focussing on the Ancillary Copyright of information providers. More specific press rights are going to protect the contents of these providers and will need a purchased license to be able to be used by others. Especially big news portals and aggregators pages are affected since cited texts could be seen as a copyright infringement under these new laws.'
+about_sub_text3_2: 'The problem is simple: A big portion of news providers on the internet are financed by page impressions and the resulting ad income, which is generated by users visiting their site via external links. If a platform is not willing or able to pay these licensing fees, they would lose those page views. The proposed law, originally supposed to support these providers, will now take away their means of existence.'
 
 about_sub_title4: 'Upload-Filter'
-about_sub_text4_1: 'Die Umsetzung des 13. Artikels hat eine komplette Echtzeitfilterung der Inhalte, die künftig im Netz hochgeladen werden, zur Folge. Letztlich bedeutet das: Jedes Datenpaket wird in Zukunft von einem potentiell fehleranfälligen Algorithmus automatisiert geprüft werden. Dies ist vergleichbar mit dem fehlerhaften Algorithmus von YouTube, bei dem häufig auch fälschlicherweise Inhalte gelöscht werden, welche nicht urheberrechtlich geschützt sind.'
-about_sub_text4_2: >
-    Lässt man sich den Gedanken eines alles analysierenden Algorithmus' erst mal auf der Zunge zergehen, so ist ein Orwell'sches Szenario à la "1984" nicht mehr weit entfernt. Wir stehen derzeit einem Umbruch gegenüber, der die uns bekannte Netzkultur nachhaltig verändern kann.
+about_sub_text4_1: 'Implementation of Article 13 results in a total real-time filtering of every piece of content that will be uploaded to the internet. What this means: Every data package will be automatically scanned by a potentially error-prone algorithm. This is comparable to the erroneous algorithm deployed by YouTube, which often mistakenly deletes content that is not protected by copyright law.'
+about_sub_text4_2: 'If you think about the prospect of an algorithm that pre-analyses all the content that is uploaded to the internet, we take a further step towards the Orwellian dystopia of "1984". We are on the verge of a drastic reform that could change internet culture forever.'
 
-about_sub_title5: 'Unsere Forderung an die EU:'
-about_sub_text5_1: 'Wir fordern, dass der Rechtsausschuss nicht denselben Fehler begeht wie das EU-Parlament vor zwei Jahren. Stimmen Sie am 20. Juni 2018 gegen die Urheberrechtsreform im digitalen Binnenmarkt und damit insbesondere gegen die Artikel 11 und 13.'
-about_sub_text5_2: 'Durch ihre Position im Parlament haben Sie die Verpflichtung, die Meinung und Werte der Bürger Ihres Landes zu vertreten und ihre Freiheit zu bewahren.'
-about_sub_text5_strong: 'Unterstütze uns, damit wir zusammen für ein freies Internet einstehen können!'
+about_sub_title5: 'Our demand to the EU'
+about_sub_text5_1: 'We demand that the Committee on Legal Affairs should not make the same mistake as the European Parliament did two years ago. On 20th June 2018, vote against the reform of copyright law in the digital internal market, in particular Articles 11 and 13.'
+about_sub_text5_2: >
+    Through your position in Parliament, you have a duty to represent the opinions and values of your country's citizens and to uphold their freedom.
+about_sub_text5_strong: 'Join us, so we can stand together for a free internet'
 
 # mep page
 mep_title: 'Contact your MEP'
@@ -116,6 +127,7 @@ mep_text_1: 'On 20 June, the European Parliament will vote on the Copyright Dire
 
 
 # Footer section
-about_link: 'Infos'
-imprint_link: 'Impressum'
-privacy_link: 'Datenschutzerklärung'
+about_link: 'About'
+imprint_link: 'Imprint'
+privacy_link: 'Privacy Policies'
+
