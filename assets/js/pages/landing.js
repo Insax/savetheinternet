@@ -1,4 +1,5 @@
 import './landing/countdown.js';
+import './landing/whatdo.js';
 import './landing/video-player';
 
 import './landing/tweets';
