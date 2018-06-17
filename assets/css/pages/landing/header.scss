@@ -97,3 +97,9 @@
         font-size: 3.5em !important;
     }
 }
+
+@media (max-width: 768px){ 
+    .header-wrapper .header{
+        padding: 25px 0;
+    }
+}
