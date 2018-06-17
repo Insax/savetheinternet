@@ -76,6 +76,7 @@ function getAvailableLanguages()
     $translationFiles = scandir(__DIR__ . '/../../translations', SCANDIR_SORT_NONE);
 
     $languages = [];
+    $otherLangs = [];
     foreach ($translationFiles as $file) {
         $parts = explode('.', $file);
 
@@ -92,12 +93,16 @@ function getAvailableLanguages()
 
             $languages[$position] = $parts[1];
         } else {
-            $languages[] = $parts[1];
+            $otherLangs[] = $parts[1];
         }
 
     }
 
     ksort($languages);
+
+    foreach ($otherLangs as $otherLang) {
+        $languages[] = $otherLang;
+    }
 
     return $languages;
 }
