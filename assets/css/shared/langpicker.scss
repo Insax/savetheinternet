@@ -46,13 +46,14 @@
             display: none;
             flex-wrap: wrap;
             margin: 0;
-            padding: 16px 20px 16px 16px;
+            padding: 16px 20px 10px 16px;
             background: $background;
             justify-content: flex-end;
 
             li {
                 display: inline-block;
-                margin-left: 14px;
+                margin-left: 16px;
+                margin-bottom: 6px;
 
                 &:first-child {
                     margin-left: 0;
