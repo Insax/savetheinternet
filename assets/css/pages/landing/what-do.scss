@@ -58,13 +58,14 @@
         color: #000;
         font-size: inherit;
         padding: .5em;
-        padding-right: 2.5em; 
+        padding-right: 2.5em;
         border: 0;
         margin: 0;
         border-radius: 3px;
         text-indent: 0.01px;
         text-overflow: '';
-        -webkit-appearance: button; 
+        -webkit-appearance: button;
+        -moz-appearance: button;
     }
 
     .custom-dropdown::before,
@@ -74,7 +75,7 @@
         pointer-events: none;
     }
 
-    .custom-dropdown::after { 
+    .custom-dropdown::after {
         content: "\25BC";
         height: 1em;
         font-size: .625em;
@@ -84,7 +85,7 @@
         margin-top: -.5em;
     }
 
-    .custom-dropdown::before { 
+    .custom-dropdown::before {
         width: 2em;
         right: 0;
         top: 0;
@@ -260,21 +261,26 @@
         transform: translateX(-50%);
     }
 
+    .mep-list {
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin: 0 auto;
+    }
+
     .mep-grid {
         display: flex;
         list-style-type: none;
         flex-flow: row wrap;
-        margin-left: -20px;
-        padding: 0 0 0 20px;
-        margin-right: -20px;
+        margin-left: -15px;
+        padding: 0;
+        margin-right: -15px;
     }
 
     .mep-grid .mep-item {
         margin: 0;
         flex: 1 1 calc(50%);
-        padding: 20px;
         max-width: 100%;
-        padding: 0 0 30px 0;
+        padding: 0 15px 30px 15px;
     }
 
     .mep-grid .mep-main {
@@ -442,6 +448,7 @@
         .mep-item {
             width: 100%!important;
             max-width: none!important;
+            flex: 1 1 100% !important;
         }
 
         .mep-main {
@@ -468,5 +475,5 @@
         .mep-main {
             flex-direction: column!important;
         }
-    }    
+    }
 }

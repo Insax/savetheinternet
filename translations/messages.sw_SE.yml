@@ -8,6 +8,8 @@ seconds: 'sekunder'
 # Header
 header_tagline: 'Internet är i fara, och du kan rädda det!'
 
+share_twitter: "Internet är i fara, och du kan rädda det! https://savetheinternet.info #DeleteArt13"
+
 # Article explainer section
 article: 'Artikel'
 article_title: 'Vad händer den 20e Juni?'
@@ -61,13 +63,13 @@ what_do_call_content: 'Om ett email är för opersonlig för dig, kan du ringa d
 # map section
 near_demos: ''
 near_demos_content1: |
-    
+
 near_demos_content2: |
-    
+
 near_demos_content3: |
-    
+
 near_demos_content4: |
-    
+
 # Graphic box section
 graphic_box_title1: 'Artikel 13 i detalj'
 graphic_box_content1: |
