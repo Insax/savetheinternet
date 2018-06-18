@@ -15,7 +15,6 @@
     cursor: pointer;
     list-style: none;
     width: 100%;
-    box-shadow: 0 2px 2px -2px #161618;
 
     .langdropdown {
         position: relative;
@@ -49,6 +48,7 @@
             padding: 16px 20px 10px 16px;
             background: $background;
             justify-content: flex-end;
+            box-shadow: 0 2px 2px -2px #161618;
 
             li {
                 display: inline-block;
