@@ -1,0 +1,124 @@
+day: 'doba'
+days: 'czasy'
+hours: 'godziny'
+minutes: 'protokoły'
+seconds: 'sekundy'
+
+# Header
+header_tagline: 'Internet jest w niebezpieczeństwie i można go zapisać!'
+
+# Article explainer section
+article: 'Artykuł 13'
+article_title: 'Co się zdarzy 20 Czerwca? '
+article_content: '20 czerwca Komisja Prawna Parlamentu Europejskiego będzie głosować nad wnioskiem dotyczącym <a href="https://eur-lex.europa.eu/legal-content/PL/TXT/PDF/?uri=CELEX:52016PC0593&from=PL" class="highlight">dyrektywy w sprawie praw autorskich</a>. Jedynymi, którzy mogą teraz położyć kres temu śmiertelnemu prawu, są posłowie do Parlamentu Europejskiego!'
+
+# Article row section start
+article_reddit_title: 'Dyktatura <span class="highlight">algorytmów</span> podatnych na usterki'
+article_reddit_title_highlight: ''
+article_reddit_content: 'Algorytmy filtrujące i cenzurujące treść na stronach internetowych takich jak YouTube, Facebook, itp. łączy jedno: nie są tak dokładne, jak człowiek. Z tego powodu często zostają usuwane treści, które naruszają prawo autorskie, podlegają jednak prawie cytatu. Ta właśnie „podatność na usterki” może zostać wykorzystana do usuwania materiałów, które są sporne z osobistymi wartościami i upodobaniami. '
+
+article_link_title: 'Koniec z linkami'
+article_link_title_highlight: 'enlaces'
+article_link_content: 'Wydawcy prasowi w przyszłości będą zobowiązani do wystawienia rachunków na każdy link, który zostanie użyty przez inne osoby. Portale informacyjne w ten sposób zostaną zniszczone! Mówimy „nie” dla płatnych linków!'
+
+article_pepe_title: 'Koniec z memami'
+article_pepe_title_highlight: 'Memes'
+article_pepe_content: 'Algorytmy cenzurujące oznaczają również koniec dla kultury memów. Rozpowszechnianie materiału chronionego prawem autorskim będzie możliwe tylko za zapłatą specjalnych licencji. Ratujmy naszą kulturę memową! '
+# Article row section end
+
+# Twitter section
+twitter_title: "Posłuchajmy głosów innych"
+twitter_description: 'Cenzura może już wkrótce postawić na głowie internet, jaki znamy. Blokady na wrzucane treści do internetu w połączeniu z błędnymi algorytmami spowodują, że nawet umieszczanie linków na stronach czy platformach internetowych w przyszłości staną się ogromnym problemem. To zjawisko pojawi się przede wszystkim na stronach takich jak Twitter, Facebook, 9GAG, itp. Krótko mówiąc – prawdopodobnie na naszych ulubionych portalach. Tutaj artykuły 11 i 13 spowodowałyby, że dzielenie się linkami lub cytaty słowne byłyby cenzurowane, a nawet, że wrzucanie takich treści byłoby niemożliwe.'
+
+#Typewriter section
+#typewriter_1: '^200 our'
+#typewriter_2: '^200 your'
+#typewriter_3: '^200 the'
+
+# Countdown section
+countdown_title: 'Zegar tyka'
+countdown_description1: 'Głosowanie w Parlamencie Europesjkim odbędzie się już niedługo! Dlatego musimy działać natychmiastowo, aby zmienić zdanie posłańców. Na tę chwilę większość z nich zagłosowała za artykułem 13.'
+countdown_description2: ''
+countdown_until: 'Czas do czasu, gdy Komitet Prawny Parlamentu Europejskiego przystąpi do dyskusji nad art. 13'
+countdown_expired: 'UE jest obecnie w trakcie debaty'
+
+# What-do row
+what_do_title: 'Jak możesz pomóc?'
+
+# What-do row section start
+what_do_share: 'Nagłośnij sprawę!  Rozpowszechnij naszą stronę!'
+what_do_share_content: 'Możemy wywrzeć presję na Parlamencie tylko wtedy, kiedy wystarczająca ilość osób będzie o tym wiedziała. Podpisz naszą petycję:'
+what_do_need_content: 'Potrzebujesz coś, czym mógłbyś podzielić się ze znajomymi? '
+what_do_gallery: |
+    <a class="highlight" href="/es_ES/gallery">W naszej galerii </a> znajdziesz materiał, który potrzebujesz.
+what_do_mail: 'Napisz do swojego zastępcy!'
+what_do_mail_content: 'Możesz wysłać e-mail do swojego posła do Parlamentu Europejskiego, aby go ostrzec, że nie zgadzasz się z projektem ustawy. Wszystkie niezbędne adresy pocztowe i gotowe wiadomości znajdują się tutaj:'
+
+what_do_call: 'Zadzwoń do swojego przedstawiciela!'
+what_do_call_content: 'Jeśli wiadomość e-mail jest dla Ciebie zbyt bezosobowa, możesz po prostu zadzwonić do swojego zastępcy i spróbować zmienić jego zdanie. Numer telefonu znajduje się tutaj:'
+# What-do row section end
+
+# map section
+near_demos: 'Co możesz zrobić?'
+near_demos_content1: |
+    Jesteś bliski jednego z protestów na mapie i chcesz nas poprzeć? Teraz miałeś możliwość przyłączenia się do naszych sił i razem będziemy szerzyć przesłanie o art. 13!
+near_demos_content2: |
+    Wystarczy kliknąć na znacznik na mapie, aby uzyskać informacje o dokładnej godzinie i lokalizacji!
+near_demos_content3: |
+    Razem jesteśmy silni! Musimy uratować Internet w sposób, w jaki go znamy.
+near_demos_content4: |
+    Tylko dyktatura potrzebuje cenzury!
+# Graphic box section
+graphic_box_title1: 'Szczegółowo o artykule 13'
+graphic_box_content1: 'W praktyce, artykuł 13 wymaga, aby na niemal każdej stronie internetowej zainstalowany został „algorytm cenzurujący”, który automatycznie sprawdza każdą nowo dodaną treść. W ten sposób wolność słowa zostanie ograniczona już przed jej użyciem. Decyzje nad taką cenzurą treści podejmować będą wadliwe i nadwrażliwe algorytmy – które będą zaprogramowane tak, aby w razie wątpliwości nie podejmować ryzyka, i usuwać każdy sporny materiał.'
+
+graphic_box_title2: 'Szczegółowo o artykule 11'
+graphic_box_content2: 'Dyrektywa na temat praw autorskich (artykuł 11) mówi, że w przyszłości treści poszczególnych portali informacyjnych podlegać będą konkretnemu prawie prasowemu. To oznacza, że nawet cytowanie tekstów mogłoby zostać uznane za naruszenie prawa autorskiego. Duża część portali informacyjnych będzię tym dotknięta, ponieważ w ten sposób dzielenie się zewnętrznymi linkami zostanie ograniczone lub będzie płatne.'
+
+# Image-split section
+image_split_title: 'Artykuł 11 odbije się nie tylko na internecie!'
+image_split_content: 'Badania naukowe i postęp również zostaną dotknięte przez artykuł 11. W przyszłości naukowcy, dziennikarze, osoby prywatne i różnorodne firmy będą pozbawione praw do stosowania text mining (eksploracja tekstu) i data mining (ekstracja danych). To będzie miało negatywny efekt na rozmaite odkrycia naukowe.'
+
+# Petition section
+petition_title: 'Cenzura? Nie, dziękuję!'
+petition_content1: 'Wspieraj nas Twoim głosem! Jeden za wszystkich, wszyscy za jednego – razem jesteśmy silni! '
+petition_content2: 'Z tego powodu stworzyliśmy petycję aby powstrzymać wprowadzenie artykułów 11 i 13.'
+petition_button: 'Odwiedź petycję'
+sign_petition: 'Podpisać petycję'
+
+# Video section
+#consent_title: 'Please consent'
+#consent_content: 'Please consent'
+#consent_confirm: 'I consent'
+
+# gallery section
+gallery_title: 'Galerii'
+gallery_download_pdf: 'PDF pobieranie'
+
+# About page
+about_title: 'O stronie:'
+about_sub_title1: 'Powstrzymajmy maszyny cenzurujące – ratujmy internet!'
+about_sub_text1: 'Internet, jaki znasz, jest w niebezpieczeństwie. Parlament Europejski planuje zaostrzenie prawa autorskiego, co będzie miało ogromny wpływ na wolność w internecie.'
+
+about_sub_title2: 'Co nas czeka: '
+about_sub_text2_1: '20 Czerwca Komisja Prawna Parlementu Europejskiego zagłosuje o nowej reformie prawa autorskiego. Copyright wsród członków Unii ulegnie kategorycznym zmianom: zamiast – jak było planowane – wesprzeć wydawców, mogłoby to ich niezmiernie obciążyć.'
+about_sub_text2_2: 'W szczególności artykuły 11 i 13 planowanej dyrektywy oznaczają ogromne ograniczenia, i to nie tylko dla konsumentów: nawet internetowi giganci i sami wydawcy ucierpią znacząco po wprowadzeniu tych przepisów.'
+
+about_sub_title3: 'Prawo autorskie i pokrewne'
+about_sub_text3_1: 'Artykuł 11 dyrektywy dotyczącej reformy skupia się przede wszystkim na prawach autorskich i pokrewnych na portalach informacyjnych. Określone prawa prasowe mają na celu ochronę treści tych portali i wymagają zakupu licencji do ich używania. Będzie to miało ogromny wpływ na strony takie jak Bundlenews lub inne portale informacyjne, ponieważ cytowanie tekstów może zostać uznane za naruszenie praw autorskich.'
+about_sub_text3_2: 'Problem jest tu stosunkowo prosty: duża część dostawców informacji w internecie żyje z odsłon stron i wynikających z nich przychodów z reklam, które są generowane, gdy użytkownicy uzyskują do nich dostęp poprzez linki zewnętrzne. Jeśli portal nie chce lub nie jest w stanie zapłacić za niezbędne licencje, odsłony strony przepadają. Projekt reformy, który pierwotnie miał na celu wsparcie usługodawców, zniszczy w ten sposób ich podstawę egzystencji.'
+
+about_sub_title4: 'Maszyny cenzurujące'
+about_sub_text4_1: 'Wdrożenie artykułu 13 ma na celu rygorystyczne filtrowanie treści wrzucanych do sieci w czasie rzeczywistym. Ostatecznie oznacza to, że każdy pakiet danych będzie automatycznie sprawdzany przez potencjalnie wadliwy algorytm. Jest to porównywalne do błędnego algorytmu YouTube, który często nieprawidłowo usuwa treści, mimo to że nie są chronione prawami autorskimi.'
+about_sub_text4_2: 'Kiedy ponownie zastanowimy się nad algorytmem automatycznie analizującym treści, Orwellowski scenariusz dystopii à la „Rok 1984” wydaje się stawać rzeczywistością. Obecnie mamy do czynienia ze zmianą, która może w sposób zrównoważony zmienić Internet, jaki znamy.'
+
+about_sub_title5: 'Nasze żądania:'
+about_sub_text5_1: >
+    Through your position in Parliament, you have a duty to represent the opinions and values of your country's citizens and to uphold their freedom.
+about_sub_text5_2: 'Poprzez Państwa pozycje w Parlamencie mają Państwo obowiązek obrony poglądów i wartości obywateli oraz ochrony ich wolności.'
+about_sub_text5_strong: 'Wspieraj nas, abyśmy wspólnie mogli walczyć o wolny Internet!'
+
+# Footer section
+about_link: 'O SaveTheInternet'
+imprint_link: 'Stopka redakcyjna'
+privacy_link: 'Polityka Prywatności'
