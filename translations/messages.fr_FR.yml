@@ -63,6 +63,8 @@ what_do_share_content: 'Avec le maximum de personnes possible, ainsi nous pourro
 what_do_need_content: 'Besoin de partager quelque chose ?'
 what_do_gallery: |
     <a class="highlight" href="/fr_FR/gallery">Dans notre galerie</a> vous pourrez trouver le contenu que vous cherchez!
+what_do_stuff: |
+    Contactez votre député! Vous pouvez contacter votre député directement pour lui montré votre déception quant à ce projet de loi.  Des mails personnels ou des conversations par téléphone ont souvent un plus grand impact parce que la personne avec qui vous parlez est directement impacté et donc ouverte à une nouvelle opinion et sera plus facile à faire changer d’avis. Tous les numéros de téléphone, adresses e-mail et textes pré-préparés peuvent être trouvés ici: 
 
 what_do_mail: 'Écrivez à votre député!'
 what_do_mail_content: |
