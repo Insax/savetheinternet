@@ -1,0 +1,118 @@
+# Global
+day: 'dag'
+days: 'dagar'
+hours: 'timmar'
+minutes: 'minuter'
+seconds: 'sekunder'
+
+# Header
+header_tagline: 'Internet är i fara, och du kan rädda det!'
+
+# Article explainer section
+article: 'Artikel'
+article_title: 'Vad händer den 20e Juni?'
+article_content: 'Den 20e Juni röstar den lagliga kommittén av EU-parlamentet på det föreslågna <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:52016PC0593&from=EN" class="highlight">Urheberrechts-Richtlinie</a> ab. De enda som kan stoppa denna dödliga lag nu är medlemmarna av Europaparlamentet !'
+# Article row section start
+article_reddit_title: 'Diktatur av felbara'
+article_reddit_title_highlight: 'algoritmer'
+article_reddit_content: 'Uppladdningsfilter på platser som Youtube, Facebook Etc. har en sak gemensamt: Dom kommer aldrig vara like träffsäker som en människa. Följaktligen får det tog copyright på innehållet, som används under lagar för ganska bruk, borttaget. Denna ”tendens” kunde missbrukas för att filtrera innehållet som inte är i överensstämmelse med de företagsvärdena och intressena.'
+
+article_link_title: 'Inga mer'
+article_link_title_highlight: länkar
+article_link_content: 'I framtiden kommer pressutgivare tvingas att ta betalt för länkar som någon pekar till deras innehåll, hota således existensen av portaler och även Wikipedia för nyheterna. Inte att anknyta skatt!'
+
+article_pepe_title: 'Inga mer'
+article_pepe_title_highlight: memes
+article_pepe_content: 'Uppladnings-filterna kan leda till döden av memekulturen. Copyrightat material under uttrycken av fritt bruk kan ej längre utdelas utan betalda licenser. Rädda våran memekultur!'
+# Article row section end
+
+# Twitter section
+twitter_title: 'Hör vad andra säger'
+twitter_description: 'Denna censur kan vända de kulturella normerna på internet uppochner.Uppladnings-blockeringar i kombination med felbara algoritmer betyder att potentiellt även något som så enkelt som att posta länkar snart kan bli ett problem. Detta skulle vara väldigt tydligt på platser som Twitter, Facebook, 9GAG Etc. Snarare - alla dina favorit-hemsidor. Eftersom att artikel 11 och 13 skulle betyda att länakr eller citat kan redigeras eller stoppas från att laddas upp.'
+
+#Typewriter section
+#typewriter_1: '^200 our'
+#typewriter_2: '^200 your'
+#typewriter_3: '^200 the'
+
+# Countdown section
+countdown_title: 'Tiden rinner ut'
+countdown_description1: 'Omröstningen i EU-parlamentet kommer äga rum om några dagar! Därför måste vi agera OMEDELBART för att övertyga medlemmarna av Europaparlamentet. Den ansvariga kommitten har en smal majoritet av rösten till förmån för förslaget.'
+countdown_description2: ''
+countdown_until: 'DE Countdown until the Legal Committee of the European Parliament discusses Article 13'
+countdown_expired: 'DE The EU is currently debating'
+
+# What-do row
+what_do_title: 'Vad kan du göra?'
+
+# What-do row section start
+what_do_share: 'Diskutera detta ämne! Dela denna sida!'
+what_do_share_content: 'Vi kan lägga tryck på parlamentet. Underteckna vår begäran!'
+what_do_need_content: ''
+what_do_gallery: |
+    <a class="highlight" href="/de_DE/gallery">I vårt galleri </a> du hittar innehållet du letar efter!
+what_do_mail: 'Skriv din ersättare!'
+what_do_mail_content: 'Du kan skicka ett mejl till din MEP och informera att du inte instämmer med deras åsikt. Alla nödvändiga postadresser och ett konfektions- meddelande kan finnas här:'
+
+what_do_call: 'Ring din ersättare!'
+what_do_call_content: 'Om ett email är för opersonlig för dig, kan du ringa din ersättare och försöka att ändra deras åsikt. Telefonnumret kan finnas här:'
+# What-do row section end
+
+# map section
+near_demos: ''
+near_demos_content1: |
+    
+near_demos_content2: |
+    
+near_demos_content3: |
+    
+near_demos_content4: |
+    
+# Graphic box section
+graphic_box_title1: 'Artikel 13 i detalj'
+graphic_box_content1: |
+    Artikel 13 kräver i praktiken att nästan alla internetplattformar installerar ”en filterrobot” som kontrollerar automatiskt allt laddat upp innehåll. Detta begränsar överdrivet yttrandefrihet, för den kan användas. Det nöjda censurbeslutet lämnas till felbara och överkänsliga algoritmer (som programmeras ”för att spela det kassaskåpet” och för att radera något som skapar en risk för plattformen i fall att av tvivel).
+graphic_box_title2: 'Artikel 11 i detalj'
+graphic_box_content2: |
+    I extra copyright-lag (artikel 11), stipuleras det att innehållet av bestämda informationsfamiljeförsörjare i framtid ska vara ämnet till specifik massmedialag. Detta betyder att redan citerade texter kunde förklaras en copyright-överträdelse. En stor del av familjeförsörjarna av nyheterna på det netto ska påverkas av denna, efter bruket av yttre sammanlänkningar och sammanlänkningar var inskränkt eller betald.
+# Image-split section
+image_split_title: 'Artikel 11 påverkar inte bara internet'
+image_split_content: |
+    Forskning och framsteg lider också från artikel 11. I framtiden ska användare, liksom oberoende forskare, journalister, individer och olika företag, förnekas att bryta för text och för data. Detta har en saktande effekt på olika upptäckter av allmänhetens bästa.
+# Petition section
+petition_title: 'Censur? Utan mig!'
+petition_content1: 'Stötta oss med din stämma! Endast vi är tillsammans starka!'
+petition_content2: 'Det är därför har vi gjort en begäran för att tackla artiklar 11 och 13!'
+petition_button: 'Besöka begäran'
+sign_petition: 'Zur Petition'
+
+# gallery section
+gallery_title: 'galleri'
+gallery_download_pdf: 'PDF nedladdning'
+
+# About page
+about_title: 'Information'
+about_sub_title1: 'Stoppa censurmaskinen - spara internet!'
+about_sub_text1: 'Internet, som du vet den, är i fara! Europaparlamentet planerar för närvarande för att dra åt copyright-lagen, som skulle begränsa kraftigt din frihet på internet.'
+
+about_sub_title2: 'Vad du kan förvänta'
+about_sub_text2_1: 'På 20th Juni, ska den lagliga kommittén av Europaparlamentet avgöra på en ny Copyright-reform. Detta kunde radically ändra copyright-lagar genom hela EU. I stället för understödjande skapare som ursprungligen påtänkta, sade att reform kunde slutligen misslyckas och lägga på en börda på dem.'
+about_sub_text2_2: 'Speciellt artikel 11 och artikel 13 av reformen skulle medföra enorma begränsningar, inte bara för konsumenterna. Även skulle skaparna själva lida under dessa nya reglemente:'
+
+about_sub_title3: 'Extra Copyright'
+about_sub_text3_1: 'Artikel 11 av förslaget av Europeiska kommissionen fokuserar främst på den extra Copyright av informationsfamiljeförsörjare. Mer specifika pressrätter ska skydda innehållet av dessa familjeförsörjare och ska behöva en inhandlad licens att vara i stånd till att användas av andra. Speciellt påverkas stora nyheterportaler och aggregatorssidor, sedan citerade texter kunde ses som en copyright-överträdelse under dessa nya lagar.'
+about_sub_text3_2: 'Problemet är enkelt: En stor del av nyheternafamiljeförsörjare på internet finansieras av sidaintryck och den resulterande annonsinkomsten, som frambrings av användare som besöker deras plats via yttre sammanlänkningar. Om en plattform inte är villig eller i stånd att betala dessa licenseraavgifter, skulle de förlora de sidasikter. Den föreslågna lagen som ursprungligen är förment att stötta dessa familjeförsörjare, ska ta nu bort deras hjälpmedel av existens.'
+
+about_sub_title4: 'Uppladdnings-filter'
+about_sub_text4_1: 'Genomförandet av artikel 13 resulterar i sammanlagt realtidsfiltrera av varje stycke av innehållet som ska laddas upp till internet. Vad detta betyder: Varje datapacke ska automatiskt avläsas av en potentiellt felbar algoritm. Detta är jämförbart till den felaktiga algoritmen som utplaceras av YouTube, som tar ofta felaktigt bort innehållet, som inte skyddas av copyright-lag.'
+about_sub_text4_2: >
+    Om du tänker om utsikten av en algoritm som pre-analyser allt innehåll som laddas upp till internet, tar vi ett ytterligare moment in mot den Orwellian dystopiaen av ”1984”. Vi är på kanten av en drastisk reform som kunde ändra internetkulturför evigt.
+about_sub_title5: 'Vår begäran till EU:'
+about_sub_text5_1: 'Vi begär att kommittén för lagliga angelägenheter inte bör göra det samma felet som Europaparlamentet gjorde två år sedan. Rösta mot reformen av copyright-lag i den digitala inre marknaden, preciserar sina anklagelser mot i synnerhet 11 och 13 på 20th Juni 2018.'
+about_sub_text5_2: 'Till och med din position i parlament har du en arbetsuppgift att föreställa åsikterna och värdena av ditt lands medborgare och att försvara deras frihet.'
+about_sub_text5_strong: 'Sammanfoga oss, så vi kan stå tillsammans för en fri internet!'
+
+# Footer section
+about_link: 'Info'
+imprint_link: 'Impressum'
+privacy_link: 'Privacy Policy'
