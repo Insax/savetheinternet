@@ -1,7 +1,17 @@
 @import "_variables";
 @import "_shared";
 @import "~flag-icon-css/sass/flag-icon";
-@import "~font-awesome/scss/font-awesome";
+//@import "~font-awesome/scss/font-awesome";
+
+@import "~font-awesome/scss/variables";
+@import "~font-awesome/scss/core";
+@import "~font-awesome/scss/path";
+//@import "~font-awesome/scss/icons";
+.#{$fa-css-prefix}-facebook-square:before { content: $fa-var-facebook-square; }
+.#{$fa-css-prefix}-twitter:before { content: $fa-var-twitter; }
+.#{$fa-css-prefix}-instagram:before { content: $fa-var-instagram; }
+.#{$fa-css-prefix}-envelope:before { content: $fa-var-envelope; }
+
 
 // PAGES
 @import "/pages/landing";
