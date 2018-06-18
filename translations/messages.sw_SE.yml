@@ -11,7 +11,7 @@ header_tagline: 'Internet är i fara, och du kan rädda det!'
 # Article explainer section
 article: 'Artikel'
 article_title: 'Vad händer den 20e Juni?'
-article_content: 'Den 20e Juni röstar den lagliga kommittén av EU-parlamentet på det föreslågna <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:52016PC0593&from=EN" class="highlight">Urheberrechts-Richtlinie</a> ab. De enda som kan stoppa denna dödliga lag nu är medlemmarna av Europaparlamentet !'
+article_content: 'Den 20e Juni röstar den lagliga kommittén av EU-parlamentet på det föreslågna <a href="https://eur-lex.europa.eu/legal-content/SV/TXT/PDF/?uri=CELEX:52016PC0593&from=EN" class="highlight">upphovsrättspolitik</a>. De enda som kan stoppa denna dödliga lag nu är medlemmarna av Europaparlamentet!'
 # Article row section start
 article_reddit_title: 'Diktatur av felbara'
 article_reddit_title_highlight: 'algoritmer'
@@ -84,7 +84,7 @@ petition_title: 'Censur? Utan mig!'
 petition_content1: 'Stötta oss med din stämma! Endast vi är tillsammans starka!'
 petition_content2: 'Det är därför har vi gjort en begäran för att tackla artiklar 11 och 13!'
 petition_button: 'Besöka begäran'
-sign_petition: 'Zur Petition'
+sign_petition: 'till framställningen'
 
 # gallery section
 gallery_title: 'galleri'
@@ -114,5 +114,5 @@ about_sub_text5_strong: 'Sammanfoga oss, så vi kan stå tillsammans för en fri
 
 # Footer section
 about_link: 'Info'
-imprint_link: 'Impressum'
-privacy_link: 'Privacy Policy'
+imprint_link: 'avtryck'
+privacy_link: 'integritetspolicy'
