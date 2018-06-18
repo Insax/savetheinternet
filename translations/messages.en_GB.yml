@@ -8,6 +8,8 @@ seconds: 'seconds'
 # Header
 header_tagline: 'The internet is in danger, and you can save it!'
 
+share_twitter: 'The internet is in danger, and you can save it! https://savetheinternet.info #DeleteArt13'
+
 # Article explainer section
 article: 'Article'
 article_title: 'What will happen on June 20th?'
@@ -59,6 +61,8 @@ what_do_share_content: 'Only if as many people as possible know we can put press
 what_do_need_content: 'Need something to share?'
 what_do_gallery: |
     <a class="highlight" href="/en_GB/gallery">In our gallery</a> you can find the content you're looking for!
+what_do_stuff: |
+    Conctact your Deputy! You can contact your Deputy directly to show him or her your displeasure with the draft law. Personal mails or conversations via telephone often have a huge impact because people with whom you talk directly are open to new opinions and more willingly to be re-tuned. All necessary telephone numbers, e-mail addresses and premade texts can be found here:
 
 what_do_mail: 'Write to your deputy!'
 what_do_mail_content: 'You can send an e-mail to your MEP to alert him that you do not agree with the bill. All necessary mail addresses and a ready-made message can be found here:'
@@ -131,6 +135,13 @@ about_sub_text5_1: 'We demand that the Committee on Legal Affairs should not mak
 about_sub_text5_2: >
     Through your position in Parliament, you have a duty to represent the opinions and values of your country's citizens and to uphold their freedom.
 about_sub_text5_strong: 'Join us, so we can stand together for a free internet'
+
+# mep page
+mep_title: 'Contact your MEP'
+mep_heading: >
+    The <span style="color: #6bbbff !important;">Magic 10</span>: #savetheinternet <br> Heroes or Zeroes?
+mep_text_1: 'On 20 June, the European Parliament will vote on the Copyright Directive. The votes of 10 Members of the parliament will determine if the Internet remains open and free from censorship in the EU. Tell them you need them to protect your Internet against surveillance and censorship machines, as the defenders of EU citizens! Give them the power to be Heroes!'
+
 
 # Footer section
 about_link: 'About'

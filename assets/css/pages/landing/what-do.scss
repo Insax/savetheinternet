@@ -42,4 +42,437 @@
             }
         }
     }
+
+    .big {
+        font-size: 1.2em;
+    }
+
+    .custom-dropdown {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .custom-dropdown select {
+        background-color: #ffbf00;
+        color: #000;
+        font-size: inherit;
+        padding: .5em;
+        padding-right: 2.5em;
+        border: 0;
+        margin: 0;
+        border-radius: 3px;
+        text-indent: 0.01px;
+        text-overflow: '';
+        -webkit-appearance: button;
+    }
+
+    .custom-dropdown::before,
+    .custom-dropdown::after {
+        content: "";
+        position: absolute;
+        pointer-events: none;
+    }
+
+    .custom-dropdown::after {
+        content: "\25BC";
+        height: 1em;
+        font-size: .625em;
+        line-height: 1;
+        right: 1.2em;
+        top: 50%;
+        margin-top: -.5em;
+    }
+
+    .custom-dropdown::before {
+        width: 2em;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        border-radius: 0 3px 3px 0;
+    }
+
+    .custom-dropdown select[disabled] {
+        color: rgba(0, 0, 0, .3);
+    }
+
+    .custom-dropdown select[disabled]::after {
+        color: rgba(0, 0, 0, .1);
+    }
+
+    .custom-dropdown::before {
+        background-color: rgba(0, 0, 0, .15);
+    }
+
+    .custom-dropdown::after {
+        color: rgba(0, 0, 0, .4);
+    }
+
+    a {
+        cursor: pointer!important;
+    }
+
+    p, span, li {
+        font-family: "Raleway", sans-serif!important;
+    }
+
+    h3 {
+        margin-top: 15px!important;
+        margin-bottom: 15px!important;
+    }
+
+    .acf-rpw-title {
+        font-size: 18px;
+    }
+
+    .essb_links_list {
+        list-style-type: none;
+    }
+
+    .essb_links .essb_link_twitter a {
+        box-shadow: none!important;
+        cursor: pointer;
+        color: white;
+        padding: 0;
+    }
+
+    .essb_links .essb_link_twitter a:hover {
+        background-color: transparent!important;
+    }
+
+    .essb_link_twitter {
+        position: absolute;
+        bottom: 30px;
+        background-image: url(/build/static/mep/tweet-bg.png);
+        background-size: 100% 100%;
+        background-color: transparent!important;
+        background-repeat: no-repeat;
+        width: 100px;
+    }
+
+    .essb_icon_twitter {
+        background-image: url(/build/static/mep/white-twitter-512.png);
+        background-size: cover;
+        height: 20px;
+        width: 20px;
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    .essb_links li a .essb_network_name {
+        margin-right: 0;
+        margin-top: -10px;
+    }
+
+    .mep-item {
+        display: none;
+    }
+
+    figure.effect-oscar {
+        background: none;
+        height: 100%;
+        position: relative;
+        background: #FAFAFA;
+        margin: 0;
+    }
+
+    figure.effect-oscar figcaption {
+        padding: 3em;
+        background: none;
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    figure.effect-oscar figcaption::before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        content: '';
+        background: rgba(250, 250, 250, 0.9);
+    }
+
+    figure.effect-oscar figcaption::before {
+        opacity: 0;
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    figure.effect-oscar:hover figcaption::before {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    figure.effect-oscar:hover figcaption {
+        background-color: rgba(58, 52, 42, 0);
+    }
+
+    figure.effect-oscar .essb_links_list {
+        margin: 0;
+        text-align: center;
+        padding: 5px 0 0 0;
+    }
+
+    figure.effect-oscar .essb_link_twitter {
+        position: relative;
+        text-align: center;
+        height: 150px;
+        width: 150px;
+        background-size: 100% 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        bottom: 0;
+    }
+
+    figure.effect-oscar .essb_link_twitter a {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    figure.effect-oscar .essb_icon_twitter {
+        font-size: 40px!important;
+        width: 40px;
+        height: 40px;
+        background-image: url(/build/static/mep/white-twitter-512.png);
+        background-size: cover;
+        top: 20%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    figure.effect-oscar .essb_links .essb_icon:before {
+        font-size: 40px!important;
+    }
+
+    figure.effect-oscar .essb_network_name {
+        font-size: 20px!important;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .mep-list {
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin: 0 auto;
+    }
+
+    .mep-grid {
+        display: flex;
+        list-style-type: none;
+        flex-flow: row wrap;
+        margin-left: 0;
+        padding: 0;
+        margin-right: 0;
+    }
+
+    .mep-grid .mep-item {
+        margin: 0;
+        flex: 1 1 calc(50%);
+        padding: 20px;
+        max-width: 100%;
+        padding: 0 0 30px 0;
+    }
+
+    .mep-grid .mep-main {
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: auto 60px;
+        background-position: right top;
+    }
+
+    .mep-grid .mep-content {
+        order: 1!important;
+        flex-basis: 25%;
+        position: relative;
+        overflow: visible;
+        width: 100%;
+        vertical-align: top;
+        padding: 30px;
+        line-height: 1.3;
+        color: #000;
+    }
+
+    .mep-grid .mep-authorinfo {
+        order: 2!important;
+        flex-basis: 75%;
+        text-align: right;
+        width: 100%;
+        text-align: left;
+        display: flex;
+        padding-top: 0;
+        color: #000!important;
+    }
+
+    .mep-grid .grouped-author-text {
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+    }
+
+    .mep-grid .mep-image {
+        width: 130px;
+        height: 150px;
+        min-width: 100px;
+        min-height: 100px;
+        background-size: cover;
+    }
+
+    .mep-grid .mep-social {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    figure.effect-oscar {
+        background: none;
+        height: 100%;
+        position: relative;
+        background: #FAFAFA;
+    }
+
+    figure.effect-oscar .mep-main {
+        opacity: 0.9;
+        -webkit-transition: opacity 0.35s;
+        transition: opacity 0.35s;
+    }
+
+    figure.effect-oscar figcaption::before, figure.effect-oscar .mep-social {
+        opacity: 0;
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    figure.effect-oscar:hover figcaption::before, figure.effect-oscar:hover .mep-social {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    figure.effect-oscar:hover .mep-main {
+        opacity: 0.4;
+    }
+
+    figure.effect-oscar .essb_link_mep {
+        background-image: url(/build/static/mep/tweet-bg.png);
+        position: relative;
+        text-align: center;
+        height: 75px;
+        width: 75px;
+        background-size: 100% 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        bottom: 0;
+        vertical-align: top;
+    }
+
+    figure.effect-oscar .essb_link_mep a {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .essb_link_mep .essb_network_name {
+        display: none;
+    }
+
+    .essb_link_mep .essb_link_twitter {
+        height: 60px!important;
+        width: 60px!important;
+        background-image: none;
+    }
+
+    @media only screen and (min-width: 1300px) {
+        p, li {
+            font-size: 17px!important;
+            line-height: 28px!important;
+        }
+    }
+
+    @media only screen and (min-width: 1300px) and (max-width: 1600px) {
+        p, li {
+            font-size: 16px!important;
+            line-height: 20px!important;
+            line-height: 28px!important;
+        }
+
+        .essb_link_twitter {
+            width: 90px!important;
+        }
+    }
+
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+        .mep-grid .mep-main {
+            background-position: left top!important;
+        }
+    }
+
+    @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+        .mep-grid .mep-main {
+            background-position: left top!important;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .mobile-hide {
+            display: none !important;
+        }
+        .mobile-flex {
+            width: 100% !important;
+            margin: 0 auto !important;
+        }
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 768px) {
+        p, li {
+            font-size: 16px!important;
+            line-height: 20px!important;
+            line-height: 28px!important;
+        }
+
+        .mep-item {
+            width: 100%!important;
+            max-width: none!important;
+        }
+
+        .mep-main {
+            flex-direction: column!important;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .grouped-author-text {
+            display: flex;
+            flex-direction: column;
+            padding-left: 15px;
+        }
+
+        .essb_link_twitter {
+            width: 90px!important;
+        }
+
+        .mep-item {
+            width: 100%!important;
+            max-width: none!important;
+        }
+
+        .mep-main {
+            flex-direction: column!important;
+        }
+    }
 }

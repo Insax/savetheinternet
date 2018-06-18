@@ -7,6 +7,8 @@ seconds: 'secondes'
 # Header
 header_tagline: 'Internet est en danger, et vous pouvez le sauver!'
 
+share_twitter: 'Internet est en danger, et vous pouvez le sauver! https://savetheinternet.info #DeleteArt13'
+
 # Article explainer section
 article: 'Article'
 article_title: 'Que va t-il arriver le 20 juin?'
@@ -117,8 +119,7 @@ gallery_title: 'Galerie'
 gallery_download_pdf: 'Télécharger le PDF'
 
 # About page
-about_title: |
-  'À propos'
+about_title: 'À propos'
 about_sub_title1: 'Arrêtez la machine à censure – sauvez internet!'
 about_sub_text1: 'Internet comme vous le connaissez est en danger! Le parlement européen est actuellement en train de faire des restrictions sur les copyrights, ce qui restreindrait massivement votre liberté sur internet .'
 
@@ -140,13 +141,20 @@ about_sub_text4_1: |
 about_sub_text4_2: |
   'Si vous pensez à la perspective qu'un algorithme pré-analyse tout le contenu qui est téléchargé sur internet, nous faisons le premier pas vers la dystopie de George Orwell «  1984 » . Nous sommes sur le point de voir une réforme qui pourrait changer la culture d'internet pour toujours.'
 
-about_sub_title5: |
-  'Notre demande à l'Union Européenne'
-about_sub_text5_1: |
-  'Nous demandons à la commission des affaires juridiques de ne pas faire la même erreur que le parlement européen à fait il y a deux ans. Le 20 juin 2018, votez contre la réforme sur la loi du copyright sur le marché digital, en particulier l'article 11 et 13.'
+about_sub_title5: >
+    Notre demande à l'Union Européenne
+about_sub_text5_1: >
+    Nous demandons à la commission des affaires juridiques de ne pas faire la même erreur que le parlement européen à fait il y a deux ans. Le 20 juin 2018, votez contre la réforme sur la loi du copyright sur le marché digital, en particulier l'article 11 et 13.
 about_sub_text5_2: >
     À travers votre position au parlement européen, vous devez représenter l'opinion et les valeurs des citoyens de vos pays respectifs et défendre leur droits.
 about_sub_text5_strong: 'Rejoignez nous , et nous pourrons lutter ensemble pour un internet libre!'
+
+# mep page
+mep_title: 'Contact your MEP'
+mep_heading: >
+    The <span style="color: #6bbbff !important;">Magic 10</span>: #savetheinternet <br> Heroes or Zeroes?
+mep_text_1: 'On 20 June, the European Parliament will vote on the Copyright Directive. The votes of 10 Members of the parliament will determine if the Internet remains open and free from censorship in the EU. Tell them you need them to protect your Internet against surveillance and censorship machines, as the defenders of EU citizens! Give them the power to be Heroes!'
+
 
 # Footer section
 about_link: 'À propos'

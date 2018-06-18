@@ -1,3 +1,5 @@
+import moment from 'moment';
+
 function makeTemplate(element){
     moment.locale(window.location.pathname === '/' ? 'en' : window.location.pathname.substring(1,3));
     return '<div class="post-container" id="' + element.id + '">'+
@@ -85,7 +87,7 @@ function updateTweets() {
     $.get("/tweets", function(data) {
         data = data.sort(function(a,b){
             if(a != null && b != null) {
-              return b.id - a.id;
+              return a.id - b.id;
             }
         });
 

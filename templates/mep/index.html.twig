@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Contact your MEP | Save the Internet{% endblock %}
+
+{% block body %}
+    <!-- Header -->
+    {% include 'shared/header.html.twig' %}
+
+    <!-- content -->
+    <div class="container">
+        {% include 'mep/components/act_now.html.twig' %}
+        {% include 'mep/components/magic_10.html.twig' %}
+        {% include 'mep/components/meps.html.twig' %}
+
+        {% include 'index/components/countdown.html.twig' %}
+    </div>
+
+    <!-- Footer -->
+    {% include 'shared/footer.html.twig' %}
+
+{% endblock %}
