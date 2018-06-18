@@ -58,13 +58,13 @@
         color: #000;
         font-size: inherit;
         padding: .5em;
-        padding-right: 2.5em; 
+        padding-right: 2.5em;
         border: 0;
         margin: 0;
         border-radius: 3px;
         text-indent: 0.01px;
         text-overflow: '';
-        -webkit-appearance: button; 
+        -webkit-appearance: button;
     }
 
     .custom-dropdown::before,
@@ -74,7 +74,7 @@
         pointer-events: none;
     }
 
-    .custom-dropdown::after { 
+    .custom-dropdown::after {
         content: "\25BC";
         height: 1em;
         font-size: .625em;
@@ -84,7 +84,7 @@
         margin-top: -.5em;
     }
 
-    .custom-dropdown::before { 
+    .custom-dropdown::before {
         width: 2em;
         right: 0;
         top: 0;
@@ -260,13 +260,19 @@
         transform: translateX(-50%);
     }
 
+    .mep-list {
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin: 0 auto;
+    }
+
     .mep-grid {
         display: flex;
         list-style-type: none;
         flex-flow: row wrap;
-        margin-left: -20px;
-        padding: 0 0 0 20px;
-        margin-right: -20px;
+        margin-left: 0;
+        padding: 0;
+        margin-right: 0;
     }
 
     .mep-grid .mep-item {
@@ -468,5 +474,5 @@
         .mep-main {
             flex-direction: column!important;
         }
-    }    
+    }
 }
