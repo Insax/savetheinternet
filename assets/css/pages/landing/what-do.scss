@@ -271,17 +271,16 @@
         display: flex;
         list-style-type: none;
         flex-flow: row wrap;
-        margin-left: 0;
+        margin-left: -15px;
         padding: 0;
-        margin-right: 0;
+        margin-right: -15px;
     }
 
     .mep-grid .mep-item {
         margin: 0;
         flex: 1 1 calc(50%);
-        padding: 20px;
         max-width: 100%;
-        padding: 0 0 30px 0;
+        padding: 0 15px 30px 15px;
     }
 
     .mep-grid .mep-main {
@@ -449,6 +448,7 @@
         .mep-item {
             width: 100%!important;
             max-width: none!important;
+            flex: 1 1 100% !important;
         }
 
         .mep-main {
