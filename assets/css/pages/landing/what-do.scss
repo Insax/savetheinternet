@@ -423,10 +423,10 @@
     }
 
     @media (max-width: 767px) {
-        #mobile-hide {
+        .mobile-hide {
             display: none !important;
         }
-        #mobile-flex {
+        .mobile-flex {
             width: 100% !important;
             margin: 0 auto !important;
         }
