@@ -1,28 +1,3 @@
-#langcontainer ul {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-top: 10px;
-    margin-right: 20px;
-    cursor: pointer;
-    list-style: none;
-}
-
-#langcontainer li {
-    display: inline-block;
-    //padding-right: 10px;
-}
-
-#langcontainer li span {
-    width: 25px;
-    height: 25px;
-    animation-name: fade-in;
-    animation-duration: .5s;
-    animation-fill-mode: forwards;
-    filter: grayscale(32%);
-    transition: all 0.5s ease;
-}
-
 @keyframes fade-in {
     0% {
         opacity: 0
@@ -32,10 +7,85 @@
     }
 }
 
-#langcontainer li span:hover {
-    filter: grayscale(0%);
-}
+#langcontainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    cursor: pointer;
+    list-style: none;
+    width: 100%;
+    box-shadow: 0 2px 2px -2px #161618;
 
-#langcontainer .nav-item .nav-link{
-    padding: 0;
+    .langdropdown {
+        position: relative;
+        text-align: right;
+
+        .language-trigger {
+            display: inline-block;
+            position: relative;
+            margin-right: 20px;
+
+            &:after {
+                content: '';
+                color: transparent;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 8px 4px 0 4px;
+                border-color: #ffbf00 transparent transparent transparent;
+                position: absolute;
+                right: 0px;
+                top: 17px;
+                transition: transform 0.25s ease-in-out;
+                transform: rotate(0) translate3d(0,0,0);
+            }
+        }
+
+        .dropdown {
+            display: none;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 16px 20px 16px 16px;
+            background: $background;
+            justify-content: flex-end;
+
+            li {
+                display: inline-block;
+                margin-left: 10px;
+
+                &:first-child {
+                    margin-left: 0;
+                }
+
+                span {
+                    width: 25px;
+                    height: 25px;
+                    animation-name: fade-in;
+                    animation-duration: .5s;
+                    animation-fill-mode: forwards;
+                    filter: grayscale(32%);
+                    transition: all 0.5s ease;
+
+                    &:hover {
+                        filter: grayscale(0%);
+                    }
+                }
+            }
+        }
+
+        &.open {
+            .language-trigger:after {
+                transform: rotate(180deg) translate3d(0,0,0);
+            }
+
+            .dropdown {
+                display: flex;
+            }
+        }
+    }
+
+    .nav-item .nav-link{
+        padding: 0;
+    }
 }

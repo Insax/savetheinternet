@@ -15,6 +15,10 @@ window.moment = moment;
 
 (function($) {
 	new ResponsiveVideo('.responsive-video').activate();
+
+	$(".language-trigger").click(function() {
+	    $('.langdropdown').toggleClass('open');
+    })
 })(jQuery);
 
 import './pages/landing.js';
