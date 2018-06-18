@@ -7,6 +7,8 @@ seconds: 'secondes'
 # Header
 header_tagline: 'Internet est en danger, et vous pouvez le sauver!'
 
+share_twitter: 'Internet est en danger, et vous pouvez le sauver! https://savetheinternet.info #DeleteArt13'
+
 # Article explainer section
 article: 'Article'
 article_title: 'Que va t-il arriver le 20 juin?'
@@ -15,7 +17,7 @@ article_content: |
 
 # Article row section start
 article_reddit_title: |
-  La dictature <span class="highlight">d'algorithmes</span> faillibles'
+  La dictature <span class="highlight">d'algorithmes</span> faillibles
 article_reddit_title_highlight: ''
 article_reddit_content: >
     Les filtres de téléchargement des sites comme YouTube, Facebook etc. ont une chose en commun : Ils ne fonctionneront jamais aussi précisément que des humains. En conséquence, les contenus sous copyrights utilisés sous le sigle «fair use» seront supprimés. Cette «tendance» pourrait faire supprimé tout contenu qui ne va pas avec les valeurs ou les intérêts de l'entreprise.
@@ -23,7 +25,7 @@ article_reddit_content: >
 article_link_title: 'Plus de'
 article_link_title_highlight: 'liens'
 article_link_content: |
-  'A l'avenir les éditeurs de presse seront obligés de facturer pour tout lien leur appartenant étant utilisé par autrui. Non aux taxes sur les liens!'
+  A l'avenir les éditeurs de presse seront obligés de facturer pour tout lien leur appartenant étant utilisé par autrui. Non aux taxes sur les liens!
 
 article_pepe_title: 'Plus de'
 article_pepe_title_highlight: 'memes'
@@ -63,10 +65,12 @@ what_do_share_content: 'Avec le maximum de personnes possible, ainsi nous pourro
 what_do_need_content: 'Besoin de partager quelque chose ?'
 what_do_gallery: |
     <a class="highlight" href="/fr_FR/gallery">Dans notre galerie</a> vous pourrez trouver le contenu que vous cherchez!
+what_do_stuff: |
+    Contactez votre député! Vous pouvez contacter votre député directement pour lui montré votre déception quant à ce projet de loi.  Des mails personnels ou des conversations par téléphone ont souvent un plus grand impact parce que la personne avec qui vous parlez est directement impacté et donc ouverte à une nouvelle opinion et sera plus facile à faire changer d’avis. Tous les numéros de téléphone, adresses e-mail et textes pré-préparés peuvent être trouvés ici: 
 
 what_do_mail: 'Écrivez à votre député!'
 what_do_mail_content: |
-  'Vous pouvez envoyer un e-mail au député de votre circonscription pour l'informer que vous n'êtes pas en accord avec ce projet de loi. Toutes adresses mail ou message pré-écrit peut être trouvé ici:'
+  Vous pouvez envoyer un e-mail au député de votre circonscription pour l'informer que vous n'êtes pas en accord avec ce projet de loi. Toutes adresses mail ou message pré-écrit peut être trouvé ici:
 
 what_do_call: 'Appelez le député de votre circonscription'
 what_do_call_content: |
@@ -119,25 +123,25 @@ gallery_download_pdf: 'Télécharger le PDF'
 # About page
 about_title: 'À propos'
 about_sub_title1: 'Arrêtez la machine à censure – sauvez internet!'
-about_sub_text1: 'Internet comme vous le connaissez est en danger! Le parlement européen est actuellement en train de faire des restrictions sur les copyrights, ce qui restreindrait massivement votre liberté sur internet .'
+about_sub_text1: 'Internet comme vous le connaissez est en danger! Le parlement européen est actuellement en train de faire des restrictions sur les copyrights, ce qui restreindrait massivement votre liberté sur internet.'
 
 about_sub_title2: 'Ce à quoi vous devez vous attendre'
 about_sub_text2_1: |
-  'le 20 juin, le conseil européen décidera le sort de la nouvelle loi sur les copyrights. Cela pourrait changer radicalement les lois sur le copyright dans l'UE. Au lieu de soutenir les créateurs comme voulu à la base, cette réforme pourrait même leur nuire.'
+  le 20 juin, le conseil européen décidera le sort de la nouvelle loi sur les copyrights. Cela pourrait changer radicalement les lois sur le copyright dans l'UE. Au lieu de soutenir les créateurs comme voulu à la base, cette réforme pourrait même leur nuire.
 about_sub_text2_2: |
-  'En particulier les articles 11 et 13 de la réforme pourraient entraîner d'énormes restrictions, pas seulement pour les consommateurs . Mêmes les grandes plateformes alimentés par les utilisateurs comme Reddit, GitHub ou 9GAG ou comme les créateurs eux-mêmes pourraient souffrir de ces nouvelles régulations :'
+  En particulier les articles 11 et 13 de la réforme pourraient entraîner d'énormes restrictions, pas seulement pour les consommateurs . Mêmes les grandes plateformes alimentés par les utilisateurs comme Reddit, GitHub ou 9GAG ou comme les créateurs eux-mêmes pourraient souffrir de ces nouvelles régulations:
 
 about_sub_title3: 'Copyright auxiliaire'
 about_sub_text3_1: |
-  'L'article 11 de la loi se concentre principalement sur les copyright auxiliaire des fournisseurs d'informations. Des droits plus spécifiques de la presse protégeront les contenus de leur fournisseurs et auront besoin d'une licence achetée pour pouvoir être utilisé par d'autres. '
+  L'article 11 de la loi se concentre principalement sur les copyright auxiliaire des fournisseurs d'informations. Des droits plus spécifiques de la presse protégeront les contenus de leur fournisseurs et auront besoin d'une licence achetée pour pouvoir être utilisé par d'autres.
 about_sub_text3_2: |
-  'Le problème est simple : Une grande proportion de fournisseurs d'informations sont payés à la page  et au résultat fait avec les publicités, généré par la visite d'utilisateurs sur leur site par des liens extérieurs <br> Si une plateforme ne veut ou ne peut pas payer ces frais de licence, ils perdront ces visites de leur page. La loi proposée qui à la base devait soutenir ces fournisseurs, enlèvera en faite leur moyen d'exister.'
+  Le problème est simple : Une grande proportion de fournisseurs d'informations sont payés à la page  et au résultat fait avec les publicités, généré par la visite d'utilisateurs sur leur site par des liens extérieurs <br> Si une plateforme ne veut ou ne peut pas payer ces frais de licence, ils perdront ces visites de leur page. La loi proposée qui à la base devait soutenir ces fournisseurs, enlèvera en faite leur moyen d'exister.
 
 about_sub_title4: 'Filtre de téléchargement'
 about_sub_text4_1: |
-  'L'implémentation de l'article 13 résultera en total filtrage en temps réel de chaque contenu qui sera téléchargé sur internet. Ce que cela veut dire : chaque paquet de donné sera automatiquement scanné par un algorithme potentiellement faillible. C'est comparable à l'algorithme erroné déployé par YouTube, qui souvent par erreur supprime du contenu qui n'est pas protégé par un copyright.'
+  L'implémentation de l'article 13 résultera en total filtrage en temps réel de chaque contenu qui sera téléchargé sur internet. Ce que cela veut dire : chaque paquet de donné sera automatiquement scanné par un algorithme potentiellement faillible. C'est comparable à l'algorithme erroné déployé par YouTube, qui souvent par erreur supprime du contenu qui n'est pas protégé par un copyright.
 about_sub_text4_2: |
-  'Si vous pensez à la perspective qu'un algorithme pré-analyse tout le contenu qui est téléchargé sur internet, nous faisons le premier pas vers la dystopie de George Orwell «  1984 » . Nous sommes sur le point de voir une réforme qui pourrait changer la culture d'internet pour toujours.'
+  Si vous pensez à la perspective qu'un algorithme pré-analyse tout le contenu qui est téléchargé sur internet, nous faisons le premier pas vers la dystopie de George Orwell «  1984 » . Nous sommes sur le point de voir une réforme qui pourrait changer la culture d'internet pour toujours.
 
 about_sub_title5: >
     Notre demande à l'Union Européenne

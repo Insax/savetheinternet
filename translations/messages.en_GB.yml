@@ -8,6 +8,8 @@ seconds: 'seconds'
 # Header
 header_tagline: 'The internet is in danger, and you can save it!'
 
+share_twitter: 'The internet is in danger, and you can save it! https://savetheinternet.info #DeleteArt13'
+
 # Article explainer section
 article: 'Article'
 article_title: 'What will happen on June 20th?'
