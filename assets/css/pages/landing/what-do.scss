@@ -142,7 +142,7 @@
     .essb_link_twitter {
         position: absolute;
         bottom: 30px;
-        background-image: url(/build/static/mep/tweet-bg.png);
+        background-image: url("../../../static/mep/tweet-bg.png");
         background-size: 100% 100%;
         background-color: transparent!important;
         background-repeat: no-repeat;
@@ -150,7 +150,7 @@
     }
 
     .essb_icon_twitter {
-        background-image: url(/build/static/mep/white-twitter-512.png);
+        background-image: url("../../../static/mep/white-twitter-512.png");
         background-size: cover;
         height: 20px;
         width: 20px;
@@ -239,7 +239,7 @@
         font-size: 40px!important;
         width: 40px;
         height: 40px;
-        background-image: url(/build/static/mep/white-twitter-512.png);
+        background-image: url("../../../static/mep/white-twitter-512.png");
         background-size: cover;
         top: 20%;
         position: absolute;
@@ -367,7 +367,7 @@
     }
 
     figure.effect-oscar .essb_link_mep {
-        background-image: url(/build/static/mep/tweet-bg.png);
+        background-image: url("../../../static/mep/tweet-bg.png");
         position: relative;
         text-align: center;
         height: 75px;
