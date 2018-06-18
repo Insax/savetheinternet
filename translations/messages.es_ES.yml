@@ -1,0 +1,137 @@
+# Global
+day: 'día'
+days: 'días'
+hours: 'horas'
+minutes: 'minutos'
+seconds: 'segundos'
+
+# Header
+header_tagline: 'Internet corre peligro, aprende aquí qué puedes hacer para salvarlo!'
+
+share_twitter: 'Internet corre peligro, aprende aquí qué puedes hacer para salvarlo! https://savetheinternet.info #DeleteArt13'
+
+# Article explainer section
+article: 'Artículo'
+article_title: '¿Qué pasará el 20 de junio?'
+article_content: 'El 20 de junio, la Comisión Jurídica del Parlamento de la UE votará sobre la ley de <a href="https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:52016PC0593&from=EN" class="highlight">Derechos de Autor</a>. ¡Los únicos que aún pueden detener esa nefasta ley son los diputados de la UE!'
+
+# Article row section start
+article_reddit_title: 'Dictadura de los <span class="highlight">algoritmos</span> propensos a errores'
+article_reddit_title_highlight: ''
+article_reddit_content: 'Los filtros de subidas en páginas como Facebook tienen una cosa en común: nunca actúan exactamente como lo haría un humano. La consecuencia es que muchas veces eliminan contenido que viola el derecho de la Propiedad Intelectual, pero que están bajo la protección del derecho de citación. Esa “predisposición” puede ser usada como pretexto para filtrar contenido que no encaje con los valores e ideas del censurador.'
+
+article_link_title: 'Ya no más'
+article_link_title_highlight: 'enlaces'
+article_link_content: 'Las editoriales de prensa serán obligadas a visibilizar todos los enlaces que se incluyan en sus contenidos. Los portales de noticias también resultarán perjudicados. ¡No a los enlaces impuestos!'
+
+article_pepe_title: 'Ya no más'
+article_pepe_title_highlight: 'Memes'
+article_pepe_content: 'Los filtros de subida también serán la muerte de la cultura de los Memes. El material protegido por los derechos de propiedad intelectual ya no podrá ser divulgado sin licencias pagadas. ¡Salva nuestra cultura de los Memes!'
+# Article row section end
+
+# Twitter section
+twitter_title: "Escucha la voz de otros"
+twitter_description: 'La censura muy pronto podría poner patas arriba la cultura de Internet como lo conocemos. Los bloqueos de subida en combinación con algoritmos propensos a errores causarían que incluso postear enlaces fuera un problema severo. Esto será visible principalmente en plataformas como Twitter, Facebook, 9gag y todas tus páginas favoritas con total probabilidad. Esto es porque los artículos 11 y 13 se ocuparán de que enlaces y citas directas serán eliminadas o que esas subidas sean bloqueadas totalmente.'
+
+#Typewriter section
+#typewriter_1: '^200 our'
+#typewriter_2: '^200 your'
+#typewriter_3: '^200 the'
+
+# Countdown section
+countdown_title: 'Hay poco tiempo'
+countdown_description1: '¡La votación en el parlamento de la UE tendrá lugar en pocos días! Por eso tenemos que actuar AHORA para hacer cambiar de opinión a los diputados. En la comisión responsable existe una mayoría de voto a favor del proyecto.'
+countdown_description2: ''
+countdown_until: 'Countdown until the Legal Committee of the European Parliament discusses Article 13'
+countdown_expired: 'The EU is currently debating'
+
+# What-do row
+what_do_title: '¿Qué puedes hacer?'
+
+# What-do row section start
+what_do_share: '¡Habla con otros del tema! ¡Comparte esta página!'
+what_do_share_content: 'Sólo podremos presionar al Parlamento si toda la gente posible conoce el tema. ¡Firma nuestra petición! '
+what_do_need_content: '¿Necesitas algo para compartir?'
+what_do_gallery: |
+    <a class="highlight" href="/es_ES/gallery">¡En nuestra galería</a> puedes encontrar el contenido que estás buscando!
+what_do_stuff: |
+    ¡Habla con tu diputado! Puedes ponerte en contacto con tu diputado directamente para mostrar tu desacuerdo con el proyecto de ley. Los correos personales y las conversaciones telefónicas a menudo tienen un gran  ya que al hablar directamente con una persona, estará más abierta a nuevas ideas y más dispuesta a cambiar de opinión. Puedes encontrar todos los números de teléfono necesarios, correos electrónicos y plantillas de mensaje aquí:
+
+what_do_mail: '¡Escribe a tu diputado!'
+what_do_mail_content: 'Puedes escribirle un correo a tu diputado para indicarle que no estás de acuerdo con el nuevo plan de ley. Puedes encontrar todas las direcciones de correo necesarias y plantillas de mensaje aquí.'
+
+what_do_call: '¡Llama a tu diputado!'
+what_do_call_content: 'Si un correo no es lo suficientemente personal para ti, también puedes llamar a tu diputado e intentar cambiar su opinión. Puedes encontrar los números de teléfono aquí.'
+# What-do row section end
+
+# map section
+near_demos: 'What can you do?'
+near_demos_content1: |
+    Are you close to one of the protests on the map and want to support us? Now you got the opportunity to join our force, and together we'll spread the message about Article 13!
+near_demos_content2: |
+    Just click the marker on the map that is nearest to you in order to get information about the exact time and location!
+near_demos_content3: |
+    Together we are strong! We need you to save the internet as we know it.
+near_demos_content4: |
+    Only a dictatorship needs censorship!
+
+# Graphic box section
+graphic_box_title1: 'El artículo 13 en detalle:'
+graphic_box_content1: 'El artículo 13 en la práctica exige que casi todas las plataformas de internet instalen un robot que filtre automáticamente todos los contenidos que estén subidos. Esto restringe la libertad de opinión en demasía antes incluso de que sea expresada. Las decisiones sobre la censura de contenido serán relegadas a algoritmos propensos a errores y hipersensibles, que están programados para ir a lo seguro y borrar todo lo que tal vez podría ser un riesgo para la plataforma.'
+
+graphic_box_title2: 'El artículo 11 en detalle:'
+graphic_box_content2: 'El nuevo copyright (artículo 11) establece que los contenidos de determinados proveedores de información estarán sujetos a un derecho de prensa concreto. Eso significa que citar textos puede ser declarado como una violación de la ley de Derechos de Autor. Gran parte de los proveedores de noticias en Internet se verán afectados, porque el uso de enlaces externos se verá limitado o será de pago. Esto afectará incluso a blogs independientes.'
+
+# Image-split section
+image_split_title: 'El artículo 11 no sólo afecta a Internet'
+image_split_content: 'La investigación y el progreso también sufren el artículo 11. Se limitará a usuarios como científicos independientes, periodistas, usuarios particulares y empresas diversas a usar texto y data-mining. Como consecuencia, los descubrimientos de interés público serán más lentos.'
+
+# Petition section
+petition_title: '¿Censura? ¡Conmigo no!'
+petition_content1: 'Support us with your voice! Only together we are strong!'
+petition_content2: '¡Apóyanos con tu voz! ¡Sólo juntos somos fuertes! Por eso, hemos elaborado una petición, para adoptar medidas contra los artículos 11 y 13.'
+petition_button: 'Visita la petición'
+sign_petition: 'Firma la petición'
+
+# Video section
+#consent_title: 'Please consent'
+#consent_content: 'Please consent'
+#consent_confirm: 'I consent'
+
+# gallery section
+gallery_title: 'Galería'
+gallery_download_pdf: 'Cargar PDF'
+
+# About page
+about_title: '¿Cuál es nuestro objetivo?'
+about_sub_title1: 'Deten la Máquina de la Censura: ¡salva Internet!'
+about_sub_text1: '¡Internet tal y como lo conoces está en peligro! El Parlamento Europeo está planeando reforzar la ley de Derechos de Autor, lo que restringiría enormemente tu libertad en Internet.'
+
+about_sub_title2: '¿Qué se puede esperar?'
+about_sub_text2_1: 'El 20 de junio, el Comité Jurídico del Parlamento Europeo decidirá sobre una nueva reforma en la ley de Derechos de Autor. Esto podría cambiar radicalmente las leyes de copyright en toda la Unión Europea. En lugar de apoyar a los creadores como se pretendía originalmente, dicha reforma podría acabar siendo contraproducente y podría imponer una carga sobre ellos.'
+about_sub_text2_2: 'En concreto, los artículos 11 y 13 de la reforma implicarían tremendas restricciones, no solo para los consumidores, sino que incluso los propios creadores sufrirían bajo estas nuevas regulaciones:'
+
+about_sub_title3: 'Copyright auxiliar'
+about_sub_text3_1: 'El artículo 11 de la propuesta de la Comisión Europea se centra principalmente en el Copyright auxiliar de los proveedores de información. Los derechos de prensa específicos protegerán los contenidos de estos proveedores y será necesario comprar una licencia para poder ser utilizados por otros. Los portales de noticias y agregadores que sean especialmente grandes se verán afectados, ya que textos citados se pueden ver como una infracción de la ley de Derechos de Autor en virtud de estas nuevas leyes.'
+about_sub_text3_2: 'El problema es simple: una gran parte de los proveedores de noticias en Internet se financian con impresiones de página y con los ingresos publicitarios que generan los usuarios que visitan su sitio a través de enlaces externos. Si una plataforma no está dispuesta o no puede pagar estas tarifas de licencia, perderían esas visitas a la página. La ley propuesta, que originalmente habría apoyado a estos proveedores, ahora les quitará sus medios de existencia.'
+
+about_sub_title4: 'Subir-Filtrar'
+about_sub_text4_1: 'La implementación del Artículo 13 da como resultado un filtrado total en tiempo real de cada contenido que se suba a Internet. Esto significa que cada paquete de datos será escaneado automáticamente por un algoritmo potencialmente propenso a errores. Esto es comparable al algoritmo erróneo implementado por YouTube, que a menudo borra por error contenido que no está protegido por la ley de Derechos de Autor.'
+about_sub_text4_2: 'Al pensar en la posibilidad de un algoritmo capaz de preanalizar todo el contenido que se sube a Internet, damos un paso más hacia la distopia orwelliana de "1984". Estamos al borde de una reforma drástica que podría cambiar la cultura de Internet para siempre.'
+
+about_sub_title5: 'Nuestra demanda a la Unión Europea'
+about_sub_text5_1: 'A través de tu posición en el Parlamento, tienes el deber de representar las opiniones y valores de los ciudadanos de tu país y defender su libertad.'
+about_sub_text5_2: ''
+about_sub_text5_strong: 'Únete a nosotros, para que podamos unirnos por un Internet libre'
+
+# mep page
+mep_title: 'Contact your MEP'
+mep_heading: >
+    The <span style="color: #6bbbff !important;">Magic 10</span>: #savetheinternet <br> Heroes or Zeroes?
+mep_text_1: 'On 20 June, the European Parliament will vote on the Copyright Directive. The votes of 10 Members of the parliament will determine if the Internet remains open and free from censorship in the EU. Tell them you need them to protect your Internet against surveillance and censorship machines, as the defenders of EU citizens! Give them the power to be Heroes!'
+
+
+# Footer section
+about_link: 'Sobre nuestro objetivo'
+imprint_link: 'Imprimir'
+privacy_link: 'Políticas de Privacidad'

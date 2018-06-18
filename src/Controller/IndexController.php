@@ -2,14 +2,18 @@
 
 namespace App\Controller;
 
+use App\Services\GalleryService;
 use App\Services\TweetService;
+use Psr\Log\LoggerInterface;
 use Smalot\Github\Webhook\Webhook;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\Finder\Finder;
+use Symfony\Component\Finder\SplFileInfo;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\HttpKernel\Event\KernelEvent;
 use Symfony\Component\HttpKernel\KernelEvents;
+use Symfony\Component\HttpKernel\KernelInterface;
 use Symfony\Component\Routing\Annotation\Route;
 
 class IndexController extends Controller
@@ -20,39 +24,75 @@ class IndexController extends Controller
     private $tweetService;
 
     /**
+     * @var GalleryService
+     */
+    private $galleryService;
+
+    /**
      * IndexController constructor.
      * @param TweetService $tweetService
      */
-    public function __construct(TweetService $tweetService)
+    public function __construct(TweetService $tweetService, GalleryService $galleryService)
     {
         $this->tweetService = $tweetService;
+        $this->galleryService = $galleryService;
     }
 
     /**
-     * @param string $_locale
      * @return Response
      */
-    public function index(string $_locale): Response
+    public function index(): Response
     {
         return $this->render('index/index.html.twig');
     }
 
     /**
-     * @param string $_locale
      * @return Response
      */
-    public function imprint(string $_locale): Response
+    public function imprint(): Response
     {
         return $this->render('imprint/index.html.twig');
     }
 
     /**
-     * @param string $_locale
      * @return Response
      */
-    public function privacy(string $_locale): Response
+    public function privacy(): Response
     {
         return $this->render('privacy/index.html.twig');
+    }
+
+    /**
+     * @return Response
+     */
+    public function gallery(): Response
+    {
+
+        return $this->render('gallery/index.html.twig', ['images' => $this->galleryService->getGallery()]);
+    }
+
+    /**
+     * @return Response
+     */
+    public function about(): Response
+    {
+        return $this->render('about/index.html.twig');
+    }
+
+    /**
+     * @return Response
+     */
+    public function mep(): Response // Cntact your MEP page
+    {
+        return $this->render('mep/index.html.twig');
+    }
+
+    /**
+     * @return Response
+     */
+    public function resources(): Response
+    {
+        return $this->render('resources/index.html.twig');
     }
 
     /**
@@ -89,6 +129,7 @@ class IndexController extends Controller
         exec('cd ' . __DIR__ . '/../../; composer install');
         exec('cd ' . __DIR__ . '/../../; yarn install');
         exec('cd ' . __DIR__ . '/../../; yarn run build');
+        exec('cd ' . __DIR__ . '/../../; php bin/console cache:clear');
 
         return new Response();
     }

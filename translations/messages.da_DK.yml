@@ -1,0 +1,135 @@
+# Global
+day: 'Dag'
+days: 'Dage'
+hours: 'Timer'
+minutes: 'Minutter'
+seconds: 'Sekunder'
+
+# Share
+share_on: 'Del:'
+
+# Header
+header_tagline: 'Internettet er i fare og du kan være med til at redde det!'
+
+share_twitter: 'Internettet er i fare og du kan være med til at redde det! https://savetheinternet.info #DeleteArt13'
+
+# Article explainer section
+article: 'Artikel'
+article_title: 'Hvad sker den 20. juni?'
+article_content: |
+    Den 20. juni stilles de nye <a href="https://eur-lex.europa.eu/legal-content/DA/TXT/PDF/?uri=CELEX:52016PC0593&from=EN" class="highlight">retningslinjer jf. ophavsretten</a> til afstemning i EU-Parlamentets retsudvalg. De eneste der kan forhindre at loven bliver vedtaget, er medlemmerne af EU-Parlamentet!
+# Article row section start
+article_reddit_title: 'Diktatur fra fejlagtige'
+article_reddit_title_highlight: 'algoritmer'
+article_reddit_content: 'Uploadfilter på hjemmesider som YouTube, Facebook osv. har et tilfælles: De er meget upræcise og vil aldrig være så godt som et menneske til dette arbejde. Det har til følge, at der er meget indhold der bliver fjernet, fordi det står i modstrid med ophavsretten, men er dækket gennem citationsretten og kunstfriheden. Denne mekanisme kan benyttes for at blokere indhold, som kan indeholde kritik overfor bestemme grupper, selvom det er i overensstemmelse med ytringsfriheden.'
+
+article_link_title: 'Ingen'
+article_link_title_highlight: 'links'
+article_link_content: 'Presseforlag skal blive forpligtet til at forlange penge for alle links som folk deler. Nyhedssider vil dermed være nød til at indstille driften. Nej til afgifter på links!'
+
+article_pepe_title: 'Ingen'
+article_pepe_title_highlight: 'memes'
+article_pepe_content: 'Uploadfilteret er dødsstødet for vores meme kultur. Kun personen der ejer ophavsretten til et bestemt meme må dele det - Ingen andre, hvilket er det modsatte af, hvad formålet med memes er. Red vores meme kultur!'
+# Article row section end
+
+# Twitter section
+twitter_title: 'Lyt til andre'
+twitter_description: 'Censureringen kan snart ødelægge internettet, som vi kender det. Uploadfilteret, i forbindelse med fejlagtige algoritmer, kan forårsage, at selv delingen af links kan være forbudt, hvis man ikke betaler afgifter på disse links. Det vil man lægge mærke til på hjemmesider som Twitter, Facebook, 9GAG m.m. - højst sandsynlig endda på alle hjemmesider du elsker. Her vil artikel 11 og 13 sørge for, at du ikke længere kan dele links eller andre medier.'
+
+#Typewriter section
+#typewriter_1: '^200 our'
+#typewriter_2: '^200 your'
+#typewriter_3: '^200 the'
+
+# Countdown section
+countdown_title: 'Tiden løber fra os'
+countdown_description1: 'Afstemningen finder sted om få dage. Derfor skal vi handle med det samme for at få vores delegerede i EU-Parlamentet til ikke at stemme for denne lov. I retsudvalget er der lige for tiden kun et flertal på en enkelt stemme.'
+countdown_description2: ''
+countdown_until: 'Countdown until the Legal Committee of the European Parliament discusses Article 13'
+countdown_expired: 'The EU is currently debating'
+
+# What-do row
+what_do_title: 'Hvad kan du gøre??'
+
+# What-do row section start
+what_do_share: 'Fortæl det du ved til andre, del denne hjemmeside!'
+what_do_share_content: 'Fortæl det du ved til andre, del denne hjemmeside! Vi har brug for enhver og jo flere vi er, jo større et pres kan vi lægge på EU-Parlamentet og politikerne, som VI har valgt og som rent faktisk er forpligtet til at handle i vores interesser! Underskriv vores petition!'
+what_do_need_content: 'Need something to share?'
+what_do_gallery: |
+    <a class="highlight" href="/da_DK/gallery">In our gallery</a> you can find the content you're looking for!
+
+what_do_mail: 'Skriv til din delegeret!'
+what_do_mail_content: 'Du kan sende en mail til din MEP for at advare ham eller hende og for at fremhæve, at de ikke bør stemme for denne lov. Husk at påminde dem, at der er Europavalg næste år! Mailadresserne og en mailskablon kan du finde her:'
+
+what_do_call: 'Ring til din delegeret!'
+what_do_call_content: 'Hvis en mail er for omstændelig i dine øjne, så kan du også ringe til ham eller hende for at overbevise dem, at denne lov er en meget dårlig ide. Telefonnumrene, kan du finde her:'
+# What-do row section end
+
+# map section
+near_demos: 'What can you do?'
+near_demos_content1: |
+    Are you close to one of the protests on the map and want to support us? Now you got the opportunity to join our force, and together we'll spread the message about Article 13!
+near_demos_content2: |
+    Just click the marker on the map that is nearest to you in order to get information about the exact time and location!
+near_demos_content3: |
+    Together we are strong! We need you to save the internet as we know it.
+near_demos_content4: |
+    Only a dictatorship needs censorship!
+
+# Graphic box section
+graphic_box_title1: 'Artikel 13 i detaljer'
+graphic_box_content1: |
+    Artikel 13 indskrænker os langt mere end artikel 11 allerede gør. Der skal oprettes en såkaldt ”uploadfilter”, som skal screene alt før det uploades til internettet. Hvis der bare er det mindste sammenhæng til andre filer, vil din egen fil ikke kunne stilles til rådighed på internettet. Det hele skal ikke foregå gennem menneskelig kontrol, men en algoritme skal sige om der er tale om et eget værk eller ej. Vi har ingen indflydelse på dette maskineri og ingen vil få at vide, hvordan det hele vil fungere.
+graphic_box_title2: 'Artikel 11 i detaljer'
+graphic_box_content2: |
+    Artikel 11 indeholder en et forslag for en lovgivning, at alle links til hjemmesider skal være licenspligtige, dvs. at man skal betale for at linke til en bestemt hjemmeside. Det betyder så, at vi ikke bare kan dele nogle links på f.eks. Facebook for at henviser til en meget god og interessant nyhedsartikel uden at vi skal betale for det.
+
+# Image-split section
+image_split_title: 'Artikel 11 har ikke kun en indflydelse på internettet'
+image_split_content: |
+   Den største indflydelse har det for forskningen, hvor vi er afhængige af informationsfriheden og at vi kan læse artikler online og selv kan linke til dem uden at skulle betale for det, men også journalister, kunstner og mange andre er afhængig af, at artikel 11 IKKE bliver vedtaget.
+
+# Petition section
+petition_title: 'Censur? Uden mig!'
+petition_content1: 'Unterstøt os med din stemme! Kun tilsammen kan vi løfte byrden!'
+petition_content2: 'På grund af det har vi oprettet en petition, for at forhindre artikel 11 og 13!'
+petition_button: 'Besøg petition'
+sign_petition: 'Til petition'
+
+# gallery section
+gallery_title: 'Galleri'
+gallery_download_pdf: 'Download PDF'
+
+# About page
+about_title: 'Informationer'
+about_sub_title1: 'Stop censurmaskineriet - Red internettet!'
+about_sub_text1: 'Internettet, som du kender, er i fare. EU-Parlamentet planlægger lige for tiden en skærpelse af ophavsretten, som forandrer alt. I stedet for at beskytte ophavsret indehaverne, kan det faktisk belaste dem mere end nu og dermed bevirke det modsatte af det der er formålet.'
+
+about_sub_title2: 'Hvad skal i forvente?:'
+about_sub_text2_1: ' Den 20. juni vil EU-Parlamentets retsudvalg stille skærpelsen af ophavsretten til afstemning. Det kan være en større belastning for alle, i stedet for at være en aflastning.'
+about_sub_text2_2: 'Specielt artikel 11 og 13 i lovforslaget vil medføre store indskrænkninger og dette ikke kun for os som forbruger. Store hjemmesider som reddit, 9GAG, Facebook og Twitter lever af „User generated content“ og det kan medføre nedlukning af dele disser hjemmeside i EU:'
+
+about_sub_title3: 'Supplerende ophavsret'
+about_sub_text3_1: 'Artikel 11 af lovforslaget beskæftiger sig mest med at supplere ophavsretten for informationsudbydere. Helt præcis skal disse udbydere beskyttes og der skal betales afgifter til disse for at linke til deres hjemmesider. Dette vil være en stor fare for mange informationsudbydere, da citater fra deres hjemmesider vil være ulovlig jf. ophavsretten.'
+about_sub_text3_2: 'Problematiken er simpel: De fleste nyhedssider på internettet er afhængige af at man besøger deres hjemmesider for at tjene penge med reklame. Er det for en nyhedsside ikke muligt at betale for disse tilladelser eller vil de ikke betale for dem, så vil indtægterne mangle og de skal lukke ned. Lovforslaget som egentlig skulle støtte dem, bliver dermed faktisk en fare for dem.'
+
+about_sub_title4: 'Uploadfilter'
+about_sub_text4_1: 'Vedtagelsen af uploadfilteret vil medføre en realtids overvågning af hvad der bliver uploaded til internettet. Dette betyder at enhver lille pakke man uploader, vil blive scannet af en potentiel fejlagtig algoritme – helt automatisk uden at du har en indflydelse på det. Det kan sammenlignes med den fejlagtige algoritme som YouTube benytter og er skyld i nedgang af indtægter dem der uploader video på YouTube. Alt for ofte bliver indhold, som ikke er i strid med lovgivningen eller ophavsretten, slettet.'
+about_sub_text4_2: >
+    Orwells 1984 scenarie er ikke langt væk, hvis man tænker på denne algoritme. En fuldstændig kontrol af alt vi laver på internettet gennem politikken. Med den farlige mulighed for at slette alt, som de ikke synes godt om - selvom det ville være i overensstemmelse med ytringsfriheden!
+about_sub_title5: Vores opfordring til EU:'
+about_sub_text5_1: 'Vi forventer, at retsudvalget ikke begår den samme fejl som EU-Parlamentet for to år siden og afviser dette lovforslag. Hjælp os med at forhindre indskrænkningen af vores friheder den 20. juni og dermed især artikel 11 og artikel 13.'
+about_sub_text5_2: 'Gennem deres position som medlem af EU-Parlamentet er de forpligtet til vare ytringsfriheden og værdierne af os borger og dermed bevare vores borgerlige friheder.'
+about_sub_text5_strong: 'Understøt os, så vi kan kæmpe for et frit internet!'
+
+# mep page
+mep_title: 'Kontaktiere deinen MEP'
+mep_heading: >
+    The <span style="color: #6bbbff !important;">Magic 10</span>: #savetheinternet <br> Heroes or Zeroes?
+mep_text_1: 'On 20 June, the European Parliament will vote on the Copyright Directive. The votes of 10 Members of the parliament will determine if the Internet remains open and free from censorship in the EU. Tell them you need them to protect your Internet against surveillance and censorship machines, as the defenders of EU citizens! Give them the power to be Heroes!'
+
+
+# Footer section
+about_link: 'Informationer'
+imprint_link: 'Aftryk'
+privacy_link: 'Privatlivspolitik'

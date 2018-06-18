@@ -1,13 +1,16 @@
 #sharecontainer ul {
     position: absolute;
     top: 0;
-    margin-right: 20px;
+    margin-right: 10px;
     list-style: none;
+    margin-left: -20px;
+    margin-top: 13px;
+    z-index: 100;
 }
 
 #sharecontainer li {
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 5px;
     font-size: 1.2em;
     animation-name: fade-in;
     animation-duration: .5s;
@@ -24,8 +27,12 @@
 }
 
 @keyframes fade-in {
-    0% { opacity: 0 }
-    100% { opacity: 1 }
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
 }
 
 #sharecontainer li a:hover {

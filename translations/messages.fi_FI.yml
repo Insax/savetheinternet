@@ -1,0 +1,135 @@
+# Global
+day: 'day'
+days: 'days'
+hours: 'hours'
+minutes: 'minutes'
+seconds: 'seconds'
+
+# Header
+header_tagline: 'Internet on vaarassa, ja sinä voit pelastaa sen!'
+
+share_twitter: 'Internet on vaarassa, ja sinä voit pelastaa sen! https://savetheinternet.info #DeleteArt13'
+
+# Article explainer section
+article: 'Artikla'
+article_title: 'Mitä tapahtuu 20. kesäkuuta?'
+article_content: >
+    20. kesäkuuta Euroopan parlamentin lakivaliokunta äänestää <a href="https://eur-lex.europa.eu/legal-content/FI/TXT/PDF/?uri=CELEX:52016PC0593&from=EN" class="highlight">tekijänoikeusdirektiiviä</a> koskevasta esityksestä. Ainoat jotka voivat pysäyttää tämän tuhoisan lain ovat Euroopan parlamentin jäsenet!
+
+# Article row section start
+article_reddit_title: 'Virheherkkien <span class="highlight">algoritmien</span> valta'
+article_reddit_title_highlight: ''
+article_reddit_content: 'Ladattavien tiedostojen suodattimissa sivustoilla, kuten YouTubessa, Facebookissa jne., on yksi yhteinen piirre: ne eivät koskaan tule toimimaan yhtä virheettömästi kuin oikea ihminen. Sen seurauksena tekijänoikeuksilla suojattu sisältö, jota on käytetty rehellisesti lain mukaan, tulee poistetuksi. Tätä ominaisuutta voitaisiin väärinkäyttää suodattamaan pois sellaista sisältöä, joka ei ole linjassa yritysten arvojen ja intressien kanssa.'
+
+article_link_title: 'Ei enää'
+article_link_title_highlight: 'linkkejä'
+article_link_content: 'Tulevaisuudessa lehdistön julkaisijoita edellytetään laskuttamaan linkeistä, joita joku tekee niiden sisältöön. Uutisportaalit ovat täten mitätöityjä. Sano ei linkkiverolle!'
+
+article_pepe_title: 'Ei enää'
+article_pepe_title_highlight: 'meemejä'
+article_pepe_content: 'Tiedostojen lataussuodattimet tarkoittavat myös meemikulttuurin loppua. Tekijänoikeuksilla suojatun materiaalin jakaminen ei enää ole mahdollista vapaan käytön ehtojen puitteissa ilman maksullisia lisenssejä. Pelasta meemikulttuurimme!'
+# Article row section end
+
+# Twitter section
+twitter_title: 'Kuuntele, mitä muilla on sanottavana'
+twitter_description: 'Tämä sensurointi voi muuttaa internetin kulttuurinormit toisenlaisiksi kuin me ne tunnemme. Tiedostojen lataamisen estäminen yhdistettynä virheherkkiin algoritmeihin tarkoittaa mahdollisesti sitä, että jopa jokin yksinkertainen, kuten linkkejen, julkaiseminen voisi pian muodostua ongelmaksi. Tämä tulee ilmeisen selväksi sivustoilla, kuten Twitterissä, Facebookissa, 9GAGissä jne. Tarkemmin – tämä koskee kaikkia lempisivustojasi. Artiklat 11 ja 13 tarkoittavat, että linkit tai lainaukset voisivat tulla poistetuiksi, tai niiden lataaminen internettiin ensisijaisesti lopetettaisiin.'
+
+#Typewriter section
+#typewriter_1: '^200 our'
+#typewriter_2: '^200 your'
+#typewriter_3: '^200 the'
+
+# Countdown section
+countdown_title: 'Aika on loppumassa'
+countdown_description1: 'Äänestys tapahtuu Euroopan parlamentissa muutaman päivän päästä! Sen vuoksi meidän tulee toimia VÄLITTÖMÄSTI vaikuttaaksemme Euroopan parlamentin jäseniin. Komitealla on vain pieni yhden äänen enemmistö esityksen puolesta.'
+countdown_description2: ''
+countdown_until: ''
+countdown_expired: ''
+
+# What-do row
+what_do_title: 'Mitä sinä voit tehdä?'
+
+# What-do row section start
+what_do_share: 'Puhu muille! Jaa tätä sivustoa!'
+what_do_share_content: 'Voimme vaikuttaa parlamenttiin vain, jos mahdollisimman monet tietävät tästä. Allekirjoita vetoomuksemme!'
+what_do_need_content: 'Need something to share?'
+what_do_gallery: |
+    <a class="highlight" href="/en_GB/gallery">In our gallery</a> you can find the content you're looking for!
+
+what_do_mail: 'Write to your deputy!'
+what_do_mail_content: 'You can send an e-mail to your MEP to alert him that you do not agree with the bill. All necessary mail addresses and a ready-made message can be found here:'
+
+what_do_call: 'Call your deputy!'
+what_do_call_content: 'If an email is too impersonal for you, you can just call your deputy and try to change his mind. The phone number can be found here:'
+# What-do row section end
+
+# map section
+near_demos: 'What can you do?'
+near_demos_content1: |
+    Are you close to one of the protests on the map and want to support us? Now you got the opportunity to join our force, and together we'll spread the message about Article 13!
+near_demos_content2: |
+    Just click the marker on the map that is nearest to you in order to get information about the exact time and location!
+near_demos_content3: |
+    Together we are strong! We need you to save the internet as we know it.
+near_demos_content4: |
+    Only a dictatorship needs censorship!
+
+# Graphic box section
+graphic_box_title1: 'Artikla 13 yksityiskohtaisesti'
+graphic_box_content1: >
+    Artikla 13 vaatii käytännössä, että lähes kaikki internetin sovellusalustat asentavat ”suodatusrobotin”, joka automaattisesti tarkistaa kaiken ladatun sisällön. Tämä rajoittaa liiallisesti ilmaisun vapautta ennen kuin sitä voidaan käyttää. Sisällön ennakkotarkistusta koskevat päätökset on jätetty virheisiin taipuvaisille ja yliherkille algoritmeille (jotka on ohjelmoitu toimimaan varmanpäälle ja pyyhkimään pois varmuudenvuoksi kaikki, joka saattaa aiheuttaa riskin sovellusalustalle).
+graphic_box_title2: Artikla 11 yksityiskohtaisesti
+graphic_box_content2: >
+    Tekijänoikeuslaissa (artikla 11) edellytetään, että tietyntyyppisen informaation tarjoajat ovat tulevaisuudessa erityisen medialain alaisia. Tämä tarkoittaa, että jo lainatut tekstit voidaan julistaa tekijänoikeuslain rikkomuksiksi.
+    Tämä tulee vaikuttamaan suureen osaan uutisten tarjoajista, sillä ulkopuolisten linkkien käyttämistä rajoitetaan tai se muuttuu maksulliseksi.
+# Image-split section
+image_split_title: 'Artikla 11 ei vaikuta vain internetissä'
+image_split_content: |
+    Myös tutkimusten tekeminen ja kehitys kärsivät artiklasta 11. Tulevaisuudessa muun muassa riippumattomilta tutkijoilta, journalisteilta, yksittäisiltä ja moninaisilta yhtiöiltä tullaan kieltämään tekstin ja tietojen kerääminen. Tällä on hidastava vaikutus monenlaisiin yleisesti kiinnostaviin löytöihin tai keksintöihin.
+
+# Petition section
+petition_title: 'Sensurointia?'
+petition_content1: 'Tue meitä äänelläsi! Vain yhdessä olemme vahvoja!'
+petition_content2: 'Sen vuoksi olemme tehneet vetoomuksen kaataaksemme artiklat 11 ja 13!'
+petition_button: 'Visit the petition'
+sign_petition: 'Allekirjoita vetoomus!'
+
+# gallery section
+gallery_title: 'Gallery'
+gallery_download_pdf: 'Download PDF'
+
+# About page
+about_title: 'About'
+about_sub_title1: 'Stop the censorship machine - save the internet!'
+about_sub_text1: 'The internet as you know it is in danger! The European Parliament is currently planning to tighten the copyright law, which would massively restrict your freedom on the internet.'
+
+about_sub_title2: 'What you can expect'
+about_sub_text2_1: 'On the 20th of June, the Legal Committee of the European Parliament will decide on a new copyright-reform. This could radically change copyright laws throughout the EU. Instead of supporting creators as originally intended, said reform could eventually backfire and impose a burden on them.'
+about_sub_text2_2: 'Especially Article 11 and Article 13 of the reform would entail tremendous restrictions, not only for the consumers. Even the creators themselves would suffer under these new regulations:'
+
+about_sub_title3: 'Ancillary Copyright'
+about_sub_text3_1: 'Article 11 of the proposal of the European Commission is mainly focussing on the Ancillary Copyright of information providers. More specific press rights are going to protect the contents of these providers and will need a purchased license to be able to be used by others. Especially big news portals and aggregators pages are affected since cited texts could be seen as a copyright infringement under these new laws.'
+about_sub_text3_2: 'The problem is simple: A big portion of news providers on the internet are financed by page impressions and the resulting ad income, which is generated by users visiting their site via external links. If a platform is not willing or able to pay these licensing fees, they would lose those page views. The proposed law, originally supposed to support these providers, will now take away their means of existence.'
+
+about_sub_title4: 'Upload-Filter'
+about_sub_text4_1: 'Implementation of Article 13 results in a total real-time filtering of every piece of content that will be uploaded to the internet. What this means: Every data package will be automatically scanned by a potentially error-prone algorithm. This is comparable to the erroneous algorithm deployed by YouTube, which often mistakenly deletes content that is not protected by copyright law.'
+about_sub_text4_2: 'If you think about the prospect of an algorithm that pre-analyses all the content that is uploaded to the internet, we take a further step towards the Orwellian dystopia of "1984". We are on the verge of a drastic reform that could change internet culture forever.'
+
+about_sub_title5: 'Our demand to the EU'
+about_sub_text5_1: 'We demand that the Committee on Legal Affairs should not make the same mistake as the European Parliament did two years ago. On 20th June 2018, vote against the reform of copyright law in the digital internal market, in particular Articles 11 and 13.'
+about_sub_text5_2: >
+    Through your position in Parliament, you have a duty to represent the opinions and values of your country's citizens and to uphold their freedom.
+about_sub_text5_strong: 'Join us, so we can stand together for a free internet'
+
+# mep page
+mep_title: 'Contact your MEP'
+mep_heading: >
+    Die <span style="color: #6bbbff !important;">Magischen 10</span>: #savetheinternet <br> Heroes or Zeroes?
+mep_text_1: 'On 20 June, the European Parliament will vote on the Copyright Directive. The votes of 10 Members of the parliament will determine if the Internet remains open and free from censorship in the EU. Tell them you need them to protect your Internet against surveillance and censorship machines, as the defenders of EU citizens! Give them the power to be Heroes!'
+
+
+# Footer section
+about_link: 'About'
+imprint_link: 'Imprint'
+privacy_link: 'Privacy Policies'
+

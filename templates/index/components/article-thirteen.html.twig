@@ -10,6 +10,15 @@
         </div>
     </div>
 
+    {% if app.request.locale == 'de_DE' %}
+        <br>
+        <!-- Video -->
+        <h3 class="title">
+            Aber was genau bedeutet das denn nun für uns?
+        </h3>
+        {% include 'index/components/video.html.twig' %}
+    {% endif %}
+
     <div class="row content-pair d-flex">
         <div class="col-lg-4 col-12 box-wrapper d-flex">
             <img src="{{ asset('build/static/reddit.png') }}">

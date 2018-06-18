@@ -1,12 +1,13 @@
 @import "../variables";
 
 .section-footer {
+    padding-top: 5px;
     width: 100%;
     font-size: 0.7em;
     padding: 0 1rem;
     background-color: darken($background, 3);
     display: flex;
-    margin-top: 3rem;
+    margin-top: 7rem;
 
     a {
         color: $accent1;
@@ -20,14 +21,30 @@
 
     .copyright {
         padding: 1rem 2rem;
+        margin-top: 17px;
     }
 
     .social {
-        margin: 0 1rem;
+        margin: 17px 1rem 0;
 
         a {
             display: inline-block;
             margin: 1rem;
+        }
+    }
+
+    .flex-grow{
+        padding-top: 5px;
+        table{
+            margin: 0 auto;
+
+            tbody{
+                tr{
+                    td:last-child{
+                        padding-left: 10px;
+                    }
+                }
+            }
         }
     }
 }

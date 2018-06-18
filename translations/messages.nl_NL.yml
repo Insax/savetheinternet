@@ -1,0 +1,194 @@
+# Global
+day: dag
+days: dagen
+hours: uur
+minutes: minuten
+seconds: seconden
+
+# Header
+header_tagline: 'Het internet is in gevaar en jij kunt het redden!'
+
+share_twitter: "Het internet is in gevaar en jij kunt het redden! https://savetheinternet.info #DeleteArt13"
+
+# Article explainer section
+article: 'Artikel'
+article_title: 'Wat gebeurt er op 20 juni?'
+article_content: >
+    Op 20 juni zal de Commissie juridische zaken van het Europees Parlement stemmen over <a href="https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:52016PC0593" target="_blank" class="highlight">de voorgestelde auteursrechtrichtlijn</a>.
+    De enigen die deze fatale wet nu nog kunnen stoppen zijn de leden van het Europees Parlement.
+
+# Article row section start
+article_reddit_title: 'Dictatuur van foutgevoelige'
+article_reddit_title_highlight: 'algoritmes'
+article_reddit_content: >
+    Uploadfilters op sites als YouTube, Facebook, enz. hebben één ding gemeen.
+    Ze zullen namelijk inhoud nóóit zo goed kunnen controleren als een echt persoon.
+    Als gevolg hiervan wordt zelfs informatie verwijderd die onder de 'fair use'-wetten wordt gebruikt.
+    Dit zou misbruikt kunnen worden om inhoud te filteren, die niet in lijn is met de waarden en belangen van de bedrijven.
+
+article_link_title: 'Geen'
+article_link_title_highlight: 'links'
+article_link_content: >
+    In de toekomst zijn persuitgevers verplicht te betalen voor elke link binnen hun inhoud.
+    Dit bedreigt het bestaan van nieuwsportalen en zelfs Wikipedia. Zeg nee tegen linkbelasting!
+
+article_pepe_title: 'Geen'
+article_pepe_title_highlight: 'memes'
+article_pepe_content: >
+    De uploadfilters kunnen de dood worden van de memecultuur.
+    Auteursrechtelijke informatie kan niet langer zonder betaalde licenties worden verspreid.
+    Het is nu aan jou om onze memecultuur te redden!
+# Article row section end
+
+# Twitter section
+twitter_title: 'Hoor wat anderen hierover te zeggen hebben!'
+twitter_description: >
+    Deze censuur zou de culturele normen van het internet overhoop kunnen gooien.
+    Uploadblokkades in combinatie met foutgevoelige algoritmes betekenen dat zelfs het plaatsen van een link binnenkort een probleem kan zijn.
+    Dit zal des te merkbaarder zijn op sites als Twitter, Facebook, 9GAG, enz.
+    Om nog preciezer te zijn – al je favoriete websites.
+    Artikelen 11 en 13 betekenen namelijk dat links en citaten kunnen worden bewerkt, of zelfs compleet kunnen worden tegengehouden.
+
+
+#Typewriter section
+#typewriter_1: '^200 our'
+#typewriter_2: '^200 your'
+#typewriter_3: '^200 the'
+
+# Countdown section
+countdown_title: 'De tijd dringt'
+countdown_description1: >
+    De stemming in het Europees Parlement vindt over een paar dagen plaats!
+    Daarom moeten we nú handelen om de leden van het Europees Parlement te overtuigen.
+    Het verantwoordelijke comité heeft maar één extra stem ten gunste van het voorstel.
+countdown_description2: ''
+countdown_until: 'Tijd tot de Commissie juridische zaken in debat gaat over artikel 13'
+countdown_expired: 'De EU is momenteel in debat'
+
+# What-do row
+what_do_title: 'Wat kun je doen?'
+
+# What-do row section start
+what_do_share: 'Praat erover met anderen! Deel deze pagina!'
+what_do_share_content: >
+    Alleen als zoveel mogelijk mensen zich bewust zijn van de daadwerkelijke situatie, kunnen we druk uitoefenen op het Europees Parlement.
+    Teken onze petitie!
+what_do_need_content: 'Iets nodig om te delen?'
+what_do_gallery: >
+    In onze <a class="highlight" href="/nl_NL/gallery">galerij</a> kun je alles vinden wat je nodig hebt!
+
+what_do_mail: 'Schrijf aan je afgevaardigde!'
+what_do_mail_content: >
+    Je kunt een e-mail sturen aan jouw leden van het Europees Parlement.
+    Laat hen weten dat je het niet eens bent met hun mening.
+    'Alle benodigde e-mailadressen en een kant-en-klaar bericht kun je hier vinden:'
+
+what_do_call: 'Bel je afgevaardigde!'
+what_do_call_content: >
+    Mocht een e-mail te onpersoonlijk voor je zijn, kun je je afgevaardigde bellen om zijn of haar mening te proberen te veranderen.
+    'Het telefoonnummer kun je hier vinden:'
+# What-do row section end
+
+# map section
+near_demos: 'Wat kun je doen?'
+near_demos_content1: |
+    Woon je dichtbij één van de demonstraties op de kaart en wil je ons ondersteunen? Nu heb je kans om met ons mee te doen. Samen zullen we het verhaal rondom artikel 13 verspreiden!
+near_demos_content2: |
+    Klik op het dichtstbijzijnde punt op de kaart voor informatie over de precieze tijd en locatie.
+near_demos_content3: |
+    Samen staan we sterk! We hebben je nodig om het internet zoals we het kennen te redden.
+near_demos_content4: |
+    Enkel een dictatuur heeft censuur nodig!
+
+# Graphic box section
+graphic_box_title1: 'Artikel 13 in detail'
+graphic_box_content1: >
+    Artikel 13 eist dat bijna alle internetplatformen een 'filterrobot' installeren, die automatisch alle geüploade inhoud controleert.
+    Dit beperkt overdreven de vrijheid van meningsuiting, voordat deze vrijheid überhaupt kan worden gebruikt.
+    Of inhoud gecensureerd moet worden, zal in handen liggen van foutgevoelige en overgevoelige algoritmes.
+    Deze zijn geprogrammeerd om het 'op veilig te spelen' en álles te verwijderen wat een risico vormt voor het platform.
+graphic_box_title2: 'Artikel 11 in detail'
+graphic_box_content2: >
+    In artikel 11 staat dat de inhoud van bepaalde informatieleveranciers in de toekomst onder specifieke mediawetten zal vallen. Dit betekent dat al eerder geciteerde teksten het auteursrecht kunnen gaan schenden.
+    Een groot deel van de nieuwsbronnen op het web zal hier last van hebben, aangezien het gebruik van (externe) links ingeperkt of betaald zal zijn.
+
+# Image-split section
+image_split_title: 'Artikel 11 beïnvloedt niet alleen het internet'
+image_split_content: >
+    Onderzoek en voortgang zullen ook lijden onder artikel 11.
+    In de toekomst zullen onafhankelijke onderzoekers, journalisten, individuen en verschillende bedrijven tekst- en datamining worden ontzegd.
+    Dit heeft een vertragend effect op verschillende ontdekkingen van publiek belang.
+
+# Petition section
+petition_title: 'Censuur? Wel zonder mij!'
+petition_content1: 'Ondersteun ons met jouw stem! Alleen samen staan we sterk.'
+petition_content2: 'Dat is waarom we een petitie zijn begonnen om artikelen 11 en 13 aan te pakken.'
+petition_button: 'Bekijk de petitie'
+sign_petition: 'Teken de petitie'
+
+# Video section
+#consent_title: 'Please consent'
+#consent_content: 'Please consent'
+#consent_confirm: 'I consent'
+
+# gallery section
+gallery_title: 'Galerij'
+gallery_download_pdf: 'PDF downloaden'
+
+# About page
+about_title: 'Over ons'
+about_sub_title1: 'Stop de censuurmachine – red het internet!'
+about_sub_text1: >
+    Het internet zoals je het kent is in gevaar!
+    Het Europees Parlement richt er momenteel op om de auteursrechtwetgeving aan te scherpen.
+    Als gevolg hiervan wordt jouw vrijheid op het internet extreem ingeperkt.
+
+about_sub_title2: 'Wat je kunt verwachten'
+about_sub_text2_1: >
+    Op 20 juni zal de Commissie juridische zaken van het Europees Parlement stemmen over een nieuwe hervorming van het auteursrecht.
+    Dit kan de auteursrechtwetgeving door de gehele EU radicaal veranderen.
+    In plaats van dat auteurs worden ondersteund, zoals oorspronkelijk bedoeld, kan deze hervorming averechts werken en deze auteurs juist schaden.
+about_sub_text2_2: >
+    Voornamelijk artikelen 11 en 13 van deze hervorming bevatten extreem brede restricties, en niet enkel voor de consument.
+    'Zelfs de auteurs zelf zouden schade lijden onder deze nieuwe reglementen:'
+
+about_sub_title3: 'Aanvullend auteursrecht'
+about_sub_text3_1: >
+    Artikel 11 van het voorstel van de Europese Commissie draait voornamelijk om het aanvullend auteursrecht van informatieleveranciers.
+    Specifiekere persrechten zullen de inhoud van deze leveranciers beschermen.
+    Het gebruik van deze inhoud door anderen zal een betaalde licentie vereisen.
+    Voornamelijk grote nieuwsportalen en aggregatorpagina's zullen hier last van hebben, aangezien het citeren van tekten als auteursrechtschending kan worden gezien.
+about_sub_text3_2: >
+    Het probleem is simpel.
+    Een groot deel van de nieuwsleveranciers op het internet worden gefinancierd door advertentie-inkomsten.
+    Deze inkomsten worden gegenereerd door gebruikers die hun pagina's bezoeken via externe links.
+    Als een platform niet voor deze licentiekosten wil of kan opdraaien, verliezen zij een groot deel van hun paginabezoeken.
+    De voorgestelde wet, aanvankelijk bedoeld om deze leveranciers juist te helpen, zal hun bestaansmiddelen wegnemen.
+
+about_sub_title4: 'Uploadfilter'
+about_sub_text4_1: >
+    Artikel 13 zal resulteren in het compleet realtime filteren van alle inhoud die wordt geüpload naar het internet.
+    Dit betekent dat elk datapakket automatisch wordt gescand door een foutgevoelig algoritme.
+    Dit is vergelijkbaar met het foutgevoelige algoritme van YouTube, die vaak onterecht inhoud verwijdert die niet wordt beschermd door de auteursrechtwetgeving.
+about_sub_text4_2: >
+    Zodra men begint te denken aan algoritmes die vooraf alle geüploade inhoud analyseren, nemen we allemaal een stap richting de Orwelliaanse dystopie uit het boek '1984'.
+    We staan op het randje van een drastische hervorming die de internetcultuur voorgoed kan veranderen.
+
+about_sub_title5: 'Onze eis aan de EU'
+about_sub_text5_1: >
+    We eisen dat de Commissie juridische zaken niet dezelfde fout maakt als het Europees Parlement twee jaar geleden.
+    Stem op 20 juni 2018 tegen de hervorming van de auteursrechtwetgeving voor de digitale interne markt, in het bijzonder artikelen 11 en 13.
+about_sub_text5_2: 'Krachtens uw positie in het Parlement heeft u een plicht. Dit is een plicht om de meningen en waarden van uw volk te vertegenwoordigen, en de vrijheid van uw volk te handhaven.'
+about_sub_text5_strong: 'Sluit je bij ons aan, zodat we samen kunnen vechten voor een vrij internet'
+
+# mep page
+mep_title: 'Contact your MEP'
+mep_heading: >
+    The <span style="color: #6bbbff !important;">Magic 10</span>: #savetheinternet <br> Heroes or Zeroes?
+mep_text_1: 'On 20 June, the European Parliament will vote on the Copyright Directive. The votes of 10 Members of the parliament will determine if the Internet remains open and free from censorship in the EU. Tell them you need them to protect your Internet against surveillance and censorship machines, as the defenders of EU citizens! Give them the power to be Heroes!'
+
+
+# Footer section
+about_link: 'Over ons'
+imprint_link: 'Onze gegevens'
+privacy_link: 'Privacybeleiden'

@@ -51,6 +51,16 @@
                 }
 
             }
+
+            .description {
+                font-size: 1.2em;
+            }
+
+            .action {
+                text-align: center;
+                font-size: 1.1em;
+                margin-top: 65px;
+            }
         }
         .tagline {
             text-align: center;
@@ -60,10 +70,171 @@
             margin: 13px 0;
         }
     }
+
+    .btn-petition {
+        padding: 15px 30px;
+        background: $accent1;
+        color: $background;
+        text-decoration: none;
+        border-radius: 25px;
+    }
+
+    .btn-petition:hover {
+        background: lighten($accent1, 10);
+    }
+
+    .btn-share {
+        color: black;
+        font-size: 2.5em;
+        text-decoration: none;
+        animation-name: fade-in;
+        animation-duration: .5s;
+        animation-fill-mode: forwards;
+        transition: color 0.5s ease;
+    }
+
+    @keyframes fade-in {
+        0% {
+            opacity: 0
+        }
+        100% {
+            opacity: 1
+        }
+    }
+    #social-button {
+        font-size: 2.5em;
+    }
+
+    .btn-share:hover {
+        color: #ffbf00;
+    }
+
+    .social-networks i {
+        padding-top: 6px;
+        font-size: 2em;
+        color: white;
+    }
+
+    .share-button {
+        position: relative;
+        z-index: 999;
+        width:6em;
+        height:2em;
+        line-height:2em;
+    }
+
+    .social-toggle {
+        color: white;
+        transition: color 0.5s ease;
+        display:block;
+        font-size:90%;
+        text-align:center;
+    }
+
+    .social-toggle:hover {
+        color: #ffbf00;
+    }
+
+    .no-js .social-toggle, .no-js .social-toggle:hover {
+        cursor: default;
+        border:none;
+        background:transparent;
+        color:rgb(200,200,200);
+        pointer-events:none;
+    }
+
+    .social-networks {
+        -webkit-transform-origin: 50% 0;
+        -ms-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        -webkit-transform: scale(0) translateY(+105px);
+        transform: scale(0) translateY(+105px);
+        opacity: 0;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+        margin-left: -45%;
+        -webkit-backface-visibility: hidden;
+    }
+
+    .social-gplus {
+        background: #e34429;
+    }
+
+    .social-twitter {
+        background: #6cdfea;
+    }
+
+    .social-networks.open-menu, .no-js .social-networks {
+        -webkit-transform: scale(1) translateY(+10px);
+        transform: scale(1) translateY(+10px);
+        opacity:1;
+    }
+
+    .social-networks ul {
+        position:relative;
+        top:0;
+        left:0;
+        width: 180px;
+        height: 40px;
+        color: #fff;
+        background: #3b5998;
+        margin: auto;
+        padding: 0;
+        list-style: none;
+    }
+
+    .social-networks ul:after {
+    content: '';
+        display: block;
+        width: 0;
+        height: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+    }
+
+    .social-networks.open-menu ul:after, .no-js .social-networks ul:after {
+        margin: -10px auto;
+        border-bottom: 12px solid #3b5998;
+    }
+
+    .social-networks li {
+        font-size: 90%;
+        width: 60px;
+        margin: 0;
+        text-align: center;
+        float: left;
+        display: block;
+        height: 40px;
+        line-height:40px;
+        position: relative;
+        z-index: 2;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        transition: all .3s ease;
+    }
+
+    .share-button a {
+        text-decoration:none;
+    }
+
+    .social-networks a {
+        display:block;
+        color:white;
+    }
 }
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
     .header-wrapper .header .title-wrapper .title {
         font-size: 3.5em !important;
+    }
+}
+
+@media (max-width: 768px){
+    .header-wrapper .header{
+        padding: 25px 0;
     }
 }

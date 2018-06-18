@@ -2,13 +2,32 @@
     <div class="row">
         <div class="col-12 header">
             <div class="title-wrapper">
-                <a href="/">
+                <a href="{{ path('index') }}">
                     <!-- Typewriter -->
                     <div class="title"><span class="save">Save</span><br class="d-block d-md-none">{% include 'shared/typewriter.html.twig' %}<br class="d-block d-md-none"><span class="internet">Internet</span></div>
                     <!--<h1 class="title">Save<i>the</i><br class="d-block d-md-none">Internet</h1>-->
                 </a>
             </div>
             <p class="tagline">{% trans %}header_tagline{% endtrans %}</p>
+            <p style="text-align: center">
+                <a target="_blank" href="https://www.change.org/p/european-parliament-stop-the-censorship-machinery-save-the-internet?utm_source=share_petition&amp;utm_medium=copylink&amp;utm_campaign=share_petition" class="btn-petition">{% trans %}sign_petition{% endtrans %}</a>
+            </p>
+            <div class="share-button">
+                <a href="#" id="social-button" class="social-toggle"><i class="fa fa-share-square"></i></a>
+                <div class="social-networks">
+                    <ul>
+                        <li class="social-twitter">
+                            <a target="_blank" href="https://twitter.com/home?status={{ "share_twitter"|trans|url_encode }}"><i class="fa fa-twitter-square"></i></a>
+                        </li>
+                        <li class="social-facebook">
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsavetheinternet.info"><i class="fa fa-facebook-square"></i></a>
+                        </li>
+                        <li class="social-gplus">
+                        <a href="https://plus.google.com/share?url=https%3A//savetheinternet.info"><i class="fa fa-google-plus-square"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>

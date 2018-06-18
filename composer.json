@@ -11,11 +11,13 @@
         "symfony/asset": "^4.1",
         "symfony/cache": "^4.1",
         "symfony/console": "^4.1",
+        "symfony/finder": "^4.1",
         "symfony/flex": "^1.0",
         "symfony/framework-bundle": "^4.1",
         "symfony/lts": "^4@dev",
         "symfony/translation": "^4.1",
         "symfony/twig-bundle": "^4.1",
+        "symfony/web-link": "^4.1",
         "symfony/webpack-encore-pack": "^1.0",
         "symfony/yaml": "^4.1"
     },

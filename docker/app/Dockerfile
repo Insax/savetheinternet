@@ -16,7 +16,7 @@ RUN apt-get update \
     && apt-get update \
     && apt-get install -y php7.1-fpm php7.1-cli php7.1-gd \
        php7.1-mbstring php7.1-xml php7.1-curl \
-       php7.1-sqlite3 \
+       php7.1-sqlite3 php7.1-imagick \
     && php -r "readfile('http://getcomposer.org/installer');" | php -- --install-dir=/usr/bin/ --filename=composer \
     && if [ ! -x /usr/bin/composer ]; then echo "Composer not found" && exit 1; fi \
     && mkdir /run/php \

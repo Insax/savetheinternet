@@ -1,4 +1,7 @@
+import moment from 'moment';
+
 function makeTemplate(element){
+    moment.locale(window.location.pathname === '/' ? 'en' : window.location.pathname.substring(1,3));
     return '<div class="post-container" id="' + element.id + '">'+
            '<div class="post-left">'+
            '<img class="profile-pic" src="' + element.user.profile_image_url_https + '" />'+
@@ -6,7 +9,7 @@ function makeTemplate(element){
            '<div class="post-right">'+
            '<div class="post-header">'+
            '<div class="profile-name">'+
-           '<span class="profile-displayname">' + element.user.name + '</span>'+
+           //'<span class="profile-displayname">' + element.user.name + '</span>'+
            '<span class="profile-username"><a href="https://twitter.com/' + element.user.screen_name + '">@' + element.user.screen_name + '</a></span>'+
            '<span class="post-time"> ' + moment(new Date(element.created_at)).fromNow() + '</span>'+
            '</div>'+
@@ -83,13 +86,15 @@ function contains(id){
 function updateTweets() {
     $.get("/tweets", function(data) {
         data = data.sort(function(a,b){
-            return a.id - b.id;
+            if(a != null && b != null) {
+              return a.id - b.id;
+            }
         });
 
         let inserted = 0;
 		data = data.slice(0, 6);
         data.forEach(function(element) {
-            if(!contains(element.id) && inserted < 1)
+            if(element !== null && !contains(element.id) && inserted < 1)
             {
                 inserted ++;
                 $('#tweets').prepend(makeTemplate(element));
@@ -105,7 +110,7 @@ $(window).scroll(function(event) {
     checkBlacks();
 });
 
-setInterval(function(){updateTweets();}, 2000);
+setInterval(function(){updateTweets();}, 20000);
 
 $(document).ready(function() {
     checkBlacks();
