@@ -7,6 +7,8 @@ seconds: 'sekundy'
 # Header
 header_tagline: 'Internet jest w niebezpieczeństwie i można go zapisać!'
 
+share_twitter: "Internet jest w niebezpieczeństwie i można go zapisać! https://savetheinternet.info #DeleteArt13"
+
 # Article explainer section
 article: 'Artykuł'
 article_title: 'Co się zdarzy 20 Czerwca? '

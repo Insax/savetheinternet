@@ -51,11 +51,11 @@
                 }
 
             }
-    
+
             .description {
                 font-size: 1.2em;
             }
-    
+
             .action {
                 text-align: center;
                 font-size: 1.1em;
@@ -92,7 +92,7 @@
         animation-fill-mode: forwards;
         transition: color 0.5s ease;
     }
-    
+
     @keyframes fade-in {
         0% {
             opacity: 0
@@ -102,10 +102,9 @@
         }
     }
     #social-button {
-        margin-top: 150px;
         font-size: 2.5em;
     }
-    
+
     .btn-share:hover {
         color: #ffbf00;
     }
@@ -115,14 +114,14 @@
         font-size: 2em;
         color: white;
     }
- 
+
     .share-button {
-        position: absolute; 
+        position: relative;
         width:6em;
         height:2em;
         line-height:2em;
     }
-    
+
     .social-toggle {
         color: white;
         transition: color 0.5s ease;
@@ -130,11 +129,11 @@
         font-size:90%;
         text-align:center;
     }
-    
+
     .social-toggle:hover {
         color: #ffbf00;
     }
-    
+
     .no-js .social-toggle, .no-js .social-toggle:hover {
         cursor: default;
         border:none;
@@ -142,7 +141,7 @@
         color:rgb(200,200,200);
         pointer-events:none;
     }
-    
+
     .social-networks {
         -webkit-transform-origin: 50% 0;
         -ms-transform-origin: 50% 0;
@@ -155,21 +154,21 @@
         margin-left: -45%;
         -webkit-backface-visibility: hidden;
     }
-    
+
     .social-gplus {
         background: #e34429;
     }
-    
+
     .social-twitter {
         background: #6cdfea;
     }
-    
+
     .social-networks.open-menu, .no-js .social-networks {
         -webkit-transform: scale(1) translateY(+10px);
         transform: scale(1) translateY(+10px);
         opacity:1;
     }
-    
+
     .social-networks ul {
         position:relative;
         top:0;
@@ -182,7 +181,7 @@
         padding: 0;
         list-style: none;
     }
-    
+
     .social-networks ul:after {
     content: '';
         display: block;
@@ -194,12 +193,12 @@
         border-left: 12px solid transparent;
         border-right: 12px solid transparent;
     }
-    
+
     .social-networks.open-menu ul:after, .no-js .social-networks ul:after {
         margin: -10px auto;
         border-bottom: 12px solid #3b5998;
     }
-    
+
     .social-networks li {
         font-size: 90%;
         width: 60px;
@@ -216,11 +215,11 @@
         box-sizing: content-box;
         transition: all .3s ease;
     }
-    
+
     .share-button a {
         text-decoration:none;
     }
-    
+
     .social-networks a {
         display:block;
         color:white;
@@ -233,11 +232,8 @@
     }
 }
 
-@media (max-width: 768px){ 
+@media (max-width: 768px){
     .header-wrapper .header{
         padding: 25px 0;
-        #social-button {
-            margin-top: 275px;
-        }
     }
 }
