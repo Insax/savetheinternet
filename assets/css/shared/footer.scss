@@ -1,63 +1,82 @@
 @import "../variables";
 
 .section-footer {
-    padding-top: 5px;
-    width: 100%;
-    font-size: 0.7em;
-    padding: 0 1rem;
-    background-color: darken($background, 3);
-    display: flex;
-    margin-top: 7rem;
+  width: 100%;
+  font-size: 0.7em;
+  background-color: darken($background, 3);
+  display: flex;
+  align-items: center;
+  margin-top: 7rem;
+  padding: 2em;
 
-    a {
-        color: $accent1;
-        text-decoration: none;
+  @include media-breakpoint-down(sm) {
+    flex-direction: column;
 
-        &:hover {
-            color: #fff;
-            text-decoration: none;
+    .menu {
+      order: 1;
+      text-align: center !important;
+
+      > a {
+        &:not(:first-child) {
+          margin-left: 1.5em !important;
         }
+
+        &:last-child {
+          margin-right: 0 !important;
+        }
+      }
+    }
+
+    .address {
+      order: 2;
+      margin: 2em 0;
+      font-size: .8em;
     }
 
     .copyright {
-        padding: 1rem 2rem;
-        margin-top: 17px;
+      order: 3;
     }
+  }
 
-    .social {
-        margin: 17px 1rem 0;
+  > div {
+    flex-grow: 1;
 
-        a {
-            display: inline-block;
-            margin: 1rem;
+    &.menu {
+      text-align: right;
+
+      > a {
+        &:not(:first-child) {
+          margin-left: 3.5em;
         }
-    }
 
-    .flex-grow{
-        padding-top: 5px;
-        table{
-            margin: 0 auto;
-
-            tbody{
-                tr{
-                    td:last-child{
-                        padding-left: 10px;
-                    }
-                }
-            }
+        &:last-child {
+          margin-right: 1.5em;
         }
+      }
     }
-}
 
-@media (max-width: 600px) {
-    .section-footer .copyright p {
-        text-align: center;
-        padding: 0;
-    }
-}
+    &.address {
+      display: flex;
+      align-items: center;
 
-@media (max-width: 600px) {
-    .section-footer {
-        flex-direction: column;
+      > div:first-child {
+        margin-right: 2em;
+        float: left;
+      }
     }
+
+    &.copyright {
+      text-align: center;
+    }
+  }
+
+  a {
+    color: $accent1;
+    text-decoration: none;
+
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
 }
