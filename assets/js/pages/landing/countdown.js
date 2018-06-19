@@ -32,17 +32,19 @@ export default class Countdown {
         //const days = Math.floor(distance / (1000 * 60 * 60 * 24));
         //const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        if(distance > 0) {
+        if (distance > 0) {
             this.hoursElement.innerText = hours;
             this.minutesElement.innerText = minutes;
         } else {
             clearInterval(this.countdownInterval);
 
             let cexpired = this.containerRoot.getElementsByClassName('cexpired')[0];
-            cexpired.style.visibility = "visible";
+            cexpired.style.visibility = 'visible';
             cexpired.style.display = 'inline-block';
 
-            this.containerRoot.getElementsByClassName("countdown-output")[0].removeChild(this.containerRoot.getElementsByClassName('ccount')[0]);
+            this.containerRoot
+                .getElementsByClassName("countdown-output")[0]
+                .removeChild(this.containerRoot.getElementsByClassName('ccount')[0]);
         }
     }
 }
