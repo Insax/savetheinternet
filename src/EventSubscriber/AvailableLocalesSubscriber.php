@@ -31,7 +31,7 @@ class AvailableLocalesSubscriber implements EventSubscriberInterface
         // detect users language form browser
         $this->setVisitorLanguage($event, $languages);
 
-        $codes = [];
+        $codes = array();
         foreach ($languages as $language) {
             $parts = explode('_', $language);
             $codes[$language] = $parts;
@@ -42,9 +42,9 @@ class AvailableLocalesSubscriber implements EventSubscriberInterface
 
     public static function getSubscribedEvents()
     {
-        return [
+        return array(
             'kernel.request' => 'onKernelRequest',
-        ];
+        );
     }
 
     private function setVisitorLanguage(GetResponseEvent $event, array $languages)
@@ -65,19 +65,19 @@ class AvailableLocalesSubscriber implements EventSubscriberInterface
 
 function getAvailableLanguages()
 {
-    $languageOrder = [];
+    $languageOrder = array();
     if (isset($_SERVER['LANG_ORDER'])) {
         $languageOrder = explode(',', $_SERVER['LANG_ORDER']);
     }
 
     $translationFiles = scandir(__DIR__.'/../../translations', SCANDIR_SORT_NONE);
 
-    $languages = [];
-    $otherLangs = [];
+    $languages = array();
+    $otherLangs = array();
     foreach ($translationFiles as $file) {
         $parts = explode('.', $file);
 
-        if (\count($parts) !== 3) {
+        if (3 !== \count($parts)) {
             continue;
         }
 

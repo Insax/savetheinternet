@@ -30,26 +30,26 @@ class GalleryService
         if (!is_dir($base) && !mkdir($base) && !is_dir($base)) {
             error_log('Could not create Basefolder for Images');
 
-            return [];
+            return array();
         }
 
         if (!is_dir($files)) {
             error_log('Could not find Files Folder');
 
-            return [];
+            return array();
         }
 
         if (!is_dir($preview) && !mkdir($preview) && !is_dir($preview)) {
             error_log('Could not create Preview Folder');
 
-            return [];
+            return array();
         }
 
         $finder = new Finder();
 
         $finder->files()->depth('< 3')->name('/\.(png|jpg)$/i')->in($files);
 
-        $galleryImages = [];
+        $galleryImages = array();
 
         foreach ($finder as $file) {
             $name = $file->getFilename();
@@ -59,16 +59,16 @@ class GalleryService
             if (!file_exists($preview.$thumb)) {
                 $writeReturn = $this->resizeImage($file->getRealPath(), $preview.$thumb);
 
-                if ($writeReturn === false) {
+                if (false === $writeReturn) {
                     error_log('Could not write File: '.$file->getRealPath());
                 }
             }
 
-            $galleryImages[] = [
-                'name'     => sprintf('%s/%s', $langcode, $name),
-                'thumb'    => $thumb,
+            $galleryImages[] = array(
+                'name' => sprintf('%s/%s', $langcode, $name),
+                'thumb' => $thumb,
                 'langcode' => $langcode,
-            ];
+            );
         }
 
         return $galleryImages;

@@ -36,7 +36,7 @@ if ($trustedHosts = $_SERVER['TRUSTED_HOSTS'] ?? false) {
 $kernel = new Kernel($env, $debug);
 $request = Request::createFromGlobals();
 
-if ($env === 'prod') {
+if ('prod' === $env) {
     $kernel = new CacheKernel($kernel, new \Symfony\Component\HttpKernel\HttpCache\Store(__DIR__.'/../var/cache/kernel/'));
 }
 

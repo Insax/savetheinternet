@@ -1,15 +1,15 @@
-.about-heading{
+.about-heading {
     font-size: 26px;
     margin-top: 0;
     margin-bottom: 7px;
 }
-p.about-text{
+p.about-text {
     font-style: italic;
 
     a {
         color: $accent1;
     }
-    a:hover{
+    a:hover {
         color: $text;
     }
 }

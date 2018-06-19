@@ -7,10 +7,12 @@ use Abraham\TwitterOAuth\TwitterOAuth;
 class TweetService
 {
     private $twitterOAuth;
+
     /**
      * @var CacheServiceInterface
      */
     private $cache;
+
     /**
      * @var bool
      */
@@ -23,7 +25,7 @@ class TweetService
      */
     public function __construct(CacheServiceInterface $cache)
     {
-        if (!isset($_SERVER['OAUTH_KEY'], $_SERVER['OAUTH_SECRET']) || $_SERVER['OAUTH_KEY'] === null || $_SERVER['OAUTH_SECRET'] === null) {
+        if (!isset($_SERVER['OAUTH_KEY'], $_SERVER['OAUTH_SECRET']) || null === $_SERVER['OAUTH_KEY'] || null === $_SERVER['OAUTH_SECRET']) {
             return;
         }
 
@@ -42,7 +44,7 @@ class TweetService
         $fiveMinAgo = new \DateTime('5min ago');
 
         if ($this->cache->has('lastTweetLoad')) {
-            $lastTweetLoad = unserialize($this->cache->get('lastTweetLoad'), ['allowed_classes' => [\DateTime::class]]);
+            $lastTweetLoad = unserialize($this->cache->get('lastTweetLoad'), array('allowed_classes' => array(\DateTime::class)));
         }
 
         if ($lastTweetLoad->getTimestamp() > $fiveMinAgo->getTimestamp()) {
@@ -51,13 +53,13 @@ class TweetService
 
         $this->deleteAllTweets();
 
-        if (!isset($_SERVER['TWITTER_SEARCH']) || $_SERVER['TWITTER_SEARCH'] === null) {
+        if (!isset($_SERVER['TWITTER_SEARCH']) || null === $_SERVER['TWITTER_SEARCH']) {
             return;
         }
 
-        $result = $this->twitterOAuth->get('search/tweets', ['q' => $_SERVER['TWITTER_SEARCH'], 'count' => 100]);
+        $result = $this->twitterOAuth->get('search/tweets', array('q' => $_SERVER['TWITTER_SEARCH'], 'count' => 100));
 
-        if (property_exists($result, 'errors') && $result->errors !== null) {
+        if (property_exists($result, 'errors') && null !== $result->errors) {
             $this->cache->set('lastTweetLoad', serialize(new \DateTime('now')));
 
             return;
@@ -68,7 +70,7 @@ class TweetService
 
             $hasItem = $this->cache->has($tweetKey);
 
-            if ($hasItem === true) {
+            if (true === $hasItem) {
                 break;
             }
 
@@ -80,8 +82,8 @@ class TweetService
 
     public function getTweets($limit = 15): array
     {
-        if ($this->enabled === false) {
-            return [];
+        if (false === $this->enabled) {
+            return array();
         }
 
         if ($this->cache instanceof NullCacheService) {
@@ -90,7 +92,7 @@ class TweetService
 
         $found = $this->cache->search('tweet_*', $limit);
 
-        $tweets = [];
+        $tweets = array();
         foreach ($found as $tweet) {
             $tweets[] = json_decode($this->cache->get($tweet));
         }

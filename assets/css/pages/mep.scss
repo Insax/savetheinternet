@@ -20,17 +20,17 @@
     transition-delay: 750ms;
 }
 
-.small-h{
+.small-h {
     color: $accent1;
     width: 45px;
 }
 
-.text-highlighted{
+.text-highlighted {
     color: $accent1;
     font-weight: bold;
 }
 
-.smaller-icon{
+.smaller-icon {
     width: 75%;
     display: block;
     margin-left: auto;
@@ -51,8 +51,8 @@
     }
 }
 
-.img-box{
-    &:hover{
+.img-box {
+    &:hover {
         opacity: 0.95;
     }
 }
