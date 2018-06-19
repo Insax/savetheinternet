@@ -6,6 +6,14 @@ img {
     content: url("./img/easteregg/neigschaut.png");
 }
 
+.header-wrapper .header .title-wrapper {
+    background-color: transparent !important;
+}
+
+.title-wrapper {
+    content: url("./img/easteregg/banner.png") !important;
+}
+
 #particleCanvas {
     pointer-events: none;
     z-index: 99;

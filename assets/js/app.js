@@ -22,8 +22,6 @@ cheet('s c h m u s', function () {
 			audio.play();
 		}
 	});
-    cheet.disable('s c h m u s e r');
-
     cheet('m i e s e r', function() {
         stylesheet.remove();
         window.removeEasteregg();
