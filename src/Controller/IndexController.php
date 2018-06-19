@@ -64,7 +64,7 @@ class IndexController extends Controller
      */
     public function gallery(): Response
     {
-        return $this->render('gallery/index.html.twig', ['images' => $this->galleryService->getGallery()]);
+        return $this->render('gallery/index.html.twig', array('images' => $this->galleryService->getGallery()));
     }
 
     /**

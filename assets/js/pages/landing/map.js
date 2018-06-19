@@ -1,7 +1,7 @@
 export default class Map {
     constructor() {
         this.mapContainer = document.getElementById('map');
-        if(this.mapContainer === null) {
+        if (this.mapContainer === null) {
             return;
         }
         this.frameContainer = this.mapContainer.getElementsByTagName('iframe')[0];

@@ -1,6 +1,6 @@
 'use strict';
 import Typed from 'typed.js';
-$( document ).ready(function() {
+$(document).ready(function() {
     document.getElementById('typed-strings').style = '';
     var typed = new Typed('#typed', {
         stringsElement: '#typed-strings',
@@ -11,6 +11,6 @@ $( document ).ready(function() {
         // time before backspacing
         backDelay: 500,
         // loop
-        loop: true
+        loop: true,
     });
 });
