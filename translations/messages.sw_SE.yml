@@ -114,7 +114,11 @@ about_sub_text5_1: 'Vi begär att kommittén för lagliga angelägenheter inte b
 about_sub_text5_2: 'Till och med din position i parlament har du en arbetsuppgift att föreställa åsikterna och värdena av ditt lands medborgare och att försvara deras frihet.'
 about_sub_text5_strong: 'Sammanfoga oss, så vi kan stå tillsammans för en fri internet!'
 
+#mep section
+select_country: 'Select country'
+
 # Footer section
 about_link: 'Info'
 imprint_link: 'avtryck'
 privacy_link: 'integritetspolicy'
+footer_notice: 'We at savetheinternet.info distance ourselves from any illegal activities! We neither support illegal activities, nor do we commission them.'

@@ -1,5 +1,5 @@
 day: 'doba'
-days: 'czasy'
+days: 'dni'
 hours: 'godziny'
 minutes: 'protokoły'
 seconds: 'sekundy'
@@ -120,7 +120,12 @@ about_sub_text5_1: >
 about_sub_text5_2: 'Poprzez Państwa pozycje w Parlamencie mają Państwo obowiązek obrony poglądów i wartości obywateli oraz ochrony ich wolności.'
 about_sub_text5_strong: 'Wspieraj nas, abyśmy wspólnie mogli walczyć o wolny Internet!'
 
+#mep section
+
+select_country: 'Wybierz kraj'
+
 # Footer section
 about_link: 'O SaveTheInternet'
 imprint_link: 'Stopka redakcyjna'
 privacy_link: 'Polityka Prywatności'
+footer_notice: 'We at savetheinternet.info distance ourselves from any illegal activities! We neither support illegal activities, nor do we commission them.'

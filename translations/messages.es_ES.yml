@@ -55,7 +55,7 @@ what_do_need_content: '¿Necesitas algo para compartir?'
 what_do_gallery: |
     <a class="highlight" href="/es_ES/gallery">¡En nuestra galería</a> puedes encontrar el contenido que estás buscando!
 what_do_stuff: |
-    ¡Habla con tu diputado! Puedes ponerte en contacto con tu diputado directamente para mostrar tu desacuerdo con el proyecto de ley. Los correos personales y las conversaciones telefónicas a menudo tienen un gran  ya que al hablar directamente con una persona, estará más abierta a nuevas ideas y más dispuesta a cambiar de opinión. Puedes encontrar todos los números de teléfono necesarios, correos electrónicos y plantillas de mensaje aquí:
+    ¡Habla con tu diputado! Puedes ponerte en contacto con tu diputado directamente para mostrar tu desacuerdo con el proyecto de ley. Los correos personales y las conversaciones telefónicas a menudo tienen un gran  ya que al hablar directamente con una persona, estará más abierta a nuevas ideas y más dispuesta a cambiar de opinión. Puedes encontrar todos los números de teléfono necesarios y correos electrónicos aquí:
 
 what_do_mail: '¡Escribe a tu diputado!'
 what_do_mail_content: 'Puedes escribirle un correo a tu diputado para indicarle que no estás de acuerdo con el nuevo plan de ley. Puedes encontrar todas las direcciones de correo necesarias y plantillas de mensaje aquí.'
@@ -130,8 +130,10 @@ mep_heading: >
     The <span style="color: #6bbbff !important;">Magic 10</span>: #savetheinternet <br> Heroes or Zeroes?
 mep_text_1: 'On 20 June, the European Parliament will vote on the Copyright Directive. The votes of 10 Members of the parliament will determine if the Internet remains open and free from censorship in the EU. Tell them you need them to protect your Internet against surveillance and censorship machines, as the defenders of EU citizens! Give them the power to be Heroes!'
 
+select_country: 'Elija su país'
 
 # Footer section
 about_link: 'Sobre nuestro objetivo'
 imprint_link: 'Imprimir'
 privacy_link: 'Políticas de Privacidad'
+footer_notice: 'We at savetheinternet.info distance ourselves from any illegal activities! We neither support illegal activities, nor do we commission them.'

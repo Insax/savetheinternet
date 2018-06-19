@@ -57,7 +57,7 @@ class TweetService
 
         $result = $this->twitterOAuth->get('search/tweets', ['q' => $_SERVER['TWITTER_SEARCH'], 'count' => 100]);
 
-        if ($result->errors !== null) {
+        if (property_exists($result, 'errors') && $result->errors !== null) {
             $this->cache->set('lastTweetLoad', serialize(new \DateTime('now')));
 
             return;
