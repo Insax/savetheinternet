@@ -2,7 +2,6 @@
 
 namespace App\Services;
 
-
 use Symfony\Component\Finder\Finder;
 
 class GalleryService
@@ -14,6 +13,7 @@ class GalleryService
 
     /**
      * GalleryService constructor.
+     *
      * @param string $rootDir
      */
     public function __construct(string $rootDir)
@@ -23,22 +23,25 @@ class GalleryService
 
     public function getGallery(): array
     {
-        $base = $this->rootDir . '/public/build/static/gallery';
-        $files = $base . '/files/';
-        $preview = $base . '/preview/';
+        $base = $this->rootDir.'/public/build/static/gallery';
+        $files = $base.'/files/';
+        $preview = $base.'/preview/';
 
         if (!is_dir($base) && !mkdir($base) && !is_dir($base)) {
             error_log('Could not create Basefolder for Images');
+
             return [];
         }
 
         if (!is_dir($files)) {
             error_log('Could not find Files Folder');
+
             return [];
         }
 
         if (!is_dir($preview) && !mkdir($preview) && !is_dir($preview)) {
             error_log('Could not create Preview Folder');
+
             return [];
         }
 
@@ -53,18 +56,18 @@ class GalleryService
             $langcode = basename(\dirname($file->getRealPath()));
             $thumb = sprintf('%s/thumb_%s', $langcode, $name);
 
-            if (!file_exists($preview . $thumb)) {
-                $writeReturn = $this->resizeImage($file->getRealPath(), $preview . $thumb);
+            if (!file_exists($preview.$thumb)) {
+                $writeReturn = $this->resizeImage($file->getRealPath(), $preview.$thumb);
 
                 if ($writeReturn === false) {
-                    error_log('Could not write File: ' . $file->getRealPath());
+                    error_log('Could not write File: '.$file->getRealPath());
                 }
             }
 
             $galleryImages[] = [
-                'name' => sprintf('%s/%s', $langcode, $name),
-                'thumb' => $thumb,
-                'langcode' => $langcode
+                'name'     => sprintf('%s/%s', $langcode, $name),
+                'thumb'    => $thumb,
+                'langcode' => $langcode,
             ];
         }
 
@@ -85,7 +88,6 @@ class GalleryService
             if (is_writable(\dirname($destinationName))) {
                 return $imagick->writeImage($destinationName);
             }
-
         } catch (\ImagickException $e) {
         }
 

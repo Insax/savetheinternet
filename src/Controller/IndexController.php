@@ -4,16 +4,12 @@ namespace App\Controller;
 
 use App\Services\GalleryService;
 use App\Services\TweetService;
-use Psr\Log\LoggerInterface;
 use Smalot\Github\Webhook\Webhook;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Symfony\Component\Finder\Finder;
-use Symfony\Component\Finder\SplFileInfo;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\KernelEvents;
-use Symfony\Component\HttpKernel\KernelInterface;
 use Symfony\Component\Routing\Annotation\Route;
 
 class IndexController extends Controller
@@ -30,6 +26,7 @@ class IndexController extends Controller
 
     /**
      * IndexController constructor.
+     *
      * @param TweetService $tweetService
      */
     public function __construct(TweetService $tweetService, GalleryService $galleryService)
@@ -67,7 +64,6 @@ class IndexController extends Controller
      */
     public function gallery(): Response
     {
-
         return $this->render('gallery/index.html.twig', ['images' => $this->galleryService->getGallery()]);
     }
 
@@ -97,7 +93,9 @@ class IndexController extends Controller
 
     /**
      * @Route("/tweets/{amount}", name="tweets")
+     *
      * @param int $amount
+     *
      * @return JsonResponse
      */
     public function getTweets(int $amount = 10): JsonResponse
@@ -116,7 +114,9 @@ class IndexController extends Controller
 
     /**
      * @Route("/update", name="update", methods={"POST"})
+     *
      * @param Request $request
+     *
      * @return Response
      */
     public function update(Request $request)
@@ -125,11 +125,11 @@ class IndexController extends Controller
         $webhook = new Webhook($dispatcher);
         $event = $webhook->parseRequest($request, $_SERVER['WEBHOOK_SECRET']);
 
-        exec('cd ' . __DIR__ . '/../../; git pull');
-        exec('cd ' . __DIR__ . '/../../; composer install');
-        exec('cd ' . __DIR__ . '/../../; yarn install');
-        exec('cd ' . __DIR__ . '/../../; yarn run build');
-        exec('cd ' . __DIR__ . '/../../; php bin/console cache:clear');
+        exec('cd '.__DIR__.'/../../; git pull');
+        exec('cd '.__DIR__.'/../../; composer install');
+        exec('cd '.__DIR__.'/../../; yarn install');
+        exec('cd '.__DIR__.'/../../; yarn run build');
+        exec('cd '.__DIR__.'/../../; php bin/console cache:clear');
 
         return new Response();
     }
