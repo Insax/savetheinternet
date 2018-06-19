@@ -1,5 +1,6 @@
 window.removeEasteregg = () => {
     // Self-destruct easteregg stuff here, especially timers and stuff
+    document.getElementById('particleCanvas').remove();
 };
 var canv = document.createElement('canvas');
 canv.id = 'particleCanvas';
