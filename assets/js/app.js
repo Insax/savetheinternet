@@ -13,7 +13,7 @@ import cheet from 'cheet.js';
 let link = $("[data-href]");
 cheet('s c h m u s', function () {
 	link.attr('href',link.data('href'));
-    cheet.disable('s c h m u s');
+    cheet.disable('s c h m u s e r');
 
     cheet('m i e s e r', function() {
         link.remove();
