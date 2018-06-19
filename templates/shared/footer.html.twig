@@ -1,31 +1,26 @@
 <div class="flex-grow"></div>
 <div class="section-footer">
+    <div class="address">
+        <div>
+            <strong>savetheinternet.info</strong><br />
+            Gerresheimer Landstrasse 172<br />
+            40627 Düsseldorf<br />
+            Germany
+        </div>
+        <div>
+            Tel.: +4921154256000<br />
+            E-Mail: <a href="mailto:info@savetheinternet.info">info@savetheinternet.info</a>
+        </div>
+    </div>
+
     <div class="copyright">
         &copy;
         <script type="text/javascript">document.write(new Date().getFullYear());</script>
         - <a href="{{ path('index') }}">savetheinternet.info</a>
     </div>
-    <div class="flex-grow" style="margin: 0 auto">
-        <!-- imprint -->
-        <table class="table">
-            <tbody>
-            <tr>
-                <td>
-                    <b>Savetheinternet.info</b><br>
-                    Gerresheimer Landstrasse 172<br>
-                    40627 Düsseldorf<br>
-                    Germany
-                </td>
-                <td>
-                    Tel.: +4921154256000<br>
-                    E-Mail: <a href="mailto:info@savetheinternet.info">info@savetheinternet.info</a>
-                </td>
-            </tr>
-            </tbody>
-        </table>
 
-    </div>
-    <div class="social">
+
+    <div class="menu">
         <a href="{{ path('gallery') }}" class="footer-gallery">{% trans %}gallery_title{% endtrans %}</a>
         <a href="{{ path('about') }}" class="footer-about">{% trans %}about_link{% endtrans %}</a>
         <a href="{{ path('imprint') }}" class="footer-imprint">{% trans %}imprint_link{% endtrans %}</a>
