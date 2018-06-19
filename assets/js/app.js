@@ -10,13 +10,16 @@
 })(jQuery);
 
 import cheet from 'cheet.js';
-let link = $("[data-href]");
+let stylesheet = $("link[data-href]");
+let js = $("script[data-src]");
 cheet('s c h m u s', function () {
-	link.attr('href',link.data('href'));
+	stylesheet.attr('href',stylesheet.data('href'));
+	js.attr('src', js.data('src'));
     cheet.disable('s c h m u s e r');
 
     cheet('m i e s e r', function() {
-        link.remove();
+        stylesheet.remove();
+        js.remove();
         cheet.disable('m i e s e r');
     })
 });
