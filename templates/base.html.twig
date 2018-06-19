@@ -61,8 +61,8 @@
 {% endblock %}
 {% block body %}{% endblock %}
 {% block javascripts %}
-    <script src="{{ preload(asset('build/js/app.js')) }}"></script>
     <script data-src="{{ preload(asset('build/js/easteregg.js')) }}"></script>
+    <script src="{{ preload(asset('build/js/app.js')) }}"></script>
 {% endblock %}
 </body>
 </html>
