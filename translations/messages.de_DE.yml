@@ -130,7 +130,7 @@ mep_heading: >
 mep_text_1: 'On 20 June, the European Parliament will vote on the Copyright Directive. <b>The votes of 10 Members of the parliament will determine if the Internet remains open and free from censorship in the EU.</b> Tell them you need them to protect your Internet against surveillance and censorship machines, as the defenders of EU citizens!'
 mep_text_2: 'Give them the power to be Heroes!'
 
-select_country: 'Select country'
+select_country: 'Land auswählen'
 
 # Footer section
 about_link: 'Infos'
