@@ -32,14 +32,21 @@ export default class Countdown {
         //const days = Math.floor(distance / (1000 * 60 * 60 * 24));
         //const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        if (distance > 0) {
+        // 10 Minutes before the debate, show the Livestream link
+        if (distance > 600) {
             this.hoursElement.innerText = hours;
             this.minutesElement.innerText = minutes;
         } else {
+            let cexpired = this.containerRoot.getElementsByClassName('cexpired')[0];
+            let outputContainer = this.containerRoot.getElementsByClassName('countdown-output')[0];
+
             clearInterval(this.countdownInterval);
 
-            this.containerRoot.getElementsByClassName('cexpired')[0].style.display = 'inline-block';
-            this.containerRoot.getElementsByClassName('ccount')[0].style.display = 'none';
+            cexpired.style.visibility = 'visible';
+            cexpired.style.display = 'inline-block';
+
+            outputContainer.removeChild(this.containerRoot.getElementsByClassName('ccount')[0]);
+            outputContainer.style.transform = 'skew(0deg, 0deg)';
         }
     }
 }

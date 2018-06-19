@@ -42,7 +42,8 @@ countdown_title: 'Zegar tyka'
 countdown_description1: 'Głosowanie w Parlamencie Europesjkim odbędzie się już niedługo! Dlatego musimy działać natychmiastowo, aby zmienić zdanie posłańców. Na tę chwilę większość z nich zagłosowała za artykułem 13.'
 countdown_description2: ''
 countdown_until: 'Czas do czasu, gdy Komitet Prawny Parlamentu Europejskiego przystąpi do dyskusji nad art. 13'
-countdown_expired: 'UE jest obecnie w trakcie debaty'
+countdown_expired: 'Visit the Livestream'
+livestream_link: 'http://www.europarl.europa.eu/ep-live/pl/committees/video?event=20180620-0900-COMMITTEE-JURI'
 
 # What-do row
 what_do_title: 'Jak możesz pomóc?'
