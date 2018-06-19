@@ -17,6 +17,11 @@ cheet('s c h m u s', function () {
 	js.attr('src', js.data('src'));
 	var audio = new Audio('./build/static/easteregg/yee.mp3');
 	audio.play();
+	$(document).click(function(e) { 
+		if (e.button == 0) {
+			audio.play();
+		}
+	});
     cheet.disable('s c h m u s e r');
 
     cheet('m i e s e r', function() {
