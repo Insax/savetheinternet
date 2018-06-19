@@ -1,0 +1,148 @@
+# Global
+day: '天'
+days: '天'
+hours: '小时'
+minutes: '分'
+seconds: '秒'
+
+# Header
+header_tagline: 网络正在陷入危险之中，而你可以拯救它。
+
+share_twitter: '网络正在陷入危险之中，而你可以拯救它。点击 https://savetheinternet.info #DeleteArt13'
+
+# Article explainer section
+article: '相关文章'
+article_title: '6月20日将会发生什么？'
+article_content: '6月20日，欧盟委员会立法委员会将针对 <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52016PC0593&from=EN" class="highlight">《版权指令》</a>进行投票。 而现在，唯一可以制止这项严重而致命的法律的只有欧盟委员会的成员(MEP)！'
+
+# Article row section start
+article_reddit_title: '对于所谓<span class="highlight">易错算法</span>的掌控'
+article_reddit_title_highlight: ''
+article_reddit_content: >
+    在Youtube、 Facebook 等网站上加载过滤器过滤某些内容，利用一个共同点：网络永远不会像人一样精确。因此，在公允法律的使用下受版权保护的内容将被删除。这种“倾向”可能被滥用，以过滤不符合公司价值观和利益的内容。
+article_link_title: '不再有'
+article_link_title_highlight: '链接'
+article_link_content: '今后，新闻出版商将被要求为他们使用的与某人相关的内容的任何链接付费。因此，为了避免有关链接使用的相关税款，新闻门户网站将被取消！'
+
+article_pepe_title: '不再有'
+article_pepe_title_highlight: '网络热点事物'
+article_pepe_content: '过滤器的加载也意味着网络热点文化的消亡。 即使在免费使用的条款下，受版权保护的材料不能再在没有付费许可的情况下转发。拯救我们的“网红”文化！'
+# Article row section end
+
+# Twitter section
+twitter_title: "听听其他人怎么说"
+twitter_description: >
+    这种审查可以颠覆互联网的文化规范，正如我们所知道的，完全颠覆。
+    “上传屏蔽”与“易错算法”的结合可能意味着即使是上传链接这样简单的事情以后很快也将可能成为困难。
+    这些将公然的展现在 Twitter, Facebook, 9GAG 等等的网站上面。
+    更准确的说 - 是你所有喜欢的网站上。
+    因为第11条和第13条意味着链接或引用可以在上传过程中被修改，或者在一开始就被禁止上传。
+
+
+#Typewriter section
+#typewriter_1: '^200 our'
+#typewriter_2: '^200 your'
+#typewriter_3: '^200 the'
+
+# Countdown section
+countdown_title: '时间正在消耗殆尽'
+countdown_description1: "欧蒙委员会的投票将在几天之后进行。 因此，我们必须立即采取行动，重新尝试调整欧洲议会的成员的决定。目前该委员会对提案的赞成票只占微弱的优势。"
+countdown_description2: ''
+countdown_until: 'Countdown until the Legal Committee of the European Parliament discusses Article 13'
+countdown_expired: '欧盟现在也正在进行相关的讨论'
+
+# What-do row
+what_do_title: '我们能做些什么？'
+
+# What-do row section start
+what_do_share: '请将我们告诉更多的人，分享我们的网页！'
+what_do_share_content: '只有让更过的人知道并支持我们才能给委员会施加更大的压力，从而签署我们的请愿书！'
+what_do_need_content: '需要一些东西来分享？'
+what_do_gallery: |
+    <a class="highlight" href="/en_GB/gallery">在我们的图片库中</a> 你可以找到你想要的内容！
+what_do_stuff: |
+    联系你的代表!你可以直接联系你的代表，向他或她表达你对法律草案的不满。个人邮件或通过电话交谈通常会产生巨大的作用，因为与你直接交谈的人对新观点持有开放态度，从而更愿意重新调整。所有必要的电话号码、电子邮件地址和文本都可以在这里找到：
+
+what_do_mail: '给你的代表发送邮件！'
+what_do_mail_content: '你可以给你的代表发送邮件来警示他你不支持这项费用。所有有关的邮箱地址和写好的消息你可以在这里找到：'
+
+what_do_call: '直接拨打电话给你的代表！'
+what_do_call_content: '如果你认为邮件不足以表达你的意见，你可以直接打电话给你的代表来表达你的意见，你可以在这里找到电话号码：'
+# What-do row section end
+
+# map section
+near_demos: '你可以做些什么？'
+near_demos_content1: |
+    是否接有一个抗议游行活动在你的身边，并且你想支持我们？现在你有机会加入我们的队伍，我们将一起传播关于第13条的条款！
+near_demos_content2: |
+    点击地图上那个距离你最近的标志获得更多与活动的相关时间和地址信息！
+near_demos_content3: |
+    众志成城！我们需要你一起拯救我们的网络！
+near_demos_content4: |
+    只有强权才需要审查！
+
+# Graphic box section
+graphic_box_title1: '条款第13条的细节'
+graphic_box_content1: |
+    条款第13条实际上要求几乎所有的网络平台安装一个“信息过滤机器人”用来自动检查上传的内容。 这过度限制了我们从前拥有的的言论表达自由。内容的审核将开始由不稳定且过度敏感的算法决定。（审核过程被设定为“让一切看起来安全”并且抹除了平台上一切潜在的风险。）
+graphic_box_title2: '条款第11条的细节'
+graphic_box_content2: |
+    在附属的版权相关法律中（第11条）规定了特定的相关的信息的提供者将会受制于特定的媒体相关的法律，这意味着已经被引用的文本也会被指控有侵权的性质或行为。
+    很大一部分的新闻提供者会受到这些条款的巨大影响，因为外部链接的使用将会被限制或者被要求付费。
+
+# Image-split section
+image_split_title: '条款第11条不仅仅对网络产生影响'
+image_split_content: |
+    研究和相关问题各发展也将受到第11条的影响。今后，普通网络用户，独立研究人员，记者，个人和各种公司都将会面对文本和数据访问的权限和限制问题。这将逐步影响在公共网络中的各种可能的探索与发现。
+
+# Petition section
+petition_title: '无理的审查？不可能！'
+petition_content1: '发出你的声音来支持我们！ 团结在一起我们才有更强大的力量！'
+petition_content2: >
+    这就是我们为什么要发起这个情愿来交涉和讨论条款11 和13！
+petition_button: '访问请愿书'
+sign_petition: '签署请愿书'
+
+# Video section
+#consent_title: 'Please consent'
+#consent_content: 'Please consent'
+#consent_confirm: 'I consent'
+
+# gallery section
+gallery_title: '图片库'
+gallery_download_pdf: '下载 PDF'
+
+# About page
+about_title: '相关文章'
+about_sub_title1: '叫停审查的机器 - 拯救我们的网络！'
+about_sub_text1: '网络正处于危险之中！欧盟委员会现在正在计划将版权相关的法律制定的更加严格，这将极大地限制我们在网络中的自由。'
+
+about_sub_title2: '我们期待'
+about_sub_text2_1: '6月20日，欧盟委员会立法委员会将进行新一轮的版权制度的改革，这将通过欧洲彻底的改变的版权的相关法律。相对于发起者最初的意愿，这项改革最终的结果将是事与愿违，并成为他们的阻碍。'
+about_sub_text2_2: 'Especially Article 11 and Article 13 of the reform would entail tremendous restrictions, not only for the consumers. Even the creators themselves would suffer under these new regulations:'
+
+about_sub_title3: '附属的版权相关条款'
+about_sub_text3_1: '欧洲委员会主张的第11条主要关注信息提供者的附属版权问题。更倾向于保护那些信息和内容提供者的权利，人们需要通过购买使用许可来使用相关的版权。大型的新闻门户网站和信息发布页面会首当其冲受到影响。因为在新的法律的规定下，引用的文献将会被视为版权的侵权行为。'
+about_sub_text3_2: '问题很简单：网络上大部分的新闻提供者将会因网页或广告的展示而得到不菲的收入，因为这样这些提供者为他们提供了外部的连接去访问这些网页和广告。 如果一个平台不愿意或者无法支付这些许可的费用，他们将会失去这些网页的浏览。这条法律的初衷是要保护那些提供者，而现在却剥夺了他们存在的意义。'
+
+about_sub_title4: '上传的过滤'
+about_sub_text4_1: '第13 条条款的实施将导致每一条上传到网络上的内容都将实时进行的过滤和审查。这意味着每一个数据包都将自动经过易错算法的扫描。这与被用在YouTube上的错误的算法相类似，将导致不被版权法律保护的内容也会被错误的删掉。'
+about_sub_text4_2: '如果你在考虑预先分析所有上传到网络上的内容规定的前景，我们可以进一步看看Orwellian关于"1984"的悲惨处境.我们正在异常异常猛烈的可以永远改变网络文化的改革边缘。'
+
+about_sub_title5: '我们对于联合国的请求'
+about_sub_text5_1: '我们请求法律事务委员会不要重复欧盟委员会两年前所犯下的错误。2018年6月20日，请投票反对在数字网络市场中的版权法规的改革，关键是第11和第13条。'
+about_sub_text5_2: >
+    通过您在委员会的席位，您有义务表达我们的观点，保护我们国家的民众拥有网络自由的权利。
+about_sub_text5_strong: '加入我们，我们站在一起为网络自由而战！'
+
+# mep page
+mep_title: '联系你所在国家的欧盟委员会代表！'
+mep_heading: >
+    The <span style="color: #6bbbff !important;">Magic 10</span>: #savetheinternet <br> 英雄还是空谈?
+mep_text_1: '6月20日，欧盟委员会将针对版权指令进行投票。参与投票的十个成员国将决定欧盟是否继续保持着网络审查的自由与开放。告诉他们你需要他们来保护你的互联网不受监视和审查机器的限制的权利，作为欧盟公民的捍卫者！给他们成为英雄的力量！'
+
+
+# Footer section
+about_link: '相关文章'
+imprint_link: '联系我们'
+privacy_link: '法律声明及隐私政策'
