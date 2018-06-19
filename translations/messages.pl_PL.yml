@@ -1,5 +1,5 @@
 day: 'doba'
-days: 'czasy'
+days: 'dni'
 hours: 'godziny'
 minutes: 'protokoły'
 seconds: 'sekundy'
@@ -122,7 +122,7 @@ about_sub_text5_strong: 'Wspieraj nas, abyśmy wspólnie mogli walczyć o wolny 
 
 #mep section
 
-select_country: 'Select country'
+select_country: 'Wybierz kraj'
 
 # Footer section
 about_link: 'O SaveTheInternet'
