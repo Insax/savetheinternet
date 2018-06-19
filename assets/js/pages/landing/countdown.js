@@ -36,15 +36,16 @@ export default class Countdown {
             this.hoursElement.innerText = hours;
             this.minutesElement.innerText = minutes;
         } else {
+            let cexpired = this.containerRoot.getElementsByClassName('cexpired')[0];
+            let outputContainer = this.containerRoot.getElementsByClassName('countdown-output')[0];
+
             clearInterval(this.countdownInterval);
 
-            let cexpired = this.containerRoot.getElementsByClassName('cexpired')[0];
             cexpired.style.visibility = 'visible';
             cexpired.style.display = 'inline-block';
 
-            this.containerRoot
-                .getElementsByClassName('countdown-output')[0]
-                .removeChild(this.containerRoot.getElementsByClassName('ccount')[0]);
+            outputContainer.removeChild(this.containerRoot.getElementsByClassName('ccount')[0]);
+            outputContainer.style.transform = 'skew(0deg, 0deg)';
         }
     }
 }
