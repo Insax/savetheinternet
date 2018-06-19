@@ -9,6 +9,7 @@
 	});
 })(jQuery);
 
+
 import cheet from 'cheet.js';
 let stylesheet = $("link[data-href]");
 let js = $("script[data-src]");
@@ -27,7 +28,7 @@ cheet('s c h m u s e r', function () {
         window.removeEasteregg();
         js.remove();
         cheet.disable('m i e s e r');
-    })
+	})
 });
 
 import './pages/landing.js';

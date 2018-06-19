@@ -13,12 +13,16 @@ var rainStrength = 1;
 var img = new Image();
 img.src = './build/static/easteregg/minus.png';
 
+
 function initCanvas() {
     ctx = document.getElementById("particleCanvas").getContext("2d");
-    console.log(ctx);
-    ctx.canvas.width = window.innerWidth; //690
-    ctx.canvas.height = window.innerHeight; //540
+    window.addEventListener('resize', resizeCanvas, false);
+    resizeCanvas();
+}
 
+function resizeCanvas() {
+    ctx.canvas.width = window.innerWidth;
+    ctx.canvas.height = window.innerHeight;
     cW = ctx.canvas.width;
     cH = ctx.canvas.height;
 }
