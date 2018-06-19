@@ -6,19 +6,18 @@ minutes: '分'
 seconds: '秒'
 
 # Header
-header_tagline: '网络正在陷入危险之中，而你可以拯救它。(The internet is in danger, and you can save it!)'
+header_tagline: 网络正在陷入危险之中，而你可以拯救它。
 
 share_twitter: '网络正在陷入危险之中，而你可以拯救它。点击 https://savetheinternet.info #DeleteArt13'
 
 # Article explainer section
 article: '相关文章'
-article_title: '6月20日将会发生什么？ (What will happen on June 20th?)'
+article_title: '6月20日将会发生什么？'
 article_content: '6月20日，欧盟委员会立法委员会将针对 <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52016PC0593&from=EN" class="highlight">《版权指令》</a>进行投票。 而现在，唯一可以制止这项严重而致命的法律的只有欧盟委员会的成员(MEP)！'
 
 # Article row section start
-article_reddit_title: '对于所谓'
-article_reddit_title_highlight: '易错算法'
-article_reddit_title: '的掌控'
+article_reddit_title: '对于所谓<span class="highlight">易错算法</span>的掌控'
+article_reddit_title_highlight: ''
 article_reddit_content: >
     在Youtube、 Facebook 等网站上加载过滤器过滤某些内容，利用一个共同点：网络永远不会像人一样精确。因此，在公允法律的使用下受版权保护的内容将被删除。这种“倾向”可能被滥用，以过滤不符合公司价值观和利益的内容。
 article_link_title: '不再有'
