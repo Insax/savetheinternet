@@ -2,6 +2,14 @@
     margin-bottom: $vertical-space;
     margin-top: $vertical-space;
 
+    .btn-livestream {
+        padding: 15px 30px;
+        background: #ffbf00;
+        color: #12233f;
+        text-decoration: none;
+        border-radius: 25px;
+    }
+
     .d-flex {
         align-items: center;
 

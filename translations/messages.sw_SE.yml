@@ -42,7 +42,8 @@ countdown_title: 'Tiden rinner ut'
 countdown_description1: 'Omröstningen i EU-parlamentet kommer äga rum om några dagar! Därför måste vi agera OMEDELBART för att övertyga medlemmarna av Europaparlamentet. Den ansvariga kommitten har en smal majoritet av rösten till förmån för förslaget.'
 countdown_description2: ''
 countdown_until: 'DE Countdown until the Legal Committee of the European Parliament discusses Article 13'
-countdown_expired: 'DE The EU is currently debating'
+countdown_expired: 'Visit the Livestream'
+livestream_link: 'http://www.europarl.europa.eu/ep-live/sv/committees/video?event=20180620-0900-COMMITTEE-JURI'
 
 # What-do row
 what_do_title: 'Vad kan du göra?'

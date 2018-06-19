@@ -44,7 +44,8 @@ countdown_title: 'Aika on loppumassa'
 countdown_description1: 'Äänestys tapahtuu Euroopan parlamentissa muutaman päivän päästä! Sen vuoksi meidän tulee toimia VÄLITTÖMÄSTI vaikuttaaksemme Euroopan parlamentin jäseniin. Komitealla on vain pieni yhden äänen enemmistö esityksen puolesta.'
 countdown_description2: ''
 countdown_until: ''
-countdown_expired: ''
+countdown_expired: 'Visit the Livestream'
+livestream_link: 'http://www.europarl.europa.eu/ep-live/fi/committees/video?event=20180620-0900-COMMITTEE-JURI'
 
 # What-do row
 what_do_title: 'Mitä sinä voit tehdä?'

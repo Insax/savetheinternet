@@ -44,7 +44,9 @@ countdown_title: 'Die Zeit wird knapp'
 countdown_description1: 'Die Abstimmung im EU-Parlament findet schon in wenigen Tagen statt! Daher müssen wir <b>SOFORT</b> handeln um die Abgeordneten umzustimmen. Im zuständigen Ausschuss besteht gerade nur eine knappe Mehrheit von einer Stimme für den Vorschlag.'
 countdown_description2: ''
 countdown_until: 'DE Countdown until the Legal Committee of the European Parliament discusses Article 13'
-countdown_expired: 'DE The EU is currently debating'
+countdown_expired: 'Zum Livestream'
+livestream_link: 'http://www.europarl.europa.eu/ep-live/de/committees/video?event=20180620-0900-COMMITTEE-JURI'
+
 
 # What-do row
 what_do_title: 'Was kannst du tun?'
