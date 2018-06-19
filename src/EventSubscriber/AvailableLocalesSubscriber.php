@@ -13,7 +13,6 @@ class AvailableLocalesSubscriber implements EventSubscriberInterface
      */
     private $twig_Environment;
 
-
     /**
      * AvailableLocalesSubscriber constructor.
      *
@@ -93,7 +92,6 @@ function getAvailableLanguages()
         } else {
             $otherLangs[] = $parts[1];
         }
-
     }
 
     ksort($languages);

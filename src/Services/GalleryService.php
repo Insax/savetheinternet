@@ -56,18 +56,18 @@ class GalleryService
             $langcode = basename(\dirname($file->getRealPath()));
             $thumb = sprintf('%s/thumb_%s', $langcode, $name);
 
-            if (!file_exists($preview . $thumb)) {
+            if (!file_exists($preview.$thumb)) {
                 $writeReturn = $this->resizeImage($file->getRealPath(), $preview . $thumb);
 
                 if ($writeReturn === false) {
-                    error_log('Could not write File: ' . $file->getRealPath());
+                    error_log('Could not write File: '.$file->getRealPath());
                 }
             }
 
             $galleryImages[] = [
-                'name' => sprintf('%s/%s', $langcode, $name),
-                'thumb' => $thumb,
-                'langcode' => $langcode
+                'name'      => sprintf('%s/%s', $langcode, $name),
+                'thumb'     => $thumb,
+                'langcode'  => $langcode
             ];
         }
 

@@ -68,7 +68,6 @@ class IndexController extends Controller
      */
     public function gallery(): Response
     {
-
         return $this->render('gallery/index.html.twig', ['images' => $this->galleryService->getGallery()]);
     }
 
@@ -130,11 +129,11 @@ class IndexController extends Controller
         $webhook = new Webhook($dispatcher);
         $event = $webhook->parseRequest($request, $_SERVER['WEBHOOK_SECRET']);
 
-        exec('cd '. __DIR__ .'/../../; git pull');
-        exec('cd '. __DIR__ .'/../../; composer install');
-        exec('cd '. __DIR__ .'/../../; yarn install');
-        exec('cd '. __DIR__ .'/../../; yarn run build');
-        exec('cd '. __DIR__ .'/../../; php bin/console cache:clear');
+        exec('cd '.__DIR__.'/../../; git pull');
+        exec('cd '.__DIR__.'/../../; composer install');
+        exec('cd '.__DIR__.'/../../; yarn install');
+        exec('cd '.__DIR__.'/../../; yarn run build');
+        exec('cd '.__DIR__.'/../../; php bin/console cache:clear');
 
         return new Response();
     }

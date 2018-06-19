@@ -59,7 +59,6 @@ class RedisCacheService implements CacheServiceInterface
             if ($limit !== 0 && \count($found) * 10 > $limit) {
                 break;
             }
-
         } while ($iterator !== 0);
 
         $found = array_merge(...$found);
