@@ -22,8 +22,8 @@ class RedisCacheService implements CacheServiceInterface
 
         $redis = new Client([
             'scheme' => 'tcp',
-            'host' => $_SERVER['REDIS_HOST'],
-            'port' => $_SERVER['REDIS_PORT'],
+            'host'   => $_SERVER['REDIS_HOST'],
+            'port'   => $_SERVER['REDIS_PORT'],
         ]);
 
         $this->redis = $redis;
@@ -49,9 +49,9 @@ class RedisCacheService implements CacheServiceInterface
         $iterator = 0;
         $found = [];
         do {
-            $result = $this->redis->scan($iterator, ['MATCH ' . $key]);
+            $result = $this->redis->scan($iterator, ['MATCH '.$key]);
 
-            $iterator = (int)$result[0];
+            $iterator = (int) $result[0];
             unset($result[0]);
 
             $found[] = $result[1];
@@ -59,7 +59,6 @@ class RedisCacheService implements CacheServiceInterface
             if ($limit !== 0 && \count($found) * 10 > $limit) {
                 break;
             }
-
         } while ($iterator !== 0);
 
         $found = array_merge(...$found);

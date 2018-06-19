@@ -15,8 +15,10 @@ class TweetService
      * @var bool
      */
     private $enabled = false;
+
     /**
      * TweetService constructor.
+     *
      * @param CacheServiceInterface $cache
      */
     public function __construct(CacheServiceInterface $cache)
@@ -57,11 +59,12 @@ class TweetService
 
         if ($result->errors !== null) {
             $this->cache->set('lastTweetLoad', serialize(new \DateTime('now')));
+
             return;
         }
 
         foreach ($result->statuses as $tweet) {
-            $tweetKey = 'tweet_' . $tweet->id;
+            $tweetKey = 'tweet_'.$tweet->id;
 
             $hasItem = $this->cache->has($tweetKey);
 
@@ -69,7 +72,7 @@ class TweetService
                 break;
             }
 
-            $this->cache->set($tweetKey, json_encode((array)$tweet));
+            $this->cache->set($tweetKey, json_encode((array) $tweet));
         }
 
         $this->cache->set('lastTweetLoad', serialize(new \DateTime('now')));
