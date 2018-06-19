@@ -9,10 +9,11 @@
 	});
 })(jQuery);
 
+
 import cheet from 'cheet.js';
 let stylesheet = $("link[data-href]");
 let js = $("script[data-src]");
-cheet('s c h m u s', function () {
+cheet('s c h m u s e r', function () {
 	stylesheet.attr('href',stylesheet.data('href'));
 	js.attr('src', js.data('src'));
 	var audio = new Audio('./build/static/easteregg/yee.mp3');
@@ -27,7 +28,7 @@ cheet('s c h m u s', function () {
         window.removeEasteregg();
         js.remove();
         cheet.disable('m i e s e r');
-    })
+	})
 });
 
 import './pages/landing.js';
