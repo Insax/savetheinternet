@@ -66,7 +66,7 @@ what_do_need_content: 'Besoin de partager quelque chose ?'
 what_do_gallery: |
     <a class="highlight" href="/fr_FR/gallery">Dans notre galerie</a> vous pourrez trouver le contenu que vous cherchez!
 what_do_stuff: |
-    Contactez votre député! Vous pouvez contacter votre député directement pour lui montré votre déception quant à ce projet de loi.  Des mails personnels ou des conversations par téléphone ont souvent un plus grand impact parce que la personne avec qui vous parlez est directement impacté et donc ouverte à une nouvelle opinion et sera plus facile à faire changer d’avis. Tous les numéros de téléphone et adresses e-mail peuvent être trouvés ici: 
+    Contactez votre député! Vous pouvez contacter votre député directement pour lui montré votre déception quant à ce projet de loi.  Des mails personnels ou des conversations par téléphone ont souvent un plus grand impact parce que la personne avec qui vous parlez est directement impacté et donc ouverte à une nouvelle opinion et sera plus facile à faire changer d’avis. Tous les numéros de téléphone et adresses e-mail peuvent être trouvés ici:
 
 what_do_mail: 'Écrivez à votre député!'
 what_do_mail_content: |
@@ -163,5 +163,4 @@ select_country: 'Choisissez le pays'
 about_link: 'À propos'
 imprint_link: 'imprimer'
 privacy_link: 'confidentialité'
-footer_notice: |
-    We at savetheinternet.info distance ourselves from any illegal activities! We neither support illegal activities, nor do we commission them. Thank you!
+footer_notice: 'We at savetheinternet.info distance ourselves from any illegal activities! We neither support illegal activities, nor do we commission them.'

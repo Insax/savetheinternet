@@ -1,83 +1,85 @@
 .footer-notice {
-  margin-top: 7rem;
-  background-color: darken($background, 3);
-  padding: 1.5em;
-  text-align: center;
-  width: 100vw;
-  font-size: 0.7em;
+    margin-top: 7rem;
+    background-color: darken($background, 3);
+    padding: 1.5em;
+    text-align: center;
+    width: 100vw;
+    font-size: 0.7em;
+    color: darken($accent1, 3);
+    font-weight: bold;
 }
 
 .section-footer {
-  width: 100%;
-  font-size: 0.7em;
-  background-color: $background;
-  display: flex;
-  align-items: center;
-  padding: 2em;
+    width: 100%;
+    font-size: 0.7em;
+    background-color: darken($background, 5);
+    display: flex;
+    align-items: center;
+    padding: 2em;
 
-  @include media-breakpoint-down(sm) {
-    flex-direction: column;
+    @include media-breakpoint-down(sm) {
+        flex-direction: column;
 
-    .menu {
-      order: 1;
-      text-align: center !important;
+        .menu {
+            order: 1;
+            text-align: center !important;
 
-      > a {
-        margin: .5em !important;
-        line-height: 2.5em;
-      }
-    }
-
-    .address {
-      order: 2;
-      margin: 2em 0;
-      font-size: .8em;
-    }
-
-    .copyright {
-      order: 3;
-    }
-  }
-
-  > div {
-    flex-grow: 1;
-
-    &.menu {
-      text-align: right;
-
-      > a {
-        &:not(:first-child) {
-          margin-left: 3.5em;
+            > a {
+                margin: .5em !important;
+                line-height: 2.5em;
+            }
         }
 
-        &:last-child {
-          margin-right: 1.5em;
+        .address {
+            order: 2;
+            margin: 2em 0;
+            font-size: .8em;
         }
-      }
+
+        .copyright {
+            order: 3;
+        }
     }
 
-    &.address {
-      display: flex;
-      align-items: center;
+    > div {
+        flex-grow: 1;
 
-      > div:first-child {
-        margin-right: 2em;
-        float: left;
-      }
+        &.menu {
+            text-align: right;
+
+            > a {
+                &:not(:first-child) {
+                    margin-left: 3.5em;
+                }
+
+                &:last-child {
+                    margin-right: 1.5em;
+                }
+            }
+        }
+
+        &.address {
+            display: flex;
+            align-items: center;
+
+            > div:first-child {
+                margin-right: 2em;
+                float: left;
+            }
+        }
+
+        &.copyright {
+            text-align: center;
+        }
     }
 
-    &.copyright {
-      text-align: center;
-    }
-  }
+    a {
+        color: $accent1;
+        text-decoration: none;
 
-  a {
-    color: $accent1;
-    text-decoration: none;
-
-    &:hover {
-      color: #fff;
-      text-decoration: none;
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+        }
     }
-  }
 }
