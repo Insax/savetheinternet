@@ -1,9 +1,9 @@
 @keyframes fade-in {
     0% {
-        opacity: 0
+        opacity: 0;
     }
     100% {
-        opacity: 1
+        opacity: 1;
     }
 }
 
@@ -37,7 +37,7 @@
                 right: 0px;
                 top: 17px;
                 transition: transform 0.25s ease-in-out;
-                transform: rotate(0) translate3d(0,0,0);
+                transform: rotate(0) translate3d(0, 0, 0);
             }
         }
 
@@ -63,7 +63,7 @@
                     width: 25px;
                     height: 25px;
                     animation-name: fade-in;
-                    animation-duration: .5s;
+                    animation-duration: 0.5s;
                     animation-fill-mode: forwards;
                     filter: grayscale(32%);
                     transition: all 0.5s ease;
@@ -77,7 +77,7 @@
 
         &.open {
             .language-trigger:after {
-                transform: rotate(180deg) translate3d(0,0,0);
+                transform: rotate(180deg) translate3d(0, 0, 0);
             }
 
             .dropdown {
@@ -86,7 +86,7 @@
         }
     }
 
-    .nav-item .nav-link{
+    .nav-item .nav-link {
         padding: 0;
     }
 }

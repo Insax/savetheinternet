@@ -4,7 +4,7 @@ namespace App\Services;
 
 class NullCacheService implements CacheServiceInterface
 {
-    private $content = [];
+    private $content = array();
 
     public function set(string $key, string $value): void
     {
@@ -23,7 +23,7 @@ class NullCacheService implements CacheServiceInterface
 
     public function search(string $key, $limit = 0): array
     {
-        $found = [];
+        $found = array();
 
         $hasWildCard = strpos($key, '*');
         foreach ($this->content as $iKey => $iValue) {
@@ -31,7 +31,7 @@ class NullCacheService implements CacheServiceInterface
                 $found[] = $iKey;
             }
 
-            if ($hasWildCard !== false && strpos($iKey, substr($key, 0, -1)) !== false) {
+            if (false !== $hasWildCard && false !== strpos($iKey, substr($key, 0, -1))) {
                 $found[] = $iKey;
             }
         }
@@ -41,7 +41,7 @@ class NullCacheService implements CacheServiceInterface
 
     public function flush(): void
     {
-        $this->content = [];
+        $this->content = array();
     }
 
     public function deleteWildcard(string $key): void
@@ -52,7 +52,7 @@ class NullCacheService implements CacheServiceInterface
                 unset($this->content[$iKey]);
             }
 
-            if ($hasWildCard !== false && strpos($iKey, substr($key, 0, -1)) !== false) {
+            if (false !== $hasWildCard && false !== strpos($iKey, substr($key, 0, -1))) {
                 unset($this->content[$iKey]);
             }
         }

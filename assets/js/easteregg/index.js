@@ -7,7 +7,7 @@ window.removeEasteregg = () => {
 let audio = new Audio('./build/static/easteregg/yee.mp3');
 audio.play();
 
-$(document).on('click', function () {
+$(document).on('click', function() {
     audio.play();
 });
 
@@ -23,9 +23,8 @@ var rainStrength = 1;
 var img = new Image();
 img.src = './build/static/easteregg/minus.png';
 
-
 function initCanvas() {
-    ctx = document.getElementById("particleCanvas").getContext("2d");
+    ctx = document.getElementById('particleCanvas').getContext('2d');
     window.addEventListener('resize', resizeCanvas, false);
     resizeCanvas();
 }
@@ -47,23 +46,23 @@ function Raindrops() {
 }
 
 Raindrops.prototype.addDrop = function() {
-    this.x = (Math.random() * (cW + 100)) - 100;
+    this.x = Math.random() * (cW + 100) - 100;
     this.y = 0;
-    this.s = (Math.random() * 7) + 2;
+    this.s = Math.random() * 7 + 2;
 
     this.drops.push({
         x: this.x,
         y: this.y,
         velY: 2,
         speed: this.s,
-        life: 1
+        life: 1,
     });
 };
 
 Raindrops.prototype.render = function() {
     for (var i = 0; i < rainStrength; i++) {
         this.addDrop();
-    };
+    }
 
     ctx.save();
 
@@ -74,12 +73,12 @@ Raindrops.prototype.render = function() {
 
     for (var i = 0; i < this.drops.length; i++) {
         var drop = this.drops[i];
-        
+
         ctx.drawImage(img, drop.x, drop.y, 18, 18);
         drop.y += drop.speed * 2;
         drop.x += 2;
-    };
-	ctx.restore();
+    }
+    ctx.restore();
 };
 
 function init() {
@@ -88,7 +87,7 @@ function init() {
 }
 
 function render() {
-	raindrops.render();
+    raindrops.render();
 }
 
 function loop() {

@@ -1,4 +1,4 @@
-.section-gallery{
+.section-gallery {
     .title {
         margin: 0;
         font-size: 3.4em;
@@ -9,7 +9,8 @@
         }
     }
     .gallery-grid {
-        .gallery, .grid-sizer {
+        .gallery,
+        .grid-sizer {
             width: 20%;
         }
         .gallery {
@@ -34,7 +35,7 @@
                     }
                 }
 
-                .flag-icon{
+                .flag-icon {
                     position: absolute;
                     top: 5px;
                     right: 5px;
@@ -49,11 +50,11 @@
     }
 }
 
-
 @media all and (max-width: 1200px) {
-    .section-gallery{
+    .section-gallery {
         .gallery-grid {
-            .grid-sizer, .gallery {
+            .grid-sizer,
+            .gallery {
                 width: 30%;
             }
         }
@@ -63,7 +64,8 @@
 @media all and (max-width: 768px) {
     .section-gallery {
         .gallery-grid {
-            .grid-sizer, .gallery {
+            .grid-sizer,
+            .gallery {
                 width: 47%;
             }
         }
@@ -73,7 +75,8 @@
 @media all and (max-width: 462px) {
     .section-gallery {
         .gallery-grid {
-            .grid-sizer, .gallery {
+            .grid-sizer,
+            .gallery {
                 width: 100%;
             }
         }

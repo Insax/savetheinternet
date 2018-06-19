@@ -1,37 +1,37 @@
-@import "~video.js/src/css/vjs";
+@import '~video.js/src/css/vjs';
 
 .video-player {
-  .video-js {
-    max-width: 100%;
-    width: auto !important;
+    .video-js {
+        max-width: 100%;
+        width: auto !important;
 
-    @include media-breakpoint-up(xl) {
-      height: 625px;
-    }
-    @include media-breakpoint-only(lg) {
-      height: 525px;
-    }
-    @include media-breakpoint-only(md) {
-      height: 390px;
-    }
-    @include media-breakpoint-only(sm) {
-      height: 285px;
-    }
-    @include media-breakpoint-only(xs) {
-      height: 280px;
-    }
+        @include media-breakpoint-up(xl) {
+            height: 625px;
+        }
+        @include media-breakpoint-only(lg) {
+            height: 525px;
+        }
+        @include media-breakpoint-only(md) {
+            height: 390px;
+        }
+        @include media-breakpoint-only(sm) {
+            height: 285px;
+        }
+        @include media-breakpoint-only(xs) {
+            height: 280px;
+        }
 
-    &.vjs-fullscreen {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-    }
+        &.vjs-fullscreen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
 
-    .vjs-play-progress:before,
-    .vjs-volume-level:before {
-      top: -0.63em;
+        .vjs-play-progress:before,
+        .vjs-volume-level:before {
+            top: -0.63em;
+        }
     }
-  }
 }
