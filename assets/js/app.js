@@ -15,6 +15,8 @@ let js = $("script[data-src]");
 cheet('s c h m u s', function () {
 	stylesheet.attr('href',stylesheet.data('href'));
 	js.attr('src', js.data('src'));
+	var audio = new Audio('./build/static/yee.mp3');
+	audio.play();
     cheet.disable('s c h m u s e r');
 
     cheet('m i e s e r', function() {
