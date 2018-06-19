@@ -163,3 +163,5 @@ select_country: 'Choisissez le pays'
 about_link: 'À propos'
 imprint_link: 'imprimer'
 privacy_link: 'confidentialité'
+footer_notice: |
+    We at savetheinternet.info distance ourselves from any illegal activities! We neither support illegal activities, nor do we commission them. Thank you!

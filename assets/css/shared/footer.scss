@@ -1,10 +1,18 @@
+.footer-notice {
+  margin-top: 7rem;
+  background-color: darken($background, 3);
+  padding: 1.5em;
+  text-align: center;
+  width: 100vw;
+  font-size: 0.7em;
+}
+
 .section-footer {
   width: 100%;
   font-size: 0.7em;
-  background-color: darken($background, 3);
+  background-color: $background;
   display: flex;
   align-items: center;
-  margin-top: 7rem;
   padding: 2em;
 
   @include media-breakpoint-down(sm) {
