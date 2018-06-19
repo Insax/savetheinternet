@@ -19,6 +19,7 @@ cheet('s c h m u s', function () {
 
     cheet('m i e s e r', function() {
         stylesheet.remove();
+        window.removeEasteregg();
         js.remove();
         cheet.disable('m i e s e r');
     })
