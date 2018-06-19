@@ -20,7 +20,6 @@ cheet('s c h m u s e r', function () {
         stylesheet.remove();
         window.removeEasteregg();
         js.remove();
-        cheet.disable('m i e s e r');
 	})
 });
 
