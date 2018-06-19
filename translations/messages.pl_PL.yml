@@ -120,6 +120,8 @@ about_sub_text5_1: >
 about_sub_text5_2: 'Poprzez Państwa pozycje w Parlamencie mają Państwo obowiązek obrony poglądów i wartości obywateli oraz ochrony ich wolności.'
 about_sub_text5_strong: 'Wspieraj nas, abyśmy wspólnie mogli walczyć o wolny Internet!'
 
+select_country: 'Wybierz kraj'
+
 # Footer section
 about_link: 'O SaveTheInternet'
 imprint_link: 'Stopka redakcyjna'
