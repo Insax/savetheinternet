@@ -1,48 +1,54 @@
 @import "../../variables";
 
 .countdown {
-    margin-bottom: $vertical-space;
-    margin-top: $vertical-space;
+  margin-bottom: $vertical-space;
+  margin-top: $vertical-space;
 
-    .d-flex {
-        align-items: center;
-        @include media-breakpoint-down(md) {
-            //flex-direction: column-reverse;
-        }
+  .d-flex {
+    align-items: center;
+
+    @include media-breakpoint-down(md) {
+      //flex-direction: column-reverse;
+    }
+  }
+
+  .timer {
+    justify-content: center;
+
+    @include media-breakpoint-down(md) {
+      margin: 30px 0;
     }
 
-    .timer {
-        justify-content: center;
-        @include media-breakpoint-down(md) {
-            margin: 30px 0;
-        }
-        .countdown-output {
-            transform: skew(-3deg, 0.5deg);
-            .ccount {
-                font-size: 4em;
-                @include media-breakpoint-down(sm) {
-                    font-size: 3em;
-                }
-                padding: 15px 25px;
-                flex-direction: column;
+    .countdown-output {
+      transform: skew(-3deg, 0.5deg);
 
-                background-color: $text;
-                color: $background;
-            }
-            .days, .hours {
-                transform: skew(3deg, 0.5deg);
-                margin: 5px 0;
-                font-weight: bold;
-                .cdays, .chours {
-                }
-                .ndays, .nhours {
-                    font-weight: 500;
-                }
-            }
+      .ccount {
+        font-size: 4em;
+        padding: 15px 25px;
+        flex-direction: column;
+        background-color: $text;
+        color: $background;
+
+        @include media-breakpoint-down(sm) {
+          font-size: 3em;
         }
-        .cexpired {
-            visibility: hidden;
+      }
+
+      .days, .hours, .minutes {
+        transform: skew(3deg, 0.5deg);
+        margin: 5px 0;
+        font-weight: bold;
+
+        .ndays,
+        .nhours,
+        .nminutes {
+          font-weight: 500;
         }
+      }
     }
 
+    .cexpired {
+      visibility: hidden;
+    }
+  }
 }
