@@ -121,8 +121,8 @@ about_sub_text5_2: 'Poprzez Państwa pozycje w Parlamencie mają Państwo obowi�
 about_sub_text5_strong: 'Wspieraj nas, abyśmy wspólnie mogli walczyć o wolny Internet!'
 
 #mep section
+select_country: 'Wybierz kraj'
 
-select_country: 'Select country'
 
 # Footer section
 about_link: 'O SaveTheInternet'
