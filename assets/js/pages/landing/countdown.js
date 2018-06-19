@@ -32,7 +32,8 @@ export default class Countdown {
         //const days = Math.floor(distance / (1000 * 60 * 60 * 24));
         //const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        if (distance > 0) {
+        // 10 Minutes before the debate, show the Livestream link
+        if (distance > 600) {
             this.hoursElement.innerText = hours;
             this.minutesElement.innerText = minutes;
         } else {
