@@ -57,7 +57,7 @@ class GalleryService
             $thumb = sprintf('%s/thumb_%s', $langcode, $name);
 
             if (!file_exists($preview.$thumb)) {
-                $writeReturn = $this->resizeImage($file->getRealPath(), $preview . $thumb);
+                $writeReturn = $this->resizeImage($file->getRealPath(), $preview.$thumb);
 
                 if ($writeReturn === false) {
                     error_log('Could not write File: '.$file->getRealPath());
@@ -67,7 +67,7 @@ class GalleryService
             $galleryImages[] = [
                 'name'      => sprintf('%s/%s', $langcode, $name),
                 'thumb'     => $thumb,
-                'langcode'  => $langcode
+                'langcode'  => $langcode,
             ];
         }
 
