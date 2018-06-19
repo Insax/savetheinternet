@@ -30,6 +30,7 @@ class IndexController extends Controller
 
     /**
      * IndexController constructor.
+     *
      * @param TweetService $tweetService
      */
     public function __construct(TweetService $tweetService, GalleryService $galleryService)
@@ -97,7 +98,9 @@ class IndexController extends Controller
 
     /**
      * @Route("/tweets/{amount}", name="tweets")
+     *
      * @param int $amount
+     *
      * @return JsonResponse
      */
     public function getTweets(int $amount = 10): JsonResponse
@@ -116,7 +119,9 @@ class IndexController extends Controller
 
     /**
      * @Route("/update", name="update", methods={"POST"})
+     *
      * @param Request $request
+     *
      * @return Response
      */
     public function update(Request $request)
@@ -125,11 +130,11 @@ class IndexController extends Controller
         $webhook = new Webhook($dispatcher);
         $event = $webhook->parseRequest($request, $_SERVER['WEBHOOK_SECRET']);
 
-        exec('cd ' . __DIR__ . '/../../; git pull');
-        exec('cd ' . __DIR__ . '/../../; composer install');
-        exec('cd ' . __DIR__ . '/../../; yarn install');
-        exec('cd ' . __DIR__ . '/../../; yarn run build');
-        exec('cd ' . __DIR__ . '/../../; php bin/console cache:clear');
+        exec('cd '. __DIR__ .'/../../; git pull');
+        exec('cd '. __DIR__ .'/../../; composer install');
+        exec('cd '. __DIR__ .'/../../; yarn install');
+        exec('cd '. __DIR__ .'/../../; yarn run build');
+        exec('cd '. __DIR__ .'/../../; php bin/console cache:clear');
 
         return new Response();
     }

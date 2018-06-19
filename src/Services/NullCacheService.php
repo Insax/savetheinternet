@@ -2,7 +2,6 @@
 
 namespace App\Services;
 
-
 class NullCacheService implements CacheServiceInterface
 {
     private $content = [];
@@ -36,7 +35,6 @@ class NullCacheService implements CacheServiceInterface
                 $found[] = $iKey;
             }
         }
-
 
         return $found;
     }
