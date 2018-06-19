@@ -53,8 +53,8 @@ countdown_description1: "Le vote du parlement européen arrive dans quelques jou
 countdown_description2: ''
 countdown_until: |
     'compte à rebours jusqu'à ce que le conseil européen débate sur l'article 13'
-countdown_expired: |
-    'L'UE est en train de débattre'
+countdown_expired: 'Visit the Livestream'
+livestream_link: 'http://www.europarl.europa.eu/ep-live/fr/committees/video?event=20180620-0900-COMMITTEE-JURI'
 
 # What-do row
 what_do_title: 'Que pouvez vous faire?'

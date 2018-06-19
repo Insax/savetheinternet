@@ -43,7 +43,8 @@ countdown_title: 'Hay poco tiempo'
 countdown_description1: '¡La votación en el parlamento de la UE tendrá lugar en pocos días! Por eso tenemos que actuar AHORA para hacer cambiar de opinión a los diputados. En la comisión responsable existe una mayoría de voto a favor del proyecto.'
 countdown_description2: ''
 countdown_until: 'Countdown until the Legal Committee of the European Parliament discusses Article 13'
-countdown_expired: 'The EU is currently debating'
+countdown_expired: 'Visit the Livestream'
+livestream_link: 'http://www.europarl.europa.eu/ep-live/es/committees/video?event=20180620-0900-COMMITTEE-JURI'
 
 # What-do row
 what_do_title: '¿Qué puedes hacer?'

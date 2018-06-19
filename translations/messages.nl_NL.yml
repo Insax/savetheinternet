@@ -63,7 +63,8 @@ countdown_description1: >
     Het verantwoordelijke comité heeft maar één extra stem ten gunste van het voorstel.
 countdown_description2: ''
 countdown_until: 'Tijd tot de Commissie juridische zaken in debat gaat over artikel 13'
-countdown_expired: 'De EU is momenteel in debat'
+countdown_expired: 'Visit the Livestream'
+livestream_link: 'http://www.europarl.europa.eu/ep-live/nl/committees/video?event=20180620-0900-COMMITTEE-JURI'
 
 # What-do row
 what_do_title: 'Wat kun je doen?'

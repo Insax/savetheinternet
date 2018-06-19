@@ -50,7 +50,8 @@ countdown_title: 'Time is running out'
 countdown_description1: "The vote in the EU Parliament will take place in a few days! Therefore we have to act IMMEDIATELY to retune the Members of the European Parliament. The committee responsible has just a narrow majority of one vote in favor of the proposal."
 countdown_description2: ''
 countdown_until: 'Countdown until the Legal Committee of the European Parliament discusses Article 13'
-countdown_expired: 'The EU is currently debating'
+countdown_expired: 'Visit the Livestream'
+livestream_link: 'http://www.europarl.europa.eu/ep-live/en/committees/video?event=20180620-0900-COMMITTEE-JURI'
 
 # What-do row
 what_do_title: 'What can you do?'

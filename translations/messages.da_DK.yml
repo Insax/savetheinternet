@@ -46,7 +46,8 @@ countdown_title: 'Tiden løber fra os'
 countdown_description1: 'Afstemningen finder sted om få dage. Derfor skal vi handle med det samme for at få vores delegerede i EU-Parlamentet til ikke at stemme for denne lov. I retsudvalget er der lige for tiden kun et flertal på en enkelt stemme.'
 countdown_description2: ''
 countdown_until: 'Countdown until the Legal Committee of the European Parliament discusses Article 13'
-countdown_expired: 'The EU is currently debating'
+countdown_expired: 'Visit the Livestream'
+livestream_link: 'http://www.europarl.europa.eu/ep-live/da/committees/video?event=20180620-0900-COMMITTEE-JURI'
 
 # What-do row
 what_do_title: 'Hvad kan du gøre??'
