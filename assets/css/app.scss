@@ -1,11 +1,24 @@
 @import "_variables";
 @import "_shared";
 @import "~flag-icon-css/sass/flag-icon";
-@import "~font-awesome/scss/font-awesome";
+//@import "~font-awesome/scss/font-awesome";
+
+@import "~font-awesome/scss/variables";
+@import "~font-awesome/scss/core";
+@import "~font-awesome/scss/path";
+//@import "~font-awesome/scss/icons";
+.#{$fa-css-prefix}-facebook-square:before { content: $fa-var-facebook-square; }
+.#{$fa-css-prefix}-share-square:before { content: $fa-var-share-square; }
+.#{$fa-css-prefix}-twitter:before { content: $fa-var-twitter; }
+.#{$fa-css-prefix}-twitter-square:before { content: $fa-var-twitter-square; }
+.#{$fa-css-prefix}-google-plus-square:before { content: $fa-var-google-plus-square; }
+.#{$fa-css-prefix}-instagram:before { content: $fa-var-instagram; }
+.#{$fa-css-prefix}-envelope:before { content: $fa-var-envelope; }
+
 
 // PAGES
-@import "/pages/landing";
-@import "pages/responsive-video";
+@import "pages/landing";
+//@import "pages/responsive-video";
 @import "pages/imprint";
 @import "pages/gallery";
 @import "pages/about";
