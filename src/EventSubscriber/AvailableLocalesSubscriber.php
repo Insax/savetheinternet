@@ -13,9 +13,9 @@ class AvailableLocalesSubscriber implements EventSubscriberInterface
      */
     private $twig_Environment;
 
-
     /**
      * AvailableLocalesSubscriber constructor.
+     *
      * @param \Twig_Environment $twig_Environment
      */
     public function __construct(\Twig_Environment $twig_Environment)
@@ -37,7 +37,6 @@ class AvailableLocalesSubscriber implements EventSubscriberInterface
             $codes[$language] = $parts;
         }
 
-
         $this->twig_Environment->addGlobal('localeCodes', $codes);
     }
 
@@ -54,11 +53,9 @@ class AvailableLocalesSubscriber implements EventSubscriberInterface
         $request = $event->getRequest();
         $locale = $request->getLocale(); // browser locale
 
-        if (!is_null($request->query->get('_locale')))
-        {
+        if (!is_null($request->query->get('_locale'))) {
             $request->setLocale($request->query->get('_locale'));
-        }
-        elseif (in_array($locale, $languages)) {
+        } elseif (in_array($locale, $languages)) {
             $request->setLocale($locale);
         } else {
             $request->setLocale('en_GB');
@@ -73,7 +70,7 @@ function getAvailableLanguages()
         $languageOrder = explode(',', $_SERVER['LANG_ORDER']);
     }
 
-    $translationFiles = scandir(__DIR__ . '/../../translations', SCANDIR_SORT_NONE);
+    $translationFiles = scandir(__DIR__.'/../../translations', SCANDIR_SORT_NONE);
 
     $languages = [];
     $otherLangs = [];
@@ -95,7 +92,6 @@ function getAvailableLanguages()
         } else {
             $otherLangs[] = $parts[1];
         }
-
     }
 
     ksort($languages);
