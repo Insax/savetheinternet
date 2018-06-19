@@ -46,11 +46,11 @@ class Kernel extends BaseKernel
 
         if (!isset($_SERVER['REDIS_HOST']) || $_SERVER['REDIS_HOST'] === null || !isset($_SERVER['REDIS_PORT']) || $_SERVER['REDIS_PORT'] === null) {
             $container->addAliases([
-                'App\Services\CacheServiceInterface' => 'App\Services\NullCacheService'
+                'App\Services\CacheServiceInterface' => 'App\Services\NullCacheService',
             ]);
         } else {
             $container->addAliases([
-                'App\Services\CacheServiceInterface' => 'App\Services\RedisCacheService'
+                'App\Services\CacheServiceInterface' => 'App\Services\RedisCacheService',
             ]);
         }
 
