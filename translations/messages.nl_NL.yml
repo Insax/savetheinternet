@@ -189,7 +189,7 @@ mep_heading: >
     The <span style="color: #6bbbff !important;">Magic 10</span>: #savetheinternet <br> Heroes or Zeroes?
 mep_text_1: 'On 20 June, the European Parliament will vote on the Copyright Directive. The votes of 10 Members of the parliament will determine if the Internet remains open and free from censorship in the EU. Tell them you need them to protect your Internet against surveillance and censorship machines, as the defenders of EU citizens! Give them the power to be Heroes!'
 
-select_country: 'Select country'
+select_country: 'Taal selecteren'
 
 # Footer section
 about_link: 'Over ons'
