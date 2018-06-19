@@ -11,9 +11,8 @@
 
 import cheet from 'cheet.js';
 cheet('s c h m u s', function () {
-	alert('god mode enabled');
+	alert('immer han er die pech');
 	$("[data-href]").attr('href',$("[data-href]").data('href'));
-    cheet.disable('s c h m u s');
 });
 
 import './pages/landing.js';
