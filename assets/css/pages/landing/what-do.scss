@@ -1,5 +1,3 @@
-@import "../../variables";
-
 .section-what-do {
     margin-bottom: $vertical-space;
 
@@ -144,15 +142,16 @@
     .essb_link_twitter {
         position: absolute;
         bottom: 30px;
-        background-image: url(/build/static/mep/tweet-bg.png);
-        background-size: 100% 100%;
-        background-color: transparent!important;
-        background-repeat: no-repeat;
+        background: #1da1f2; 
+        -moz-border-radius: 70px; 
+        -webkit-border-radius: 70px; 
+        border-radius: 70px;
         width: 100px;
+        height: 100px;
     }
 
     .essb_icon_twitter {
-        background-image: url(/build/static/mep/white-twitter-512.png);
+        background-image: url("../../../static/mep/white-twitter-512.png");
         background-size: cover;
         height: 20px;
         width: 20px;
@@ -241,11 +240,11 @@
         font-size: 40px!important;
         width: 40px;
         height: 40px;
-        background-image: url(/build/static/mep/white-twitter-512.png);
+        background-image: url("../../../static/mep/white-twitter-512.png");
         background-size: cover;
         top: 20%;
         position: absolute;
-        left: 50%;
+        left: 47%;
         transform: translateX(-50%);
     }
 
@@ -274,67 +273,73 @@
         margin-left: -15px;
         padding: 0;
         margin-right: -15px;
-    }
 
-    .mep-grid .mep-item {
-        margin: 0;
-        flex: 1 1 calc(50%);
-        max-width: 100%;
-        padding: 0 15px 30px 15px;
-    }
+        .envelope-ico {
+            color: white;
+            font-size: 30px;
+            margin-top: 20px;
+        }
 
-    .mep-grid .mep-main {
-        display: flex;
-        padding: 20px;
-        align-items: center;
-        background-repeat: no-repeat;
-        background-size: auto 60px;
-        background-position: right top;
-    }
+        .mep-item {
+            margin: 0;
+            flex: 1 1 calc(50%);
+            max-width: 100%;
+            padding: 0 15px 30px 15px;
+        }
 
-    .mep-grid .mep-content {
-        order: 1!important;
-        flex-basis: 25%;
-        position: relative;
-        overflow: visible;
-        width: 100%;
-        vertical-align: top;
-        padding: 30px;
-        line-height: 1.3;
-        color: #000;
-    }
+        .mep-main {
+            display: flex;
+            padding: 20px;
+            align-items: center;
+            background-repeat: no-repeat;
+            background-size: auto 60px;
+            background-position: right top;
+        }
 
-    .mep-grid .mep-authorinfo {
-        order: 2!important;
-        flex-basis: 75%;
-        text-align: right;
-        width: 100%;
-        text-align: left;
-        display: flex;
-        padding-top: 0;
-        color: #000!important;
-    }
+        .mep-content {
+            order: 1!important;
+            flex-basis: 25%;
+            position: relative;
+            overflow: visible;
+            width: 100%;
+            vertical-align: top;
+            padding: 30px;
+            line-height: 1.3;
+            color: #000;
+        }
 
-    .mep-grid .grouped-author-text {
-        display: flex;
-        flex-direction: column;
-        padding-left: 15px;
-    }
+        .mep-authorinfo {
+            order: 2!important;
+            flex-basis: 75%;
+            text-align: right;
+            width: 100%;
+            text-align: left;
+            display: flex;
+            padding-top: 0;
+            color: #000!important;
+        }
 
-    .mep-grid .mep-image {
-        width: 130px;
-        height: 150px;
-        min-width: 100px;
-        min-height: 100px;
-        background-size: cover;
-    }
+        .grouped-author-text {
+            display: flex;
+            flex-direction: column;
+            padding-left: 15px;
+        }
 
-    .mep-grid .mep-social {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        .mep-image {
+            width: 130px;
+            height: 150px;
+            min-width: 100px;
+            min-height: 100px;
+            background-size: cover;
+        }
+
+        .mep-social {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     }
 
     figure.effect-oscar {
@@ -369,16 +374,18 @@
     }
 
     figure.effect-oscar .essb_link_mep {
-        background-image: url(/build/static/mep/tweet-bg.png);
         position: relative;
         text-align: center;
         height: 75px;
         width: 75px;
-        background-size: 100% 100%;
         margin-left: auto;
         margin-right: auto;
         display: inline-block;
         bottom: 0;
+        background: #1da1f2; 
+        -moz-border-radius: 70px; 
+        -webkit-border-radius: 70px; 
+        border-radius: 70px;
         vertical-align: top;
     }
 
