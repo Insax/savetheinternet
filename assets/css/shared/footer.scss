@@ -15,13 +15,8 @@
       text-align: center !important;
 
       > a {
-        &:not(:first-child) {
-          margin-left: 1.5em !important;
-        }
-
-        &:last-child {
-          margin-right: 0 !important;
-        }
+        margin: .5em !important;
+        line-height: 2.5em;
       }
     }
 
