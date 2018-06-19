@@ -10,9 +10,15 @@
 })(jQuery);
 
 import cheet from 'cheet.js';
+let link = $("[data-href]");
 cheet('s c h m u s', function () {
-	alert('immer han er die pech');
-	$("[data-href]").attr('href',$("[data-href]").data('href'));
+	link.attr('href',link.data('href'));
+    cheet.disable('s c h m u s');
+
+    cheet('m i e s e r', function() {
+        link.remove();
+        cheet.disable('m i e s e r');
+    })
 });
 
 import './pages/landing.js';
