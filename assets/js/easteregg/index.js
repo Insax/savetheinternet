@@ -1,6 +1,16 @@
 window.removeEasteregg = () => {
     // Self-destruct easteregg stuff here, especially timers and stuff
+    document.getElementById('particleCanvas').remove();
+    $(document).off('click document');
 };
+
+let audio = new Audio('./build/static/easteregg/yee.mp3');
+audio.play();
+
+$(document).on('click', function () {
+    audio.play();
+});
+
 var canv = document.createElement('canvas');
 canv.id = 'particleCanvas';
 document.body.appendChild(canv);
