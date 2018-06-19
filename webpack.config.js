@@ -10,11 +10,12 @@ Encore
     .enableSourceMaps(!Encore.isProduction())
     // uncomment to create hashed filenames (e.g. app.abc123.css)
     .enableVersioning(Encore.isProduction())
-    .cleanupOutputBeforeBuild()
 
     // uncomment to define the assets of the project
     .addEntry('js/app', './assets/js/app.js')
+    .addEntry('js/easteregg', './assets/js/easteregg/index.js')
     .addStyleEntry('css/app', './assets/css/app.scss')
+    .addStyleEntry('css/easteregg', './assets/css/easteregg.scss')
 
     // uncomment if you use Sass/SCSS files
     .enableSassLoader()

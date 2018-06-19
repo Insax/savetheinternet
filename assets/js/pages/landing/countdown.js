@@ -1,38 +1,47 @@
-function countdown() {
+export default class Countdown {
+    constructor() {
+        this.countdownDate = new Date('Jun 20, 2018 09:30:00').getTime();
+        this.element = document.getElementsByClassName('countdown');
+        this.containerRoot = null;
+        this.hoursElement = null;
+        this.minutesElement = null;
+        this.countdownInterval = null;
 
-    const countDownDate = new Date("Jun 20, 2018 09:30:00").getTime();
+        this.init();
+    }
 
-    const countdownElements = document.getElementsByClassName("countdown");
-    if (countdownElements.length == 0) return;
-    const containerRoot = countdownElements[0];
+    init() {
+        if (this.element.length !== 0) {
+            this.containerRoot = this.element[0];
+            this.hoursElement = this.containerRoot.getElementsByClassName('chours')[0];
+            this.minutesElement = this.containerRoot.getElementsByClassName('cminutes')[0];
 
-    // Get todays date and time
-    const now = new Date().getTime();
+            this.countdownTick();
 
-    // Find the distance between now an the count down date
-    const distance = countDownDate - now;
+            this.countdownInterval = setInterval(() => {
+                this.countdownTick();
+            }, 10000);
+        }
+    }
 
-    // Time calculations for days, hours, minutes and seconds
-    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    countdownTick() {
+        const distance = this.countdownDate - new Date().getTime();
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 
-    // Display the result in the element with id="demo"
-    containerRoot.getElementsByClassName("cdays")[0].innerHTML = days;
-    containerRoot.getElementsByClassName("chours")[0].innerHTML = hours;
-    //containerRoot.getElementsByClassName("cminutes")[0].innerHTML = minutes;
-    //containerRoot.getElementsByClassName("cseconds")[0].innerHTML = seconds;
-    //containerRoot.getElementsByClassName("cexpired")[0].style.display = "none";
-    //containerRoot.getElementsByClassName("ccount")[0].style.display = "inline-block";
+        //const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        //const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    // If the count down is finished, write some text
-    if (distance < 0) {
-        clearInterval(javascriptCountdown);
-        containerRoot.getElementsByClassName("cexpired")[0].style.display = "inline-block";
-        containerRoot.getElementsByClassName("ccount")[0].style.display = "none";
+        if (distance > 0) {
+            this.hoursElement.innerText = hours;
+            this.minutesElement.innerText = minutes;
+        } else {
+            clearInterval(this.countdownInterval);
+
+            this.containerRoot.getElementsByClassName('cexpired')[0].style.display = 'inline-block';
+            this.containerRoot.getElementsByClassName('ccount')[0].style.display = 'none';
+        }
     }
 }
 
-countdown();
-const javascriptCountdown = setInterval(function() {countdown();}, 1000);
+let jsCountdown = new Countdown();

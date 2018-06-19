@@ -66,7 +66,7 @@ what_do_need_content: 'Besoin de partager quelque chose ?'
 what_do_gallery: |
     <a class="highlight" href="/fr_FR/gallery">Dans notre galerie</a> vous pourrez trouver le contenu que vous cherchez!
 what_do_stuff: |
-    Contactez votre député! Vous pouvez contacter votre député directement pour lui montré votre déception quant à ce projet de loi.  Des mails personnels ou des conversations par téléphone ont souvent un plus grand impact parce que la personne avec qui vous parlez est directement impacté et donc ouverte à une nouvelle opinion et sera plus facile à faire changer d’avis. Tous les numéros de téléphone, adresses e-mail et textes pré-préparés peuvent être trouvés ici: 
+    Contactez votre député! Vous pouvez contacter votre député directement pour lui montré votre déception quant à ce projet de loi.  Des mails personnels ou des conversations par téléphone ont souvent un plus grand impact parce que la personne avec qui vous parlez est directement impacté et donc ouverte à une nouvelle opinion et sera plus facile à faire changer d’avis. Tous les numéros de téléphone et adresses e-mail peuvent être trouvés ici: 
 
 what_do_mail: 'Écrivez à votre député!'
 what_do_mail_content: |
@@ -157,6 +157,7 @@ mep_heading: >
     The <span style="color: #6bbbff !important;">Magic 10</span>: #savetheinternet <br> Heroes or Zeroes?
 mep_text_1: 'On 20 June, the European Parliament will vote on the Copyright Directive. The votes of 10 Members of the parliament will determine if the Internet remains open and free from censorship in the EU. Tell them you need them to protect your Internet against surveillance and censorship machines, as the defenders of EU citizens! Give them the power to be Heroes!'
 
+select_country: 'Choisissez le pays'
 
 # Footer section
 about_link: 'À propos'
