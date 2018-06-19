@@ -43,7 +43,7 @@ export default class Countdown {
             cexpired.style.display = 'inline-block';
 
             this.containerRoot
-                .getElementsByClassName("countdown-output")[0]
+                .getElementsByClassName('countdown-output')[0]
                 .removeChild(this.containerRoot.getElementsByClassName('ccount')[0]);
         }
     }
