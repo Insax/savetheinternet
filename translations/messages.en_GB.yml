@@ -145,6 +145,37 @@ mep_text_1: 'On 20 June, the European Parliament will vote on the Copyright Dire
 
 select_country: 'Select country'
 
+# About us page
+about_us_heading: 'About us'
+about_us_link: 'About us'
+about_us_1_heading: 'Who are we?'
+about_us_1_text: |
+    Behind savetheinternet.info there is us, a big group of people with the same goal. We gathered through the internet but our members live and work mostly in Germany. We act impartially and distance ourselves from any political orientations. As a free group of internetactivists we operate indepedent from the economy and we increase our reach every second. However, we pay very close attention to the anonymity and security of our members.
+
+about_us_2_heading: 'What do we want?'
+about_us_2_text: |
+    We want to inform people all over europe about the upcoming vote and tell them the harsh consequences article 11 and 13 will have. Also we give them the opportunity to set an example with a simple signature against this vote. Everyone who wants to support us in the fight against these articles is welcome!
+
+about_us_3_heading: 'How do we work?'
+about_us_3_text: |
+    Our group is organized via different webpages that are permanently in touch with each other. Aside from the petition our people are active on the streets to distribute Flyer, phone politicians, journalists and influencer, organize demos and booths or take care of the website, videos and advertisement.
+
+about_us_4_heading: 'Where can you find us?'
+about_us_4_text: |
+    Apart from our website we're also active on Facebook. Twitter, Instagram and YouTube. As mentioned before our members are active on the streets of Germany to inform people about article 11 and 13.
+
+about_us_5_heading: 'How do we finance ourselves?'
+about_us_5_text: |
+    The financing of our campaign is done via selffinancing of the initiators on the one hand and via the private money of our activists on the other hand. By doing this, we stay completely independent from other organizations and interests. The work done by our activitsts is done purely voluntary and they do it exclusively in their private free time to bring the information of our campaign closer to the people.
+
+about_us_6_heading: 'How can you reach us?'
+about_us_6_text: |
+    Further down this page you can find a legal notice and contact information. However you can also contact us via all of our other online presences where you can reach out to us for requests or more information.
+
+about_us_7_heading: 'How can I support you?'
+about_us_7_text: |
+    The easiest way is by signing our petition. If you want to help further, you can get active and join our community by contacting us via one of the mentioned channels.
+
 # Footer section
 about_link: 'About'
 imprint_link: 'Imprint'

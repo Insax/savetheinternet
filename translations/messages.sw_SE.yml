@@ -118,6 +118,37 @@ about_sub_text5_strong: 'Sammanfoga oss, så vi kan stå tillsammans för en fri
 #mep section
 select_country: 'Select country'
 
+# About us page
+about_us_heading: 'About us'
+about_us_link: 'About us'
+about_us_1_heading: 'Är vem oss?'
+about_us_1_text: |
+    Bak savetheinternet.info finns det oss, en stor grupp människor med det samma målet. Vi samlade till och med internet men våra medlemmar direkt och mestadels inGermany arbete. Vi agerar rättvist och distanserar oss från några politiska riktningar. Som en fri grupp av internetactivists oss fungerar oberoende från ekonomin och, vi ökar vår räckvidd varje sekund. Emellertid betalar vi mycket nära uppmärksamhet till anonymiteten och säkerheten av våra medlemmar.
+
+about_us_2_heading: 'Vad önskar vi?'
+about_us_2_text: |
+    Vi önskar att informera folk Europa om det kommande röstar och berättar över hela dem att den hårda följdartikeln 11 och 13 ska ha. Också ger vi dem tillfället att ställa in ett exempel med ett enkelt häfte mot detta röstar. Everyonewhowants som stöttar oss i kampen mot dessa, preciserar sina anklagelser mot är välkommen!
+
+about_us_3_heading: 'Hur arbetar vi?'
+about_us_3_text: |
+    Vår grupp organiseras via olika webpages som är permanent in handlaget med de. Förutom är begäran vårt folk aktiv på gatorna att fördela reklambladet, telefonpolitiker, journalister och influencer, att organisera demonstrationer och bås eller att ta omsorg av websiten, videona och annonseringen.
+
+about_us_4_heading: 'Var kan du finna oss?'
+about_us_4_text: |
+    Frånsett vår website är vi också aktiva på Facebook. Twitter, Instagram och YouTube. Som nämnt för våra medlemmar var aktiv på gatorna av Tyskland att informera folk om artikel 11 och 13.
+
+about_us_5_heading: 'Hur finansierar oss vi?'
+about_us_5_text: |
+    Finansieringen av vår aktion är gjord viaselffinancing av initiatorsonen den en handen och via de privata pengarna av våra aktivister å andra sidan. Genom att göra detta, blir vi fullständigt oberoende från andra organisationer och intressen. Arbetet som göras av våra activitsts, är donepurelyvoluntaryand som de gör den exklusivt i deras privata fria tid att komma med informationen av vår aktion närmare folket.
+
+about_us_6_heading: 'Hur kan du nå oss?'
+about_us_6_text: |
+    Främja ner denna sida som du kan finna ett lagligt meddelande och en information om kontakt. Dig emellertid canalsocontactall usvia av vår annan online-närvaro var du kan nå outtous för förfrågningar eller mer information.
+
+about_us_7_heading: 'Hur kan jag stötta dig?'
+about_us_7_text: |
+    Den lättaste vägen är, genom att underteckna vår begäran. Om du önskar att hjälpa vidare, kan du få aktiv och sammanfoga vår gemenskap, genom att kontakta oss via en av de nämnda kanalerna.
+
 # Footer section
 about_link: 'Info'
 imprint_link: 'avtryck'
