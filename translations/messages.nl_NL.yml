@@ -192,6 +192,37 @@ mep_text_1: 'On 20 June, the European Parliament will vote on the Copyright Dire
 
 select_country: 'Select country'
 
+# About us page
+about_us_heading: 'About us'
+about_us_link: 'About us'
+about_us_1_heading: 'Wie zijn we?'
+about_us_1_text: |
+    Achter savetheinternet.info zit een grote groep mensen met hetzelfde doel. We zijn verspreid over het hele internet, maar de meesten van ons wonen en werken in Duitsland. We handelen onpartijdig en distantiëren ons van politieke voorkeur. Als een vrije groep van internetactivisten werken we onafhankelijk van de economie en vergroten we ons bereik elke seconde. Desondanks letten we goed op de anonimiteit en veiligheid van onze leden.
+
+about_us_2_heading: 'Wat willen we bereiken?'
+about_us_2_text: |
+    We willen mensen door heel Europa informeren over de aankomende stemming. Ook willen we iedereen de glasharde consequenties van artikel 11 en 13 laten begrijpen. We proberen iedereen de kans te bieden om het juiste voorbeeld te geven, door een handtekening tegen dit wetsvoorstel te zetten. Iedereen die ons wil helpen in de strijd tegen deze artikelen is welkom!
+
+about_us_3_heading: 'Hoe gaan we te werk?'
+about_us_3_text: |
+    Onze groep staat in verbinding met elkaar via verschillende websites. Naast de petitie worden er op straat flyers uitgedeeld, politici/journalisten/invloedrijke mensen telefonisch benaderd, demo's georganiseerd, kraampjes opgezet, video's gemaakt en advertenties verspreid.
+
+about_us_4_heading: 'Waar kun je ons vinden?'
+about_us_4_text: |
+    Naast onze website zijn we ook actief op Facebook, Twitter, Instagram en YouTube. Zoals eerder genoemd, worden er ook mensen op de Duitse straten geïnformeerd over artikelen 11 en 13.
+
+about_us_5_heading: 'Hoe worden we gefinancierd?'
+about_us_5_text: |
+    De campagne wordt enerzijds gefinancierd door de initiatiefnemers zelf, en anderzijds met het privégeld van onze activisten. Op deze manier zijn we compleet onafhankelijk van andere organisaties en belangen. Onze activisten zijn uitsluitend vrijwilligers en doen dit in hun vrije tijd om de campagne onder de mensen te brengen.
+
+about_us_6_heading: 'Hoe kun je ons bereiken?'
+about_us_6_text: |
+    Lager op deze pagina kun je een juridische mededeling en contactgegevens vinden. Je kunt ons echter ook bereiken via een van onze andere online kanalen. Op deze manier kun je ons benaderen voor meer informatie.
+
+about_us_7_heading: 'Hoe kan ik jullie helpen?'
+about_us_7_text: |
+    De makkelijkste manier is door onze petitie te tekenen. Als je ons nog meer wilt doen, kun je ook actief meehelpen. Neem hiervoor contact met ons op via een van de eerdergenoemde kanalen.
+
 # Footer section
 about_link: 'Over ons'
 imprint_link: 'Onze gegevens'

@@ -133,6 +133,37 @@ mep_text_1: 'On 20 June, the European Parliament will vote on the Copyright Dire
 
 select_country: 'Elija su país'
 
+# About us page
+about_us_heading: 'About us'
+about_us_link: 'About us'
+about_us_1_heading: '¿Quiénes somos?'
+about_us_1_text: |
+    Nosotros somos los que estamos detrás de savetheinternet.info: un gran grupo de personas con el mismo objetivo. Nos reunimos vía Internet, pero nuestros miembros viven y trabajan principalmente en Alemania. Actuamos imparcialmente y estamos alejados de cualquier orientación política. Ya que somos un grupo libre de activistas de internet, trabajamos independientemente de la economía y gracias a nuestras políticas, aumentamos nuestro alcance a cada segundo. Sin embargo, prestamos mucha atención al anonimato y la seguridad de cada uno de nuestros miembros.
+
+about_us_2_heading: '¿Qué queremos?'
+about_us_2_text: |
+    Queremos informar a gente de toda Europa sobre la próxima votación del Parlamento Europeo, e informar de las duras consecuencias que tendrán los artículos 11 y 13. También damos la oportunidad de dar ejemplo con una simple firma en contra de esta votación. ¡Todos los que quieran apoyarnos en la lucha contra estos artículos son bienvenidos!
+
+about_us_3_heading: '¿Cómo trabajamos?'
+about_us_3_text: |
+    Nuestro grupo está organizado a través de diferentes páginas web que están en contacto permanentemente entre sí. Además de la petición a firmar, nuestros miembros participan activamente en las calles para distribuir panfletos, contactar políticos, periodistas e influencers, organizar demostraciones y ocuparse del sitio web, los videos y la publicidad.
+
+about_us_4_heading: '¿Donde puedes encontrarnos?'
+about_us_4_text: |
+    Además de nuestro sitio web, también somos muy activos en Facebook, Twitter, Instagram y YouTube. Además, como se mencionó antes, nuestros miembros estarán en las calles de Alemania para informar a las personas sobre los artículos 11 y 13.
+
+about_us_5_heading: '¿Cómo nos financiamos?'
+about_us_5_text: |
+    La financiación de nuestra campaña se realiza a través de la autofinanciación de los impulsores por un lado, y mediante el dinero privado de nuestros activistas por otro. Al hacer esto, nos mantenemos completamente independientes de otras organizaciones e intereses. El trabajo realizado por nuestros activistas es totalmente voluntario y altruista, y lo hacen solamente en su tiempo libre personal para que la información de nuestra campaña pueda llegar al mayor número de personas posible.
+
+about_us_6_heading: '¿Cómo puedes contactarnos?'
+about_us_6_text: |
+    Más abajo en esta misma página podrás encontrar un aviso legal e información de contacto. Sin embargo, también puedes comunicarte con nosotros a través de todas nuestras otras presencias en línea, como redes sociales, donde puedes hablarnos para solicitar más información.
+
+about_us_7_heading: '¿Cómo puedes ayudarnos?'
+about_us_7_text: |
+    La forma más fácil es firmar nuestra petición. Si deseas participar más, puedes decidir ser activo y unirte a nuestra comunidad contactándonos a través de uno de los canales mencionados.
+
 # Footer section
 about_link: 'Sobre nuestro objetivo'
 imprint_link: 'Imprimir'

@@ -130,6 +130,37 @@ mep_text_1: 'On 20 June, the European Parliament will vote on the Copyright Dire
 
 select_country: 'Select country'
 
+# About us page
+about_us_heading: 'About us'
+about_us_link: 'About us'
+about_us_1_heading: 'Keitä me olemme?'
+about_us_1_text: |
+    Savetheinternet.infon takana olemme me, suuri ryhmä ihmisiä, joilla on sama tavoite. Me tulemme kaikkialta ympäri internettiä, mutta jäsenemme asuvat ja työskentelevät pääosin Saksassa.  Toimimme puolueettomasti ja pidämme etäisyyttä poliittisiin suuntauksiin. Internetaktivistien vapaana ryhmänä me toimimme talouselämästä riippumattomina ja kasvatamme levinneisyyttämme joka sekunti. Kuitenkin kiinnitämme tarkasti huomiota jäsentemme anonymiteettiin ja turvallisuuteen.
+
+about_us_2_heading: 'Mitä haluamme?'
+about_us_2_text: |
+    Me haluamme informoida ihmisiä ympäri Eurooppaa tulevasta äänestyksestä, ja kertoa heille artikloiden 11 ja 13 julmista seurauksista. Annamme myös mahdollisuuden olla esimerkkinä - yksinkertaisesti allekirjoittamalla äänestystä vastustavan vetoomuksen. Kaikki jotka haluavat tukea meitä taistossa näitä artikloita vastaan ovat tervetulleita!
+
+about_us_3_heading: 'Kuinka työskentelemme?'
+about_us_3_text: |
+    Ryhmämme on järjestetty erilaisten toisiinsa yhteydessä olevien nettisivujen kautta. Vetoomuksen sivussa jäsenemme ovat aktiivisina kaduilla jakamassa mainoslehtisiä, soittaen puheluite poliitikoille, toimittajille ja muille vaikuttajille, järjestämässä esittelyjä ja kojuja tai pitämässä huolta nettisivustamme, videoista ja mainonnasta.
+
+about_us_4_heading: 'Mistä voit löytää meidät?'
+about_us_4_text: |
+    Nettisivumme lisäksi olemme myös aktiivisia Facebookissa, Twitterissä, Instagramissa ja YouTubessa. Kuten edellä mainittiin, jäsenemme ovat aktiivisia kaduilla Saksassa ja informoivat ihmisiä artikloista 11 ja 13.
+
+about_us_5_heading: 'Kuinka rahoitamme toimintaamme?'
+about_us_5_text: |
+    Kampanjamme rahoittaminen tapahtuu pääasiassa aloitteentekijöiden rahoilla ja toisaalta aktivistiemme yksityisellä rahalla. Näin toimimalla pysymme täysin riippumatomina muista organisaatioista ja intresseistä. Aktivistiemme tekemä työ on puhtaasti vapaaehtoista ja he tekevät sen yksinomaan omalla vapaa-ajallaan levittääkseen tietoa kampanjastamme muille.
+
+about_us_6_heading: 'Kuinka voit tavoittaa meidät?'
+about_us_6_text: |
+    Alempaa tältä sivulta löydät käyttöehtomme ja yhteystiedot. Voit kuitenkin olla meihin yhteydessä meihin kaikkien muiden käyttämiemme kanavien kautta pyytääksesi lisää tietoa.
+
+about_us_7_heading: 'Miten voin tukea teitä?'
+about_us_7_text: |
+    Helpoin tapa tukemiseen on vetoomuksemme allekirjoittaminen. Jos haluat auttaa enemmän, voit alkaa aktiiviseksi ja liittyä yhteisöömme olemalle meihin yhteydessä edellä mainittujen kanavien kautta.
+
 # Footer section
 about_link: 'About'
 imprint_link: 'Imprint'

@@ -159,6 +159,37 @@ mep_text_1: 'On 20 June, the European Parliament will vote on the Copyright Dire
 
 select_country: 'Choisissez le pays'
 
+# About us page
+about_us_heading: 'About us'
+about_us_link: 'About us'
+about_us_1_heading: 'Qui sommes nous ?'
+about_us_1_text: |
+    Derrière savetheinternet.info il y a nous, un grand groupe de personnes avec le même but. Nous nous sommes rassemblés à travers internet mais la plus part de nos membres viennent d’Allemagne. Nous agissons impartialement et sans orientation politique particulière. En tant que groupe libre d’activistes internet nous opérons indépendamment d’une quelconque économie et nous accroissons notre portée chaque seconde. Cependant nous accordons beaucoup d’attention à l’anonymat et la sécurité de nos membres.
+
+about_us_2_heading: 'Que voulons nous ?'
+about_us_2_text: |
+    Nous voulons informer la population européenne du très prochain vote et voulons leur montrer les graves conséquences qu’engendreront l’article 11 et 13. De plus nous leur donnons l’opportunité de montrer l’exemple en signant la pétition contre ce vote . Chaque personne voulant nous soutenir dans le combat contre ces articles est le bienvenu !
+
+about_us_3_heading: 'Comment travaillons nous ?'
+about_us_3_text: |
+    Notre groupe est organisé grâce à différentes pages web qui sont en permanences reliés, en parallèle de la pétition nos membres sont actifs dans les rues pour distribuer des Flyers, des numéros de politiciens , de journalistes ou d’influenceurs, organisent des démonstrations ou s’occupent du site, de faire des vidéos, de la communication.
+
+about_us_4_heading: 'Où pouvez vous nous trouver ?'
+about_us_4_text: |
+    Parallèlement de notre site nous sommes aussi actifs sur Facebook, Twitter, Instagram et Youtube. Comme dit plus tôt nos membres sont actifs dans les rues allemandes pour informer les citoyens européens sur les articles 11 et 13 .
+
+about_us_5_heading: 'Comment nous finançons nous ?'
+about_us_5_text: |
+    Le financement de notre campagne est fait grâce à des dons de nos membres . En faisant cela, nous restons complètement indépendants de quelconque organisation ou d’intérêts particuliers. Le travail fait par nos membres est fait en pur bénévolat et ils le font exclusivement sur leur temps libre pour apporter les informations de notre campagne au plus près de la population.
+
+about_us_6_heading: 'Comment pouvez vous nous contacter ?'
+about_us_6_text: |
+    Plus bas sur cette page vous pourrez trouver toutes les mentions légales et les informations pour nous contacter. Cependant vous pouvez aussi nous contacter par n’importe quel autre moyen en ligne où vous pourrez nous demander de plus amples informations .
+
+about_us_7_heading: 'Comment puis-je vous soutenir ?'
+about_us_7_text: |
+    Le moyen le plus facile est de signer la pétition. Si vous allez plus loin, vous pouvez devenir un membre actif et rejoindre notre communauté en nous contactant par un des moyens précédemment énoncé .
+
 # Footer section
 about_link: 'À propos'
 imprint_link: 'imprimer'

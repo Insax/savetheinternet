@@ -134,6 +134,37 @@ mep_text_2: 'Give them the power to be Heroes!'
 
 select_country: 'Land auswählen'
 
+# About us page
+about_us_heading: 'Über uns'
+about_us_link: 'Über uns'
+about_us_1_heading: 'Wer sind wir?'
+about_us_1_text: |
+    Hinter savetheinternet.info stehen wir, eine große Gruppe von Leuten, die alle das selbe Ziel verfolgen. Unsere Gruppe hat sich über das Internet zusammengefunden, unsere Mitglieder leben und arbeiten jedoch über den gesamten deutschsprachigen Raum verteilt. Wir agieren dabei vollkommen unparteiisch und distanzieren uns auch in aller Form von jeglichen politischen Ausrichtungen. Als freie Gruppe von Internetaktivisten agieren wir wirtschaftlich unabhängig und vergrößern unsere Reichweite dauerhaft.  Dabei achten wir jedoch sehr stark auf die Anonymität und Sicherheit unserer Mitglieder.
+
+about_us_2_heading: 'Was wollen wir?'
+about_us_2_text: |
+    Die Menschen in ganz Europa über die bevorstehende Abstimmung informieren. Ihnen erläutern welche gravierenden Folgen die Artikel 11 und 13 mit sich bringen werden. Und nicht zuletzt, Ihnen eine Möglichkeit bieten mit einer simplen Unterschrift ein Zeichen gegen diese Abstimmung zu setzen. Auch jeder der gerne selber aktiv im Kampf gegen diese Artikel werden will, ist bei uns Herzlich Willkommen.
+
+about_us_3_heading: 'Wie arbeiten wir?'
+about_us_3_text: |
+    Unsere Gruppe ist über verschiedene Internetseiten organisiert und im ständigen Kontakt miteinander. Neben der Petition sind unsere Leute auf der Straße aktiv, um Flyer zu verteilen, telefonieren mit Politikern, Journalisten und Influencern, organisieren Demos und Informationsstände oder kümmern sich um die Webseite, Videos und Werbematerial.
+
+about_us_4_heading: 'Wo treten wir auf?'
+about_us_4_text: |
+    Neben unserer Webseite sind wir auch auf Facebook, Twitter, Instagram und Youtube aktiv. Wie bereits erwähnt, sind unsere Mitglieder auch auf den Straßen Deutschands unterwegs um mit Ständen und Flyern die Menschen über Artikel 11 und 13 zu informieren.
+
+about_us_5_heading: 'Wie finanzieren wir uns?'
+about_us_5_text: |
+    Die Finanzierung unserer Kampagne erfolgt sowohl aus Selbstfinanzierung der Initatoren, als auch durch die privaten Mittel unserer Aktivisten. Wir stehen dabei auf keiner Gehaltsliste. Die Arbeit unserer Aktivisten ist dabei rein ehrenamtlich und findet ausschießlich in deren privater Freizeit statt, um die Informationen unserer Kampange der Bevölkerung näher zu bringen.
+
+about_us_6_heading: 'Wie sind wir erreichbar?'
+about_us_6_text: |
+    Hier auf unserer Webseite findet sich ein Impressum und Kontakte. Wir sind aber auch über unsere anderen Internetauftritte kontaktierbar und jederzeit für Anfragen und weitere Informationen erreichbar.
+
+about_us_7_heading: 'Wie kann ich euch unterstützen?'
+about_us_7_text: |
+    Am einfachsten durch eine Unterschrift unter unserer Petition.
+
 
 # Footer section
 about_link: 'Infos'
