@@ -45,6 +45,10 @@
         font-size: 1.2em;
     }
 
+    #country-sel:hover { 
+        cursor: pointer; 
+    }
+
     .custom-dropdown {
         position: relative;
         display: inline-block;
