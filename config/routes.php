@@ -32,6 +32,13 @@ $routes->add('about', new Route('/{_locale}/about', array(
     '_locale' => implode('|', \App\EventSubscriber\getAvailableLanguages()),
 )));
 
+$routes->add('about_us', new Route('/{_locale}/about_us', array(
+    '_controller' => 'App\\Controller\\IndexController::aboutUs',
+    '_locale' => 'en_GB',
+), array(
+    '_locale' => implode('|', \App\EventSubscriber\getAvailableLanguages()),
+)));
+
 $routes->add('gallery', new Route('/{_locale}/gallery', array(
     '_controller' => 'App\\Controller\\IndexController::gallery',
     '_locale' => 'en_GB',

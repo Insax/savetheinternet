@@ -78,6 +78,14 @@ class IndexController extends Controller
     /**
      * @return Response
      */
+    public function aboutUs(): Response
+    {
+        return $this->render('about_us/index.html.twig');
+    }
+
+    /**
+     * @return Response
+     */
     public function mep(): Response // Cntact your MEP page
     {
         return $this->render('mep/index.html.twig');
