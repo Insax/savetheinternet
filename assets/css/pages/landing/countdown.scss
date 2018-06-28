@@ -1,11 +1,18 @@
-@import "../../variables";
-
 .countdown {
     margin-bottom: $vertical-space;
     margin-top: $vertical-space;
 
+    .btn-livestream {
+        padding: 15px 30px;
+        background: #ffbf00;
+        color: #12233f;
+        text-decoration: none;
+        border-radius: 25px;
+    }
+
     .d-flex {
         align-items: center;
+
         @include media-breakpoint-down(md) {
             //flex-direction: column-reverse;
         }
@@ -13,36 +20,43 @@
 
     .timer {
         justify-content: center;
+
         @include media-breakpoint-down(md) {
             margin: 30px 0;
         }
+
         .countdown-output {
             transform: skew(-3deg, 0.5deg);
+
             .ccount {
                 font-size: 4em;
+                padding: 15px 25px;
+                flex-direction: column;
+                background-color: $text;
+                color: $background;
+
                 @include media-breakpoint-down(sm) {
                     font-size: 3em;
                 }
-                padding: 15px 25px;
-                flex-direction: column;
-
-                background-color: $text;
-                color: $background;
             }
-            .days, .hours {
+
+            .days,
+            .hours,
+            .minutes {
                 transform: skew(3deg, 0.5deg);
                 margin: 5px 0;
                 font-weight: bold;
-                .cdays, .chours {
-                }
-                .ndays, .nhours {
+
+                .ndays,
+                .nhours,
+                .nminutes {
                     font-weight: 500;
                 }
             }
         }
+
         .cexpired {
             visibility: hidden;
         }
     }
-
 }

@@ -1,24 +1,22 @@
-@import "../../variables";
-
 .graphic-box {
-  .voxel-wrapper {
-    justify-content: center;
-    text-align: center;
-    max-width: 100%;
-    .voxel {
-      max-width: 60%;
-      @include media-breakpoint-down(sm) {
-        max-width: 90%;
-      }
+    .voxel-wrapper {
+        justify-content: center;
+        text-align: center;
+        max-width: 100%;
+        .voxel {
+            max-width: 60%;
+            @include media-breakpoint-down(sm) {
+                max-width: 90%;
+            }
+        }
     }
-  }
 
-  .text {
-      margin-top: 3rem;
-    .title {
+    .text {
+        margin-top: 3rem;
+        .title {
+        }
+        .container {
+            padding: 0;
+        }
     }
-    .container {
-      padding: 0;
-    }
-  }
 }

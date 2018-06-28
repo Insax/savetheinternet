@@ -1,18 +1,18 @@
-@import "~bootstrap/scss/bootstrap-grid";
+@import '~bootstrap/scss/bootstrap-grid';
 
 // nav implementation
-@import "~bootstrap/scss/mixins/_hover";
-@import "~bootstrap/scss/mixins/_border-radius";
-@import "~bootstrap/scss/_nav";
-@import "~bootstrap/scss/utilities/_position";
-@import "~bootstrap/scss/mixins/_grid-framework";
+@import '~bootstrap/scss/mixins/_hover';
+@import '~bootstrap/scss/mixins/_border-radius';
+@import '~bootstrap/scss/_nav';
+@import '~bootstrap/scss/utilities/_position';
+@import '~bootstrap/scss/mixins/_grid-framework';
 
-@import "raleway";
+@import 'raleway';
 
 $background: #12233f;
 $text: #fafafa;
 $accent1: #ffbf00;
-$accent2: #142E4D;
+$accent2: #142e4d;
 $accent3: #b9d6f2;
 
 $text_invert: $background;

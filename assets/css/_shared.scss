@@ -1,10 +1,8 @@
-@import "variables";
-@import "shared/langpicker";
-@import "shared/sharebuttons";
-@import "shared/footer";
-@import "shared/typewriter";
-@import "shared/video-player";
-@import "shared/navigation";
+@import 'shared/langpicker';
+@import 'shared/sharebuttons';
+@import 'shared/footer';
+@import 'shared/video-player';
+@import 'shared/navigation';
 
 html {
     height: 100vh;
@@ -87,15 +85,30 @@ h6 {
     flex-grow: 1;
 }
 
-
 .label {
     color: white;
     padding: 6px;
     border-radius: 13px;
 }
 
-.success {background-color: #4CAF50;} /* Green */
-.info {background-color: #2196F3;} /* Blue */
-.warning {background-color: #ff9800;} /* Orange */
-.danger {background-color: #f44336;} /* Red */
-.other {background-color: #e7e7e7; color: black;} /* Gray */
+.success {
+    background-color: #4caf50;
+} /* Green */
+.info {
+    background-color: #2196f3;
+} /* Blue */
+.warning {
+    background-color: #ff9800;
+} /* Orange */
+.danger {
+    background-color: #f44336;
+} /* Red */
+.other {
+    background-color: #e7e7e7;
+    color: black;
+} /* Gray */
+
+/* Bootstrap-like */
+.mt-3 {
+    margin-top: 3em;
+}

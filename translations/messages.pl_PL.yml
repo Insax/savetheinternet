@@ -1,5 +1,5 @@
 day: 'doba'
-days: 'czasy'
+days: 'dni'
 hours: 'godziny'
 minutes: 'protokoły'
 seconds: 'sekundy'
@@ -42,7 +42,8 @@ countdown_title: 'Zegar tyka'
 countdown_description1: 'Głosowanie w Parlamencie Europesjkim odbędzie się już niedługo! Dlatego musimy działać natychmiastowo, aby zmienić zdanie posłańców. Na tę chwilę większość z nich zagłosowała za artykułem 13.'
 countdown_description2: ''
 countdown_until: 'Czas do czasu, gdy Komitet Prawny Parlamentu Europejskiego przystąpi do dyskusji nad art. 13'
-countdown_expired: 'UE jest obecnie w trakcie debaty'
+countdown_expired: 'Visit the Livestream'
+livestream_link: 'http://www.europarl.europa.eu/ep-live/pl/committees/video?event=20180620-0900-COMMITTEE-JURI'
 
 # What-do row
 what_do_title: 'Jak możesz pomóc?'
@@ -120,7 +121,43 @@ about_sub_text5_1: >
 about_sub_text5_2: 'Poprzez Państwa pozycje w Parlamencie mają Państwo obowiązek obrony poglądów i wartości obywateli oraz ochrony ich wolności.'
 about_sub_text5_strong: 'Wspieraj nas, abyśmy wspólnie mogli walczyć o wolny Internet!'
 
+#mep section
+
+select_country: 'Wybierz kraj'
+
+# About us page
+about_us_heading: 'About us'
+about_us_link: 'About us'
+about_us_1_heading: 'Who are we?'
+about_us_1_text: |
+    Behind savetheinternet.info there is us, a big group of people with the same goal. We gathered through the internet but our members live and work mostly in Germany. We act impartially and distance ourselves from any political orientations. As a free group of internetactivists we operate indepedent from the economy and we increase our reach every second. However, we pay very close attention to the anonymity and security of our members.
+
+about_us_2_heading: 'What do we want?'
+about_us_2_text: |
+    We want to inform people all over europe about the upcoming vote and tell them the harsh consequences article 11 and 13 will have. Also we give them the opportunity to set an example with a simple signature against this vote. Everyone who wants to support us in the fight against these articles is welcome!
+
+about_us_3_heading: 'How do we work?'
+about_us_3_text: |
+    Our group is organized via different webpages that are permanently in touch with each other. Aside from the petition our people are active on the streets to distribute Flyer, phone politicians, journalists and influencer, organize demos and booths or take care of the website, videos and advertisement.
+
+about_us_4_heading: 'Where can you find us?'
+about_us_4_text: |
+    Apart from our website we're also active on Facebook. Twitter, Instagram and YouTube. As mentioned before our members are active on the streets of Germany to inform people about article 11 and 13.
+
+about_us_5_heading: 'How do we finance ourselves?'
+about_us_5_text: |
+    The financing of our campaign is done via selffinancing of the initiators on the one hand and via the private money of our activists on the other hand. By doing this, we stay completely independent from other organizations and interests. The work done by our activitsts is done purely voluntary and they do it exclusively in their private free time to bring the information of our campaign closer to the people.
+
+about_us_6_heading: 'How can you reach us?'
+about_us_6_text: |
+    Further down this page you can find a legal notice and contact information. However you can also contact us via all of our other online presences where you can reach out to us for requests or more information.
+
+about_us_7_heading: 'How can I support you?'
+about_us_7_text: |
+    The easiest way is by signing our petition. If you want to help further, you can get active and join our community by contacting us via one of the mentioned channels.
+
 # Footer section
 about_link: 'O SaveTheInternet'
 imprint_link: 'Stopka redakcyjna'
 privacy_link: 'Polityka Prywatności'
+footer_notice: 'We at savetheinternet.info distance ourselves from any illegal activities! We neither support illegal activities, nor do we commission them.'

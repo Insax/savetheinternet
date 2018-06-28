@@ -13,7 +13,7 @@
     padding-right: 5px;
     font-size: 1.2em;
     animation-name: fade-in;
-    animation-duration: .5s;
+    animation-duration: 0.5s;
     animation-fill-mode: forwards;
 }
 
@@ -21,17 +21,17 @@
     color: white;
     text-decoration: none;
     animation-name: fade-in;
-    animation-duration: .5s;
+    animation-duration: 0.5s;
     animation-fill-mode: forwards;
     transition: color 0.5s ease;
 }
 
 @keyframes fade-in {
     0% {
-        opacity: 0
+        opacity: 0;
     }
     100% {
-        opacity: 1
+        opacity: 1;
     }
 }
 

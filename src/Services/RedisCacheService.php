@@ -16,15 +16,15 @@ class RedisCacheService implements CacheServiceInterface
      */
     public function __construct()
     {
-        if (!isset($_SERVER['REDIS_HOST']) || $_SERVER['REDIS_HOST'] === null) {
+        if (!isset($_SERVER['REDIS_HOST']) || null === $_SERVER['REDIS_HOST']) {
             return;
         }
 
-        $redis = new Client([
+        $redis = new Client(array(
             'scheme' => 'tcp',
-            'host'   => $_SERVER['REDIS_HOST'],
-            'port'   => $_SERVER['REDIS_PORT'],
-        ]);
+            'host' => $_SERVER['REDIS_HOST'],
+            'port' => $_SERVER['REDIS_PORT'],
+        ));
 
         $this->redis = $redis;
     }
@@ -47,19 +47,19 @@ class RedisCacheService implements CacheServiceInterface
     public function search(string $key, $limit = 0): array
     {
         $iterator = 0;
-        $found = [];
+        $found = array();
         do {
-            $result = $this->redis->scan($iterator, ['MATCH '.$key]);
+            $result = $this->redis->scan($iterator, array('MATCH '.$key));
 
             $iterator = (int) $result[0];
             unset($result[0]);
 
             $found[] = $result[1];
 
-            if ($limit !== 0 && \count($found) * 10 > $limit) {
+            if (0 !== $limit && \count($found) * 10 > $limit) {
                 break;
             }
-        } while ($iterator !== 0);
+        } while (0 !== $iterator);
 
         $found = array_merge(...$found);
 
