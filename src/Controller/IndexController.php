@@ -28,6 +28,7 @@ class IndexController extends Controller
      * IndexController constructor.
      *
      * @param TweetService $tweetService
+     * @param GalleryService $galleryService
      */
     public function __construct(TweetService $tweetService, GalleryService $galleryService)
     {
